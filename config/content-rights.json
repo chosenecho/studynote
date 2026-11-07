@@ -8,9 +8,18 @@
       "status": "cleared",
       "license": "Apache-2.0",
       "source_kind": "original-software-and-documentation",
-      "basis": "第一方公开维护记录索引；本次仅新增三课发布核对记录的链接，已核对目标文件和相邻索引，原有公开范围说明保持不变。",
-      "reviewed_on": "2026-11-05",
-      "sha256": "a00cb622a611ed787711c2792eb25e6e609938f15d189a63cfa8858cef0955d4"
+      "basis": "本轮修正文字表述与标点，事实、结构与既有声明未变。",
+      "reviewed_on": "2026-11-08",
+      "sha256": "00b66aa1c1c9336d0769bd06844e33853f408349cac166d8efed3fb5b2fb48e7"
+    },
+    {
+      "path": "archive/releases/2026-11-08-multimedia-proofreading.md",
+      "status": "cleared",
+      "license": "Apache-2.0",
+      "source_kind": "original-software-and-documentation",
+      "basis": "第一方维护记录：本轮多媒体九章按成书分章稿逐节校对并润色，记录依据、改动类型、未变项与验收方式，不含教材原文、题目或插图。编辑核验不构成法律认定。",
+      "reviewed_on": "2026-11-08",
+      "sha256": "72456cb9b93e55157a186e791f83dbc20893e102836deba34bf2a0f190ea0798"
     },
     {
       "path": "archive/releases/2026-11-04-computer-networks.md",
@@ -707,99 +716,99 @@
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
-      "reviewed_on": "2026-11-06",
-      "basis": "2026-11-06 核验本次原创文案和对应来源记录；未添加教材逐字摘录。",
-      "sha256": "ac0459ebaf7b0e440b745eac0a83abb2c9609a6b70b44f69751464e067049068"
+      "reviewed_on": "2026-11-08",
+      "basis": "本轮修正站点说明文字的表述与标点，链接、导航与既有事实未变。",
+      "sha256": "ce47dbee046bf659c1765636e5dd376194225baf1bc4e7762981f1e901c0eaa8"
     },
     {
       "path": "docs/courses/multimedia-technology/chapter-01.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-06 多媒体笔记实施复核：独立组织讲解、自编情境与数值，图示由本项目绘制；只公开书目、短考点及原创表达，不分发成书、教材插图或原题答案。大纲用于范围定位，保留来源疑点及未实测边界。私有对照与核算记录存于 local/reviews/multimedia-2026-11-06/。",
-      "reviewed_on": "2026-11-06",
-      "sha256": "c4a65bf19eb806c8fab1b63ad818b7940ce31b5f604c788fb25db80efe2a14b6"
+      "basis": "本轮对照《多媒体技术及应用（第三版）》分章稿逐节校对并润色表达：修正事实与分类，补足大纲缺失点，清除页码引用与应考话术，章首统一为版本来源提示；结构、大纲映射、练习考点与算术条件未变，未复制成书成句（经脚本比对，剩余重合仅为软件名、格式名与单位枚举）。",
+      "reviewed_on": "2026-11-08",
+      "sha256": "f2ff5d66068d870d5d4b101f0eab2e86e4960ae710fca9871b755d0d12cea25a"
     },
     {
       "path": "docs/courses/multimedia-technology/chapter-02.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-06 多媒体笔记实施复核：独立组织讲解、自编情境与数值，图示由本项目绘制；只公开书目、短考点及原创表达，不分发成书、教材插图或原题答案。大纲用于范围定位，保留来源疑点及未实测边界。私有对照与核算记录存于 local/reviews/multimedia-2026-11-06/。",
-      "reviewed_on": "2026-11-06",
-      "sha256": "f7cff5a5fdc4e02ca0eb1012aeca992c4cf56560fc48d79c6ec555bb5cbfc528"
+      "basis": "本轮对照《多媒体技术及应用（第三版）》分章稿逐节校对并润色表达：修正事实与分类，补足大纲缺失点，清除页码引用与应考话术，章首统一为版本来源提示；结构、大纲映射、练习考点与算术条件未变，未复制成书成句（经脚本比对，剩余重合仅为软件名、格式名与单位枚举）。",
+      "reviewed_on": "2026-11-08",
+      "sha256": "d074b50931b353f358dcc8e570b8c8fe62badb7f864f6f7168f716b8f09c110e"
     },
     {
       "path": "docs/courses/multimedia-technology/chapter-03.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-06 多媒体笔记实施复核：独立组织讲解、自编情境与数值，图示由本项目绘制；只公开书目、短考点及原创表达，不分发成书、教材插图或原题答案。大纲用于范围定位，保留来源疑点及未实测边界。私有对照与核算记录存于 local/reviews/multimedia-2026-11-06/。",
-      "reviewed_on": "2026-11-06",
-      "sha256": "c10984f83555e7a7058f33aa8c962ff7859cd26c9887e4d15d9a2f3fbb759fc8"
+      "basis": "本轮对照《多媒体技术及应用（第三版）》分章稿逐节校对并润色表达：修正事实与分类，补足大纲缺失点，清除页码引用与应考话术，章首统一为版本来源提示；结构、大纲映射、练习考点与算术条件未变，未复制成书成句（经脚本比对，剩余重合仅为软件名、格式名与单位枚举）。",
+      "reviewed_on": "2026-11-08",
+      "sha256": "a80e9d06def08779173f3e19ea7a4902bb8b421e1e7a30cb0aca977e39ee2f64"
     },
     {
       "path": "docs/courses/multimedia-technology/chapter-04.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-06 多媒体笔记实施复核：独立组织讲解、自编情境与数值，图示由本项目绘制；只公开书目、短考点及原创表达，不分发成书、教材插图或原题答案。大纲用于范围定位，保留来源疑点及未实测边界。私有对照与核算记录存于 local/reviews/multimedia-2026-11-06/。",
-      "reviewed_on": "2026-11-06",
-      "sha256": "77c9400208389ee2e87cc4d4c65e26d1b837c3cc608e7fb444a0df5a66776230"
+      "basis": "本轮对照《多媒体技术及应用（第三版）》分章稿逐节校对并润色表达：修正事实与分类，补足大纲缺失点，清除页码引用与应考话术，章首统一为版本来源提示；结构、大纲映射、练习考点与算术条件未变，未复制成书成句（经脚本比对，剩余重合仅为软件名、格式名与单位枚举）。",
+      "reviewed_on": "2026-11-08",
+      "sha256": "a3c0987aad4756923511ea9df7054ebdc7f3982199ad6f1bf6e2b94c388d41e7"
     },
     {
       "path": "docs/courses/multimedia-technology/chapter-05.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-06 多媒体笔记实施复核：独立组织讲解、自编情境与数值，图示由本项目绘制；只公开书目、短考点及原创表达，不分发成书、教材插图或原题答案。大纲用于范围定位，保留来源疑点及未实测边界。私有对照与核算记录存于 local/reviews/multimedia-2026-11-06/。",
-      "reviewed_on": "2026-11-06",
-      "sha256": "5bbe743c108695e6d0922e03753803aa8bc2e8ad67210c7471280ae5550c4a11"
+      "basis": "本轮对照《多媒体技术及应用（第三版）》分章稿逐节校对并润色表达：修正事实与分类，补足大纲缺失点，清除页码引用与应考话术，章首统一为版本来源提示；结构、大纲映射、练习考点与算术条件未变，未复制成书成句（经脚本比对，剩余重合仅为软件名、格式名与单位枚举）。",
+      "reviewed_on": "2026-11-08",
+      "sha256": "27ceac8fcb7791b62b28b5b62f00bb3ffdfd3f4c089cd5571c293557fddc5949"
     },
     {
       "path": "docs/courses/multimedia-technology/chapter-06.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-06 多媒体笔记实施复核：独立组织讲解、自编情境与数值，图示由本项目绘制；只公开书目、短考点及原创表达，不分发成书、教材插图或原题答案。大纲用于范围定位，保留来源疑点及未实测边界。私有对照与核算记录存于 local/reviews/multimedia-2026-11-06/。",
-      "reviewed_on": "2026-11-06",
-      "sha256": "7e7a486b403a5919ca7c151a1702734567e6ec98ac25091ec20bd9120dec3ce6"
+      "basis": "本轮对照《多媒体技术及应用（第三版）》分章稿逐节校对并润色表达：修正事实与分类，补足大纲缺失点，清除页码引用与应考话术，章首统一为版本来源提示；结构、大纲映射、练习考点与算术条件未变，未复制成书成句（经脚本比对，剩余重合仅为软件名、格式名与单位枚举）。",
+      "reviewed_on": "2026-11-08",
+      "sha256": "f3a67a2612bf4f36e8f7eb6fac9ad49108d25d323f6da2e4cc254d5b37cd7ca0"
     },
     {
       "path": "docs/courses/multimedia-technology/chapter-07.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-06 多媒体笔记实施复核：独立组织讲解、自编情境与数值，图示由本项目绘制；只公开书目、短考点及原创表达，不分发成书、教材插图或原题答案。大纲用于范围定位，保留来源疑点及未实测边界。私有对照与核算记录存于 local/reviews/multimedia-2026-11-06/。",
-      "reviewed_on": "2026-11-06",
-      "sha256": "db0addc6a48b1d3cbcb187bc7fe5db2362b5f945df51b584dc1871f75817ed4e"
+      "basis": "本轮对照《多媒体技术及应用（第三版）》分章稿逐节校对并润色表达：修正事实与分类，补足大纲缺失点，清除页码引用与应考话术，章首统一为版本来源提示；结构、大纲映射、练习考点与算术条件未变，未复制成书成句（经脚本比对，剩余重合仅为软件名、格式名与单位枚举）。",
+      "reviewed_on": "2026-11-08",
+      "sha256": "70dc0019927d9da1817eb421df10fe9f392686b448cb304c32db7d719c47f7b5"
     },
     {
       "path": "docs/courses/multimedia-technology/chapter-08.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-06 多媒体笔记实施复核：独立组织讲解、自编情境与数值，图示由本项目绘制；只公开书目、短考点及原创表达，不分发成书、教材插图或原题答案。大纲用于范围定位，保留来源疑点及未实测边界。私有对照与核算记录存于 local/reviews/multimedia-2026-11-06/。",
-      "reviewed_on": "2026-11-06",
-      "sha256": "cc396dc0d1c22758c6ae04118efd2d69511b7447bb09ca9e4e7c66fbba5c1ff7"
+      "basis": "本轮对照《多媒体技术及应用（第三版）》分章稿逐节校对并润色表达：修正事实与分类，补足大纲缺失点，清除页码引用与应考话术，章首统一为版本来源提示；结构、大纲映射、练习考点与算术条件未变，未复制成书成句（经脚本比对，剩余重合仅为软件名、格式名与单位枚举）。",
+      "reviewed_on": "2026-11-08",
+      "sha256": "f2566fb4b88977cc4585f8e9044625b75d6efcf45afedafecba0a391fbf38b90"
     },
     {
       "path": "docs/courses/multimedia-technology/chapter-09.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-06 多媒体笔记实施复核：独立组织讲解、自编情境与数值，图示由本项目绘制；只公开书目、短考点及原创表达，不分发成书、教材插图或原题答案。大纲用于范围定位，保留来源疑点及未实测边界。私有对照与核算记录存于 local/reviews/multimedia-2026-11-06/。",
-      "reviewed_on": "2026-11-06",
-      "sha256": "8a2868424c27236bb0502d87af4de02f78aac4c05d477e55b8d3009d4211d1ab"
+      "basis": "本轮对照《多媒体技术及应用（第三版）》分章稿逐节校对并润色表达：修正事实与分类，补足大纲缺失点，清除页码引用与应考话术，章首统一为版本来源提示；结构、大纲映射、练习考点与算术条件未变，未复制成书成句（经脚本比对，剩余重合仅为软件名、格式名与单位枚举）。",
+      "reviewed_on": "2026-11-08",
+      "sha256": "0d5c35851456fca3915396af53a543d140196c7bb21ecb9fdf5e497ebd4fc75b"
     },
     {
       "path": "docs/courses/multimedia-technology/index.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-06 多媒体笔记实施复核：独立组织讲解、自编情境与数值，图示由本项目绘制；只公开书目、短考点及原创表达，不分发成书、教材插图或原题答案。大纲用于范围定位，保留来源疑点及未实测边界。私有对照与核算记录存于 local/reviews/multimedia-2026-11-06/。",
-      "reviewed_on": "2026-11-06",
-      "sha256": "e9cd582a6f9ff071e3f6564610209a907f97de7b8ebe173c27a8beb43ad18569"
+      "basis": "本轮对照《多媒体技术及应用（第三版）》分章稿逐节校对并润色表达：修正事实与分类，补足大纲缺失点，清除页码引用与应考话术，章首统一为版本来源提示；结构、大纲映射、练习考点与算术条件未变，未复制成书成句（经脚本比对，剩余重合仅为软件名、格式名与单位枚举）。",
+      "reviewed_on": "2026-11-08",
+      "sha256": "f82c739687b31304a940caafe11f5d94d7c7351be8e5395ce96a6aa34f62515f"
     },
     {
       "path": "docs/courses/operating-systems/chapter-01.md",
@@ -923,27 +932,27 @@
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
-      "reviewed_on": "2026-11-06",
-      "basis": "2026-11-06 多媒体笔记实施复核：独立组织讲解、自编情境与数值，图示由本项目绘制；只公开书目、短考点及原创表达，不分发成书、教材插图或原题答案。大纲用于范围定位，保留来源疑点及未实测边界。私有对照与核算记录存于 local/reviews/multimedia-2026-11-06/。",
-      "sha256": "54f1138cc0bee0bb0db0e105a3570f5fc497b0250c2f96871b89339914fa412f"
+      "reviewed_on": "2026-11-08",
+      "basis": "本轮修正站点说明文字的表述与标点，链接、导航与既有事实未变。",
+      "sha256": "a7ff6a104e1316d04a8d61ca9ce2188ad14e52eb13bebe437ddd4663cf5e9c09"
     },
     {
       "path": "docs/guide.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
-      "reviewed_on": "2026-11-06",
-      "basis": "2026-11-06 核验本次新增的原创维护说明、版本边界与实际变更记录；不包含未授权第三方文本。",
-      "sha256": "a38a49746982cd3f63b616af4b8449d77cfbac2a5b4fb400197b0efa8921f9c3"
+      "reviewed_on": "2026-11-08",
+      "basis": "本轮修正站点说明文字的表述与标点，链接、导航与既有事实未变。",
+      "sha256": "b48f9af5d7be991703d12456b77b943b917b1b899119917c73734bba944f68da"
     },
     {
       "path": "docs/index.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-06 核验本次原创文案和对应来源记录；未添加教材逐字摘录。",
-      "reviewed_on": "2026-11-06",
-      "sha256": "9a5982770c651857d08b4990d87c1f3ff826e494dc2f63a00546f00112c614ea"
+      "basis": "本轮修正站点说明文字的表述与标点，链接、导航与既有事实未变。",
+      "reviewed_on": "2026-11-08",
+      "sha256": "c35143c25a5fa9611dc22c14d0c04d776631c98a9ba09877028e17e17c25267d"
     },
     {
       "path": "docs/labs/address.md",

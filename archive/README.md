@@ -5,3 +5,4 @@
 - [2026-11-04 原创内容整理](releases/2026-11-04-open-content.md)
 - [2026-11-04 计算机网络技术笔记](releases/2026-11-04-computer-networks.md)
 - [2026-11-05 三课发布核对](releases/2026-11-05-three-course-release.md)
+- [2026-11-08 多媒体九章对照成书校对](releases/2026-11-08-multimedia-proofreading.md)

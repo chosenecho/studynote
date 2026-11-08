@@ -844,7 +844,7 @@
       "source_kind": "original",
       "basis": "本轮定向修复表达：删除应考话术与考据赘语、压缩免责、修正标点与表格，大纲条目、小节编号、练习元数据、技术区分词与算例数值未变。",
       "reviewed_on": "2026-11-08",
-      "sha256": "91eb08aa91837707d6ef6c84fce6298d1e9f4e01c912a04f20e4a8abfa23b419"
+      "sha256": "c9082d51f7e91d02abfb7a65c1f451656f2bbca3290efb06a83aab346fd7737a"
     },
     {
       "path": "docs/courses/operating-systems/chapter-05.md",

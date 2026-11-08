@@ -24,7 +24,7 @@ DIALOG = (
     '</div><div class="image-viewport" tabindex="0" role="region" aria-label="插图，可在原图模式下滚动">'
     '<img alt=""></div><p></p></dialog>'
 )
-EXERCISE_SECTION = re.compile(r'(^## 自编练习[^\n]*\n)([\s\S]*?)(?=^## |\Z)', re.M)
+EXERCISE_SECTION = re.compile(r'(^## 练习[^\n]*\n)([\s\S]*?)(?=^## |\Z)', re.M)
 
 
 def exercise(match):
@@ -54,7 +54,7 @@ def exercise_navigation(text):
         numbers = re.findall(r'\d+', match[2])
         return match[1] + '、'.join(f'[{n}](#exercise-{n})' for n in numbers) + ' |'
     head, separator, body = text.partition('\n## 1 ')
-    head = head.replace('| 自编练习 |', '| 自编题号 |')
+    head = head.replace('| 练习 |', '| 题号 |')
     head = re.sub(r'(\|\s*\[第 \d+ 节\]\(#s\d+\)\s*\|)\s*([\d、，, ]+)\s*\|', links, head)
     return head + separator + body
 
@@ -64,7 +64,7 @@ def on_config(config):
     config['extra']['study_courses'] = COURSES
     config['site_description'] = (
         '、'.join(course['title'] for course in COURSES)
-        + '的原创课程笔记、自编练习与交互实验。'
+        + '的原创课程笔记、练习与交互实验。'
     )
     return config
 
@@ -165,7 +165,7 @@ def on_page_markdown(markdown, page, config, files):
             page.meta['title'] = f'{title.lstrip("# ")} · {course["title"]}'
             page.meta['description'] = (
                 f'{course["title"]}复习笔记：{title.lstrip("# ")}。'
-                '含大纲索引、独立讲解与附解析的自编练习。'
+                '含大纲索引、独立讲解与附解析的练习。'
             )
             body = chapter_images(link_chapters(format_exercises(exercise_navigation(body.strip())), course), page)
             toolbar = TOOLBAR.format(id=f'{course["id"]}-{number}')

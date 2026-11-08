@@ -19,7 +19,7 @@ def audit(root):
             errors.append('MM: ' + message)
 
     def practice(chapter, number):
-        exercise = notes[chapter].split('## 自编练习', 1)[1]
+        exercise = notes[chapter].split('## 练习', 1)[1]
         block = re.search(rf'^\*\*{number}\. (.*?)(?=^\*\*\d+\. |\Z)', exercise, re.M | re.S)
         if not block:
             raise ValueError(f'chapter {chapter}, question {number} missing')

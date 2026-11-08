@@ -18,8 +18,8 @@ def main():
     heading = ImageFont.truetype(str(args.font), 64)
     brand = ImageFont.truetype(str(args.font), 40)
     courses = json.loads((ROOT / 'config/courses.json').read_text(encoding='utf-8'))
-    cards = [('home','自考计算机课程复习笔记','按大纲阅读 · 自编练习 · 交互实验')]
-    cards += [(c['slug'],c['title'],f'{c["chapters"]} 章复习笔记 · 讲解与自编练习') for c in courses]
+    cards = [('home','自考计算机课程复习笔记','按大纲阅读 · 练习 · 交互实验')]
+    cards += [(c['slug'],c['title'],f'{c["chapters"]} 章复习笔记 · 讲解与练习') for c in courses]
     folder = ROOT / 'docs/assets/images/social'
     folder.mkdir(parents=True,exist_ok=True)
     for name,title,caption in cards:

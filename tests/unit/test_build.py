@@ -81,7 +81,7 @@ class BuildTests(unittest.TestCase):
             self.assertIn('aspect-ratio:900/500', result)
 
     def test_independent_practice_has_visible_scope_and_folded_answer(self):
-        source = '## 自编练习' + chr(10)*2 + '**1. Explain a mechanism.**' + chr(10)*2
+        source = '## 练习' + chr(10)*2 + '**1. Explain a mechanism.**' + chr(10)*2
         source += '考点：第 1 节；层次：领会。' + chr(10)*2 + '**答案：** A reasoned explanation.'
         result = content.format_exercises(source)
         self.assertIn('class="exercise-item"', result)

@@ -22,10 +22,10 @@ for chapter in chapters:
             errors.append(f'{label}: {message}')
     require(text.splitlines()[0] == '# ' + chapter['title'], 'chapter title changed')
     require('> 大纲定位：' in text and text.count('## 复习导航') == 1, 'missing syllabus context/navigation')
-    require(text.count('## 自编练习') == 1, 'exactly one independent practice section is required')
-    if '## 自编练习' not in text:
+    require(text.count('## 练习') == 1, 'exactly one independent practice section is required')
+    if '## 练习' not in text:
         continue
-    prose, exercise = text.split('## 自编练习', 1)
+    prose, exercise = text.split('## 练习', 1)
     sections = list(re.finditer(r'^## ([0-9]+) (.+?) \{#s([0-9]+)\}$', prose, re.M))
     require(len(sections) == len(chapter['sections']), 'syllabus section missing')
     for index, (match, spec) in enumerate(zip(sections, chapter['sections'])):

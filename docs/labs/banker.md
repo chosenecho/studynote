@@ -7,7 +7,7 @@ description: 输入资源向量与矩阵，逐步检查安全序列和试分配�
 输入 Available、Allocation 与 Max，检查安全序列；添加请求可检查试分配后的安全性。
 
 <div class="study-lab" data-study-lab="banker"><p>正在载入练习；若长时间未出现操作区，请刷新页面。</p></div>
-<noscript>本练习需要 JavaScript。可手算：自编资源池：Available 为 1 1；Allocation 各行为 1 0、0 1、1 0；Max 各行为 2 1、2 1、1 2。</noscript>
+<noscript>本练习需要 JavaScript。可手算：资源池：Available 为 1 1；Allocation 各行为 1 0、0 1、1 0；Max 各行为 2 1、2 1、1 2。</noscript>
 
 ## 模型约定
 
@@ -17,7 +17,7 @@ Work 是安全性检查中的临时向量，不是实际发放资源。找到 Ne
 
 默认资源池含 P0、P1、P2 和两类资源。将 P0 请求设为 `1 0`，再将请求进程改成 P1、保持相同请求，比较试分配后的安全性。
 
-## 自编算例：安全序列与不安全请求
+## 算例：安全序列与不安全请求
 
 默认 Available=(1,1)，每个数表示对应类别的资源实例数。按分量相减计算 Need：
 

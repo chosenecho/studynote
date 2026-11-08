@@ -60,7 +60,7 @@ export async function runSeoChecks(page, {base, out, report}) {
         false, lab + ' no-JS mobile overflow');
     }
     await nojs.goto(base + '/labs/paging/');
-    await nojs.locator('h2').filter({hasText: '自编算例'}).scrollIntoViewIfNeeded();
+    await nojs.locator('h2').filter({hasText: '算例'}).scrollIntoViewIfNeeded();
     const name = 'seo-static-example-mobile.png';
     await nojs.screenshot({path: path.join(out, name), animations: 'disabled'});
     report.screenshots.push(name);

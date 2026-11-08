@@ -147,7 +147,7 @@ try{
   const staticPage=await nojs.newPage();
   for(const lab of ['semaphore','cidr']){
     await staticPage.goto(base+'/labs/'+lab+'/');
-    assert.match(await staticPage.locator('article').innerText(),/自编算例/);
+    assert.match(await staticPage.locator('article').innerText(),/算例/);
     assert(await staticPage.locator('article noscript').isVisible());
   }
   await staticPage.goto(base+'/courses/computer-organization/chapter-05/');

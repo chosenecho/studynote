@@ -1,6 +1,6 @@
 # 构建与部署
 
-生产链路为 **浏览器 → ESA 基础版 → HTTPS → ECS Nginx → 静态文件**。唯一正式域名为 `studynote.chosenecho.top`，页面 canonical、Sitemap 和 robots.txt 均使用该域名。`chosenecho.top` 仅以 HTTP 301 跳转到对应的子域名地址，保留路径与查询参数，不提供内容镜像。ECS、域名和站点配置分别见 [ecs-site.json](../config/ecs-site.json)、[esa-site.json](../config/esa-site.json) 与 [mkdocs.yml](../mkdocs.yml)。生产不再使用 ESA Pages 上传，也不保留旧网址兼容路由。
+生产链路为 **浏览器 → ESA 基础版 → HTTPS → ECS Nginx → 静态文件**。唯一正式域名为 `studynote.chosenecho.top`，页面 canonical、Sitemap 和 robots.txt 均使用该域名。`chosenecho.top` 仅以 HTTP 301 跳转到对应的子域名地址，保留路径与查询参数，不提供内容镜像。ECS 与站点配置见 [ecs-site.json](../config/ecs-site.json)；ESA 配置见 [esa-site.json](../config/esa-site.json)；构建配置见 [mkdocs.yml](../mkdocs.yml)。生产不再使用 ESA Pages 上传，也不保留旧网址兼容路由。
 
 ## 本地准备
 
@@ -56,7 +56,7 @@ systemctl status certbot.timer
 
 ## 缓存与安全
 
-缓存值由 [nginx-http.conf](../tools/deploy/nginx-http.conf) 的映射定义：普通页面和未指纹化脚本短缓存，Material 指纹资源长期不可变缓存，图标、第三方静态库与课程插图按日缓存。错误响应使用 `no-store`。ESA 跟随源站缓存策略，静态内容的缓存键忽略查询参数，POST 不缓存，ACME 与发布信息绕过缓存。退役的边缘响应头缓存规则已删除，避免把源站错误页改成长缓存。
+缓存值由 [nginx-http.conf](../tools/deploy/nginx-http.conf) 的映射定义。普通页面与未指纹化脚本短缓存；Material 指纹资源长期不可变缓存；图标、第三方静态库与课程插图按日缓存。错误响应使用 `no-store`。ESA 跟随源站缓存策略，静态内容的缓存键忽略查询参数，POST 不缓存，ACME 与发布信息绕过缓存。退役的边缘响应头缓存规则已删除，避免把源站错误页改成长缓存。
 
 HTTPS、CSP、防嵌入、防 MIME 嗅探、HSTS、权限与来源策略由命名规则维护；压缩和原有 TLS 安全设置继续保留。已关闭 ESA 质量数据采集，避免向 HTML 注入外部 RUM 脚本。预览与同步：
 

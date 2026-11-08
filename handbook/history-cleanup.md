@@ -6,7 +6,7 @@
 
 干净根提交为 2dcfc856a94fef36b6db0233907f2b48d1005f6b。改写完成时，远端只剩 main，main 的可达提交数为一。后续修改应从此干净根的后代开始，不能合并或推送仍含旧祖先的本地分支。
 
-已删除四个远端分支：codex/material-native、codex/textbook-attribution、codex/homepage-copyright-only，以及本轮已合并的 codex/open-original-notes。其他本地工作树、分支及未提交修改未重置。
+已删除的远端分支共四个：codex/material-native、codex/textbook-attribution、codex/homepage-copyright-only。其中 codex/open-original-notes 本轮已合并，也已删除。其他本地工作树、分支及未提交修改未重置。
 
 ## 私有备份
 

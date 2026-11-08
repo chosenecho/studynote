@@ -6,7 +6,7 @@
 
 课程资料唯一取自 OCR 仓库的“成书”，按校验过的私有快照写作，来源规则见 [内容贡献规则](handbook/content-policy.md)。
 
-公开内容以大纲为索引，提供原创讲解、自编练习和概念图；第三方资源保持原许可。当前修订版的范围与历史副本的处理边界见许可说明。
+公开内容以大纲为索引，提供原创讲解、练习和概念图；第三方资源保持原许可。当前修订版的范围与历史副本的处理边界见许可说明。
 
 - [操作系统概论](docs/courses/operating-systems/index.md)
 - [计算机组成原理](docs/courses/computer-organization/index.md)

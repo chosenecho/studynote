@@ -1,5 +1,6 @@
 # Private references and independent archives
 /local/
+/.agents/
 # Generated output
 /dist/
 # Dependencies, caches and test evidence

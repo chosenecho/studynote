@@ -1,6 +1,7 @@
 // Uses the credentials resolved by the pinned ESA CLI; never prints them.
 import {readFileSync} from 'node:fs';
 import {callEsa as call} from './esa-api.mjs';
+import {syncWafRules} from './esa-waf.mjs';
 const site = JSON.parse(readFileSync(new URL('../../config/esa-site.json', import.meta.url), 'utf8'));
 const apply = process.argv.includes('--apply');
 const stable = value => JSON.stringify(value, (_, item) => item && !Array.isArray(item) && typeof item === 'object'
@@ -44,6 +45,7 @@ await syncRules('HttpResponseHeaderModificationRule', site.responseRules.map(({h
 await syncRules('HttpsApplicationConfiguration', [{...site.httpsRule, RuleEnable: 'on'}]);
 await syncRules('CacheRule', site.cacheRules.map(rule => ({...rule, RuleEnable: 'on'})));
 await syncRules('OriginRule', site.originRules.map(rule => ({...rule, RuleEnable: 'on'})));
+await syncWafRules({call, siteId: site.siteId, rules: site.wafRules || [], apply});
 const collection = await call('GetPerformanceDataCollection', {SiteId: site.siteId});
 if (collection.Enable !== site.performanceDataCollection) {
   console.log(`${apply ? 'Update' : 'Would update'} performance data collection: ${site.performanceDataCollection}`);

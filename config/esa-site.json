@@ -21,7 +21,7 @@
     },
     {
       "RuleName": "study-hotlink-no-store",
-      "Rule": "((http.host eq \"chosenecho.top\" or http.host eq \"studynote.chosenecho.top\") and (starts_with(http.request.uri.path, \"/assets/\") or starts_with(http.request.uri.path, \"/courses/operating-systems/figures/\") or starts_with(http.request.uri.path, \"/courses/computer-organization/figures/\")) and http.referer contains \"://\" and not (http.referer contains \"://chosenecho.top/\") and not (http.referer contains \"://studynote.chosenecho.top/\"))",
+      "Rule": "((http.host eq \"chosenecho.top\" or http.host eq \"studynote.chosenecho.top\") and (starts_with(http.request.uri.path, \"/assets/\") or starts_with(http.request.uri.path, \"/courses/operating-systems/figures/\") or starts_with(http.request.uri.path, \"/courses/computer-organization/figures/\") or starts_with(http.request.uri.path, \"/courses/computer-networks/figures/\") or starts_with(http.request.uri.path, \"/courses/multimedia-technology/figures/\")) and http.referer contains \"://\" and not (http.referer contains \"://chosenecho.top/\") and not (http.referer contains \"://studynote.chosenecho.top/\"))",
       "Sequence": 2,
       "headers": {
         "Cache-Control": "no-store"
@@ -69,6 +69,18 @@
       "QueryStringMode": "ignore_all",
       "PostCache": "off",
       "ServeStale": "off"
+    }
+  ],
+  "wafRules": [
+    {
+      "Phase": "http_custom",
+      "Config": {
+        "Name": "study-asset-hotlink",
+        "Type": "http_custom",
+        "Status": "on",
+        "Action": "deny",
+        "Expression": "((http.host in {\"chosenecho.top\" \"studynote.chosenecho.top\"}) and (starts_with(http.request.uri, \"/assets/\") or starts_with(http.request.uri, \"/courses/operating-systems/figures/\") or starts_with(http.request.uri, \"/courses/computer-organization/figures/\") or starts_with(http.request.uri, \"/courses/computer-networks/figures/\") or starts_with(http.request.uri, \"/courses/multimedia-technology/figures/\")) and exists(http.referer) and http.referer ne \"\" and not (http.referer contains \"://chosenecho.top/\") and not (http.referer contains \"://studynote.chosenecho.top/\"))"
+      }
     }
   ],
   "originRules": [

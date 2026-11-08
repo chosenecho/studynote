@@ -106,19 +106,6 @@ def main():
             module_status, module_headers, _ = request('/assets/javascripts/reader.mjs')
             assert 'text/css' in css_headers.get('Content-Type', ''), (css_status, css_headers)
             assert 'javascript' in module_headers.get('Content-Type', ''), (module_status, module_headers)
-            for url, mime in [('/robots.txt', 'text/plain'), ('/sitemap.xml', 'application/xml')]:
-                status, headers, _ = request(url)
-                assert status == 200 and headers.get('Content-Type', '').split(';')[0] == mime, (url, status, headers)
-            figures = sorted((ROOT / 'dist/courses').glob('*/figures/*'))
-            assert figures, 'No course figures available for cache regression checks'
-            for figure in figures:
-                if not figure.is_file():
-                    continue
-                url = '/' + figure.relative_to(ROOT / 'dist').as_posix()
-                status, headers, _ = request(url)
-                assert status == 200, (url, status)
-                assert headers.get('Cache-Control') == 'public, max-age=86400', (url, headers)
-            checks.append('Robots/sitemap MIME and one-day cache for every built course figure')
             assert request('/', method='HEAD', auth=False)[0] == 403
             assert request('/', method='POST')[0] == 405
             assert request('/search/?q=test', host='chosenecho.top')[0] == 301

@@ -9,10 +9,10 @@ description: 课程版本边界、修订记录及内容问题的反馈方式。
 
 | 课程 | 当前阅读范围 | 校对边界 |
 | --- | --- | --- |
-| [操作系统概论](courses/operating-systems/index.md) | 2017 年版，6 章 | 原创讲解和自编练习，以各题声明的算法和成本模型为准 |
-| [计算机组成原理](courses/computer-organization/index.md) | 2016 年版，6 章 | 位宽、地址单位及简化处理器条件见具体章节 |
-| [计算机网络技术](courses/computer-networks/index.md) | 2016 年版，9 章 | 历史产品及协议简化模型不代表当前部署事实 |
-| [多媒体技术及应用](courses/multimedia-technology/index.md) | 第三版，9 章 | 按成书分章稿逐节校对；成书为“首轮重点校对稿”，未逐字终校；软件步骤未实测 |
+| [操作系统概论](courses/operating-systems/index.md) | 2017 年版，6 章 | 原创讲解、自编练习；算法与成本模型按题声明 |
+| [计算机组成原理](courses/computer-organization/index.md) | 2016 年版，6 章 | 位宽、地址单位、简化处理器条件见各章 |
+| [计算机网络技术](courses/computer-networks/index.md) | 2016 年版，9 章 | 历史产品与简化协议模型不代表当前部署事实 |
+| [多媒体技术及应用](courses/multimedia-technology/index.md) | 第三版，9 章 | 按成书分章稿校对；成书未逐字终校，软件未实测 |
 
 ## 多媒体课程的原书疑点
 

@@ -47,7 +47,9 @@
 
 $$R_{bit}=f_s\times b\times s\quad(\text{bit/s})$$
 
-$$R_{byte}=\frac{f_s\times b\times s}{8}\quad(\text{B/s}),\qquad B=\frac{f_s\times b\times s\times t}{8}\quad(\text{B})$$
+$$R_{byte}=\frac{f_s\times b\times s}{8}\quad(\text{B/s})$$
+
+$$B=\frac{f_s\times b\times s\times t}{8}\quad(\text{B})$$
 
 $f_s$ 用 samples/s，$b$ 为 bit/sample，$s$ 为声道数，$t$ 用秒；采样率以 kHz 给出时先乘 1000。此式只计未压缩采样数据，不计文件头、元数据、块对齐、压缩或封装开销。KB 与 KiB 的换算不同：$1\text{ KB}=1000\text{ B}$，$1\text{ KiB}=1024\text{ B}$，计算时注明用哪一种。
 
@@ -72,12 +74,14 @@ $f_s$ 用 samples/s，$b$ 为 bit/sample，$s$ 为声道数，$t$ 用秒；采�
 
 | 格式 | 特点 | 用途与注意 |
 | --- | --- | --- |
-| WAV | 微软推出的波形音频格式，Windows 的标准数字音频，采样数据不压缩 | 音质最好，体积最大；多数压缩格式在其基础上再编码 |
-| MP3 | MPEG-1 音频第三层（MPEG-1 Layer3），有损压缩，压缩率约 10:1～12:1 | 体积小，适合网络传播和便携设备 |
-| WMA | 微软推出的音频压缩格式，采用流式压缩，压缩率约 18:1 | 支持音频流，适合网络在线播放 |
-| MIDI | 记录键名、力度、时长等演奏消息，不记录声波样本 | 文件很小，播放质量取决于 MIDI 设备 |
-| CD-DA | 音乐 CD 上的标准数字音频，数据量大、音质好 | 需用 CD-ROM 驱动器读取或抓轨 |
-| AU、RealAudio、AIFF | AU 为 Sun 面向 UNIX 的数字音频；RealAudio 为流式音频；AIFF 为 Apple 开发、Macintosh 支持 | 按来源与用途区分 |
+| WAV | 微软波形格式，Windows 标准，不压缩 | 音质最好，体积最大；常在其基础上再编码 |
+| MP3 | MPEG-1 音频第三层（Layer3） | 有损压缩；体积小，适合网络与便携 |
+| WMA | 微软流式压缩格式，压缩率约 18:1 | 支持音频流，适合在线播放 |
+| MIDI | 记录演奏消息，不记波形 | 文件很小，播放质量取决于 MIDI 设备 |
+| CD-DA | 音乐 CD 标准音频，数据量大 | 音质好；需 CD-ROM 读取或抓轨 |
+| AU、RealAudio、AIFF | 三个格式 | 按来源与用途区分 |
+
+MP3 的压缩率约 10:1～12:1；AU 来自 Sun，面向 UNIX；RealAudio 是流式音频；AIFF 由 Apple 开发，Macintosh 支持。
 
 ## 5 音频工具的用途 {#s5}
 
@@ -85,11 +89,13 @@ $f_s$ 用 samples/s，$b$ 为 bit/sample，$s$ 为声道数，$t$ 用秒；采�
 
 | 软件 | 主要用途 |
 | --- | --- |
-| Adobe Audition | 专业音频编辑与混合，录制、混合、编辑、控制和修复数字音频 |
-| GoldWave | 声音编辑、播放、录制和转换，可从 CD、VCD、DVD 或视频文件提取声音 |
-| All Editor | 录音、多重剪贴板剪贴混合和音频效果处理，效果含淡入淡出、静音、混响、滤波等 |
-| Total Recorder | 以虚拟声卡截取其他程序输出的声音，支持硬件、软件和网络音源；原书称理论上不会失真 |
-| 格式工厂 | 多媒体格式转换，可把音频转为 MP3、WMA、FLAC 等，也能从光盘提取音频 |
+| Adobe Audition | 录制、混合、编辑、控制和修复音频 |
+| GoldWave | 编辑、播放、录制、转换；提取光盘或视频音轨 |
+| All Editor | 录音、剪贴混合、效果处理；含淡入淡出等 |
+| Total Recorder | 虚拟声卡截取程序输出；硬/软件与网络音源 |
+| 格式工厂 | 转 MP3/WMA/FLAC，提取光盘音频 |
+
+原书称 Total Recorder 的截取理论上不会失真。
 
 ## 6 采集与软件操作 {#s6}
 

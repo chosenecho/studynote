@@ -172,7 +172,6 @@ export async function runThemeChecks(page, {base, out, report}) {
   await open('/courses/multimedia-technology/');
   assert.equal(await page.locator('[data-progress-chapter]').count(), 9);
   const multimediaOverview = await page.locator('article').innerText();
-  assert.match(await page.locator('.admonition-title').first().innerText(), /笔记校对记录/);
   assert.match(multimediaOverview, /来源全书普通正文、截图小字尚未全部逐字终校/);
   assert.match(multimediaOverview, /待对应环境实测/);
   assert.equal(await page.locator('#proofreading').count(), 1);

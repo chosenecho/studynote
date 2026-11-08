@@ -808,7 +808,7 @@
       "source_kind": "original",
       "basis": "本轮对照《多媒体技术及应用（第三版）》分章稿逐节校对并润色表达：修正事实与分类，补足大纲缺失点，清除页码引用与应考话术，章首统一为版本来源提示；结构、大纲映射、练习考点与算术条件未变，未复制成书成句（经脚本比对，剩余重合仅为软件名、格式名与单位枚举）。",
       "reviewed_on": "2026-11-08",
-      "sha256": "ea5d8ff9d22a46e96220195c2541b5d4b9b3660016cee5b1637865cc1a933f30"
+      "sha256": "86257e086476f8d89c602c1c32a2d9a0de3b7baed275ea5e4bdee38b86fcc177"
     },
     {
       "path": "docs/courses/operating-systems/chapter-01.md",

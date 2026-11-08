@@ -601,7 +601,7 @@
       "source_kind": "original",
       "basis": "本轮定向修复表达：删除应考话术与考据赘语、压缩免责、修正标点与表格，大纲条目、小节编号、练习元数据与算例数值未变，未引入成书以外的课程事实。",
       "reviewed_on": "2026-11-08",
-      "sha256": "dd9494b058bf3f62c18355efd410665b5cf935ec2fa2960677e284513b79924b"
+      "sha256": "1ca3ce62fd55651174cd2f42baa0b7f09bcfc25802148e7b7d6743839d0b8d09"
     },
     {
       "path": "docs/courses/computer-organization/chapter-01.md",
@@ -754,7 +754,7 @@
       "source_kind": "original",
       "basis": "本轮对照《多媒体技术及应用（第三版）》分章稿逐节校对并润色表达：修正事实与分类，补足大纲缺失点，清除页码引用与应考话术，章首统一为版本来源提示；结构、大纲映射、练习考点与算术条件未变，未复制成书成句（经脚本比对，剩余重合仅为软件名、格式名与单位枚举）。",
       "reviewed_on": "2026-11-08",
-      "sha256": "7d17fae0c7c0d50f9116c4933978156cc43d8f691fd0f84c2eeef83591ac0dc3"
+      "sha256": "9d2f33b2867e0a53ff04920c2c1ead0d320901f9332084297adea66321213008"
     },
     {
       "path": "docs/courses/multimedia-technology/chapter-05.md",
@@ -808,7 +808,7 @@
       "source_kind": "original",
       "basis": "本轮对照《多媒体技术及应用（第三版）》分章稿逐节校对并润色表达：修正事实与分类，补足大纲缺失点，清除页码引用与应考话术，章首统一为版本来源提示；结构、大纲映射、练习考点与算术条件未变，未复制成书成句（经脚本比对，剩余重合仅为软件名、格式名与单位枚举）。",
       "reviewed_on": "2026-11-08",
-      "sha256": "86257e086476f8d89c602c1c32a2d9a0de3b7baed275ea5e4bdee38b86fcc177"
+      "sha256": "603802ee9f90f228cf28e1564eb8be704cd501dcd9d34f28c4a9349885de7439"
     },
     {
       "path": "docs/courses/operating-systems/chapter-01.md",
@@ -934,7 +934,7 @@
       "source_kind": "original-learning-content",
       "reviewed_on": "2026-11-08",
       "basis": "本轮修正站点说明文字的表述与标点，链接、导航与既有事实未变。",
-      "sha256": "998f2c56997702e02777548e45eea012bb99f0034b1c7502445e682445746366"
+      "sha256": "d7809c720f63a106d722658ab432adcd12be2f9739e08be966d22bf8e69a2a15"
     },
     {
       "path": "docs/guide.md",

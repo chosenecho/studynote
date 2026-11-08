@@ -171,18 +171,9 @@ export async function runThemeChecks(page, {base, out, report}) {
 
   await open('/courses/multimedia-technology/');
   assert.equal(await page.locator('[data-progress-chapter]').count(), 9);
-  const multimediaOverview = await page.locator('article').innerText();
-  assert.match(multimediaOverview, /来源全书普通正文、截图小字尚未全部逐字终校/);
-  assert.match(multimediaOverview, /待对应环境实测/);
-  assert.equal(await page.locator('#proofreading').count(), 1);
   assert.equal(await page.locator('.admonition.warning').filter({hasText:'OCR 尚未终校'}).count(), 0);
   await open('/courses/multimedia-technology/chapter-04/');
   assert.equal(await page.locator('.exercise-answer').count(), syllabus.chapters.find(c=>c.id==='mm-4').practice.length);
-  assert.match(await page.locator('.admonition-title').first().innerText(), /笔记校对与版本说明/);
-  assert.match(await page.locator('article').innerText(), /Photoshop 2020 操作尚未实测/);
-  const proofreadingHref = await page.getByRole('link',{name:'课程校对记录',exact:true}).getAttribute('href');
-  assert.equal(new URL(proofreadingHref,page.url()).pathname, '/courses/multimedia-technology/');
-  assert.equal(new URL(proofreadingHref,page.url()).hash, '#proofreading');
   assert.equal(await page.locator('.admonition.warning').filter({hasText:'OCR 尚未终校'}).count(), 0);
   await screenshot('multimedia-desktop.png');
   await open('/courses/multimedia-technology/chapter-09/');

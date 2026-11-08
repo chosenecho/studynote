@@ -493,16 +493,16 @@
       "source_kind": "original",
       "basis": "本轮定向修复表达：删除应考话术与考据赘语、压缩免责、修正标点与表格，大纲条目、小节编号、练习元数据与算例数值未变，未引入成书以外的课程事实。",
       "reviewed_on": "2026-11-08",
-      "sha256": "92feb61223ea129cbb4fe928954121f89e42f326650bd938186242d140c9e81d"
+      "sha256": "ee324076dc82547120fa476a6e2c3bc7da297829340a9cd1d146432253be2ed4"
     },
     {
       "path": "docs/courses/computer-networks/chapter-02.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-06 按受核验成书快照逐章核对本次新增的小结、独立表述及计算中间步骤；不复制教材原句，保留公式条件、章节结构和自编题答案。",
-      "reviewed_on": "2026-11-06",
-      "sha256": "abe517d0a18a327d2a535c4ef5cd3369c4ec21c5b6ce09a1c9e7c9ff1a87e9f7"
+      "basis": "本轮定向修复表达：删除应考话术与考据赘语、压缩免责、修正标点与表格，大纲条目、小节编号、练习元数据与算例数值未变，未引入成书以外的课程事实。",
+      "reviewed_on": "2026-11-08",
+      "sha256": "a1476d3f7bd1880664e1cb1616f028d2772ea889f2c6233dace5dcd73b448936"
     },
     {
       "path": "docs/courses/computer-networks/chapter-03.md",
@@ -511,16 +511,16 @@
       "source_kind": "original",
       "basis": "本轮定向修复表达：删除应考话术与考据赘语、压缩免责、修正标点与表格，大纲条目、小节编号、练习元数据与算例数值未变，未引入成书以外的课程事实。",
       "reviewed_on": "2026-11-08",
-      "sha256": "b086213a6ac6ce662dd1160d6b3c22c86655e132146659827df5164dec3476ec"
+      "sha256": "4606ac55ed7ed0a35f5b4f9061645ab7c1705b8673156d0019d21b1d4a49249e"
     },
     {
       "path": "docs/courses/computer-networks/chapter-04.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-06 按受核验成书快照逐章核对本次新增的小结、独立表述及计算中间步骤；不复制教材原句，保留公式条件、章节结构和自编题答案。",
-      "reviewed_on": "2026-11-06",
-      "sha256": "af866a120a54d5863d275d90904cb5f8724011e1ba856f15f80217b358f5fc51"
+      "basis": "本轮定向修复表达：删除应考话术与考据赘语、压缩免责、修正标点与表格，大纲条目、小节编号、练习元数据与算例数值未变，未引入成书以外的课程事实。",
+      "reviewed_on": "2026-11-08",
+      "sha256": "db266f32588dfc88ed5dcf43c01f6c2cbdff0c199b014b08cd8c4d5a98a3f7a1"
     },
     {
       "path": "docs/courses/computer-networks/chapter-05.md",
@@ -529,25 +529,25 @@
       "source_kind": "original",
       "basis": "本轮定向修复表达：删除应考话术与考据赘语、压缩免责、修正标点与表格，大纲条目、小节编号、练习元数据与算例数值未变，未引入成书以外的课程事实。",
       "reviewed_on": "2026-11-08",
-      "sha256": "2720bd30088a8f4ea008c6153426948ff74d25f7915bae881afdc2e7220e9773"
+      "sha256": "ed7ad95e24f4b5f5b4ac6f48c6a00e6db69c98c21781ad00e3827987fcd8734d"
     },
     {
       "path": "docs/courses/computer-networks/chapter-06.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-06 按受核验成书快照逐章核对本次新增的小结、独立表述及计算中间步骤；不复制教材原句，保留公式条件、章节结构和自编题答案。",
-      "reviewed_on": "2026-11-06",
-      "sha256": "0400c9dc3bb10e74938398d5544857b16e8be9d108b4da309c234b25dd6b1b42"
+      "basis": "本轮定向修复表达：删除应考话术与考据赘语、压缩免责、修正标点与表格，大纲条目、小节编号、练习元数据与算例数值未变，未引入成书以外的课程事实。",
+      "reviewed_on": "2026-11-08",
+      "sha256": "8de6feac5a77972727ce3de1ddd34089fa34afb23d0e855a8f183f37462a8c5f"
     },
     {
       "path": "docs/courses/computer-networks/chapter-07.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-06 按受核验成书快照逐章核对本次新增的小结、独立表述及计算中间步骤；不复制教材原句，保留公式条件、章节结构和自编题答案。",
-      "reviewed_on": "2026-11-06",
-      "sha256": "0a263d7fd8cadbe92742f81d032e54d4dbe68441633ba13396b628811c1dedc8"
+      "basis": "本轮定向修复表达：删除应考话术与考据赘语、压缩免责、修正标点与表格，大纲条目、小节编号、练习元数据与算例数值未变，未引入成书以外的课程事实。",
+      "reviewed_on": "2026-11-08",
+      "sha256": "cf37334b3ef5bcc8a9837a2bdfe00debc4b4ca3cb5e75bf078a664b5153e12db"
     },
     {
       "path": "docs/courses/computer-networks/chapter-08.md",
@@ -556,16 +556,16 @@
       "source_kind": "original",
       "basis": "本轮定向修复表达：删除应考话术与考据赘语、压缩免责、修正标点与表格，大纲条目、小节编号、练习元数据与算例数值未变，未引入成书以外的课程事实。",
       "reviewed_on": "2026-11-08",
-      "sha256": "e5551a98aafed698160ffa44c43bc39e3b7ebd486952b9ee4e2d6ad3a77cff83"
+      "sha256": "5cd47272df6d4925a719f9f3ff527388303509c49123e5140c660dfc9adc2622"
     },
     {
       "path": "docs/courses/computer-networks/chapter-09.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-06 按受核验成书快照逐章核对本次新增的小结、独立表述及计算中间步骤；不复制教材原句，保留公式条件、章节结构和自编题答案。",
-      "reviewed_on": "2026-11-06",
-      "sha256": "96c6d529b3ee5570f9470f89ef33ab711ccc8797d314808fc3cede113a0e4cc4"
+      "basis": "本轮定向修复表达：删除应考话术与考据赘语、压缩免责、修正标点与表格，大纲条目、小节编号、练习元数据与算例数值未变，未引入成书以外的课程事实。",
+      "reviewed_on": "2026-11-08",
+      "sha256": "9962efec81c2926e0dd093f6a98087eaad89b42104e67d5333cba6e66e2d1cb8"
     },
     {
       "path": "docs/courses/computer-networks/figures/management-loop.svg",
@@ -601,7 +601,7 @@
       "source_kind": "original",
       "basis": "本轮定向修复表达：删除应考话术与考据赘语、压缩免责、修正标点与表格，大纲条目、小节编号、练习元数据与算例数值未变，未引入成书以外的课程事实。",
       "reviewed_on": "2026-11-08",
-      "sha256": "73f1ab1def5f376fc06c977b8b8127ca95dd186c9d788ed34c0cbd4ad60b1e73"
+      "sha256": "69ea2c6c66ebb7d27873beec6b0cec93d6c051cdd2361707e35d663df8f0a5b0"
     },
     {
       "path": "docs/courses/computer-organization/chapter-01.md",
@@ -727,7 +727,7 @@
       "source_kind": "original",
       "basis": "本轮对照《多媒体技术及应用（第三版）》分章稿逐节校对并润色表达：修正事实与分类，补足大纲缺失点，清除页码引用与应考话术，章首统一为版本来源提示；结构、大纲映射、练习考点与算术条件未变，未复制成书成句（经脚本比对，剩余重合仅为软件名、格式名与单位枚举）。",
       "reviewed_on": "2026-11-08",
-      "sha256": "87a550a66cc7bc6697415c13c230dd6690f12120e3f08bdff26a03b439af6a96"
+      "sha256": "48e1b3d2612b039054cef0071f39ee428ec326743d03d88549102c8a438f8a3c"
     },
     {
       "path": "docs/courses/multimedia-technology/chapter-02.md",
@@ -736,7 +736,7 @@
       "source_kind": "original",
       "basis": "本轮对照《多媒体技术及应用（第三版）》分章稿逐节校对并润色表达：修正事实与分类，补足大纲缺失点，清除页码引用与应考话术，章首统一为版本来源提示；结构、大纲映射、练习考点与算术条件未变，未复制成书成句（经脚本比对，剩余重合仅为软件名、格式名与单位枚举）。",
       "reviewed_on": "2026-11-08",
-      "sha256": "c74c28663d56888c816ce71d60756881d401490ef4bf3a2090b5bd9bf762d51e"
+      "sha256": "16ed850c49439dd316b95cbaab28ac56c0735e065c3190e06e87c33ba6e01700"
     },
     {
       "path": "docs/courses/multimedia-technology/chapter-03.md",
@@ -745,7 +745,7 @@
       "source_kind": "original",
       "basis": "本轮对照《多媒体技术及应用（第三版）》分章稿逐节校对并润色表达：修正事实与分类，补足大纲缺失点，清除页码引用与应考话术，章首统一为版本来源提示；结构、大纲映射、练习考点与算术条件未变，未复制成书成句（经脚本比对，剩余重合仅为软件名、格式名与单位枚举）。",
       "reviewed_on": "2026-11-08",
-      "sha256": "4592a13f5bc19364b912efd9eb09c33cd83077093ff548dde9956e7ed4165801"
+      "sha256": "83d905d50834bdb822579cbbc031eede33ec9182ee74e646e3c7d90431e8bd08"
     },
     {
       "path": "docs/courses/multimedia-technology/chapter-04.md",
@@ -754,7 +754,7 @@
       "source_kind": "original",
       "basis": "本轮对照《多媒体技术及应用（第三版）》分章稿逐节校对并润色表达：修正事实与分类，补足大纲缺失点，清除页码引用与应考话术，章首统一为版本来源提示；结构、大纲映射、练习考点与算术条件未变，未复制成书成句（经脚本比对，剩余重合仅为软件名、格式名与单位枚举）。",
       "reviewed_on": "2026-11-08",
-      "sha256": "b3e8f88cdce528503eb034eec344d1e8e7d6a2ad7b477620cd5d9632269399d0"
+      "sha256": "6f6d71b2ceeb21cae73f58090f07af2fd5d83c95a4696abcc5ff1ade95371b00"
     },
     {
       "path": "docs/courses/multimedia-technology/chapter-05.md",
@@ -763,7 +763,7 @@
       "source_kind": "original",
       "basis": "本轮对照《多媒体技术及应用（第三版）》分章稿逐节校对并润色表达：修正事实与分类，补足大纲缺失点，清除页码引用与应考话术，章首统一为版本来源提示；结构、大纲映射、练习考点与算术条件未变，未复制成书成句（经脚本比对，剩余重合仅为软件名、格式名与单位枚举）。",
       "reviewed_on": "2026-11-08",
-      "sha256": "2463df27e1c12298ee8fc7142358c233f660a1b03a65974ece23db00150e1548"
+      "sha256": "7a7c5dbe949764714d2ddb8dae958a16520379b933f288035a80b9f31ba38e76"
     },
     {
       "path": "docs/courses/multimedia-technology/chapter-06.md",
@@ -772,7 +772,7 @@
       "source_kind": "original",
       "basis": "本轮对照《多媒体技术及应用（第三版）》分章稿逐节校对并润色表达：修正事实与分类，补足大纲缺失点，清除页码引用与应考话术，章首统一为版本来源提示；结构、大纲映射、练习考点与算术条件未变，未复制成书成句（经脚本比对，剩余重合仅为软件名、格式名与单位枚举）。",
       "reviewed_on": "2026-11-08",
-      "sha256": "411d3dac37f401af5b96057a0304788beed831e1977107dee8de3901d9078b7c"
+      "sha256": "3c1edce6ffcf0195be7e751c0364e3312096d7be6c2c6809af32b5dde3a07795"
     },
     {
       "path": "docs/courses/multimedia-technology/chapter-07.md",
@@ -781,7 +781,7 @@
       "source_kind": "original",
       "basis": "本轮对照《多媒体技术及应用（第三版）》分章稿逐节校对并润色表达：修正事实与分类，补足大纲缺失点，清除页码引用与应考话术，章首统一为版本来源提示；结构、大纲映射、练习考点与算术条件未变，未复制成书成句（经脚本比对，剩余重合仅为软件名、格式名与单位枚举）。",
       "reviewed_on": "2026-11-08",
-      "sha256": "6a2f87d76769e8a9c887a8c7bc3383b04ba613b43fcdee84b9448d834d00868e"
+      "sha256": "d2116ec0e5ff1b1ca2e1c376c9475e4cc219fcb418866b975df4eddc01b8fd1c"
     },
     {
       "path": "docs/courses/multimedia-technology/chapter-08.md",
@@ -790,7 +790,7 @@
       "source_kind": "original",
       "basis": "本轮对照《多媒体技术及应用（第三版）》分章稿逐节校对并润色表达：修正事实与分类，补足大纲缺失点，清除页码引用与应考话术，章首统一为版本来源提示；结构、大纲映射、练习考点与算术条件未变，未复制成书成句（经脚本比对，剩余重合仅为软件名、格式名与单位枚举）。",
       "reviewed_on": "2026-11-08",
-      "sha256": "4e4ca543d0297e5a1bb2cbe0d19489c0e39e96b3ee9bb8459ec8615cc5afb1ba"
+      "sha256": "29366ea1a5b02066eab9099bf8eca7cd1c4c32cc0c94f31778620f340d1f7930"
     },
     {
       "path": "docs/courses/multimedia-technology/chapter-09.md",
@@ -799,7 +799,7 @@
       "source_kind": "original",
       "basis": "本轮对照《多媒体技术及应用（第三版）》分章稿逐节校对并润色表达：修正事实与分类，补足大纲缺失点，清除页码引用与应考话术，章首统一为版本来源提示；结构、大纲映射、练习考点与算术条件未变，未复制成书成句（经脚本比对，剩余重合仅为软件名、格式名与单位枚举）。",
       "reviewed_on": "2026-11-08",
-      "sha256": "1d505636ac05dc0d6689812c81d07b15bb8b63322c390d9603eabc633ae7a741"
+      "sha256": "9e2580e3f6c8d5511211871dd698af5d133d9f3c0ed4a09d4eb794ae4c73ab47"
     },
     {
       "path": "docs/courses/multimedia-technology/index.md",
@@ -808,7 +808,7 @@
       "source_kind": "original",
       "basis": "本轮对照《多媒体技术及应用（第三版）》分章稿逐节校对并润色表达：修正事实与分类，补足大纲缺失点，清除页码引用与应考话术，章首统一为版本来源提示；结构、大纲映射、练习考点与算术条件未变，未复制成书成句（经脚本比对，剩余重合仅为软件名、格式名与单位枚举）。",
       "reviewed_on": "2026-11-08",
-      "sha256": "17e888c3d164fb51c1953fc529fb31a33f5c603369ce2693fd54c8548434b15f"
+      "sha256": "367fae7e447afb2697ade24c8ff2f1f4e02c00e9f89b15a5b76ebc53c5b8e31a"
     },
     {
       "path": "docs/courses/operating-systems/chapter-01.md",
@@ -943,7 +943,7 @@
       "source_kind": "original-learning-content",
       "reviewed_on": "2026-11-08",
       "basis": "本轮修正站点说明文字的表述与标点，链接、导航与既有事实未变。",
-      "sha256": "b48f9af5d7be991703d12456b77b943b917b1b899119917c73734bba944f68da"
+      "sha256": "ca17b8a2adecca91b82a9ae836f32bf20dc604294a9c1578e269628e1ccee9cf"
     },
     {
       "path": "docs/index.md",

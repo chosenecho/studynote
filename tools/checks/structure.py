@@ -20,6 +20,15 @@ for course in courses:
         errors.append(f'{folder.name}: chapter files differ: {actual ^ expected}')
     if not (folder / 'index.md').is_file():
         errors.append(f'{folder.name}: missing course index')
+    exam = folder / 'exam'
+    if not (exam / 'index.md').is_file():
+        errors.append(f'{folder.name}: missing exam index')
+    expected_exam = {f'{n:02}.md' for n in range(1, course['chapters'] + 1)}
+    actual_exam = {p.name for p in exam.glob('*.md')} - {'index.md'} if exam.is_dir() else set()
+    if actual_exam != expected_exam:
+        errors.append(f'{folder.name}: exam pages differ: {actual_exam ^ expected_exam}')
+    if any(p.name.startswith('chapter-') for p in exam.glob('*.md')):
+        errors.append(f'{folder.name}: exam pages must not use the chapter- file prefix')
 sources = list((ROOT / 'docs').rglob('*.md')) + list((ROOT / 'handbook').rglob('*.md'))
 sources += [ROOT / name for name in ('README.md', 'LICENSING.md', 'THIRD_PARTY_NOTICES.md')]
 for p in sources:

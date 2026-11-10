@@ -2,27 +2,11 @@
 
 本课程依据刘成明、石碁主编《多媒体技术及应用（第三版）》（清华大学出版社，2021 年）与江苏省高等教育自学考试 13511《多媒体技术与应用》大纲（江南大学编，2024 年），九章从媒体基础走到制作工具与项目开发。
 
-<div class="course-hero" markdown>
-
-<span class="course-hero__tag">省考 13511 · 九章</span>
-
-全书 9 章、56 道练习。每章开头的应试导航按大纲条目与能力层次列考点，把媒体格式、参数与制作流程压成可背的清单，末尾附默写自测。
-
-[从应试导航开始](chapter-01.md#exam){ .md-button .md-button--primary } [直接自测](../../labs/quiz.md){ .md-button }
-
-</div>
-
-<ul class="course-stats">
-<li><strong>9</strong> 章</li>
-<li><strong>56</strong> 道练习</li>
-<li><strong>9</strong> 份应试导航</li>
-<li><strong>56</strong> 个讲解小节</li>
-</ul>
+[应试导航：各章必背清单与默写自测](exam/index.md)
 
 ## 章节与练习
 
 <div class="chapter-grid" markdown>
-
 <div class="chapter-card" markdown>
 
 <span class="chapter-card__no">01</span>
@@ -31,7 +15,7 @@
 
 媒体分类与特征、流媒体、发展与应用
 
-6 道练习 · [背考点](chapter-01.md#exam) · [读讲解](chapter-01.md#s1) · [做练习](chapter-01.md#exercise-1)
+6 道练习 · [考点](exam/01.md) · [读讲解](chapter-01.md#s1) · [做练习](chapter-01.md#exercise-1)
 
 </div>
 
@@ -43,7 +27,7 @@
 
 系统架构、板卡、存储、外围设备与软件
 
-7 道练习 · [背考点](chapter-02.md#exam) · [读讲解](chapter-02.md#s1) · [做练习](chapter-02.md#exercise-1)
+7 道练习 · [考点](exam/02.md) · [读讲解](chapter-02.md#s1) · [做练习](chapter-02.md#exercise-1)
 
 </div>
 
@@ -55,7 +39,7 @@
 
 字符编码、文本组织、OCR 与编辑
 
-6 道练习 · [背考点](chapter-03.md#exam) · [读讲解](chapter-03.md#s1) · [做练习](chapter-03.md#exercise-1)
+6 道练习 · [考点](exam/03.md) · [读讲解](chapter-03.md#s1) · [做练习](chapter-03.md#exercise-1)
 
 </div>
 
@@ -67,7 +51,7 @@
 
 图形图像、颜色、数据量与处理流程
 
-6 道练习 · [背考点](chapter-04.md#exam) · [读讲解](chapter-04.md#s1) · [做练习](chapter-04.md#exercise-1)
+6 道练习 · [考点](exam/04.md) · [读讲解](chapter-04.md#s1) · [做练习](chapter-04.md#exercise-1)
 
 </div>
 
@@ -79,7 +63,7 @@
 
 声音特征、数字化、PCM 与编辑
 
-6 道练习 · [背考点](chapter-05.md#exam) · [读讲解](chapter-05.md#s1) · [做练习](chapter-05.md#exercise-1)
+6 道练习 · [考点](exam/05.md) · [读讲解](chapter-05.md#s1) · [做练习](chapter-05.md#exercise-1)
 
 </div>
 
@@ -91,7 +75,7 @@
 
 视频信号、非线性编辑、采集与输出
 
-5 道练习 · [背考点](chapter-06.md#exam) · [读讲解](chapter-06.md#s1) · [做练习](chapter-06.md#exercise-1)
+5 道练习 · [考点](exam/06.md) · [读讲解](chapter-06.md#s1) · [做练习](chapter-06.md#exercise-1)
 
 </div>
 
@@ -103,7 +87,7 @@
 
 帧与补间、交互、二维与三维制作
 
-8 道练习 · [背考点](chapter-07.md#exam) · [读讲解](chapter-07.md#s1) · [做练习](chapter-07.md#exercise-1)
+8 道练习 · [考点](exam/07.md) · [读讲解](chapter-07.md#s1) · [做练习](chapter-07.md#exercise-1)
 
 </div>
 
@@ -115,7 +99,7 @@
 
 集成工具、本地介质、站点与路径
 
-6 道练习 · [背考点](chapter-08.md#exam) · [读讲解](chapter-08.md#s1) · [做练习](chapter-08.md#exercise-1)
+6 道练习 · [考点](exam/08.md) · [读讲解](chapter-08.md#s1) · [做练习](chapter-08.md#exercise-1)
 
 </div>
 
@@ -127,7 +111,7 @@
 
 需求、脚本、素材、集成、测试与发布
 
-6 道练习 · [背考点](chapter-09.md#exam) · [读讲解](chapter-09.md#s1) · [做练习](chapter-09.md#exercise-1)
+6 道练习 · [考点](exam/09.md) · [读讲解](chapter-09.md#s1) · [做练习](chapter-09.md#exercise-1)
 
 </div>
 

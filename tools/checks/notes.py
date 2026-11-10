@@ -8,7 +8,8 @@ ROOT = Path(__file__).resolve().parents[2]
 manifest = json.loads((ROOT / 'config/syllabus.json').read_text(encoding='utf-8'))
 courses = json.loads((ROOT / 'config/courses.json').read_text(encoding='utf-8'))
 expected = {f'docs/courses/{c["slug"]}/chapter-{n:02}.md' for c in courses for n in range(1, c['chapters']+1)}
-exam_nav = {c['slug'] for c in courses if c.get('examNav')}
+EXAM_BLOCKS = ('必背名词', '必背清单', '必背数字与公式', '易混对照', '简答答题模板', '默写自测')
+EXAM_DROPPED = ('考纲考点与卷面位置', '真题的几种问法', '常见出法')
 chapters = manifest['chapters']
 errors, figures, referenced = [], set(), set()
 if manifest.get('version') != 1 or len(chapters) != len(expected) or {c['path'] for c in chapters} != expected:
@@ -22,15 +23,24 @@ for chapter in chapters:
         if not condition:
             errors.append(f'{label}: {message}')
     require(text.splitlines()[0] == '# ' + chapter['title'], 'chapter title changed')
-    if path.parent.name in exam_nav:
-        require('> 大纲定位：' in text and text.count('## 学习导航') == 1,
-                'missing syllabus context/learning navigation')
-        require(text.count('## 应试导航') == 1, 'missing exam navigation')
+    require('> 大纲定位：' in text and text.count('## 学习导航') == 1,
+            'missing syllabus context/learning navigation')
+    require('## 应试导航' not in text, 'exam navigation must live on its own page')
+    number = re.search(r'chapter-(\d{2})', path.name)[1]
+    exam_path = path.parent / 'exam' / f'{number}.md'
+    require(f'(exam/{number}.md)' in text, 'chapter does not link to its exam page')
+    if not exam_path.is_file():
+        errors.append(f'{label}: missing exam page {exam_path.relative_to(ROOT).as_posix()}')
     else:
-        require('> 大纲定位：' in text and text.count('## 复习导航') == 1,
-                'missing syllabus context/navigation')
-        require('## 应试导航' not in text,
-                'exam navigation present without examNav in config/courses.json')
+        exam = exam_path.read_text(encoding='utf-8')
+        require(exam.splitlines()[0] == f'# {chapter["title"]} · 应试导航', 'exam page title differs')
+        require(f'(../chapter-{number}.md)' in exam, 'exam page does not link back to the chapter')
+        for block in EXAM_BLOCKS:
+            require(exam.count(f'## {block}') == 1, f'exam page lacks a single {block} block')
+        for dropped in EXAM_DROPPED:
+            require(dropped not in exam, f'exam page keeps the dropped block {dropped}')
+        require('??? note "对照答案"' in exam, 'exam page lacks the folded answer block')
+        require(len(exam.splitlines()) >= 40, 'exam page is too short to be a recall sheet')
     require(text.count('## 练习') == 1, 'exactly one independent practice section is required')
     if '## 练习' not in text:
         continue
@@ -79,7 +89,7 @@ for chapter in chapters:
     question_count += len(questions)
 if figures != referenced:
     errors.append('Unreferenced or unregistered course figures: ' + str(figures ^ referenced))
-print(f'Syllabus coverage: {len(chapters)} chapters, {section_count} sections, {question_count} explained independent questions, {len(figures)} figures')
+print(f'Syllabus coverage: {len(chapters)} chapters, {section_count} sections, {question_count} explained independent questions, {len(figures)} figures, {len(chapters)} exam pages')
 if errors:
     print(chr(10).join(errors))
     sys.exit(1)

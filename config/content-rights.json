@@ -251,9 +251,9 @@
       "status": "cleared",
       "license": "Apache-2.0",
       "source_kind": "original-software-and-documentation",
-      "basis": "2026-11-10 核验新增的课程首页样式：仅使用 Material 语义变量与站点自有类名，未引入第三方代码、字体或远程资源；同轮把页脚备案行改为单行居中加分隔点、窄屏竖排，并在行首补版权署名，只影响页脚排版。",
+      "basis": "2026-11-10 核验表格滚动容器的定位修正：为 KaTeX 隐藏 MathML 层建立包含块，避免绝对定位元素撑宽移动端页面；只加一条自有样式，未引入第三方资源。",
       "reviewed_on": "2026-11-10",
-      "sha256": "2f628a1f488d7ffca399f482d5e416b8cc18ea459d0bf26f77ec8238316b858c"
+      "sha256": "6b2edacbf0601d170e1d23b564143874ebd74ed16881709fa221978479d109cf"
     },
     {
       "path": "docs/assets/vendor/katex/contrib/auto-render.min.js",

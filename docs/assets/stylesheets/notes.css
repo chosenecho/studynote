@@ -138,7 +138,17 @@ html.no-js .study-toolbar { display: none; }
 .md-search__options  .md-search__icon { min-width: 44px; min-height: 44px; }
 .search-retry[hidden] { display: none; }
 
-/* 页脚公安备案（mkdocs.yml 的 copyright 渲染）：图标与备案号同一行，图标固定
-   20px 高，不跟着 .md-copyright 的 .64rem 字号缩小。 */
-.beian-record { display: inline-flex; align-items: center; gap: .3rem; }
-.beian-record img { width: auto; height: 20px; }
+/* 页脚备案块（mkdocs.yml 的 copyright 渲染）三行要共用同一条文字左边缘，徽章
+   挂在左侧 1.5rem 的空档里，所以整块留出同样的内缩。图标必须脱离行内流：
+   20px 高的图排进 12.8px 字号的行里会把这一行的行盒撑到 20.47px，行距和相邻
+   行对不齐。定位后每行行盒一致，图标再按文字行盒居中，不跟 .64rem 字号缩水。 */
+.md-copyright__highlight { padding-left: 1.5rem; }
+.beian-record { position: relative; }
+.beian-record img {
+  position: absolute;
+  left: -1.5rem;
+  top: 50%;
+  width: auto;
+  height: 20px;
+  transform: translateY(-50%);
+}

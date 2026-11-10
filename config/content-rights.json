@@ -253,7 +253,7 @@
       "source_kind": "original-software-and-documentation",
       "basis": "2026-11-06 审阅第一方软件、存储兼容逻辑、交互状态和界面文案；2026-11-10 追加页脚备案行的图标与文字对齐样式，只影响页脚排版，运行针对性单元及浏览器回归。",
       "reviewed_on": "2026-11-10",
-      "sha256": "fd1217d9047c358bd29fdd62a7e13053c7ffa5b0caf6544f343891d6f4dd94c6"
+      "sha256": "992f7a78f05cdf64e7dbbf75db43ed1aeab11e91f1a8a5eae4c106197f5b7af8"
     },
     {
       "path": "docs/assets/vendor/katex/contrib/auto-render.min.js",

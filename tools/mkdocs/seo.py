@@ -76,6 +76,11 @@ def on_page_context(context, page, config, **kwargs):
     nav_chain = _nav_parent_chain(config.get('nav', []), page.file.src_uri)
     if nav_chain is None:
         nav_chain = []
+    # Course pages sit one level below the course index; keep that level visible
+    # in the trail even though each course is its own top-level tab.
+    if uri.parts[:1] == ('courses',) and uri.as_posix() != 'courses/index.md':
+        crumbs.append({'name': '课程目录',
+                       'url': urljoin(config['site_url'], 'courses/')})
     for name, path in nav_chain:
         if path:
             crumbs.append({'name': name, 'url': urljoin(config['site_url'], _nav_url(path))})

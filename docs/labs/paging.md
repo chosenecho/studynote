@@ -4,6 +4,9 @@ description: 逐步比较 FIFO、LRU、OPT 的页框状态、淘汰页与缺页�
 
 # 页面置换练习
 
+[操作系统概论](../courses/operating-systems/index.md) · [第 4 章 内存管理](../courses/operating-systems/chapter-04.md#s10)
+{: .lab-course }
+
 输入页框数与访问序列，逐步比较 FIFO、LRU、OPT 的页框状态和缺页次数。
 
 <div class="study-lab" data-study-lab="paging"><p>正在载入练习；若长时间未出现操作区，请刷新页面。</p></div>

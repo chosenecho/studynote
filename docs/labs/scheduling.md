@@ -4,6 +4,9 @@ description: 进程调度实验：用 FCFS、非抢占 SPF 与时间片轮转跑
 
 # 进程调度实验
 
+[操作系统概论](../courses/operating-systems/index.md) · [第 3 章 进程调度与死锁](../courses/operating-systems/chapter-03.md#s3)
+{: .lab-course }
+
 修改参数后点击“运行”，查看时间轴与计算结果。
 
 <div class="scheduler" data-scheduler>

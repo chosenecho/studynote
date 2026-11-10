@@ -16,6 +16,10 @@
 :where(button, a, select, input, summary) { touch-action: manipulation; }
 :where(a, button, input, select, summary, [tabindex]):focus-visible { outline: 2px solid var(--note-focus); outline-offset: 2px; }
 .md-nav .md-nav__link:focus-visible { outline-offset: -2px; }
+/* Material 把主题切换收成 0×0 的单选框（页面第 4 个 Tab 站就停在这里），焦点环画在
+   不可见的 input 上，键盘用户什么都看不到。可见的是它后面那个 label（Material 用 for
+   指向另一个选项，换主题时会互换），把焦点环画到 label 上。 */
+.md-header .md-option:focus-visible + .md-header__button { outline: 2px solid var(--note-focus); outline-offset: 2px; }
 .md-typeset.chapter-prose { font-size: var(--note-font-size, 16px); }
 .md-typeset.chapter-prose > :is(p, ul, ol, blockquote, .exercise-item) { max-width: 42em; }
 .md-typeset.chapter-prose :is(table:not([class]), details, .admonition) { font-size: 1em; }
@@ -55,6 +59,19 @@ progress[data-study-progress]::-moz-progress-bar { background: var(--note-accent
 .md-typeset__scrollwrap.is-long-table { max-height: 70dvh; overflow: auto; }
 .md-typeset__scrollwrap.is-long-table th { position: sticky; top: 0; z-index: 1; background: var(--note-muted-surface); }
 .katex-display { overflow-x: auto; overflow-y: hidden; padding-block: .3rem; }
+/* 手机（≤600px）：Material 给 th 的 100px min-width 加上 15px/20px 的内边距，一张普通
+   三列表格在 390px 宽下每格只剩 2–4 个字，首列中文竖排成六行。收窄内边距、把 min-width
+   降到 64px，首列改用 sticky 固定在左侧，横向滑动时行标题不会滑走；表头压在首列之上。 */
+@media (max-width: 600px) {
+  .md-typeset table:not([class]) :is(th, td) { padding: 8px; }
+  .md-typeset table:not([class]) th { min-width: 64px; }
+  /* Material 给表格自己也加了 overflow:auto，表格成了独立滚动容器，单元格的
+     sticky 只贴着表格边框走、对外层滚动没反应。窄屏交给外层的 scrollwrap 滚动。 */
+  .md-typeset__scrollwrap table:not([class]) { overflow: visible; }
+  .md-typeset__scrollwrap :is(th, td):first-child { position: sticky; left: 0; z-index: 1; background: var(--note-bg); }
+  .md-typeset__scrollwrap th:first-child { z-index: 2; }
+  .md-typeset__scrollwrap.is-long-table th:first-child { background: var(--note-muted-surface); }
+}
 /* Course diagrams keep their source colours, including in the zoom dialog. */
 .figure-zoom { position: relative; display: block; width: 100%; border: 1px solid var(--note-border); padding: .5rem; background: var(--note-surface); cursor: zoom-in; margin-block: 1rem; overflow: hidden; }
 .figure-zoom img { display: block; width: 100%; max-width: 100%; height: auto; margin: auto; background: #fff; }

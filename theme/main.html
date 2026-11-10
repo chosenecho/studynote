@@ -50,7 +50,7 @@
   <meta property="og:site_name" content="{{ config.site_name }}">
   <meta property="og:title" content="{{ og_title | striptags }}">
   <meta property="og:description" content="{{ og_desc }}">
-  <meta property="og:url" content="{{ page.canonical_url if page and page.canonical_url else config.site_url }}">
+  <meta property="og:url" content="{{ page.canonical_url if page and page.canonical_url else config.site_url ~ '404.html' }}">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{{ og_title | striptags }}">
   <meta name="twitter:description" content="{{ og_desc }}">

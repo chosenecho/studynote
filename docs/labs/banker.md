@@ -4,6 +4,9 @@ description: 输入资源向量与矩阵，逐步检查安全序列和试分配�
 
 # 银行家算法练习
 
+[操作系统概论](../courses/operating-systems/index.md) · [第 3 章 进程调度与死锁](../courses/operating-systems/chapter-03.md#s10)
+{: .lab-course }
+
 输入 Available、Allocation 与 Max，检查安全序列；添加请求可检查试分配后的安全性。
 
 <div class="study-lab" data-study-lab="banker"><p>正在载入练习；若长时间未出现操作区，请刷新页面。</p></div>

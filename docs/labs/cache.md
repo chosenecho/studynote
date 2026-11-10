@@ -4,6 +4,9 @@ description: 拆分直接映射 Cache 地址，逐次观察行号、标记与冲
 
 # Cache 映射练习
 
+[计算机组成原理](../courses/computer-organization/index.md) · [第 5 章 存储器层次结构](../courses/computer-organization/chapter-05.md#s5)
+{: .lab-course }
+
 输入行数、块大小与地址序列，查看直接映射的行号、标记、命中和替换。
 
 <div class="study-lab" data-study-lab="cache"><p>正在载入练习；若长时间未出现操作区，请刷新页面。</p></div>

@@ -10,18 +10,21 @@
     "id": "co",
     "slug": "computer-organization",
     "title": "计算机组成原理",
-    "chapters": 6
+    "chapters": 6,
+    "examNav": true
   },
   {
     "id": "cn",
     "slug": "computer-networks",
     "title": "计算机网络技术",
-    "chapters": 9
+    "chapters": 9,
+    "examNav": true
   },
   {
     "id": "mm",
     "slug": "multimedia-technology",
     "title": "多媒体技术及应用（第三版）",
-    "chapters": 9
+    "chapters": 9,
+    "examNav": true
   }
 ]

@@ -13,7 +13,9 @@ export async function runThemeChecks(page, {base, out, report}) {
     assert.equal(await icp.getAttribute('target'), '_blank');
     assert.equal(await icp.getAttribute('rel'), 'noopener noreferrer');
     const contact = page.locator('footer a[href="mailto:chosenecho@163.com"]');
-    assert.equal(await contact.textContent(), '联系方式：chosenecho@163.com');
+    assert.equal(await contact.textContent(), 'chosenecho@163.com');
+    const copyright = page.locator('footer .site-copyright');
+    assert.equal(await copyright.textContent(), '© 2026 studynote contributors');
     const police = page.locator('footer a[href="https://beian.mps.gov.cn/#/query/webSearch?code=32011202001988"]');
     assert.equal(await police.textContent(), '苏公网安备32011202001988号');
     assert.equal(await police.getAttribute('target'), '_blank');

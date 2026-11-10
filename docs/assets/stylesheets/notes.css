@@ -138,19 +138,41 @@ html.no-js .study-toolbar { display: none; }
 .md-search__options  .md-search__icon { min-width: 44px; min-height: 44px; }
 .search-retry[hidden] { display: none; }
 
-/* 页脚备案块（mkdocs.yml 的 copyright 渲染）三行要共用同一条文字左边缘，徽章
-   挂在左侧 1.5rem 的空档里，所以整块留出同样的内缩。图标必须脱离行内流：
-   20px 高的图排进 12.8px 字号的行里会把这一行的行盒撑到 20.47px，行距和相邻
-   行对不齐。定位后每行行盒一致，图标再按文字行盒居中，不跟 .64rem 字号缩水。 */
-.md-copyright__highlight { padding-left: 1.5rem; }
-.beian-record { position: relative; }
-.beian-record img {
-  position: absolute;
-  left: -1.5rem;
-  top: 50%;
-  width: auto;
-  height: 20px;
-  transform: translateY(-50%);
+/* 页脚备案信息（mkdocs.yml 的 copyright 渲染）：一条居中的小字横排，项间用「·」
+   分隔。三行竖排会在通栏深色底上留出大片空行，横排收成一行更像页脚脚注。
+   横排整行约 790px，880px 以下放不下就改竖排居中，分隔点随之取消，免得折行时
+   行首多出一个点；徽章跟随文字行盒缩放，不再把行高撑开，也不再需要绝对定位
+   占位。链接色沿用 Material 页脚的一档 70% 白，悬停提亮到纯白，分隔点再暗一档，
+   层次不靠字号区分。 */
+.md-footer-meta__inner { justify-content: center; }
+.md-copyright {
+  flex: 1 1 100%;
+  margin: 0;
+  padding: .55rem 1rem .65rem;
+  text-align: center;
+}
+.md-copyright__highlight {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-size: .7rem;
+  line-height: 1.5;
+}
+.md-copyright__highlight a { border-radius: .15rem; }
+.md-copyright__highlight a:hover { color: var(--md-footer-fg-color); }
+.md-copyright__highlight a:focus-visible { outline: 2px solid currentColor; outline-offset: 2px; }
+.site-copyright { color: var(--md-footer-fg-color--light); }
+.md-copyright__highlight > :not(:first-child)::before {
+  content: "·";
+  margin: 0 .6rem;
+  color: var(--md-footer-fg-color--lighter);
+}
+.beian-record { display: inline-flex; align-items: center; gap: .3rem; }
+.beian-record img { width: auto; height: 1.15em; }
+@media (max-width: 880px) {
+  .md-copyright__highlight { flex-direction: column; gap: .15rem; }
+  .md-copyright__highlight > :not(:first-child)::before { content: none; }
 }
 
 /* 课程首页：章节卡片与复习路径。只用 Material 的语义变量，深浅色跟随主题。 */

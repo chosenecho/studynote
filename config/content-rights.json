@@ -287,9 +287,9 @@
       "status": "cleared",
       "license": "Apache-2.0",
       "source_kind": "original-software-and-documentation",
-      "basis": "2026-11-10 核验合并后的样式改动：页脚记录排版改为单行居中，表格滚动容器补定位以约束 KaTeX 隐藏 MathML 层；只使用 Material 语义变量与站点自有类名，未引入第三方资源。",
+      "basis": "2026-11-10 核验合并后的样式改动：页脚记录排版改为单行居中，公安徽章上提 .07em 与汉字墨迹对齐，表格滚动容器补定位以约束 KaTeX 隐藏 MathML 层；只使用 Material 语义变量与站点自有类名，未引入第三方资源。",
       "reviewed_on": "2026-11-10",
-      "sha256": "6d1b648899dbbb54def0febe1b034e0a74d7c4274461b9edaf81c14a92bf9b78"
+      "sha256": "a537b181f3174a9741d8baecdf6ac182dec0d466a04c381aff4bdf2e1d192887"
     },
     {
       "path": "docs/assets/vendor/katex/LICENSE",

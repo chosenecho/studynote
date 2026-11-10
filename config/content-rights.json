@@ -251,9 +251,9 @@
       "status": "cleared",
       "license": "Apache-2.0",
       "source_kind": "original-software-and-documentation",
-      "basis": "2026-11-06 审阅第一方软件、存储兼容逻辑、交互状态和界面文案；2026-11-10 追加页脚备案行的图标与文字对齐样式，改为单行居中加分隔点、窄屏竖排，并在行首补版权署名，只影响页脚排版，运行针对性单元及浏览器回归。",
+      "basis": "2026-11-10 核验新增的课程首页样式：仅使用 Material 语义变量与站点自有类名，未引入第三方代码、字体或远程资源；同轮把页脚备案行改为单行居中加分隔点、窄屏竖排，并在行首补版权署名，只影响页脚排版。",
       "reviewed_on": "2026-11-10",
-      "sha256": "3060474b688d3fd9975b46703ec269058c192840a2372bf462c1e6e7a80d0dc1"
+      "sha256": "2f628a1f488d7ffca399f482d5e416b8cc18ea459d0bf26f77ec8238316b858c"
     },
     {
       "path": "docs/assets/vendor/katex/contrib/auto-render.min.js",
@@ -725,9 +725,9 @@
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
-      "reviewed_on": "2026-11-08",
-      "basis": "本轮修正站点说明文字的表述与标点，链接、导航与既有事实未变。",
-      "sha256": "6801469359f7c663da142b00e8b87791eaf4a8fe259e345a4d90651dbd18fef2"
+      "reviewed_on": "2026-11-10",
+      "basis": "2026-11-10 核验目录页措辞：复习导航改为学习导航与应试导航；课程列表与链接未变。",
+      "sha256": "03d5a4ab7cf2ea1dd22ba7623e774836b4a83fde612b8067185d8bf8ae648119"
     },
     {
       "path": "docs/courses/multimedia-technology/chapter-01.md",
@@ -824,54 +824,54 @@
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "本轮定向修复表达：删除应考话术与考据赘语、压缩免责、修正标点与表格，大纲条目、小节编号、练习元数据、技术区分词与算例数值未变。",
-      "reviewed_on": "2026-11-08",
-      "sha256": "cacdbd10291e6a74ba6994ab52db0fc7bd3ad48e1907f36427043ca81f21062a"
+      "basis": "2026-11-10 仅为应试导航标题补充显式锚点，供课程首页深链接使用；正文、必背清单与练习未变。",
+      "reviewed_on": "2026-11-10",
+      "sha256": "092b8b0e8ad710241aabd90c91996703ebf85f45a3091dbac198f5787ec83929"
     },
     {
       "path": "docs/courses/operating-systems/chapter-02.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "本轮定向修复表达：删除应考话术与考据赘语、压缩免责、修正标点与表格，大纲条目、小节编号、练习元数据、技术区分词与算例数值未变。",
-      "reviewed_on": "2026-11-08",
-      "sha256": "3512eb8bc00f36ba87823cd1788aab28b482c1dc3056b7a0cb8e92ae6e0f6e35"
+      "basis": "2026-11-10 仅为应试导航标题补充显式锚点，供课程首页深链接使用；正文、必背清单与练习未变。",
+      "reviewed_on": "2026-11-10",
+      "sha256": "30623b56d20d35c046923841e37f005a7bafbb2f19efb2f0ba446f025e18373e"
     },
     {
       "path": "docs/courses/operating-systems/chapter-03.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "本轮定向修复表达：删除应考话术与考据赘语、压缩免责、修正标点与表格，大纲条目、小节编号、练习元数据、技术区分词与算例数值未变。",
-      "reviewed_on": "2026-11-08",
-      "sha256": "d78a92c85be7d6ab7b1ec39a25f327e299bb3d18871e2da4338b6f36110dfc00"
+      "basis": "2026-11-10 仅为应试导航标题补充显式锚点，供课程首页深链接使用；正文、必背清单与练习未变。",
+      "reviewed_on": "2026-11-10",
+      "sha256": "e53ba677bb8dce99f29c4985403f27c72689717ab0922fa54d48a5d0face1d5f"
     },
     {
       "path": "docs/courses/operating-systems/chapter-04.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "本轮定向修复表达：删除应考话术与考据赘语、压缩免责、修正标点与表格，大纲条目、小节编号、练习元数据、技术区分词与算例数值未变。",
-      "reviewed_on": "2026-11-08",
-      "sha256": "40b4f8879bcaf70357dd15522d040cc6c377c8c99f82b806a6b1bd56c7aba377"
+      "basis": "2026-11-10 仅为应试导航标题补充显式锚点，供课程首页深链接使用；正文、必背清单与练习未变。",
+      "reviewed_on": "2026-11-10",
+      "sha256": "02acfb884ce6bf4e92d2a8c760e05da3ef54a25bdecd8aa8b3f35759f75690cd"
     },
     {
       "path": "docs/courses/operating-systems/chapter-05.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "本轮定向修复表达：删除应考话术与考据赘语、压缩免责、修正标点与表格，大纲条目、小节编号、练习元数据、技术区分词与算例数值未变。",
-      "reviewed_on": "2026-11-08",
-      "sha256": "e08ea0e70303a8babc9b3c8470a3716a8951774dc0199cf6eee2bee84136da8c"
+      "basis": "2026-11-10 仅为应试导航标题补充显式锚点，供课程首页深链接使用；正文、必背清单与练习未变。",
+      "reviewed_on": "2026-11-10",
+      "sha256": "e90fb48eab0eabc8b937aff354d4248689b9671fd2b33c6624fb9c43298824b9"
     },
     {
       "path": "docs/courses/operating-systems/chapter-06.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "本轮定向修复表达：删除应考话术与考据赘语、压缩免责、修正标点与表格，大纲条目、小节编号、练习元数据、技术区分词与算例数值未变。",
-      "reviewed_on": "2026-11-08",
-      "sha256": "3093a2cb9bedd49ec2426a57e22f84e529b5d539c0bf5185361ff2a1d071beff"
+      "basis": "2026-11-10 仅为应试导航标题补充显式锚点，供课程首页深链接使用；正文、必背清单与练习未变。",
+      "reviewed_on": "2026-11-10",
+      "sha256": "777023abc2753e454d6dfa68439d2efa54652d89f6a0b95a82a8fa5ec10bd726"
     },
     {
       "path": "docs/courses/operating-systems/figures/address-walk.svg",
@@ -932,9 +932,9 @@
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "本轮定向修复表达：删除应考话术与考据赘语、压缩免责、修正标点与表格，大纲条目、小节编号、练习元数据、技术区分词与算例数值未变。",
-      "reviewed_on": "2026-11-08",
-      "sha256": "c7a6b6048a8a60c98b2cd030c63dfd2693917a6cc2d848aeb80c8ee1310e24cb"
+      "basis": "2026-11-10 核验课程首页改版：课程要点、章节卡片与复习路径的文案均为本站自撰，链接只指向站内页面与章内锚点；未引入外部图片、字体或第三方文案。",
+      "reviewed_on": "2026-11-10",
+      "sha256": "bb5b012373b0d5b59512696e9315dc7f241d6c259ce4c870dc0483dce269aff4"
     },
     {
       "path": "docs/errata.md",
@@ -950,9 +950,9 @@
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
-      "reviewed_on": "2026-11-08",
-      "basis": "本轮修正站点说明文字的表述与标点，链接、导航与既有事实未变。",
-      "sha256": "51b3d484b36afaddf8edd114ed2fb9dc4d11a29e047078aa290fb6c7bd6d1cdd"
+      "reviewed_on": "2026-11-10",
+      "basis": "2026-11-10 核验学习指南：补入先背应试导航的阅读顺序；保存范围、阅读操作与反馈说明未变。",
+      "sha256": "e0095ffb62c26a01344e34a1733536460470a8936aefce5a1bf0e43379d08c8e"
     },
     {
       "path": "docs/index.md",
@@ -1121,9 +1121,9 @@
       "status": "cleared",
       "license": "Apache-2.0",
       "source_kind": "original-software-and-documentation",
-      "basis": "2026-11-06 核验本次新增的原创维护说明、版本边界与实际变更记录；不包含未授权第三方文本。",
-      "reviewed_on": "2026-11-06",
-      "sha256": "d085ef30ef20e232a425c440806c92527c664b9dae9f7f82024d06d877ea8328"
+      "basis": "2026-11-10 核验开发约定补充：说明课程首页的四组样式类与锚点依赖；其余条目未变。",
+      "reviewed_on": "2026-11-10",
+      "sha256": "7bae8a699a653014822f0c65fe2dd4fb7338d1dc10d335f0b09b9232049c654c"
     },
     {
       "path": "handbook/history-cleanup.md",

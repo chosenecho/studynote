@@ -174,3 +174,67 @@ html.no-js .study-toolbar { display: none; }
   .md-copyright__highlight { flex-direction: column; gap: .15rem; }
   .md-copyright__highlight > :not(:first-child)::before { content: none; }
 }
+
+/* 课程首页：章节卡片与复习路径。只用 Material 的语义变量，深浅色跟随主题。 */
+.md-typeset .course-hero {
+  margin: 1rem 0 1.25rem;
+  padding: 1.1rem 1.2rem 1.2rem;
+  border: 1px solid var(--note-border);
+  border-left: 3px solid var(--note-accent);
+  border-radius: var(--note-radius);
+  background: var(--note-muted-surface);
+}
+.md-typeset .course-hero > p { margin: 0 0 .7rem; max-width: 44em; }
+.md-typeset .course-hero > p:last-child { display: flex; flex-wrap: wrap; gap: .5rem; margin-bottom: 0; }
+.md-typeset .course-hero .course-hero__tag { display: inline-block; font-size: .7rem; letter-spacing: .02em; color: var(--note-muted); }
+.md-typeset ul.course-stats { display: flex; flex-wrap: wrap; gap: .45rem; margin: 0 0 1.5rem; padding: 0; list-style: none; }
+.md-typeset ul.course-stats li { display: inline-flex; align-items: baseline; gap: .3rem; margin: 0; padding: .3rem .7rem; border: 1px solid var(--note-border); border-radius: 999px; font-size: .72rem; color: var(--note-muted); }
+.md-typeset ul.course-stats strong { color: var(--note-text); font-variant-numeric: tabular-nums; }
+.md-typeset .chapter-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: .9rem; margin: 1rem 0 1.75rem; }
+.md-typeset .chapter-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: .35rem;
+  margin: 0;
+  padding: 1rem 3.2rem 1rem 1rem;
+  border: 1px solid var(--note-border);
+  border-radius: var(--note-radius);
+  background: var(--note-muted-surface);
+  transition: border-color .15s ease;
+}
+.md-typeset .chapter-card:is(:hover, :focus-within) { border-color: var(--note-accent); }
+.md-typeset .chapter-card > p { margin: 0; }
+.md-typeset .chapter-card > p:has(.chapter-card__no) { margin: 0; line-height: 1; }
+.md-typeset .chapter-card strong { font-size: 1.02rem; font-weight: 600; line-height: 1.35; }
+.md-typeset .chapter-card strong a { color: var(--note-text); text-decoration: none; }
+.md-typeset .chapter-card strong a:is(:hover, :focus-visible) { color: var(--note-accent); text-decoration: underline; }
+.md-typeset .chapter-card > p:has(strong) + p { font-size: .76rem; color: var(--note-muted); }
+.md-typeset .chapter-card > p:last-child { margin-top: auto; padding-top: .5rem; font-size: .74rem; color: var(--note-muted); }
+.md-typeset .chapter-card > p:last-child a { display: inline-block; padding: .35rem 0; }
+.chapter-card__no { position: absolute; top: .95rem; right: 1rem; font-size: 1.05rem; font-variant-numeric: tabular-nums; color: var(--note-muted); opacity: .7; }
+.md-typeset .chapter-card .progress-badge { margin: .15rem 0 0; font-size: .68rem; font-weight: 400; }
+.md-typeset ol.course-steps { counter-reset: step; margin: 1rem 0 1.25rem; padding: 0; list-style: none; }
+.md-typeset ol.course-steps li { position: relative; margin: 0 0 .6rem; padding-left: 2.2rem; }
+.md-typeset ol.course-steps li::before {
+  counter-increment: step;
+  content: counter(step);
+  position: absolute;
+  left: 0;
+  top: -.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.55rem;
+  height: 1.55rem;
+  border: 1px solid var(--note-border);
+  border-radius: 50%;
+  font-size: .7rem;
+  color: var(--note-muted);
+  font-variant-numeric: tabular-nums;
+}
+.md-typeset .course-links { margin: 1.1rem 0 .6rem; font-size: .8rem; }
+@media (max-width: 700px) {
+  .md-typeset .course-hero { padding: .9rem 1rem 1rem; }
+  .md-typeset .chapter-grid { grid-template-columns: 1fr; }
+}

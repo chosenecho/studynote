@@ -8,6 +8,7 @@ ROOT = Path(__file__).resolve().parents[2]
 manifest = json.loads((ROOT / 'config/syllabus.json').read_text(encoding='utf-8'))
 courses = json.loads((ROOT / 'config/courses.json').read_text(encoding='utf-8'))
 expected = {f'docs/courses/{c["slug"]}/chapter-{n:02}.md' for c in courses for n in range(1, c['chapters']+1)}
+exam_nav = {c['slug'] for c in courses if c.get('examNav')}
 chapters = manifest['chapters']
 errors, figures, referenced = [], set(), set()
 if manifest.get('version') != 1 or len(chapters) != len(expected) or {c['path'] for c in chapters} != expected:
@@ -21,7 +22,15 @@ for chapter in chapters:
         if not condition:
             errors.append(f'{label}: {message}')
     require(text.splitlines()[0] == '# ' + chapter['title'], 'chapter title changed')
-    require('> 大纲定位：' in text and text.count('## 复习导航') == 1, 'missing syllabus context/navigation')
+    if path.parent.name in exam_nav:
+        require('> 大纲定位：' in text and text.count('## 学习导航') == 1,
+                'missing syllabus context/learning navigation')
+        require(text.count('## 应试导航') == 1, 'missing exam navigation')
+    else:
+        require('> 大纲定位：' in text and text.count('## 复习导航') == 1,
+                'missing syllabus context/navigation')
+        require('## 应试导航' not in text,
+                'exam navigation present without examNav in config/courses.json')
     require(text.count('## 练习') == 1, 'exactly one independent practice section is required')
     if '## 练习' not in text:
         continue

@@ -26,11 +26,13 @@ MkDocs 直接读取 `docs/`。课程位于 `docs/courses/<slug>/`，入口为 `i
 
 页面采用 Material 原生导航、课程索引、页脚、配色、卡片、按钮和折叠组件。新增页面先使用 `mkdocs.yml` 和 Markdown 扩展，样式仅补充阅读、实验、打印与无障碍需求。
 
+课程首页由 Markdown 与四组自有样式组成：.course-hero、.course-stats、.chapter-grid 与 .chapter-card、.course-steps；章节卡的深链接依赖章内固定锚点 {#exam}（应试导航）与生成后的 #exercise-1，改动这些锚点会同时破坏课程首页。
+
 Material 9.7.7 的搜索分享会先保存旧链接再更新链接。`initSearchShareCopy()` 在点击捕获阶段同步复制属性，仍由上游 ClipboardJS 执行复制。主题升级后重新检查，确认上游修复后移除此适配。
 
 ## 修改与添加课程
 
-1. 修改对应章节，保留首行标题、大纲定位、复习导航与自编练习结构，并同步大纲小节与题目的映射；插图使用本课程的相对路径。
+1. 修改对应章节，保留首行标题、大纲定位、学习导航、应试导航与自编练习结构，并同步大纲小节与题目的映射；插图使用本课程的相对路径。
 2. 新课程在 `config/courses.json` 注册，并添加 `index.md` 和连续编号的 `chapter-NN.md`。
 3. 更新 `mkdocs.yml` 导航、`docs/index.md` 课程卡片及 `reader.mjs` 的课程进度配置；需要自测时补充题库。
 4. 调整 `tools/checks/notes.py` 与 `tools/checks/revisions.py` 的检查范围，补充相应测试。

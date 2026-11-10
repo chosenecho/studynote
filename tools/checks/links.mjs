@@ -43,6 +43,11 @@ const toFile = async (base, urlPath) => {
   if (await exists(p + '.html')) return p + '.html';
   return null;
 };
+// 根绝对路径（如页脚备案图标 /assets/images/beian.png）以站点根为基准；
+// 相对路径仍按当前页面目录解析。
+const resolveUrl = async (base, urlPath) => (urlPath.startsWith('/')
+  ? toFile(DIST, urlPath.slice(1))
+  : toFile(base, urlPath));
 const decode = (s) => s.replace(/&amp;/g, '&').replace(/&#x27;/g, "'");
 
 const brokenLinks = [];
@@ -64,10 +69,7 @@ for (const file of htmlFiles) {
     const [p1] = p0.split('?');
     let target;
     if (!p1) target = file;
-    else {
-      const urlPath = p1.startsWith('/') ? '.' + p1 : p1;
-      target = await toFile(baseDir, urlPath);
-    }
+    else target = await resolveUrl(baseDir, p1);
     if (!target) {
       brokenLinks.push({ page: rel, href: raw });
       continue;
@@ -81,8 +83,7 @@ for (const file of htmlFiles) {
     const raw = decode(m[1]);
     if (/^(https?:|data:)/i.test(raw)) continue;
     assetCount++;
-    const urlPath = raw.startsWith('/') ? '.' + raw : raw;
-    const target = await toFile(baseDir, urlPath);
+    const target = await resolveUrl(baseDir, raw);
     if (!target) brokenAssets.push({ page: rel, src: raw });
   }
 }

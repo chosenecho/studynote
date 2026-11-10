@@ -137,3 +137,8 @@ html.no-js .study-toolbar { display: none; }
 .md-search__input::-webkit-search-cancel-button { display: none; }
 .md-search__options  .md-search__icon { min-width: 44px; min-height: 44px; }
 .search-retry[hidden] { display: none; }
+
+/* 页脚公安备案（mkdocs.yml 的 copyright 渲染）：图标与备案号同一行，图标固定
+   20px 高，不跟着 .md-copyright 的 .64rem 字号缩小。 */
+.beian-record { display: inline-flex; align-items: center; gap: .3rem; }
+.beian-record img { width: auto; height: 20px; }

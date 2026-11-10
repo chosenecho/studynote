@@ -14,6 +14,13 @@ export async function runThemeChecks(page, {base, out, report}) {
     assert.equal(await icp.getAttribute('rel'), 'noopener noreferrer');
     const contact = page.locator('footer a[href="mailto:chosenecho@163.com"]');
     assert.equal(await contact.textContent(), '联系方式：chosenecho@163.com');
+    const police = page.locator('footer a[href="https://beian.mps.gov.cn/#/query/webSearch?code=32011202001988"]');
+    assert.equal(await police.textContent(), '苏公网安备32011202001988号');
+    assert.equal(await police.getAttribute('target'), '_blank');
+    assert.equal(await police.getAttribute('rel'), 'noopener noreferrer');
+    const badge = police.locator('img');
+    assert.equal(await badge.getAttribute('src'), '/assets/images/beian.png');
+    assert.equal(await badge.evaluate(img => img.complete && img.naturalWidth), 36);
   };
   const screenshot = async name => {
     await page.screenshot({path: path.join(out, name), animations: 'disabled'});

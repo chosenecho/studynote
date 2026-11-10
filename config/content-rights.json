@@ -103,6 +103,15 @@
       "sha256": "fd6193f2ab7c3eea14fde64e13098d102cbe50e3e982392de071694d93e2301d"
     },
     {
+      "path": "docs/assets/images/beian.png",
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "source_kind": "official-filing-record",
+      "basis": "公安备案平台随备案号 32011202001988 发放的备案图标，仅在页脚展示该备案号；原图按 36×40 逐字节保存，不改色不缩放。图标的展示义务来自备案要求，不参与课程内容或项目许可。",
+      "reviewed_on": "2026-11-10",
+      "sha256": "8dfecad0dfcb3dc584f2c2447943eefb1fd65a058856eb0611e2c56ddc4c1fe1"
+    },
+    {
       "path": "docs/assets/images/social/multimedia-technology.png",
       "status": "cleared",
       "license": "CC-BY-4.0",
@@ -242,9 +251,9 @@
       "status": "cleared",
       "license": "Apache-2.0",
       "source_kind": "original-software-and-documentation",
-      "basis": "2026-11-06 审阅本次第一方软件、存储兼容逻辑、交互状态和界面文案；运行针对性单元及浏览器回归。",
-      "reviewed_on": "2026-11-06",
-      "sha256": "aebe971b0e56228e467c3c46758c5142167b48aab4bc273f1ab3b1a4fcac3816"
+      "basis": "2026-11-06 审阅第一方软件、存储兼容逻辑、交互状态和界面文案；2026-11-10 追加页脚备案行的图标与文字对齐样式，只影响页脚排版，运行针对性单元及浏览器回归。",
+      "reviewed_on": "2026-11-10",
+      "sha256": "fd1217d9047c358bd29fdd62a7e13053c7ffa5b0caf6544f343891d6f4dd94c6"
     },
     {
       "path": "docs/assets/vendor/katex/contrib/auto-render.min.js",

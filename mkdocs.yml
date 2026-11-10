@@ -4,6 +4,7 @@ repo_url: https://github.com/chosenecho/studynote
 site_description: 以大纲为索引的原创课程笔记、自编练习与交互实验
 copyright: >-
   <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">苏ICP备2026085504号-1</a><br>
+  <a class="beian-record" href="https://beian.mps.gov.cn/#/query/webSearch?code=32011202001988" target="_blank" rel="noopener noreferrer"><img src="/assets/images/beian.png" alt="" width="18" height="20">苏公网安备32011202001988号</a><br>
   <a href="mailto:chosenecho@163.com">联系方式：chosenecho@163.com</a>
 site_url: https://studynote.chosenecho.top/
 site_dir: dist

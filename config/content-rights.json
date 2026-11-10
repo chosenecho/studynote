@@ -1600,7 +1600,7 @@
       "source_kind": "original-software-and-documentation",
       "basis": "本轮修正说明文字的表述与标点，流程、命令与许可说明的含义未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "ff8a999852722da8923c719f3c0e12521aaaedfbef78aad98c0497e739e379c9"
+      "sha256": "8810166381ace3df4db9bca0d8e5f0d7da466a3677a1c0c59f07b58ea24059af"
     },
     {
       "path": "handbook/seo.md",

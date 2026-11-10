@@ -93,6 +93,31 @@ try {
   await settled(false);
   ok('Search panel closes from its own field icon and from the page behind it');
 
+  // An empty field is just the field: no result area, and both option icons share the
+  // field's centre line inside their 44px targets. The reset control then closes the panel,
+  // because there is nothing for it to clear.
+  for (const width of [1280, 928, 390]) {
+    await page.setViewportSize({width, height: 844});
+    if (width >= 960) await query.click();
+    else await page.getByRole('button', {name: '打开搜索', exact: true}).click();
+    await settled(true);
+    const idle = await page.evaluate(() => {
+      const out = document.querySelector('.md-search__output');
+      const form = document.querySelector('.md-search__form').getBoundingClientRect();
+      const centres = [...document.querySelectorAll('.md-search__options svg')].map(svg => {
+        const box = svg.getBoundingClientRect();
+        return Math.abs(box.y + box.height / 2 - (form.y + form.height / 2));
+      });
+      return {hidden: getComputedStyle(out).display === 'none', height: out.getBoundingClientRect().height, centres};
+    });
+    assert.equal(idle.hidden, true, 'An empty query must not open a result area at ' + width);
+    assert.equal(idle.height, 0, 'The hidden result area must not take layout space at ' + width);
+    assert.deepEqual(idle.centres.map(offset => offset < 1), [true, true], 'Both option icons sit on the field centre line at ' + width);
+    await page.locator('.md-search__options button').click();
+    await settled(false);
+  }
+  ok('Empty search shows only the field, keeps its option icons centred, and the reset control dismisses it');
+
   for (const width of [1280, 1024]) {
     await page.setViewportSize({width, height: 900});
     await query.fill('抖动');

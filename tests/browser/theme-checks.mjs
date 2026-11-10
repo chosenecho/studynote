@@ -137,7 +137,16 @@ export async function runThemeChecks(page, {base, out, report}) {
   report.checks.push('Native tabs, indexes, footer, theme persistence, Chinese search/share, reading controls and keyboard disclosures');
 
   await open('/courses/operating-systems/chapter-06/');
-  assert.equal(await footerPath('next'), '/courses/computer-organization/');
+  assert.equal(await footerPath('next'), '/courses/operating-systems/exam/');
+  await open('/courses/operating-systems/chapter-01/');
+  assert.equal(await page.locator('.md-content a[href$="exam/01/"]').count(), 1);
+  await open('/courses/operating-systems/exam/01/');
+  assert.equal(await page.locator('.md-content a[href$="chapter-01/"]').count(), 1);
+  assert.equal(await page.locator('details.note').count(), 1);
+  assert.equal(await page.locator('h2').filter({hasText: '必背清单'}).count(), 1);
+  assert.equal(await page.locator('h2').filter({hasText: '考纲考点与卷面位置'}).count(), 0);
+  assert.equal(await page.locator('.study-toolbar').count(), 0);
+  report.checks.push('Split exam pages: chapter entry link, folded answers, no exam toolbar');
   await open('/courses/computer-organization/');
   assert.equal(await page.locator('[data-progress-chapter="co-1"]').innerText(), '已复习');
   await open('/courses/computer-organization/chapter-02/');
@@ -153,7 +162,7 @@ export async function runThemeChecks(page, {base, out, report}) {
   report.checks.push('Course boundary footer, course progress, local math and print answer expansion');
 
   await open('/courses/computer-organization/chapter-06/');
-  assert.equal(await footerPath('next'), '/courses/computer-networks/');
+  assert.equal(await footerPath('next'), '/courses/computer-organization/exam/');
   await open('/courses/computer-networks/');
   assert.equal(await page.locator('[data-progress-chapter]').count(), 9);
   await page.evaluate(() => localStorage.setItem('studynote:completed:v1', JSON.stringify(Array.from({length:8}, (_,i)=>'cn-'+(i+1)))));
@@ -162,7 +171,7 @@ export async function runThemeChecks(page, {base, out, report}) {
   assert.match(await page.locator('[data-next-chapter="cn-"]').getAttribute('href'), /chapter-09[/]$/);
   await open('/courses/computer-networks/chapter-09/');
   await page.locator('[data-complete]').check();
-  assert.equal(await footerPath('next'), '/courses/multimedia-technology/');
+  assert.equal(await footerPath('next'), '/courses/computer-networks/exam/');
   await page.reload({waitUntil:'networkidle'});
   assert.equal(await page.locator('[data-complete]').isChecked(), true);
   await open('/');
@@ -187,7 +196,7 @@ export async function runThemeChecks(page, {base, out, report}) {
   assert.equal(await page.locator('.admonition.warning').filter({hasText:'OCR 尚未终校'}).count(), 0);
   await screenshot('multimedia-desktop.png');
   await open('/courses/multimedia-technology/chapter-09/');
-  assert.equal(await footerPath('next'), '/courses/');
+  assert.equal(await footerPath('next'), '/courses/multimedia-technology/exam/');
   await page.locator('[data-complete]').check();
   await page.reload({waitUntil: 'networkidle'});
   assert.equal(await page.locator('[data-complete]').isChecked(), true);

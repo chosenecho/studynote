@@ -3,28 +3,24 @@
     "id": "os",
     "slug": "operating-systems",
     "title": "操作系统概论",
-    "chapters": 6,
-    "examNav": true
+    "chapters": 6
   },
   {
     "id": "co",
     "slug": "computer-organization",
     "title": "计算机组成原理",
-    "chapters": 6,
-    "examNav": true
+    "chapters": 6
   },
   {
     "id": "cn",
     "slug": "computer-networks",
     "title": "计算机网络技术",
-    "chapters": 9,
-    "examNav": true
+    "chapters": 9
   },
   {
     "id": "mm",
     "slug": "multimedia-technology",
     "title": "多媒体技术及应用（第三版）",
-    "chapters": 9,
-    "examNav": true
+    "chapters": 9
   }
 ]

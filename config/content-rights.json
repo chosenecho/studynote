@@ -99,8 +99,8 @@
       "license": "Apache-2.0",
       "source_kind": "original-software-and-documentation",
       "basis": "2026-11-06 多媒体笔记实施复核：独立组织讲解、自编情境与数值，图示由本项目绘制；只公开书目、短考点及原创表达，不分发成书、教材插图或原题答案。大纲用于范围定位，保留来源疑点及未实测边界。私有对照与核算记录存于 local/reviews/multimedia-2026-11-06/。",
-      "reviewed_on": "2026-11-10",
-      "sha256": "a06070915136a2a62f8b9c91408db342a4c378626cc649dbf8d2f76fc92a9c77"
+      "reviewed_on": "2026-11-06",
+      "sha256": "2bcd095b0390ae3461b5a88a24364a14d6f200209adaa767dc619917d102111f"
     },
     {
       "path": "docs/assets/images/beian.png",
@@ -189,8 +189,8 @@
       "license": "Apache-2.0",
       "source_kind": "original-software-and-documentation",
       "basis": "2026-11-06 复核本次原创表单校验、错误状态、银行家算法参数检查和步骤说明；无第三方内容新增。",
-      "reviewed_on": "2026-11-10",
-      "sha256": "2a0b8e1d46ccf49c3b213c6e28cbd309c813185a8fbb5d9526f1ccc20c5d463e"
+      "reviewed_on": "2026-11-06",
+      "sha256": "6b7c792ee87be08a53ff3e56a409747abc80d7c25e5a22561209c709cfea6a29"
     },
     {
       "path": "docs/assets/javascripts/labs/loader.mjs",
@@ -252,8 +252,8 @@
       "license": "Apache-2.0",
       "source_kind": "original-software-and-documentation",
       "basis": "2026-11-06 审阅本次第一方软件、存储兼容逻辑、交互状态和界面文案；运行针对性单元及浏览器回归。",
-      "reviewed_on": "2026-11-10",
-      "sha256": "9a2ae7b9cd46a50c5d566ca364b90d6aa8a01a47dcf7e83fb76acc9e058f5888"
+      "reviewed_on": "2026-11-06",
+      "sha256": "6bc2a79da3fcbcf634c98898f339d418bb2787a3166620667f81f9954ae79afa"
     },
     {
       "path": "docs/assets/javascripts/reading-state.mjs",
@@ -271,7 +271,7 @@
       "source_kind": "original-software-and-documentation",
       "basis": "2026-11-10 复核搜索面板的开关逻辑：label 的原生勾选取消、按 pointerdown 记录的意图关闭、关闭后让输入框失焦，并让结果计数等于实际列出的条目；仍为第一方实现，无第三方内容新增。",
       "reviewed_on": "2026-11-10",
-      "sha256": "22679bce0d0b6fc29a43dbbd8de70be0d9b0ec5ec7e56129e4882dced22b9b80"
+      "sha256": "b780001a7a836ce68a319b9b12fee24ca3d6be9f08a0bd726a7c74f992acad0f"
     },
     {
       "path": "docs/assets/stylesheets/labs.css",
@@ -279,17 +279,17 @@
       "license": "Apache-2.0",
       "source_kind": "original-software-and-documentation",
       "basis": "2026-11-06 审阅本次第一方软件、存储兼容逻辑、交互状态和界面文案；运行针对性单元及浏览器回归。",
-      "reviewed_on": "2026-11-10",
-      "sha256": "2e730087e3d0be7c3de0fd2c3abfe1b5563677c79b2b0069f9f4d73e4640e99a"
+      "reviewed_on": "2026-11-06",
+      "sha256": "680b3a9d1eb3510f92bf1d1dcaf83520e49926d7669b57513812d6f46429bb34"
     },
     {
       "path": "docs/assets/stylesheets/notes.css",
       "status": "cleared",
       "license": "Apache-2.0",
       "source_kind": "original-software-and-documentation",
-      "basis": "2026-11-10 核验合并后的样式改动：页脚记录排版改为单行居中，表格滚动容器补定位以约束 KaTeX 隐藏 MathML 层；只使用 Material 语义变量与站点自有类名，未引入第三方资源。",
+      "basis": "2026-11-06 审阅第一方软件、存储兼容逻辑、交互状态和界面文案；2026-11-10 追加页脚备案行的图标与文字对齐样式，并让桌面端搜索面板只留字段内一个图标、结果区在展开时即有稳定高度；只影响样式，运行针对性单元及浏览器回归。",
       "reviewed_on": "2026-11-10",
-      "sha256": "9c07d055c1d83bb685634d2f45cc2100414fb76e8e0b14ad115f67ee363c8daf"
+      "sha256": "6c5c9f41dfa1e1704dda10f841de5e50088ebf14ebc19fefdf50b888660fd4a6"
     },
     {
       "path": "docs/assets/vendor/katex/LICENSE",
@@ -536,81 +536,171 @@
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验新增的应试导航与逐节必背行：考纲条目与层次取自配套自学考试大纲，术语、并列项与数字按成书压缩；计算机组成原理按两卷历年卷归章写卷面出法，计算机网络技术与多媒体技术及应用本地无历年卷，只按大纲题型写常见出法，不写卷面分布。概念讲解、图示与练习结构未变，未收录教材原文、题目或插图。",
+      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "2a8ce2e1aca2695b8d00b1ae86acdcfe1e3021fc99fe9b18a702364acb643b21"
+      "sha256": "b70da071b79eae2e56693aa1ce476c8a6fae90a4ba529037e3c72fde3698aeac"
     },
     {
       "path": "docs/courses/computer-networks/chapter-02.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验新增的应试导航与逐节必背行：考纲条目与层次取自配套自学考试大纲，术语、并列项与数字按成书压缩；计算机组成原理按两卷历年卷归章写卷面出法，计算机网络技术与多媒体技术及应用本地无历年卷，只按大纲题型写常见出法，不写卷面分布。概念讲解、图示与练习结构未变，未收录教材原文、题目或插图。",
+      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "988120d4f31794121c398763fb7f7b9b5e28ec42e4c401aba677d582d94fa1f5"
+      "sha256": "054deaf19a2ea05115d00890e6bbed5578d53b3551591c2df33fd53b41f32af9"
     },
     {
       "path": "docs/courses/computer-networks/chapter-03.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验新增的应试导航与逐节必背行：考纲条目与层次取自配套自学考试大纲，术语、并列项与数字按成书压缩；计算机组成原理按两卷历年卷归章写卷面出法，计算机网络技术与多媒体技术及应用本地无历年卷，只按大纲题型写常见出法，不写卷面分布。概念讲解、图示与练习结构未变，未收录教材原文、题目或插图。",
+      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "0111871c9038d18facb65aa50e100c5907fee7bef806165ae8b5f9e9eca4b542"
+      "sha256": "51def10e2e25c28587756c5b8abb48824293d0196101daa33382f3a1cd8bff8c"
     },
     {
       "path": "docs/courses/computer-networks/chapter-04.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验新增的应试导航与逐节必背行：考纲条目与层次取自配套自学考试大纲，术语、并列项与数字按成书压缩；计算机组成原理按两卷历年卷归章写卷面出法，计算机网络技术与多媒体技术及应用本地无历年卷，只按大纲题型写常见出法，不写卷面分布。概念讲解、图示与练习结构未变，未收录教材原文、题目或插图。",
+      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "a5938d4c5058ae916e5d30fd0954f8ceb37448ed1a6f71ee3f8d3a3ee71a68aa"
+      "sha256": "6ad4bcaed671bf24aeaffe42f27955e48f2f2eb4036b7549c0aacbb29f56d914"
     },
     {
       "path": "docs/courses/computer-networks/chapter-05.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验新增的应试导航与逐节必背行：考纲条目与层次取自配套自学考试大纲，术语、并列项与数字按成书压缩；计算机组成原理按两卷历年卷归章写卷面出法，计算机网络技术与多媒体技术及应用本地无历年卷，只按大纲题型写常见出法，不写卷面分布。概念讲解、图示与练习结构未变，未收录教材原文、题目或插图。",
+      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "a7c21eed85a60ce730bc3062b887939ae869df8bc1689d0e112c651d6775ac84"
+      "sha256": "8f110dde14bf17be53800ef4048eccda43cd8f3910428cfe2144ccf33f87a0c7"
     },
     {
       "path": "docs/courses/computer-networks/chapter-06.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验新增的应试导航与逐节必背行：考纲条目与层次取自配套自学考试大纲，术语、并列项与数字按成书压缩；计算机组成原理按两卷历年卷归章写卷面出法，计算机网络技术与多媒体技术及应用本地无历年卷，只按大纲题型写常见出法，不写卷面分布。概念讲解、图示与练习结构未变，未收录教材原文、题目或插图。",
+      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "127b8a9802df666a196f0b7b8a23113a9b30f9757097665303421de384988ec3"
+      "sha256": "a98301ff3c81db167da8c6d1f26fd2ca72f54e092865c46836effb89be6a8407"
     },
     {
       "path": "docs/courses/computer-networks/chapter-07.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验新增的应试导航与逐节必背行：考纲条目与层次取自配套自学考试大纲，术语、并列项与数字按成书压缩；计算机组成原理按两卷历年卷归章写卷面出法，计算机网络技术与多媒体技术及应用本地无历年卷，只按大纲题型写常见出法，不写卷面分布。概念讲解、图示与练习结构未变，未收录教材原文、题目或插图。",
+      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "5b5b1a8f550ea21e4a8c338751239133a37de75774782448be97da481f0a5053"
+      "sha256": "f201bb37e9abbd993f83d0f487da840c13612f2e707e9f5910f79fbbbb2cda41"
     },
     {
       "path": "docs/courses/computer-networks/chapter-08.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验新增的应试导航与逐节必背行：考纲条目与层次取自配套自学考试大纲，术语、并列项与数字按成书压缩；计算机组成原理按两卷历年卷归章写卷面出法，计算机网络技术与多媒体技术及应用本地无历年卷，只按大纲题型写常见出法，不写卷面分布。概念讲解、图示与练习结构未变，未收录教材原文、题目或插图。",
+      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "306b31f77b30a7a6de2d4b843ac8b20f4f9b54ee26927bc153000d0e62473d2e"
+      "sha256": "fa6aded79f05a0f2124f2169b55b77a2c4cea09618edbb1cccc134f8d6198bb1"
     },
     {
       "path": "docs/courses/computer-networks/chapter-09.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验新增的应试导航与逐节必背行：考纲条目与层次取自配套自学考试大纲，术语、并列项与数字按成书压缩；计算机组成原理按两卷历年卷归章写卷面出法，计算机网络技术与多媒体技术及应用本地无历年卷，只按大纲题型写常见出法，不写卷面分布。概念讲解、图示与练习结构未变，未收录教材原文、题目或插图。",
+      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "0d5763ce3a809088b127106d95a71043a897e3e7770d0e612f591233a1515f9d"
+      "sha256": "711a9c7b9943b19cb4020ee52c639630430d6927f9054e2d95cf337f5beb4ea0"
+    },
+    {
+      "path": "docs/courses/computer-networks/exam/01.md",
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "source_kind": "original-learning-content",
+      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "reviewed_on": "2026-11-10",
+      "sha256": "be82b635f086ae8e535a8fb83461c24bea00a3d347c28e18088967fd9b90b091"
+    },
+    {
+      "path": "docs/courses/computer-networks/exam/02.md",
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "source_kind": "original-learning-content",
+      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "reviewed_on": "2026-11-10",
+      "sha256": "8b4acce41d472a4283adbed33f7d26675bc35dd455030396e2a517674e6bccc4"
+    },
+    {
+      "path": "docs/courses/computer-networks/exam/03.md",
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "source_kind": "original-learning-content",
+      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "reviewed_on": "2026-11-10",
+      "sha256": "66fa86666bc243ef985410c300cf55f86ae172d2b74aaf6078fe9d4f8a54f274"
+    },
+    {
+      "path": "docs/courses/computer-networks/exam/04.md",
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "source_kind": "original-learning-content",
+      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "reviewed_on": "2026-11-10",
+      "sha256": "ddfbe39d5e512ee9afa2d7ef8ba9b3cdec29b85fe1d3ef331004f28497136db5"
+    },
+    {
+      "path": "docs/courses/computer-networks/exam/05.md",
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "source_kind": "original-learning-content",
+      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "reviewed_on": "2026-11-10",
+      "sha256": "02243763100ef810cccaf76259f9e240408d348d20d12abadd25c58f7ff0805c"
+    },
+    {
+      "path": "docs/courses/computer-networks/exam/06.md",
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "source_kind": "original-learning-content",
+      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "reviewed_on": "2026-11-10",
+      "sha256": "79c1a3488190de63cfba57a3b805b991d64940b4539966183457f1ea2dc81121"
+    },
+    {
+      "path": "docs/courses/computer-networks/exam/07.md",
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "source_kind": "original-learning-content",
+      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "reviewed_on": "2026-11-10",
+      "sha256": "0bd5a546e646cb2f90a66819b09b5dd53967b1d37d73110cdfd4c8f4e617db7b"
+    },
+    {
+      "path": "docs/courses/computer-networks/exam/08.md",
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "source_kind": "original-learning-content",
+      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "reviewed_on": "2026-11-10",
+      "sha256": "1047780f98040fff93ba2e250ad3bea8a3aa32a1b5b7c31d2f1f66bf7d2fbc01"
+    },
+    {
+      "path": "docs/courses/computer-networks/exam/09.md",
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "source_kind": "original-learning-content",
+      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "reviewed_on": "2026-11-10",
+      "sha256": "ad663ea67dc5602ea97ab58ef106bb55cb7d2afd44249f462255886cfed8bdf1"
+    },
+    {
+      "path": "docs/courses/computer-networks/exam/index.md",
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "source_kind": "original-learning-content",
+      "basis": "2026-11-10 核验新增的考点总览页：只列章名、必背条目数与默写题数并链接考点页。",
+      "reviewed_on": "2026-11-10",
+      "sha256": "4cdf01acc550451de39f43e257299a80c8da1dcb6cc16e8332fe0a40398c9d1d"
     },
     {
       "path": "docs/courses/computer-networks/figures/management-loop.svg",
@@ -644,63 +734,126 @@
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验课程首页改版：课程要点、章节卡片与复习路径的文案均为本站自撰，链接只指向站内页面与章内锚点；未引入外部图片、字体或第三方文案。",
+      "basis": "2026-11-10 核验课程首页精简：删去概述盒子与数字块，保留章节卡片并把考点入口改指独立考点页。",
       "reviewed_on": "2026-11-10",
-      "sha256": "260fc25a59edca9a1f383852294ba48d2a3819d76b77f7df3c6938adf2f406f8"
+      "sha256": "db87a47ebaaf9064b2fffe267903f6b2033bf833cffcd44fa65b90a6101c8aa7"
     },
     {
       "path": "docs/courses/computer-organization/chapter-01.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验新增的应试导航与逐节必背行：考纲条目与层次取自配套自学考试大纲，术语、并列项与数字按成书压缩；计算机组成原理按两卷历年卷归章写卷面出法，计算机网络技术与多媒体技术及应用本地无历年卷，只按大纲题型写常见出法，不写卷面分布。概念讲解、图示与练习结构未变，未收录教材原文、题目或插图。",
+      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "d706e1e965e4121eae5392d0050965abf2feeacbc172e25566649d886be9ac4a"
+      "sha256": "c48e0d5034f43444396c15f651eb5018c5d0d26ea5562eaaf099dc0cf8e0cbcc"
     },
     {
       "path": "docs/courses/computer-organization/chapter-02.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验新增的应试导航与逐节必背行：考纲条目与层次取自配套自学考试大纲，术语、并列项与数字按成书压缩；计算机组成原理按两卷历年卷归章写卷面出法，计算机网络技术与多媒体技术及应用本地无历年卷，只按大纲题型写常见出法，不写卷面分布。概念讲解、图示与练习结构未变，未收录教材原文、题目或插图。",
+      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "58b450523b9a26fcf3d14f35daa063bababc711c2de3de8bd12998f628fdc837"
+      "sha256": "2581df2cbe207940a1b37b12ede4cda8d89ff36330f4abb7a6a5f73d6f7c0d74"
     },
     {
       "path": "docs/courses/computer-organization/chapter-03.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验新增的应试导航与逐节必背行：考纲条目与层次取自配套自学考试大纲，术语、并列项与数字按成书压缩；计算机组成原理按两卷历年卷归章写卷面出法，计算机网络技术与多媒体技术及应用本地无历年卷，只按大纲题型写常见出法，不写卷面分布。概念讲解、图示与练习结构未变，未收录教材原文、题目或插图。",
+      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "e777094f38cc8d8b6faff0e4f359cd1f50f1571c5991e2df408033079654d306"
+      "sha256": "ec9b029db0984bdad5d7db4987a52fc26f0d6879939cf8ba3ca9b53acf288563"
     },
     {
       "path": "docs/courses/computer-organization/chapter-04.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验新增的应试导航与逐节必背行：考纲条目与层次取自配套自学考试大纲，术语、并列项与数字按成书压缩；计算机组成原理按两卷历年卷归章写卷面出法，计算机网络技术与多媒体技术及应用本地无历年卷，只按大纲题型写常见出法，不写卷面分布。概念讲解、图示与练习结构未变，未收录教材原文、题目或插图。",
+      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "e5c02dfb16ff630d02e6afb2358ac0eddedc2f25f6398deb8fda5ec267d4ec33"
+      "sha256": "82f30110afb315edc03534306f4df99b76cefa00379b913cca4fb861ec152ea5"
     },
     {
       "path": "docs/courses/computer-organization/chapter-05.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验新增的应试导航与逐节必背行：考纲条目与层次取自配套自学考试大纲，术语、并列项与数字按成书压缩；计算机组成原理按两卷历年卷归章写卷面出法，计算机网络技术与多媒体技术及应用本地无历年卷，只按大纲题型写常见出法，不写卷面分布。概念讲解、图示与练习结构未变，未收录教材原文、题目或插图。",
+      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "aa6a832b6def669df0eeee0c75d9460cbd3f9c765841cf03c0ffa30e9c634536"
+      "sha256": "5efea2eeac08b826b70ef043e1f63fce6304d1fa17bd0efd00ef5d3922116811"
     },
     {
       "path": "docs/courses/computer-organization/chapter-06.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验新增的应试导航与逐节必背行：考纲条目与层次取自配套自学考试大纲，术语、并列项与数字按成书压缩；计算机组成原理按两卷历年卷归章写卷面出法，计算机网络技术与多媒体技术及应用本地无历年卷，只按大纲题型写常见出法，不写卷面分布。概念讲解、图示与练习结构未变，未收录教材原文、题目或插图。",
+      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "213b8155283edfa0223c33e4f3727f370dd0a4f44df7db07ff13c37744b96483"
+      "sha256": "dfad958f6b778ceb2fab91160502be1de7cc58d7080f7a6a9b4ad1c1c8ba5466"
+    },
+    {
+      "path": "docs/courses/computer-organization/exam/01.md",
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "source_kind": "original-learning-content",
+      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "reviewed_on": "2026-11-10",
+      "sha256": "c94a5e8aa347cd61461fa9ec143ecb00d7784812ba1af6784e98c034debf0037"
+    },
+    {
+      "path": "docs/courses/computer-organization/exam/02.md",
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "source_kind": "original-learning-content",
+      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "reviewed_on": "2026-11-10",
+      "sha256": "d01e4fb6ebeffa7de867f736514ec9dbdcb291a4b6435fed0cb21ea130c09303"
+    },
+    {
+      "path": "docs/courses/computer-organization/exam/03.md",
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "source_kind": "original-learning-content",
+      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "reviewed_on": "2026-11-10",
+      "sha256": "83aff1ae058fc7b4e4ba97da5bbb499b7573846d6785f4915f92f75a8bedef5a"
+    },
+    {
+      "path": "docs/courses/computer-organization/exam/04.md",
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "source_kind": "original-learning-content",
+      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "reviewed_on": "2026-11-10",
+      "sha256": "dcde150723aed52716b4053dd75d0b5cad36a44350df964c277bfeb8c65d0184"
+    },
+    {
+      "path": "docs/courses/computer-organization/exam/05.md",
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "source_kind": "original-learning-content",
+      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "reviewed_on": "2026-11-10",
+      "sha256": "63f94a81081c10b99f01327ad5f1db36e06b1f9a66c568b0ed8bc02595aca87b"
+    },
+    {
+      "path": "docs/courses/computer-organization/exam/06.md",
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "source_kind": "original-learning-content",
+      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "reviewed_on": "2026-11-10",
+      "sha256": "e7ae664201efc2646b5a54eb021387447e074c0e57dc739a51e07af3c9e9abe0"
+    },
+    {
+      "path": "docs/courses/computer-organization/exam/index.md",
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "source_kind": "original-learning-content",
+      "basis": "2026-11-10 核验新增的考点总览页：只列章名、必背条目数与默写题数并链接考点页。",
+      "reviewed_on": "2026-11-10",
+      "sha256": "2c2bdd2521fcc361c9719a7a87be94ac6351ec231f3bbc05560b9a9fc20aee35"
     },
     {
       "path": "docs/courses/computer-organization/figures/bus-transaction.svg",
@@ -752,9 +905,9 @@
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验课程首页改版：课程要点、章节卡片与复习路径的文案均为本站自撰，链接只指向站内页面与章内锚点；未引入外部图片、字体或第三方文案。",
+      "basis": "2026-11-10 核验课程首页精简：删去概述盒子与数字块，保留章节卡片并把考点入口改指独立考点页。",
       "reviewed_on": "2026-11-10",
-      "sha256": "fecabbf8b3e5d2d318b6c308f706625e0961b6175b2697afb72054f06c5ade40"
+      "sha256": "cef675e5de25a594b7bd0e691c830049d3056e28b43cd929e1cc57dbb958e3e9"
     },
     {
       "path": "docs/courses/index.md",
@@ -770,81 +923,171 @@
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验新增的应试导航与逐节必背行：考纲条目与层次取自配套自学考试大纲，术语、并列项与数字按成书压缩；计算机组成原理按两卷历年卷归章写卷面出法，计算机网络技术与多媒体技术及应用本地无历年卷，只按大纲题型写常见出法，不写卷面分布。概念讲解、图示与练习结构未变，未收录教材原文、题目或插图。",
+      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "c4e9c78f974567de8a6a054510533a912592e45384fb8f59e1c7f85c1140bec8"
+      "sha256": "bb74766ed88435b91243ff104129f5bc600727880ad794d75a0051cb935117d7"
     },
     {
       "path": "docs/courses/multimedia-technology/chapter-02.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验新增的应试导航与逐节必背行：考纲条目与层次取自配套自学考试大纲，术语、并列项与数字按成书压缩；计算机组成原理按两卷历年卷归章写卷面出法，计算机网络技术与多媒体技术及应用本地无历年卷，只按大纲题型写常见出法，不写卷面分布。概念讲解、图示与练习结构未变，未收录教材原文、题目或插图。",
+      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "75434852d880ea73a0ebbc03689331ec03b7eeb43b4d06b3bead2f7f7d80a6c5"
+      "sha256": "613bb45b3f7ddb390fad001c3ab23a2534aae409c9387a4d0e649e032db8e7ef"
     },
     {
       "path": "docs/courses/multimedia-technology/chapter-03.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验新增的应试导航与逐节必背行：考纲条目与层次取自配套自学考试大纲，术语、并列项与数字按成书压缩；计算机组成原理按两卷历年卷归章写卷面出法，计算机网络技术与多媒体技术及应用本地无历年卷，只按大纲题型写常见出法，不写卷面分布。概念讲解、图示与练习结构未变，未收录教材原文、题目或插图。",
+      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "a89619fb1b5cb6f835145625e6c662df1192fc700283869b6738d937581a7067"
+      "sha256": "655e5702b62ab096b4fed0052c067bd9ed102fe063ee47d2a5149bd9e5d1c70e"
     },
     {
       "path": "docs/courses/multimedia-technology/chapter-04.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验新增的应试导航与逐节必背行：考纲条目与层次取自配套自学考试大纲，术语、并列项与数字按成书压缩；计算机组成原理按两卷历年卷归章写卷面出法，计算机网络技术与多媒体技术及应用本地无历年卷，只按大纲题型写常见出法，不写卷面分布。概念讲解、图示与练习结构未变，未收录教材原文、题目或插图。",
+      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "c2613253fc1703f0dd64cde2cdf3a4db14f002bc9db7ae6bbbaee212a774d3ee"
+      "sha256": "b7841abeb0de2bf812761d96484c50987a60672cf523c778089d90065a96dce0"
     },
     {
       "path": "docs/courses/multimedia-technology/chapter-05.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验新增的应试导航与逐节必背行：考纲条目与层次取自配套自学考试大纲，术语、并列项与数字按成书压缩；计算机组成原理按两卷历年卷归章写卷面出法，计算机网络技术与多媒体技术及应用本地无历年卷，只按大纲题型写常见出法，不写卷面分布。概念讲解、图示与练习结构未变，未收录教材原文、题目或插图。",
+      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "709b28d022d7312da10e4aabef088a507d0e1dcfa7bd95ce5bdf5be7a30e0013"
+      "sha256": "f897225eb834670ea0842a9c6ad4412436f730111781f3077203f0ff73ed57ec"
     },
     {
       "path": "docs/courses/multimedia-technology/chapter-06.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验新增的应试导航与逐节必背行：考纲条目与层次取自配套自学考试大纲，术语、并列项与数字按成书压缩；计算机组成原理按两卷历年卷归章写卷面出法，计算机网络技术与多媒体技术及应用本地无历年卷，只按大纲题型写常见出法，不写卷面分布。概念讲解、图示与练习结构未变，未收录教材原文、题目或插图。",
+      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "8c5ea1f44027c010cc6421eee18442bbe48bea6caeeb1499ce412a460f23e8da"
+      "sha256": "2ed32558f015fad785736a63dbcde1f784b06fdfafeb75a0b5245590fc0e4fb9"
     },
     {
       "path": "docs/courses/multimedia-technology/chapter-07.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验新增的应试导航与逐节必背行：考纲条目与层次取自配套自学考试大纲，术语、并列项与数字按成书压缩；计算机组成原理按两卷历年卷归章写卷面出法，计算机网络技术与多媒体技术及应用本地无历年卷，只按大纲题型写常见出法，不写卷面分布。概念讲解、图示与练习结构未变，未收录教材原文、题目或插图。",
+      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "09c1975a25734691b4a20fec8a0fa05c5a5031a0f319593d4ebf0b306044986a"
+      "sha256": "8a74e9df9869d808c363efc86fa90511b14c582a07be8707dc19243cbce4c361"
     },
     {
       "path": "docs/courses/multimedia-technology/chapter-08.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验新增的应试导航与逐节必背行：考纲条目与层次取自配套自学考试大纲，术语、并列项与数字按成书压缩；计算机组成原理按两卷历年卷归章写卷面出法，计算机网络技术与多媒体技术及应用本地无历年卷，只按大纲题型写常见出法，不写卷面分布。概念讲解、图示与练习结构未变，未收录教材原文、题目或插图。",
+      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "a53e6e76a75ad545bfed12acaeb1c48648612e4d2b492ba46c458167245cfc7b"
+      "sha256": "04758977b2a947eb404e6f320a09e4546b8031928340d1f6f0b0644735c34099"
     },
     {
       "path": "docs/courses/multimedia-technology/chapter-09.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验新增的应试导航与逐节必背行：考纲条目与层次取自配套自学考试大纲，术语、并列项与数字按成书压缩；计算机组成原理按两卷历年卷归章写卷面出法，计算机网络技术与多媒体技术及应用本地无历年卷，只按大纲题型写常见出法，不写卷面分布。概念讲解、图示与练习结构未变，未收录教材原文、题目或插图。",
+      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "a080898812eab4ba55d6787f6e3765aaba1dcf2b36c429178388e51de2833574"
+      "sha256": "7204d32dd800d0ad6a0dd6502e4bd981e44cfcab785938130d01d4046003a2bd"
+    },
+    {
+      "path": "docs/courses/multimedia-technology/exam/01.md",
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "source_kind": "original-learning-content",
+      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "reviewed_on": "2026-11-10",
+      "sha256": "5dec4e0db2f40cbddeffb6031ad482b2fabea3d7b88da769e6544ce7887dfc1a"
+    },
+    {
+      "path": "docs/courses/multimedia-technology/exam/02.md",
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "source_kind": "original-learning-content",
+      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "reviewed_on": "2026-11-10",
+      "sha256": "61ee8f1fd3704e609f0bd380d4119af9dd71b01efbce4488fb51aa0f3decaf27"
+    },
+    {
+      "path": "docs/courses/multimedia-technology/exam/03.md",
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "source_kind": "original-learning-content",
+      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "reviewed_on": "2026-11-10",
+      "sha256": "14ab70dc3c953abeb6a83fbb121788985ecd4829038af8d9fc7614600384dc8d"
+    },
+    {
+      "path": "docs/courses/multimedia-technology/exam/04.md",
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "source_kind": "original-learning-content",
+      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "reviewed_on": "2026-11-10",
+      "sha256": "3dc4d4b8246a60f20c2234ab4a102045f3195be21c5ff9d39e2007a9d3e192b8"
+    },
+    {
+      "path": "docs/courses/multimedia-technology/exam/05.md",
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "source_kind": "original-learning-content",
+      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "reviewed_on": "2026-11-10",
+      "sha256": "ff0e32bbd32ccb32983f0332ae2fd096fae403cd7f9b7ab1f9f33933f62336b1"
+    },
+    {
+      "path": "docs/courses/multimedia-technology/exam/06.md",
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "source_kind": "original-learning-content",
+      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "reviewed_on": "2026-11-10",
+      "sha256": "d8c1c6eda69869c1a7232d8a9e333d8e39d4497710b74497978eea260de80bbf"
+    },
+    {
+      "path": "docs/courses/multimedia-technology/exam/07.md",
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "source_kind": "original-learning-content",
+      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "reviewed_on": "2026-11-10",
+      "sha256": "07392730260edf4c4a80e1b41a57126fb1ef3fa8d4269a9a8dd69549c64ebc2a"
+    },
+    {
+      "path": "docs/courses/multimedia-technology/exam/08.md",
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "source_kind": "original-learning-content",
+      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "reviewed_on": "2026-11-10",
+      "sha256": "3f7287701edf0e49a34209fd2fd6caaf3424053e5b26484314b794f7244109de"
+    },
+    {
+      "path": "docs/courses/multimedia-technology/exam/09.md",
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "source_kind": "original-learning-content",
+      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "reviewed_on": "2026-11-10",
+      "sha256": "668d9e6597d84d4d9d0e65d0e344ee8dc146fa59e1dfa81d8f6a2da7f7999380"
+    },
+    {
+      "path": "docs/courses/multimedia-technology/exam/index.md",
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "source_kind": "original-learning-content",
+      "basis": "2026-11-10 核验新增的考点总览页：只列章名、必背条目数与默写题数并链接考点页。",
+      "reviewed_on": "2026-11-10",
+      "sha256": "919b157b9d479acb251492262876773426eac368adf7c7c9475f83454dde9987"
     },
     {
       "path": "docs/courses/multimedia-technology/figures/animation-workflow.svg",
@@ -923,63 +1166,126 @@
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验课程首页改版：课程要点、章节卡片与复习路径的文案均为本站自撰，链接只指向站内页面与章内锚点；未引入外部图片、字体或第三方文案。",
+      "basis": "2026-11-10 核验课程首页精简：删去概述盒子与数字块，保留章节卡片并把考点入口改指独立考点页。",
       "reviewed_on": "2026-11-10",
-      "sha256": "48ebe0e4900165d35cc1496ecdebbe5b6c75de4f569f413baac693cb122a9a6b"
+      "sha256": "e37d1bd053b6e793030407794b836251f225cb77f03523e9f3239819dbe99bcb"
     },
     {
       "path": "docs/courses/operating-systems/chapter-01.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 仅为应试导航标题补充显式锚点，供课程首页深链接使用；正文、必背清单与练习未变。",
+      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "aac96b1ba59cc7e9fe0855f5a23a38cb5f61ca3fe7dc7888569318a7a16024a9"
+      "sha256": "ec5aca4b471a5330e901d322407c8e38831b80a9eac61fc78fd9e12d9cbae901"
     },
     {
       "path": "docs/courses/operating-systems/chapter-02.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 仅为应试导航标题补充显式锚点，供课程首页深链接使用；正文、必背清单与练习未变。",
+      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "30623b56d20d35c046923841e37f005a7bafbb2f19efb2f0ba446f025e18373e"
+      "sha256": "05113e90d683dbcf3c83e3172a826bb4ec34694ab0866623aa3e34980ec46336"
     },
     {
       "path": "docs/courses/operating-systems/chapter-03.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 仅为应试导航标题补充显式锚点，供课程首页深链接使用；正文、必背清单与练习未变。",
+      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "437f07d34f905f24f914af0b15b3aec847aa6a73c32fa4e58c1d776761f756c8"
+      "sha256": "77af52d56027f6bd4ec686d30dcb83642e1cd6eb536002f0feb4f87be00631e4"
     },
     {
       "path": "docs/courses/operating-systems/chapter-04.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 仅为应试导航标题补充显式锚点，供课程首页深链接使用；正文、必背清单与练习未变。",
+      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "d4908dbc2ed7a039ba602977c65211ea059ea133efd0d768ae0f70796f19cce9"
+      "sha256": "9d34e51628471b42ea968a3db3d0859031e64cb063a2273498d262c83fd2f82f"
     },
     {
       "path": "docs/courses/operating-systems/chapter-05.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 仅为应试导航标题补充显式锚点，供课程首页深链接使用；正文、必背清单与练习未变。",
+      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "e715a634ef576a915d7d52409329d6b66d2ee2928cc2979dedc456d4cd0333e8"
+      "sha256": "387b5b3fea55e599e4f992d4f22b0fb4e22a641ed0157caee329374b6b98ff38"
     },
     {
       "path": "docs/courses/operating-systems/chapter-06.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 仅为应试导航标题补充显式锚点，供课程首页深链接使用；正文、必背清单与练习未变。",
+      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "777023abc2753e454d6dfa68439d2efa54652d89f6a0b95a82a8fa5ec10bd726"
+      "sha256": "9888864a6f48394dbf08b1734818b636fce04a20e459d25b4d91c866c3f3fc75"
+    },
+    {
+      "path": "docs/courses/operating-systems/exam/01.md",
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "source_kind": "original-learning-content",
+      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "reviewed_on": "2026-11-10",
+      "sha256": "f5e49ffd3e952f6b5aa7590b98baf90e39af0954b632495aa4941aabe565a0f2"
+    },
+    {
+      "path": "docs/courses/operating-systems/exam/02.md",
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "source_kind": "original-learning-content",
+      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "reviewed_on": "2026-11-10",
+      "sha256": "a4a5e8aa673d4f6645ded721c3cfbbb5dda3cb2b5c93260f5b80ea51de9a2801"
+    },
+    {
+      "path": "docs/courses/operating-systems/exam/03.md",
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "source_kind": "original-learning-content",
+      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "reviewed_on": "2026-11-10",
+      "sha256": "0a887d18f51a277d041f76eebf3a2631f1d7180b453adff4731c384f5d7eee03"
+    },
+    {
+      "path": "docs/courses/operating-systems/exam/04.md",
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "source_kind": "original-learning-content",
+      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "reviewed_on": "2026-11-10",
+      "sha256": "b6d4d07ef409707aa75506fe816eb0f82043b41e206f27b15ff4cce8ab240021"
+    },
+    {
+      "path": "docs/courses/operating-systems/exam/05.md",
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "source_kind": "original-learning-content",
+      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "reviewed_on": "2026-11-10",
+      "sha256": "658d2810f20e8215debd45132e811195686bd586f5d05b77cfb9c190cfcebb03"
+    },
+    {
+      "path": "docs/courses/operating-systems/exam/06.md",
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "source_kind": "original-learning-content",
+      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "reviewed_on": "2026-11-10",
+      "sha256": "df15f8798ecc7bb645cef9e198892b5db85ec1bd75a7e58bd138a2e4f361bc42"
+    },
+    {
+      "path": "docs/courses/operating-systems/exam/index.md",
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "source_kind": "original-learning-content",
+      "basis": "2026-11-10 核验新增的考点总览页：只列章名、必背条目数与默写题数并链接考点页。",
+      "reviewed_on": "2026-11-10",
+      "sha256": "0fd7d8190252ecb77874b6503f0a85e22ecc768543280a6c81c8e887564399f5"
     },
     {
       "path": "docs/courses/operating-systems/figures/address-walk.svg",
@@ -1040,9 +1346,9 @@
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验课程首页改版：课程要点、章节卡片与复习路径的文案均为本站自撰，链接只指向站内页面与章内锚点；未引入外部图片、字体或第三方文案。",
+      "basis": "2026-11-10 核验课程首页精简：删去概述盒子与数字块，保留章节卡片并把考点入口改指独立考点页。",
       "reviewed_on": "2026-11-10",
-      "sha256": "e7a0ea438ac6700a69c5bb21c11a72c6971dbd389f86a7f249b2141e2fd3c675"
+      "sha256": "5c0a532329a722e5c86cd6ec77ed0ecd1dad23128fa285f6616cc2b7c4e641d9"
     },
     {
       "path": "docs/errata.md",
@@ -1059,8 +1365,8 @@
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
       "reviewed_on": "2026-11-10",
-      "basis": "2026-11-10 核验学习指南：补入先背应试导航的阅读顺序；保存范围、阅读操作与反馈说明未变。",
-      "sha256": "e0095ffb62c26a01344e34a1733536460470a8936aefce5a1bf0e43379d08c8e"
+      "basis": "2026-11-10 核验学习指南：把先背再读的入口改为独立考点页，其余说明未变。",
+      "sha256": "1c2d7f77c9bcfdf37a09d13fd1d888e269785150b436239fa1162bf708f448b5"
     },
     {
       "path": "docs/index.md",
@@ -1077,8 +1383,8 @@
       "license": "CC-BY-4.0",
       "source_kind": "original",
       "basis": "本轮修正实验页与自测页说明文字的表述与标点，脚本、交互逻辑、题目答案与数据结构未变。",
-      "reviewed_on": "2026-11-10",
-      "sha256": "b6590b9e13313de19aedfdd2be0434fde551f96892d687d8a14883df834cc0cf"
+      "reviewed_on": "2026-11-08",
+      "sha256": "8b0bde8694327a78027607241a35080d34d88df834a85f543dd49252a0fc911a"
     },
     {
       "path": "docs/labs/banker.md",
@@ -1086,8 +1392,8 @@
       "license": "CC-BY-4.0",
       "source_kind": "original",
       "basis": "本轮修正实验页与自测页说明文字的表述与标点，脚本、交互逻辑、题目答案与数据结构未变。",
-      "reviewed_on": "2026-11-10",
-      "sha256": "227eb23a04769ef8d5e43acdff91ce1afab46e8d56e208baa5b2728e389a7d76"
+      "reviewed_on": "2026-11-08",
+      "sha256": "9b14c7d69549a6c79a0ccef109b6e18f88dc84b559afd74359bc3aad552691e1"
     },
     {
       "path": "docs/labs/cache.md",
@@ -1095,8 +1401,8 @@
       "license": "CC-BY-4.0",
       "source_kind": "original",
       "basis": "本轮修正实验页与自测页说明文字的表述与标点，脚本、交互逻辑、题目答案与数据结构未变。",
-      "reviewed_on": "2026-11-10",
-      "sha256": "07baea0be20ed63cf56d2e4573f10606c67abf933203ab6c30477711908b2632"
+      "reviewed_on": "2026-11-08",
+      "sha256": "aa4da3a2b4f8124e4f056389c110d0aa6d1459ef961c3981dda3eaef7b52b6c1"
     },
     {
       "path": "docs/labs/cidr.md",
@@ -1104,8 +1410,8 @@
       "license": "Apache-2.0",
       "source_kind": "original-software-and-documentation",
       "basis": "本轮修正实验页与自测页说明文字的表述与标点，脚本、交互逻辑、题目答案与数据结构未变。",
-      "reviewed_on": "2026-11-10",
-      "sha256": "1c9229b7114db8730589dbf59792953f8633df71ca7a2807bfcf33957a8554f4"
+      "reviewed_on": "2026-11-08",
+      "sha256": "dfac7f2cc94aeae8b64bea39feff844a6372948eed74f048e91b333ea361dca3"
     },
     {
       "path": "docs/labs/complement.md",
@@ -1113,8 +1419,8 @@
       "license": "CC-BY-4.0",
       "source_kind": "original",
       "basis": "本轮修正实验页与自测页说明文字的表述与标点，脚本、交互逻辑、题目答案与数据结构未变。",
-      "reviewed_on": "2026-11-10",
-      "sha256": "1555b2afa0c73a6349e449f395be96016d0c3ac1b4dc768acbd8b21241ce6477"
+      "reviewed_on": "2026-11-08",
+      "sha256": "1ca91457b1c4902cb7b34b4fd85b02cd6fbbb0a0306707c26bc6149b59e48f13"
     },
     {
       "path": "docs/labs/index.md",
@@ -1122,8 +1428,8 @@
       "license": "CC-BY-4.0",
       "source_kind": "original",
       "basis": "本轮修正实验页与自测页说明文字的表述与标点，脚本、交互逻辑、题目答案与数据结构未变。",
-      "reviewed_on": "2026-11-10",
-      "sha256": "6cdd777c60c289c308526b4c9d0fab06a4dc412593b6eebed3c4ea9bb5fd2ee1"
+      "reviewed_on": "2026-11-08",
+      "sha256": "9b5c7738c965ebf9ae292016f4d2bc5c442b6e22cc169bfa6b4ca818346a4d97"
     },
     {
       "path": "docs/labs/paging.md",
@@ -1131,8 +1437,8 @@
       "license": "CC-BY-4.0",
       "source_kind": "original",
       "basis": "本轮修正实验页与自测页说明文字的表述与标点，脚本、交互逻辑、题目答案与数据结构未变。",
-      "reviewed_on": "2026-11-10",
-      "sha256": "85f46844bd82437f223d3d8472607570d4c3802d7e8f8a241a444e0beb6247d8"
+      "reviewed_on": "2026-11-08",
+      "sha256": "12d2d94fb29ae4599f0ac842a99e8d053e74af336b857c4151e01cae0ac33c1b"
     },
     {
       "path": "docs/labs/quiz.md",
@@ -1140,8 +1446,8 @@
       "license": "CC-BY-4.0",
       "source_kind": "original",
       "basis": "本轮修正实验页与自测页说明文字的表述与标点，脚本、交互逻辑、题目答案与数据结构未变。",
-      "reviewed_on": "2026-11-10",
-      "sha256": "c279df8b724abe9521a35c627c3164845b09410e43ffe093f717b617ffa68705"
+      "reviewed_on": "2026-11-08",
+      "sha256": "0ccc4f3c139607f774cc6faa87ed78836dbfa893fe5006a9bb2c05db92bc37a7"
     },
     {
       "path": "docs/labs/scheduling.md",
@@ -1149,8 +1455,8 @@
       "license": "CC-BY-4.0",
       "source_kind": "original",
       "basis": "本轮修正实验页与自测页说明文字的表述与标点，脚本、交互逻辑、题目答案与数据结构未变。",
-      "reviewed_on": "2026-11-10",
-      "sha256": "72478097cc2de615026c5a73b578f5c9b52284b3c65367e58a235ee5e8ea6119"
+      "reviewed_on": "2026-11-08",
+      "sha256": "df9c28e4ea98bc49575fc8d8488530fccab5c8ebe93880863b4f044afe820238"
     },
     {
       "path": "docs/labs/semaphore.md",
@@ -1158,8 +1464,8 @@
       "license": "Apache-2.0",
       "source_kind": "original-software-and-documentation",
       "basis": "本轮修正实验页与自测页说明文字的表述与标点，脚本、交互逻辑、题目答案与数据结构未变。",
-      "reviewed_on": "2026-11-10",
-      "sha256": "909db33ff6888c6841b3f19de6f5447f7eeea246dd509d5e0b9a732fec1eb7c0"
+      "reviewed_on": "2026-11-08",
+      "sha256": "367188e50f76dbad04845fdda74134571ec54a1b907b5ba6a1a061b482bb65a9"
     },
     {
       "path": "docs/reference/glossary.md",
@@ -1229,9 +1535,9 @@
       "status": "cleared",
       "license": "Apache-2.0",
       "source_kind": "original-software-and-documentation",
-      "basis": "2026-11-10 核验开发约定补充：说明课程首页的四组样式类与锚点依赖；其余条目未变。",
+      "basis": "2026-11-10 核验开发约定：记录两套页面（章节页与考点页）的结构与命名约束。",
       "reviewed_on": "2026-11-10",
-      "sha256": "7bae8a699a653014822f0c65fe2dd4fb7338d1dc10d335f0b09b9232049c654c"
+      "sha256": "e2d76b2c715fc7281c3508b713e66f8c3d2d1bd2d3b27aeaefd565391638fae2"
     },
     {
       "path": "handbook/history-cleanup.md",
@@ -1293,8 +1599,8 @@
       "license": "Apache-2.0",
       "source_kind": "original-software-and-documentation",
       "basis": "本轮修正说明文字的表述与标点，流程、命令与许可说明的含义未变。",
-      "reviewed_on": "2026-11-10",
-      "sha256": "ff8a999852722da8923c719f3c0e12521aaaedfbef78aad98c0497e739e379c9"
+      "reviewed_on": "2026-11-08",
+      "sha256": "a26d1ae2cef56a673cab3ce0696c32e194a2092a36fcb86a1ecad48cb544c543"
     },
     {
       "path": "handbook/seo.md",

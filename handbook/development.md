@@ -26,7 +26,7 @@ MkDocs 直接读取 `docs/`。课程位于 `docs/courses/<slug>/`，入口为 `i
 
 页面采用 Material 原生导航、课程索引、页脚、配色、卡片、按钮和折叠组件。新增页面先使用 `mkdocs.yml` 和 Markdown 扩展，样式仅补充阅读、实验、打印与无障碍需求。
 
-课程首页由 Markdown 与四组自有样式组成：.course-hero、.course-stats、.chapter-grid 与 .chapter-card、.course-steps；章节卡的深链接依赖章内固定锚点 {#exam}（应试导航）与生成后的 #exercise-1，改动这些锚点会同时破坏课程首页。
+课程首页与考点页面由 Markdown 与自有样式组成：`.chapter-grid`、`.chapter-card`、`.course-steps`。每门课拆成两套页面：`chapter-NN.md` 放学习导航、概念讲解与练习；`exam/NN.md` 放必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，`exam/index.md` 是考点总览。考点页文件名不得以 `chapter-` 开头，否则会与章节文件集校验冲突；章页用 `(exam/NN.md)` 链到考点页，考点页用 `(../chapter-NN.md)` 链回。
 
 Material 9.7.7 的搜索分享会先保存旧链接再更新链接。`initSearchShareCopy()` 在点击捕获阶段同步复制属性，仍由上游 ClipboardJS 执行复制。主题升级后重新检查，确认上游修复后移除此适配。
 

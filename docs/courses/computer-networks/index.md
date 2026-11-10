@@ -2,27 +2,11 @@
 
 本课程依据张海霞主编《计算机网络技术》（机械工业出版社，2016 年版）及配套自学考试大纲，课程代码 02141。九章依次从通信基础走到协议、互联、应用、管理与安全。
 
-<div class="course-hero" markdown>
-
-<span class="course-hero__tag">课程代码 02141 · 4 学分</span>
-
-全书 9 章、67 道练习。每章开头的应试导航按大纲条目与能力层次列考点，把教材里的定义、分层、协议字段压成可背的清单，末尾附默写自测。
-
-[从应试导航开始](chapter-01.md#exam){ .md-button .md-button--primary } [直接自测](../../labs/quiz.md){ .md-button }
-
-</div>
-
-<ul class="course-stats">
-<li><strong>9</strong> 章</li>
-<li><strong>67</strong> 道练习</li>
-<li><strong>9</strong> 份应试导航</li>
-<li><strong>150</strong> 分钟闭卷</li>
-</ul>
+[应试导航：各章必背清单与默写自测](exam/index.md)
 
 ## 章节与练习
 
 <div class="chapter-grid" markdown>
-
 <div class="chapter-card" markdown>
 
 <span class="chapter-card__no">01</span>
@@ -31,7 +15,7 @@
 
 网络形成、分类与拓扑、性能指标、标准组织
 
-6 道练习 · [背考点](chapter-01.md#exam) · [读讲解](chapter-01.md#s1) · [做练习](chapter-01.md#exercise-1)
+6 道练习 · [考点](exam/01.md) · [读讲解](chapter-01.md#s1) · [做练习](chapter-01.md#exercise-1)
 
 </div>
 
@@ -43,7 +27,7 @@
 
 传输与信道、调制与编码、复用、差错控制、交换
 
-9 道练习 · [背考点](chapter-02.md#exam) · [读讲解](chapter-02.md#s1) · [做练习](chapter-02.md#exercise-1)
+9 道练习 · [考点](exam/02.md) · [读讲解](chapter-02.md#s1) · [做练习](chapter-02.md#exercise-1)
 
 </div>
 
@@ -55,7 +39,7 @@
 
 OSI 与 TCP/IP、UDP、TCP 与窗口
 
-7 道练习 · [背考点](chapter-03.md#exam) · [读讲解](chapter-03.md#s1) · [做练习](chapter-03.md#exercise-1)
+7 道练习 · [考点](exam/03.md) · [读讲解](chapter-03.md#s1) · [做练习](chapter-03.md#exercise-1)
 
 </div>
 
@@ -67,7 +51,7 @@ OSI 与 TCP/IP、UDP、TCP 与窗口
 
 以太网、交换学习、VLAN、无线局域网
 
-7 道练习 · [背考点](chapter-04.md#exam) · [读讲解](chapter-04.md#s1) · [做练习](chapter-04.md#exercise-1)
+7 道练习 · [考点](exam/04.md) · [读讲解](chapter-04.md#s1) · [做练习](chapter-04.md#exercise-1)
 
 </div>
 
@@ -79,7 +63,7 @@ OSI 与 TCP/IP、UDP、TCP 与窗口
 
 IPv4、编址、路由、辅助协议、IPv6
 
-8 道练习 · [背考点](chapter-05.md#exam) · [读讲解](chapter-05.md#s1) · [做练习](chapter-05.md#exercise-1)
+8 道练习 · [考点](exam/05.md) · [读讲解](chapter-05.md#s1) · [做练习](chapter-05.md#exercise-1)
 
 </div>
 
@@ -91,7 +75,7 @@ IPv4、编址、路由、辅助协议、IPv6
 
 DNS、FTP、邮件、HTTP、状态管理、HTML、电商
 
-8 道练习 · [背考点](chapter-06.md#exam) · [读讲解](chapter-06.md#s1) · [做练习](chapter-06.md#exercise-1)
+8 道练习 · [考点](exam/06.md) · [读讲解](chapter-06.md#s1) · [做练习](chapter-06.md#exercise-1)
 
 </div>
 
@@ -103,7 +87,7 @@ DNS、FTP、邮件、HTTP、状态管理、HTML、电商
 
 管理架构、五类功能、SNMP、管理工具
 
-7 道练习 · [背考点](chapter-07.md#exam) · [读讲解](chapter-07.md#s1) · [做练习](chapter-07.md#exercise-1)
+7 道练习 · [考点](exam/07.md) · [读讲解](chapter-07.md#s1) · [做练习](chapter-07.md#exercise-1)
 
 </div>
 
@@ -115,7 +99,7 @@ DNS、FTP、邮件、HTTP、状态管理、HTML、电商
 
 操作系统分类、网络服务、账户与域管理
 
-6 道练习 · [背考点](chapter-08.md#exam) · [读讲解](chapter-08.md#s1) · [做练习](chapter-08.md#exercise-1)
+6 道练习 · [考点](exam/08.md) · [读讲解](chapter-08.md#s1) · [做练习](chapter-08.md#exercise-1)
 
 </div>
 
@@ -127,7 +111,7 @@ DNS、FTP、邮件、HTTP、状态管理、HTML、电商
 
 安全目标、密码与签名、IPsec 与 TLS、防火墙、恶意代码
 
-9 道练习 · [背考点](chapter-09.md#exam) · [读讲解](chapter-09.md#s1) · [做练习](chapter-09.md#exercise-1)
+9 道练习 · [考点](exam/09.md) · [读讲解](chapter-09.md#s1) · [做练习](chapter-09.md#exercise-1)
 
 </div>
 

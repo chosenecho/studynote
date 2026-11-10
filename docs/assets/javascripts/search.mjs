@@ -24,6 +24,8 @@ if (root) {
   let documents = [];
   let lastQuery = '';
   let returnOnClose = false;
+  // No query yet: the panel is only the field, with no empty result area under it.
+  root.dataset.searchIdle = '';
 
   function sync() {
     trigger.setAttribute('aria-expanded', String(toggle.checked));
@@ -55,6 +57,7 @@ if (root) {
     worker = null;
     loading = ready = false;
     failed = true;
+    delete root.dataset.searchIdle;
     pendingQueries.length = 0;
     list.replaceChildren();
     root.removeAttribute('aria-busy');
@@ -87,7 +90,14 @@ if (root) {
     recovery.hidden = true;
     root.querySelector('.search-alias-hint')?.remove();
     window.clearTimeout(queryTimeout);
-    if (!lastQuery) { input.removeAttribute('aria-busy'); list.replaceChildren(); meta.textContent = '输入章节名或概念开始搜索'; return; }
+    if (!lastQuery) {
+      root.dataset.searchIdle = '';
+      input.removeAttribute('aria-busy');
+      list.replaceChildren();
+      meta.textContent = '输入章节名或概念开始搜索';
+      return;
+    }
+    delete root.dataset.searchIdle;
     input.setAttribute('aria-busy', 'true');
     meta.textContent = '正在搜索…';
     pendingQueries.push(lastQuery);
@@ -139,6 +149,7 @@ if (root) {
   }
   function render(items) {
     if (!items.length) items = fallbackResults();
+    delete root.dataset.searchIdle;
     input.removeAttribute('aria-busy');
     recovery.hidden = true;
     const fragment = document.createDocumentFragment();
@@ -229,7 +240,16 @@ if (root) {
   input.addEventListener('compositionend', () => { window.clearTimeout(timer); if (!ready) load(); else query(); });
   retry.addEventListener('click', () => { retry.disabled = true; retry.textContent = '正在重试…'; load(true); });
   form.addEventListener('submit', event => { event.preventDefault(); query(); });
-  form.addEventListener('reset', () => { window.setTimeout(() => { query(); input.focus(); }, 0); });
+  form.addEventListener('reset', () => {
+    // The reset control clears the query. With nothing to clear, closing the panel is
+    // what reaching for that × means, since the alternative is a button that does nothing.
+    const hadQuery = !!input.value.trim();
+    window.setTimeout(() => {
+      query();
+      if (hadQuery) input.focus();
+      else setOpen(false, true);
+    }, 0);
+  });
   root.addEventListener('keydown', event => {
     if (event.key === 'Escape') { event.preventDefault(); setOpen(false, true); }
   });

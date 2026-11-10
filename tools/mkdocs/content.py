@@ -151,9 +151,10 @@ def on_page_markdown(markdown, page, config, files):
     if uri.as_posix() == 'courses/index.md':
         links = '\n'.join(f'- [{c["title"]}]({c["slug"]}/index.md)：{c["chapters"]} 章。' for c in COURSES)
         return markdown.replace('<!-- course-catalog -->', links)
+    parts = uri.parts
     course = next((course for course in COURSES
-                   if uri.parent.as_posix() == f'courses/{course["slug"]}'), None)
-    if course:
+                   if len(parts) >= 3 and parts[0] == 'courses' and parts[1] == course['slug']), None)
+    if course and len(parts) == 3:
         if uri.name == 'index.md':
             page.meta['title'] = f'{course["title"]}：课程笔记与复习指南'
             page.meta['description'] = f'{course["title"]}课程目录与复习指南。'
@@ -172,6 +173,21 @@ def on_page_markdown(markdown, page, config, files):
             # Python-Markdown needs a block wrapper around the dialog element.
             dialog = '<div class="image-dialog-holder">\n\n' + DIALOG + '\n\n</div>\n'
             return title + '\n\n' + toolbar + '\n\n' + body + ('\n\n' + dialog if '<img' in body else '')
+    if course and len(parts) == 4 and parts[2] == 'exam':
+        if uri.name == 'index.md':
+            page.meta['title'] = f'{course["title"]}：应试导航'
+            page.meta['description'] = (
+                f'{course["title"]}各章必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测的总览。'
+            )
+        else:
+            number = re.fullmatch(r'(\d{2})\.md', uri.name)
+            if number:
+                label = markdown.split('\n', 1)[0].lstrip('# ').strip()
+                page.meta['title'] = f'{label} · {course["title"]}'
+                page.meta['description'] = (
+                    f'{course["title"]}{label}：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测。'
+                )
+        return markdown
     if uri.parent.as_posix() == 'reference':
         title = markdown.split('\n', 1)[0].lstrip('# ').strip()
         page.meta['description'] = f'各门课程的{title}，含概念辨析、计算条件与章节回查链接。'

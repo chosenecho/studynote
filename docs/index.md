@@ -22,7 +22,7 @@ title: 自考计算机课程复习笔记
 
     <progress data-study-progress="os" value="0" max="6" aria-label="操作系统概论已复习章节"></progress>
 
-    [课程概览 →](courses/operating-systems/index.md)
+    [学习导航 →](courses/operating-systems/index.md) · [应试导航 →](courses/operating-systems/exam/index.md)
 
     <a class="recent-study" data-recent-chapter="os" hidden>返回最近阅读</a>
 
@@ -38,7 +38,7 @@ title: 自考计算机课程复习笔记
 
     <progress data-study-progress="co" value="0" max="6" aria-label="计算机组成原理已复习章节"></progress>
 
-    [课程概览 →](courses/computer-organization/index.md)
+    [学习导航 →](courses/computer-organization/index.md) · [应试导航 →](courses/computer-organization/exam/index.md)
 
     <a class="recent-study" data-recent-chapter="co" hidden>返回最近阅读</a>
 
@@ -54,7 +54,7 @@ title: 自考计算机课程复习笔记
 
     <progress data-study-progress="cn" value="0" max="9" aria-label="计算机网络技术已复习章节"></progress>
 
-    [课程概览 →](courses/computer-networks/index.md)
+    [学习导航 →](courses/computer-networks/index.md) · [应试导航 →](courses/computer-networks/exam/index.md)
 
     <a class="recent-study" data-recent-chapter="cn" hidden>返回最近阅读</a>
 
@@ -70,7 +70,7 @@ title: 自考计算机课程复习笔记
 
     <progress data-study-progress="mm" value="0" max="9" aria-label="多媒体技术及应用已复习章节"></progress>
 
-    [课程概览 →](courses/multimedia-technology/index.md)
+    [学习导航 →](courses/multimedia-technology/index.md) · [应试导航 →](courses/multimedia-technology/exam/index.md)
 
     <a class="recent-study" data-recent-chapter="mm" hidden>返回最近阅读</a>
 

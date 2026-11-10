@@ -536,81 +536,81 @@
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
+      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "b70da071b79eae2e56693aa1ce476c8a6fae90a4ba529037e3c72fde3698aeac"
+      "sha256": "2a35432d7f9f165c1836688490f5a9342447b2f78a35e40e854baf1bb325a6a3"
     },
     {
       "path": "docs/courses/computer-networks/chapter-02.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
+      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "054deaf19a2ea05115d00890e6bbed5578d53b3551591c2df33fd53b41f32af9"
+      "sha256": "9986b61e80cefd6973965c6ceea8ab707d1b2b29fcfe5dc5fc282b663b900dac"
     },
     {
       "path": "docs/courses/computer-networks/chapter-03.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
+      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "51def10e2e25c28587756c5b8abb48824293d0196101daa33382f3a1cd8bff8c"
+      "sha256": "2beb1c34e639875235d4edc470629467a50f0eb5806029dda59f9b339de0efee"
     },
     {
       "path": "docs/courses/computer-networks/chapter-04.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
+      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "6ad4bcaed671bf24aeaffe42f27955e48f2f2eb4036b7549c0aacbb29f56d914"
+      "sha256": "f95c97fd6abbaabf25d553dabd2c23dde6e1431b12fb0484719fdad2b18facf0"
     },
     {
       "path": "docs/courses/computer-networks/chapter-05.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
+      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "8f110dde14bf17be53800ef4048eccda43cd8f3910428cfe2144ccf33f87a0c7"
+      "sha256": "fc03fb19633dd9e780a26d01dd4b0c1b5a39eaceb12c009a2600283687cc4633"
     },
     {
       "path": "docs/courses/computer-networks/chapter-06.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
+      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "a98301ff3c81db167da8c6d1f26fd2ca72f54e092865c46836effb89be6a8407"
+      "sha256": "5efe765dd168f660d0f307ac598bb892a6a86f25e6be924a63ce07357c4ebdc2"
     },
     {
       "path": "docs/courses/computer-networks/chapter-07.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
+      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "f201bb37e9abbd993f83d0f487da840c13612f2e707e9f5910f79fbbbb2cda41"
+      "sha256": "f12df8c3ad559b48d28351cad9af4ade6028cd3317e2f2c6e82a1424bca4dfd6"
     },
     {
       "path": "docs/courses/computer-networks/chapter-08.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
+      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "fa6aded79f05a0f2124f2169b55b77a2c4cea09618edbb1cccc134f8d6198bb1"
+      "sha256": "4a4f0e197b4f6105dabb9560672a5033c170ad1ba0d4ee209366cf9856e25f80"
     },
     {
       "path": "docs/courses/computer-networks/chapter-09.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
+      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "711a9c7b9943b19cb4020ee52c639630430d6927f9054e2d95cf337f5beb4ea0"
+      "sha256": "8a32bda6d9dcde128be7190fa156b40d4c9d2a1d06ed15f999cda90bcdbdd134"
     },
     {
       "path": "docs/courses/computer-networks/exam/01.md",
@@ -698,9 +698,9 @@
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
-      "basis": "2026-11-10 核验新增的考点总览页：只列章名、必背条目数与默写题数并链接考点页。",
+      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "4cdf01acc550451de39f43e257299a80c8da1dcb6cc16e8332fe0a40398c9d1d"
+      "sha256": "22c9bd80b935f61cc26b30e4850d56a406e41230d5be82586fff2e69e818c522"
     },
     {
       "path": "docs/courses/computer-networks/figures/management-loop.svg",
@@ -734,63 +734,63 @@
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验课程首页精简：删去概述盒子与数字块，保留章节卡片并把考点入口改指独立考点页。",
+      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "db87a47ebaaf9064b2fffe267903f6b2033bf833cffcd44fa65b90a6101c8aa7"
+      "sha256": "41a29897f9bea0ee62b72694ca9f0f5a4e6b74de413df6149ae465267d491edb"
     },
     {
       "path": "docs/courses/computer-organization/chapter-01.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
+      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "c48e0d5034f43444396c15f651eb5018c5d0d26ea5562eaaf099dc0cf8e0cbcc"
+      "sha256": "c8664098c9d3762da52c79d362d60d8c8db72da23d779a0471c4b09066005465"
     },
     {
       "path": "docs/courses/computer-organization/chapter-02.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
+      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "2581df2cbe207940a1b37b12ede4cda8d89ff36330f4abb7a6a5f73d6f7c0d74"
+      "sha256": "b194aeb2ac1af1967b6c64481ea1f79e44d7e67e2f70149ca229c51f6a28a74d"
     },
     {
       "path": "docs/courses/computer-organization/chapter-03.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
+      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "ec9b029db0984bdad5d7db4987a52fc26f0d6879939cf8ba3ca9b53acf288563"
+      "sha256": "c97160a23744075cf480e3041a8749f284bba80e05041484b85ef31281984beb"
     },
     {
       "path": "docs/courses/computer-organization/chapter-04.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
+      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "82f30110afb315edc03534306f4df99b76cefa00379b913cca4fb861ec152ea5"
+      "sha256": "f35aa23284effa980c815ef26e27b85865194fc76c5cf1d708a75d3eb3454abc"
     },
     {
       "path": "docs/courses/computer-organization/chapter-05.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
+      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "5efea2eeac08b826b70ef043e1f63fce6304d1fa17bd0efd00ef5d3922116811"
+      "sha256": "15c63daa7aee0dae70a67d7312f5ed82b618dd0eaa44ed53b03cc90147d9e47b"
     },
     {
       "path": "docs/courses/computer-organization/chapter-06.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
+      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "dfad958f6b778ceb2fab91160502be1de7cc58d7080f7a6a9b4ad1c1c8ba5466"
+      "sha256": "e77010e38e702ae0a6e7f929f9a71b7514086488888b2c5aae155f2063452d31"
     },
     {
       "path": "docs/courses/computer-organization/exam/01.md",
@@ -851,9 +851,9 @@
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
-      "basis": "2026-11-10 核验新增的考点总览页：只列章名、必背条目数与默写题数并链接考点页。",
+      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "2c2bdd2521fcc361c9719a7a87be94ac6351ec231f3bbc05560b9a9fc20aee35"
+      "sha256": "9e0b3dd406b2bdfc156fc62d3fa8435e809444f09d8924f42afeb16d7300184e"
     },
     {
       "path": "docs/courses/computer-organization/figures/bus-transaction.svg",
@@ -905,9 +905,9 @@
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验课程首页精简：删去概述盒子与数字块，保留章节卡片并把考点入口改指独立考点页。",
+      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "cef675e5de25a594b7bd0e691c830049d3056e28b43cd929e1cc57dbb958e3e9"
+      "sha256": "83494b1baaf545ee33fa139c7ec66be541f60e517accc8d03bcbd38a8fa77113"
     },
     {
       "path": "docs/courses/index.md",
@@ -923,81 +923,81 @@
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
+      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "bb74766ed88435b91243ff104129f5bc600727880ad794d75a0051cb935117d7"
+      "sha256": "6ea3dd5223b24508a08231e8d121ceff3ede678f4c79d1555584560edde38b7a"
     },
     {
       "path": "docs/courses/multimedia-technology/chapter-02.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
+      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "613bb45b3f7ddb390fad001c3ab23a2534aae409c9387a4d0e649e032db8e7ef"
+      "sha256": "d3bee4b8b08e3c1c782002dbddaa9f445b51daa6f7ca36a9ed4ceab46b3f536f"
     },
     {
       "path": "docs/courses/multimedia-technology/chapter-03.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
+      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "655e5702b62ab096b4fed0052c067bd9ed102fe063ee47d2a5149bd9e5d1c70e"
+      "sha256": "f25fdb25ea460dc03fd69e4029a28f1173b2f49e04350f0026106aceaf3cfd0f"
     },
     {
       "path": "docs/courses/multimedia-technology/chapter-04.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
+      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "b7841abeb0de2bf812761d96484c50987a60672cf523c778089d90065a96dce0"
+      "sha256": "b3dff2fe81e8873c842ab48cf119a1fa314075d8a806ebb63d5e87f07230ac5f"
     },
     {
       "path": "docs/courses/multimedia-technology/chapter-05.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
+      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "f897225eb834670ea0842a9c6ad4412436f730111781f3077203f0ff73ed57ec"
+      "sha256": "4489a425fdda8519af6e7c4ffc1a1e55d6cb62b6d26058d1e4cf73c4f9730954"
     },
     {
       "path": "docs/courses/multimedia-technology/chapter-06.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
+      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "2ed32558f015fad785736a63dbcde1f784b06fdfafeb75a0b5245590fc0e4fb9"
+      "sha256": "344fc33614ff62f24537a5b917d41291833ae5eaf93fd4810defb114de162823"
     },
     {
       "path": "docs/courses/multimedia-technology/chapter-07.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
+      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "8a74e9df9869d808c363efc86fa90511b14c582a07be8707dc19243cbce4c361"
+      "sha256": "d5cf3aca033792a97b8c6f6c67824442acec404551d3e835b726a16916a636b6"
     },
     {
       "path": "docs/courses/multimedia-technology/chapter-08.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
+      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "04758977b2a947eb404e6f320a09e4546b8031928340d1f6f0b0644735c34099"
+      "sha256": "40a59bfbf0dc263cb7615bff73e21ff0bcb98f33c439ed2ef91b856a0dab0ac8"
     },
     {
       "path": "docs/courses/multimedia-technology/chapter-09.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
+      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "7204d32dd800d0ad6a0dd6502e4bd981e44cfcab785938130d01d4046003a2bd"
+      "sha256": "b45e4d77682af4e2c05135463e35d44bd684203c0ab1551324bc10cddbc8f37e"
     },
     {
       "path": "docs/courses/multimedia-technology/exam/01.md",
@@ -1085,9 +1085,9 @@
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
-      "basis": "2026-11-10 核验新增的考点总览页：只列章名、必背条目数与默写题数并链接考点页。",
+      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "919b157b9d479acb251492262876773426eac368adf7c7c9475f83454dde9987"
+      "sha256": "fcbbf26d49680a9187696a12826412036a9e1ad27cda1cc2200d688667a62311"
     },
     {
       "path": "docs/courses/multimedia-technology/figures/animation-workflow.svg",
@@ -1166,27 +1166,27 @@
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验课程首页精简：删去概述盒子与数字块，保留章节卡片并把考点入口改指独立考点页。",
+      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "e37d1bd053b6e793030407794b836251f225cb77f03523e9f3239819dbe99bcb"
+      "sha256": "0ec37991e627eb52f2382e40ab642862f9c168411c2b324b3a1d2f2ffed11fa4"
     },
     {
       "path": "docs/courses/operating-systems/chapter-01.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
+      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "ec5aca4b471a5330e901d322407c8e38831b80a9eac61fc78fd9e12d9cbae901"
+      "sha256": "8e3135ed47158429191a188f4eb938dfcd372f25f8390d3ec31205aa0a62e16d"
     },
     {
       "path": "docs/courses/operating-systems/chapter-02.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
+      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "05113e90d683dbcf3c83e3172a826bb4ec34694ab0866623aa3e34980ec46336"
+      "sha256": "c0c44cd0b32b7b45122229d3fd306385bfc17d11baa447117253900572592264"
     },
     {
       "path": "docs/courses/operating-systems/chapter-03.md",
@@ -1195,16 +1195,16 @@
       "source_kind": "original",
       "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "9e2925d5507c136f40e8d5c29a10c39b465e25b53f70b42fa9941ca2292e2b38"
+      "sha256": "3c415f7d43f340bccaf97c1bec6b83dd4d84c39e366f06027bcf64dd00b93c1f"
     },
     {
       "path": "docs/courses/operating-systems/chapter-04.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
+      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "9d34e51628471b42ea968a3db3d0859031e64cb063a2273498d262c83fd2f82f"
+      "sha256": "65abfcb0a4386e3f1a1dda20f131d8f309d80ece537f8aafb2b66874f9d6ee2b"
     },
     {
       "path": "docs/courses/operating-systems/chapter-05.md",
@@ -1213,16 +1213,16 @@
       "source_kind": "original",
       "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "4e2bfb545f56d4c58de3790bed8730abe0719fea1c7b2642a3391557e41ea53b"
+      "sha256": "45d82dc452ba92e8e43593a70b6d4c8e2dfcabc9c6262c9d28efb7736087b873"
     },
     {
       "path": "docs/courses/operating-systems/chapter-06.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
+      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "9888864a6f48394dbf08b1734818b636fce04a20e459d25b4d91c866c3f3fc75"
+      "sha256": "e63ed65362218de0f2f4830a742e08a2479ed1b5c82ca4aaaee5fa4b0126548c"
     },
     {
       "path": "docs/courses/operating-systems/exam/01.md",
@@ -1283,9 +1283,9 @@
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
-      "basis": "2026-11-10 核验新增的考点总览页：只列章名、必背条目数与默写题数并链接考点页。",
+      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "0fd7d8190252ecb77874b6503f0a85e22ecc768543280a6c81c8e887564399f5"
+      "sha256": "e71fd07d7ff9013d1b7e1636a15985f6b87b6d01f88d94e9ae3363137f7db2ac"
     },
     {
       "path": "docs/courses/operating-systems/figures/address-walk.svg",
@@ -1348,7 +1348,7 @@
       "source_kind": "original",
       "basis": "2026-11-10 核验课程首页精简：删去概述盒子与数字块，保留章节卡片并把考点入口改指独立考点页。",
       "reviewed_on": "2026-11-10",
-      "sha256": "03a3241d095c132d04b7d911e220961dca6b87dec8457389c09c93f98d3b4899"
+      "sha256": "5a8f087b155dc78408579106eb77baa4d3882c5034871b80e7c16f5583f0c775"
     },
     {
       "path": "docs/errata.md",
@@ -1373,9 +1373,9 @@
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "本轮修正站点说明文字的表述与标点，链接、导航与既有事实未变。",
-      "reviewed_on": "2026-11-08",
-      "sha256": "2b51fdb51ae79c9aa75e3d1bb25589602ca5d9dc650c0153901be08075d6839c"
+      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
+      "reviewed_on": "2026-11-10",
+      "sha256": "99ec3a982f91811c725c7cd756cf76e5091131ea9c0fbb8c25c9ea67d8a0c4a5"
     },
     {
       "path": "docs/labs/address.md",

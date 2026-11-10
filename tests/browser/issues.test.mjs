@@ -73,6 +73,26 @@ try {
   await page.waitForFunction(() => document.querySelectorAll('.md-search-result__link').length === 0);
   ok('Chinese input events, zero-result alternatives and reset update the result panel');
 
+  // The panel must be dismissable from the field icon and from the page behind it:
+  // the header trigger only exists below 60em, and the overlay used to swallow the click.
+  const settled = (open) => page.waitForFunction(state => document.querySelector('#__search').checked === state, open);
+  await page.setViewportSize({width: 1280, height: 900});
+  await query.click();
+  await settled(true);
+  await page.locator('.md-search__icon[for="__search"]').click();
+  await settled(false);
+  await query.click();
+  await settled(true);
+  const main = await page.locator('.md-main').boundingBox();
+  await page.mouse.click(main.x + main.width / 2, main.y + main.height - 40);
+  await settled(false);
+  await page.setViewportSize({width: 390, height: 844});
+  await page.getByRole('button', {name: '打开搜索', exact: true}).click();
+  await settled(true);
+  await page.locator('.md-search__icon[for="__search"]').click();
+  await settled(false);
+  ok('Search panel closes from its own field icon and from the page behind it');
+
   for (const width of [1280, 1024]) {
     await page.setViewportSize({width, height: 900});
     await query.fill('抖动');

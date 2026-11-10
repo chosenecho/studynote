@@ -536,171 +536,171 @@
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "2a35432d7f9f165c1836688490f5a9342447b2f78a35e40e854baf1bb325a6a3"
+      "sha256": "32352cb42fb0a7558b677dd6987485ddfec51f68d522bfef5d79be541b987f4f"
     },
     {
       "path": "docs/courses/computer-networks/chapter-02.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "13df62c46ef96ace6a0185c9e47e2f62490b09f36f4e059c24f3553774f90641"
+      "sha256": "2cea6d34e8c03d3528402575530965d808fd36a245f1ac7102bd3a3a8f45401f"
     },
     {
       "path": "docs/courses/computer-networks/chapter-03.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "2beb1c34e639875235d4edc470629467a50f0eb5806029dda59f9b339de0efee"
+      "sha256": "8a6faf79cf88a617b9b42c79b86a46afd67cbd4269ca59e7bfa68605ef60626c"
     },
     {
       "path": "docs/courses/computer-networks/chapter-04.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "f95c97fd6abbaabf25d553dabd2c23dde6e1431b12fb0484719fdad2b18facf0"
+      "sha256": "5f7c466dacbd97fd0e1cf47a598cca75c815a303f98a1ce81ab6d44e101f3a38"
     },
     {
       "path": "docs/courses/computer-networks/chapter-05.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "02af9d6cba48d3fa187be9746c680b949b84e5cfe07fa960baa084c0f2681745"
+      "sha256": "e13de43f522852aaff936815bd1796cfefb4f54bacd2824494af9372180d27cc"
     },
     {
       "path": "docs/courses/computer-networks/chapter-06.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "5efe765dd168f660d0f307ac598bb892a6a86f25e6be924a63ce07357c4ebdc2"
+      "sha256": "e8a060836fde061296aab32fbcd27581d4339449dd2df5d49632852e9de62b1d"
     },
     {
       "path": "docs/courses/computer-networks/chapter-07.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "e0f230e092aabfd515db584fad9448376a66e1e7e8a0aeb26e2e18fb2ab9bea8"
+      "sha256": "aa314bacb182ec2fae382eb77b7314b902f966ba5d8eb5ad7d4b62a66f57b070"
     },
     {
       "path": "docs/courses/computer-networks/chapter-08.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "684bc69e44700a4936721cc899c493656ff7971df8314d492bb7c63faab08e51"
+      "sha256": "383fa0a21deb72aa5f663ebfc5f0af375f831a257408e7ee7604303181aef58b"
     },
     {
       "path": "docs/courses/computer-networks/chapter-09.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "8a32bda6d9dcde128be7190fa156b40d4c9d2a1d06ed15f999cda90bcdbdd134"
+      "sha256": "839bab862623e22b9fc2d1c9586bc0a0bde8866aaaad7e049a02ee7595691e3d"
     },
     {
       "path": "docs/courses/computer-networks/exam/01.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
-      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "176fe260c9d894ea74e665e1216a92aedfeb7d6da66dc94b963190328722bc36"
+      "sha256": "21e39e1d3af0b4e7060c5e55737ca1b36915f2003daee3426cf18ac153bcd39a"
     },
     {
       "path": "docs/courses/computer-networks/exam/02.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
-      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "8b4acce41d472a4283adbed33f7d26675bc35dd455030396e2a517674e6bccc4"
+      "sha256": "081b81021a0cd65f234b95e4fd286f8d31142711a48545c272c3680428d1d79b"
     },
     {
       "path": "docs/courses/computer-networks/exam/03.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
-      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "66fa86666bc243ef985410c300cf55f86ae172d2b74aaf6078fe9d4f8a54f274"
+      "sha256": "36a1f72e672d13bb31227467a150233d7266c646a12f330252bee7ac3ed8e3e2"
     },
     {
       "path": "docs/courses/computer-networks/exam/04.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
-      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "ddfbe39d5e512ee9afa2d7ef8ba9b3cdec29b85fe1d3ef331004f28497136db5"
+      "sha256": "8bc7d3a90e648029bf1096b45bfb5954844f0db211cb1e88d39e74cb599a362a"
     },
     {
       "path": "docs/courses/computer-networks/exam/05.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
-      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "73a162d5b1f6f6cd6be14c3e05613effd9be450637add7f99d91f39a1a6c1070"
+      "sha256": "e0b3a762da5b47792fbc8f1cf9d4762bfedfeb2993ba6f223ee503e6ac97ecdc"
     },
     {
       "path": "docs/courses/computer-networks/exam/06.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
-      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "79c1a3488190de63cfba57a3b805b991d64940b4539966183457f1ea2dc81121"
+      "sha256": "e3df98faa7bdafa3a2da719c0155fc062267a0303829f28402ba457ee333c3db"
     },
     {
       "path": "docs/courses/computer-networks/exam/07.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
-      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "2a68196e76e127b57ccf1ac501dbe2ee8bd2eaf45f30fe308274994c44f2df67"
+      "sha256": "df6e98cc1860c7b72035a84e6e2362aa9e3c6bbf5498fa28c470721e5c95fff8"
     },
     {
       "path": "docs/courses/computer-networks/exam/08.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
-      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "b298276f7004c7e4e3ccb59dd642b8e113dc7d346a8a265b399149fb12c1a2bd"
+      "sha256": "8add776f62c45f0dcd1b9b7341060a2f531531db51d6d1f147b7aabfe6e32046"
     },
     {
       "path": "docs/courses/computer-networks/exam/09.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
-      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "370836435de7d0a09c4363ec8469d07be07bb8d0d240df07c4eb9bafb1385480"
+      "sha256": "ab446afb12152b3c98ba8276752e33717f9e5645df7901eca599891884bf5786"
     },
     {
       "path": "docs/courses/computer-networks/exam/index.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
-      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "22c9bd80b935f61cc26b30e4850d56a406e41230d5be82586fff2e69e818c522"
+      "sha256": "5659c65fc5ce89bf4442c5aaf389bd4211d1eee46e95180a1a58d43e7cbb67a1"
     },
     {
       "path": "docs/courses/computer-networks/figures/management-loop.svg",
@@ -743,126 +743,126 @@
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
-      "basis": "2026-11-10 核验新增的学习导航页：只列各章标题、练习数并链到讲解、练习与考点页，不含教材原文、题目或插图。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "1c13e23178d92a21760017f47a3287062a881162ab415d2461248eaca91017b3"
+      "sha256": "b19b978741bb5be5ef083324e0309d0c8485effbc34b1db4225dd652a79832b0"
     },
     {
       "path": "docs/courses/computer-organization/chapter-01.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "c8664098c9d3762da52c79d362d60d8c8db72da23d779a0471c4b09066005465"
+      "sha256": "0be6f91158e3dcd4e9e39a53171cb401e96910146a7af6de6c63e7356e3db426"
     },
     {
       "path": "docs/courses/computer-organization/chapter-02.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "b194aeb2ac1af1967b6c64481ea1f79e44d7e67e2f70149ca229c51f6a28a74d"
+      "sha256": "574f4afc8843e387ae956392d2df96202a4a319b707340249667e5c2003d2feb"
     },
     {
       "path": "docs/courses/computer-organization/chapter-03.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "c97160a23744075cf480e3041a8749f284bba80e05041484b85ef31281984beb"
+      "sha256": "e1316d131dc5b0005256f778c708f3d7c87e0fa91a3540981778844cd0d2145d"
     },
     {
       "path": "docs/courses/computer-organization/chapter-04.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "f35aa23284effa980c815ef26e27b85865194fc76c5cf1d708a75d3eb3454abc"
+      "sha256": "87ae71fcf520834a1aafc836f4b138acb596d2c3ccd25494fe91c256c3f56f30"
     },
     {
       "path": "docs/courses/computer-organization/chapter-05.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "15c63daa7aee0dae70a67d7312f5ed82b618dd0eaa44ed53b03cc90147d9e47b"
+      "sha256": "97de7569357a978f9ef87b73584d2fc32d3eb74bf0e0a146ae30f3e791b13e4a"
     },
     {
       "path": "docs/courses/computer-organization/chapter-06.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "e77010e38e702ae0a6e7f929f9a71b7514086488888b2c5aae155f2063452d31"
+      "sha256": "b5a5071d8eff19206c4deb2a0a4e30edbfe402fb7e4e03554a9f3fb25418a0fb"
     },
     {
       "path": "docs/courses/computer-organization/exam/01.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
-      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "c94a5e8aa347cd61461fa9ec143ecb00d7784812ba1af6784e98c034debf0037"
+      "sha256": "3103341d89104c9defaaa36bfb890a510ee8d6ab4d122ae896ecbaecd4041708"
     },
     {
       "path": "docs/courses/computer-organization/exam/02.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
-      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "4017d4bbe546952e855178bc62f050ba8c156ea726c13affdd2d918c74339a7b"
+      "sha256": "fdf668a5787cce06225305ac0d264193d2887ddd8cae7d1f18a312df3a079495"
     },
     {
       "path": "docs/courses/computer-organization/exam/03.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
-      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "41abb610060b384ef542e0fa9d48a5c860ffbef40d15437b614c96908e1559fa"
+      "sha256": "e839e81feeaf0207fe1f2cfd130dcd63b7516802b4861589540a8a89cc503728"
     },
     {
       "path": "docs/courses/computer-organization/exam/04.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
-      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "709afc6878fb34fca5b7a9ebecb38ed0df2e28373b18bfda431d183b04230032"
+      "sha256": "617905d7c53dc0f4e2af1bab8c3c99c9c3aee923edf19716c15f2d7af343fe4e"
     },
     {
       "path": "docs/courses/computer-organization/exam/05.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
-      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "63f94a81081c10b99f01327ad5f1db36e06b1f9a66c568b0ed8bc02595aca87b"
+      "sha256": "350c00b5491654bad8b7ea35c71c2f8b2b1808f1b3c10c66d71bb192900d138d"
     },
     {
       "path": "docs/courses/computer-organization/exam/06.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
-      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "e7ae664201efc2646b5a54eb021387447e074c0e57dc739a51e07af3c9e9abe0"
+      "sha256": "ea314cbb6f071f5db0babe4c93c10010fe1d363442038d300ac3a8cc08b4ed40"
     },
     {
       "path": "docs/courses/computer-organization/exam/index.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
-      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "9e0b3dd406b2bdfc156fc62d3fa8435e809444f09d8924f42afeb16d7300184e"
+      "sha256": "91aa3e17866afca317a33a320b4431c59d31190423973f03b1a6185f27c840f6"
     },
     {
       "path": "docs/courses/computer-organization/figures/bus-transaction.svg",
@@ -923,9 +923,9 @@
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
-      "basis": "2026-11-10 核验新增的学习导航页：只列各章标题、练习数并链到讲解、练习与考点页，不含教材原文、题目或插图。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "8e1edf8d8fce03174c14475d352dab225a18f98c7df9f024fcb12bc2499c159f"
+      "sha256": "8f203b18bee5e7d839b42390eeaaeddf593107b1f99784aab9d926fa0bdaf57a"
     },
     {
       "path": "docs/courses/index.md",
@@ -941,171 +941,171 @@
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "6ea3dd5223b24508a08231e8d121ceff3ede678f4c79d1555584560edde38b7a"
+      "sha256": "175cb6b464e7a978d05c2cc16c40395625ea0163ec40fc2f95f69171fe3427ee"
     },
     {
       "path": "docs/courses/multimedia-technology/chapter-02.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "d3bee4b8b08e3c1c782002dbddaa9f445b51daa6f7ca36a9ed4ceab46b3f536f"
+      "sha256": "069405079cf801f646ff2eaea7e4c77376cf56f11053804625c1fa4dce00aa91"
     },
     {
       "path": "docs/courses/multimedia-technology/chapter-03.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "f25fdb25ea460dc03fd69e4029a28f1173b2f49e04350f0026106aceaf3cfd0f"
+      "sha256": "aa35e293220a2d6e44d25fa2b6465db24a7266ddd8a392c1b1e0b459f228c00f"
     },
     {
       "path": "docs/courses/multimedia-technology/chapter-04.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "b3dff2fe81e8873c842ab48cf119a1fa314075d8a806ebb63d5e87f07230ac5f"
+      "sha256": "afe7aaf944d000535226ea33734e5604794b27c894cb1ceb0c77fabf61a3e00c"
     },
     {
       "path": "docs/courses/multimedia-technology/chapter-05.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "4489a425fdda8519af6e7c4ffc1a1e55d6cb62b6d26058d1e4cf73c4f9730954"
+      "sha256": "49c585a15f7bdd5e83a018b10029add58628cc4347f32abe5c5af8fdce0e8955"
     },
     {
       "path": "docs/courses/multimedia-technology/chapter-06.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "344fc33614ff62f24537a5b917d41291833ae5eaf93fd4810defb114de162823"
+      "sha256": "fbf59f38fbc4dc9f752db24457570fb314dfa01207e560acd92b49893074ffe4"
     },
     {
       "path": "docs/courses/multimedia-technology/chapter-07.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "d5cf3aca033792a97b8c6f6c67824442acec404551d3e835b726a16916a636b6"
+      "sha256": "448d1e5cf452a4c53c090f84f3bf9748e18b4849125f6fa89c0f3900e69f21ae"
     },
     {
       "path": "docs/courses/multimedia-technology/chapter-08.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "40a59bfbf0dc263cb7615bff73e21ff0bcb98f33c439ed2ef91b856a0dab0ac8"
+      "sha256": "3d8f39f7f69dc13304fc43a0042c96746896d54b4ca37ced67894850ef592c80"
     },
     {
       "path": "docs/courses/multimedia-technology/chapter-09.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "b45e4d77682af4e2c05135463e35d44bd684203c0ab1551324bc10cddbc8f37e"
+      "sha256": "b08428db3fdfd1818f2914df6473fe43e6871229ea79182430872940c42f043f"
     },
     {
       "path": "docs/courses/multimedia-technology/exam/01.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
-      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "5dec4e0db2f40cbddeffb6031ad482b2fabea3d7b88da769e6544ce7887dfc1a"
+      "sha256": "82a14b24757d1b450645539baf2674e3e4f2adeda87ba5cbea1c694a0c56dcc3"
     },
     {
       "path": "docs/courses/multimedia-technology/exam/02.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
-      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "ca4bb2692aa0c6d34aeca10106c62a5935de5647133d813e901117ec3d6d362e"
+      "sha256": "f2dcbee90f56c9b641972cf72d6d7055ea88c3290e2b4b681e19d7fd717b7f2c"
     },
     {
       "path": "docs/courses/multimedia-technology/exam/03.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
-      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "14ab70dc3c953abeb6a83fbb121788985ecd4829038af8d9fc7614600384dc8d"
+      "sha256": "bee2ea7b2a5ef135826f60a99e20da0dc366f6125f43b1f52c374042aa8d85c3"
     },
     {
       "path": "docs/courses/multimedia-technology/exam/04.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
-      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "a03227c21406901afc6e040db35f9eb8d34f05efd2d858ff690e05d6f339eb88"
+      "sha256": "c25410b79a0dd76a99a6978de550a35f1c9269fb62393a79f7a09ab0aab76777"
     },
     {
       "path": "docs/courses/multimedia-technology/exam/05.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
-      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "5b90d2875ad7d32ddbf0b02a78ed50a9188e349846cabebe9e3529af0907b768"
+      "sha256": "54d920b8466e1ba9fe652ff3589fe0b9f45fecf460271157861f19db5b6e1727"
     },
     {
       "path": "docs/courses/multimedia-technology/exam/06.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
-      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "e76d6f84ef838a96fc5526f79537d128a8a079647a0c3fd66c4f21b1838e934c"
+      "sha256": "b0f08f4f8e6adc21519062b8dcd6b91a238241ee1411ee5a1760521f063ae4d6"
     },
     {
       "path": "docs/courses/multimedia-technology/exam/07.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
-      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "43682917c064f11cacf63bce8fa52b98cda89b6c2c66ecdb4f39af81cefe91ee"
+      "sha256": "c1d2aa70b15f6d0b51d7488e48051c4ea8d06b7e53749fcbbfd7b54d9df8c6b6"
     },
     {
       "path": "docs/courses/multimedia-technology/exam/08.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
-      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "6eabf9ee147d8c9394b3c26331cc54721a075c0346c4a108ad6ce91fd86dbed3"
+      "sha256": "790af423eca2ff236b3fb7890f17ef55a7b642ce5baf79481dd79568e48a1dfb"
     },
     {
       "path": "docs/courses/multimedia-technology/exam/09.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
-      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "668d9e6597d84d4d9d0e65d0e344ee8dc146fa59e1dfa81d8f6a2da7f7999380"
+      "sha256": "cccc577b0f1ea80482cad7231e71dcd0219eff09f270295e2143ac0d7575a756"
     },
     {
       "path": "docs/courses/multimedia-technology/exam/index.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
-      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "fcbbf26d49680a9187696a12826412036a9e1ad27cda1cc2200d688667a62311"
+      "sha256": "2198c342e29a6377bbf6d45f81d31a16423a5dbf55dab5153f45a814c1e86350"
     },
     {
       "path": "docs/courses/multimedia-technology/figures/animation-workflow.svg",
@@ -1193,126 +1193,126 @@
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
-      "basis": "2026-11-10 核验新增的学习导航页：只列各章标题、练习数并链到讲解、练习与考点页，不含教材原文、题目或插图。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "38a31b227e6c307d61f2606ac5ee787a99da52624541ad61c402669e78e30f56"
+      "sha256": "983d0994656378ac26ed4a709ecf95931067fe4a9e02b7df7146074146911f41"
     },
     {
       "path": "docs/courses/operating-systems/chapter-01.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "8e3135ed47158429191a188f4eb938dfcd372f25f8390d3ec31205aa0a62e16d"
+      "sha256": "3ed4b6a3ea5dafc05b12a4b15948d71da8334d997e95d2733331a2a84894818d"
     },
     {
       "path": "docs/courses/operating-systems/chapter-02.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "c0c44cd0b32b7b45122229d3fd306385bfc17d11baa447117253900572592264"
+      "sha256": "6d3394762bbeac21b2dbc6d02a518739be595bbde6bd1e903866769053bd4274"
     },
     {
       "path": "docs/courses/operating-systems/chapter-03.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "3c415f7d43f340bccaf97c1bec6b83dd4d84c39e366f06027bcf64dd00b93c1f"
+      "sha256": "47bdef52b61f2111bbb7ab0cab8285568b14a845682ccad841fbff6778aaa194"
     },
     {
       "path": "docs/courses/operating-systems/chapter-04.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "65abfcb0a4386e3f1a1dda20f131d8f309d80ece537f8aafb2b66874f9d6ee2b"
+      "sha256": "f78dbc70612a55eb394eb398fd7e7db866782aa90d24afeded5676b9dcfc2b37"
     },
     {
       "path": "docs/courses/operating-systems/chapter-05.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验章节页拆分：删去页内应试导航整块与卷面统计两块，只保留学习导航、概念讲解、小结与练习，并加一行指向独立考点页；讲解、图示与练习未变。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "45d82dc452ba92e8e43593a70b6d4c8e2dfcabc9c6262c9d28efb7736087b873"
+      "sha256": "7d44ba66241b65a5ffef054ed8b09bd9af957d96d9618c019050cc310da1c457"
     },
     {
       "path": "docs/courses/operating-systems/chapter-06.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "e63ed65362218de0f2f4830a742e08a2479ed1b5c82ca4aaaee5fa4b0126548c"
+      "sha256": "26e5990f59925f41bb19d963e8079cc36dffc33558e8663938bf87564698aa09"
     },
     {
       "path": "docs/courses/operating-systems/exam/01.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
-      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "f5e49ffd3e952f6b5aa7590b98baf90e39af0954b632495aa4941aabe565a0f2"
+      "sha256": "ed53f57905ba1324da785398400fdc5430fbb4d9411d680d92242be867354a60"
     },
     {
       "path": "docs/courses/operating-systems/exam/02.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
-      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "a4a5e8aa673d4f6645ded721c3cfbbb5dda3cb2b5c93260f5b80ea51de9a2801"
+      "sha256": "ad12b767ec63a46aeeb06241a268f589d8850f89ea99c26642bb47e3cd25330d"
     },
     {
       "path": "docs/courses/operating-systems/exam/03.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
-      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "7485d12964af5745165539bc43ceecee77d72c3cf1db0b87675f741dd2771932"
+      "sha256": "a8c8cd1a0cf677244bad8e7a88ae7d630a2dc9ade14dccbf7f43c6767b900ef6"
     },
     {
       "path": "docs/courses/operating-systems/exam/04.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
-      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "f83b2d6f366bdf98cf856a048a4610faca586a6bb548041a79f332d3d1ff8fde"
+      "sha256": "1bfcebc94c94086a69b88c16346713c4026121d5d2c144892fa65a0db2d0c431"
     },
     {
       "path": "docs/courses/operating-systems/exam/05.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
-      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "658d2810f20e8215debd45132e811195686bd586f5d05b77cfb9c190cfcebb03"
+      "sha256": "12cd40385c9599096a3188dbdc3b413e3f3c9b33cb69918562e20e97bd228cfe"
     },
     {
       "path": "docs/courses/operating-systems/exam/06.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
-      "basis": "2026-11-10 核验新增的考点页：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，内容取自配套大纲与成书压缩整理，不含卷面分布表、教材原文、题目或插图。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "df15f8798ecc7bb645cef9e198892b5db85ec1bd75a7e58bd138a2e4f361bc42"
+      "sha256": "324aa65483353487468b52950156f5d76654728119d4deb73c6f6e7622c5da14"
     },
     {
       "path": "docs/courses/operating-systems/exam/index.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
-      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "e71fd07d7ff9013d1b7e1636a15985f6b87b6d01f88d94e9ae3363137f7db2ac"
+      "sha256": "e3b231886c5bc4a9691eaad8421b4f8781756b1d393f6207b48de5b8145270ac"
     },
     {
       "path": "docs/courses/operating-systems/figures/address-walk.svg",
@@ -1382,9 +1382,9 @@
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
-      "basis": "2026-11-10 核验新增的学习导航页：只列各章标题、练习数并链到讲解、练习与考点页，不含教材原文、题目或插图。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "23261f685e8f31e16c81ca5e4516a3bd8becd1e3d0c779d831c7ac29c10cb78a"
+      "sha256": "7b09b03d2b6c74ac2c54fe1b07f0c89c242c0a31bbc46590b7899a58b9dea348"
     },
     {
       "path": "docs/errata.md",
@@ -1401,17 +1401,17 @@
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
       "reviewed_on": "2026-11-10",
-      "basis": "2026-11-10 核验学习指南：把先背再读的入口改为独立考点页，其余说明未变。",
-      "sha256": "1c2d7f77c9bcfdf37a09d13fd1d888e269785150b436239fa1162bf708f448b5"
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
+      "sha256": "3c42a25b9b47f4e36b55c53f5b7f37cb8d5e3bd4036d222f8004480dc1ddefab"
     },
     {
       "path": "docs/index.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "99ec3a982f91811c725c7cd756cf76e5091131ea9c0fbb8c25c9ea67d8a0c4a5"
+      "sha256": "63d4ad7edb431a7ba404fccad9b57a4ccdb48fcf476cbe8a2ab7393fdc7d3c3b"
     },
     {
       "path": "docs/labs/address.md",

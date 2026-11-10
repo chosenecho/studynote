@@ -23,6 +23,8 @@ for course in courses:
     exam = folder / 'exam'
     if not (exam / 'index.md').is_file():
         errors.append(f'{folder.name}: missing exam index')
+    if not (folder / 'learn' / 'index.md').is_file():
+        errors.append(f'{folder.name}: missing learn index')
     expected_exam = {f'{n:02}.md' for n in range(1, course['chapters'] + 1)}
     actual_exam = {p.name for p in exam.glob('*.md')} - {'index.md'} if exam.is_dir() else set()
     if actual_exam != expected_exam:

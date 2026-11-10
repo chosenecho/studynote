@@ -734,9 +734,18 @@
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验课程导航页：把课程首页改成两个并列部分的入口，学习导航一节保留章节卡片，应试导航一节链到考点总览；正文与练习未变。",
+      "basis": "2026-11-10 核验课程导航页：改为并列两部分入口，分别指向学习导航页与应试导航页。",
       "reviewed_on": "2026-11-10",
-      "sha256": "e45b609ecf9d4c2676b9e6d53d90e2f726185903dd22cb3808e418fae676c326"
+      "sha256": "2baab047f92b5b5f58f0250b13499b4a62756807f691059f6c025582d581a60e"
+    },
+    {
+      "path": "docs/courses/computer-networks/learn/index.md",
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "source_kind": "original-learning-content",
+      "basis": "2026-11-10 核验新增的学习导航页：只列各章标题、练习数并链到讲解、练习与考点页，不含教材原文、题目或插图。",
+      "reviewed_on": "2026-11-10",
+      "sha256": "1c13e23178d92a21760017f47a3287062a881162ab415d2461248eaca91017b3"
     },
     {
       "path": "docs/courses/computer-organization/chapter-01.md",
@@ -905,9 +914,18 @@
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验课程导航页：把课程首页改成两个并列部分的入口，学习导航一节保留章节卡片，应试导航一节链到考点总览；正文与练习未变。",
+      "basis": "2026-11-10 核验课程导航页：改为并列两部分入口，分别指向学习导航页与应试导航页。",
       "reviewed_on": "2026-11-10",
-      "sha256": "1e8e269ec9d545fb918f1b852fc33e5cd22eeb039259fd163cd98918ff233890"
+      "sha256": "584b120e5600ef4cdb147178540fbec46d69e666eed1820ee7d6c2fd1db55375"
+    },
+    {
+      "path": "docs/courses/computer-organization/learn/index.md",
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "source_kind": "original-learning-content",
+      "basis": "2026-11-10 核验新增的学习导航页：只列各章标题、练习数并链到讲解、练习与考点页，不含教材原文、题目或插图。",
+      "reviewed_on": "2026-11-10",
+      "sha256": "8e1edf8d8fce03174c14475d352dab225a18f98c7df9f024fcb12bc2499c159f"
     },
     {
       "path": "docs/courses/index.md",
@@ -1166,9 +1184,18 @@
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
+      "basis": "2026-11-10 核验课程导航页：改为并列两部分入口，分别指向学习导航页与应试导航页。",
       "reviewed_on": "2026-11-10",
-      "sha256": "7dd698aa8c01eee907736489e3accd81bd30d329551b2387cb63cfd0fbaff4ff"
+      "sha256": "2a81de2fc4e2e495946dcc7edb30a1b16a0e1f9d04dfc368e8bd255986628c28"
+    },
+    {
+      "path": "docs/courses/multimedia-technology/learn/index.md",
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "source_kind": "original-learning-content",
+      "basis": "2026-11-10 核验新增的学习导航页：只列各章标题、练习数并链到讲解、练习与考点页，不含教材原文、题目或插图。",
+      "reviewed_on": "2026-11-10",
+      "sha256": "38a31b227e6c307d61f2606ac5ee787a99da52624541ad61c402669e78e30f56"
     },
     {
       "path": "docs/courses/operating-systems/chapter-01.md",
@@ -1346,9 +1373,18 @@
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验课程导航页：把课程首页改成两个并列部分的入口，学习导航一节保留章节卡片，应试导航一节链到考点总览；正文与练习未变。",
+      "basis": "2026-11-10 核验课程导航页：改为并列两部分入口，分别指向学习导航页与应试导航页。",
       "reviewed_on": "2026-11-10",
-      "sha256": "0eea6e65fd5e2bb50b4425f948969f3b33b8a0c619794a854c5bea009115362e"
+      "sha256": "ae49cf8f3d41d3108bcffb611086d71437a50676bf8c50bf34f6ce7942e7c2d8"
+    },
+    {
+      "path": "docs/courses/operating-systems/learn/index.md",
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "source_kind": "original-learning-content",
+      "basis": "2026-11-10 核验新增的学习导航页：只列各章标题、练习数并链到讲解、练习与考点页，不含教材原文、题目或插图。",
+      "reviewed_on": "2026-11-10",
+      "sha256": "23261f685e8f31e16c81ca5e4516a3bd8becd1e3d0c779d831c7ac29c10cb78a"
     },
     {
       "path": "docs/errata.md",

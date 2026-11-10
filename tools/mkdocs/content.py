@@ -103,6 +103,15 @@ def course_index(markdown, course):
     return text
 
 
+def progress_badges(markdown, course):
+    """Attach the per-chapter review badge where chapter links are listed."""
+    def badge(match):
+        href, number = match[1] or '', int(match[2])
+        return (f']({href}chapter-{number:02}.md) <span class="progress-badge" '
+                f'data-progress-chapter="{course["id"]}-{number}">待复习</span>')
+    return re.sub(r'\]\((\.\./)?chapter-(\d{2})\.md\)', badge, markdown)
+
+
 def chapter_images(markdown, page):
     source = Path(page.file.abs_src_path).parent.resolve()
 
@@ -173,12 +182,15 @@ def on_page_markdown(markdown, page, config, files):
             # Python-Markdown needs a block wrapper around the dialog element.
             dialog = '<div class="image-dialog-holder">\n\n' + DIALOG + '\n\n</div>\n'
             return title + '\n\n' + toolbar + '\n\n' + body + ('\n\n' + dialog if '<img' in body else '')
-    if course and len(parts) == 4 and parts[2] == 'exam':
+    if course and len(parts) == 4 and parts[2] in ('exam', 'learn'):
         if uri.name == 'index.md':
-            page.meta['title'] = f'{course["title"]}：应试导航'
-            page.meta['description'] = (
-                f'{course["title"]}各章必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测的总览。'
-            )
+            part = '应试导航' if parts[2] == 'exam' else '学习导航'
+            page.meta['title'] = f'{course["title"]}：{part}'
+            detail = ('各章必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测。'
+                      if parts[2] == 'exam' else '各章大纲条目、概念讲解与练习。')
+            page.meta['description'] = f'{course["title"]}{part}：{detail}'
+            if parts[2] == 'learn':
+                return progress_badges(markdown, course)
         else:
             number = re.fullmatch(r'(\d{2})\.md', uri.name)
             if number:

@@ -4,86 +4,11 @@
 
 ## 学习导航
 
-<div class="chapter-grid" markdown>
-<div class="chapter-card" markdown>
-
-<span class="chapter-card__no">01</span>
-
-**[第 1 章 操作系统简介](chapter-01.md)**
-
-作用、类型、特征、功能、结构、指令执行
-
-4 道练习 · [考点](exam/01.md) · [读讲解](chapter-01.md#s1) · [做练习](chapter-01.md#exercise-1)
-
-</div>
-
-<div class="chapter-card" markdown>
-
-<span class="chapter-card__no">02</span>
-
-**[第 2 章 进程管理](chapter-02.md)**
-
-进程、线程、中断、系统调用、同步与通信
-
-6 道练习 · [考点](exam/02.md) · [读讲解](chapter-02.md#s1) · [做练习](chapter-02.md#exercise-1)
-
-</div>
-
-<div class="chapter-card" markdown>
-
-<span class="chapter-card__no">03</span>
-
-**[第 3 章 进程调度与死锁](chapter-03.md)**
-
-调度指标与算法、实时调度、死锁处理
-
-6 道练习 · [考点](exam/03.md) · [读讲解](chapter-03.md#s1) · [做练习](chapter-03.md#exercise-1)
-
-</div>
-
-<div class="chapter-card" markdown>
-
-<span class="chapter-card__no">04</span>
-
-**[第 4 章 内存管理](chapter-04.md)**
-
-分配、分页、分段、虚拟存储、页面置换
-
-6 道练习 · [考点](exam/04.md) · [读讲解](chapter-04.md#s1) · [做练习](chapter-04.md#exercise-1)
-
-</div>
-
-<div class="chapter-card" markdown>
-
-<span class="chapter-card__no">05</span>
-
-**[第 5 章 文件系统](chapter-05.md)**
-
-目录、FAT、i 结点、文件分配与空闲空间
-
-5 道练习 · [考点](exam/05.md) · [读讲解](chapter-05.md#s1) · [做练习](chapter-05.md#exercise-1)
-
-</div>
-
-<div class="chapter-card" markdown>
-
-<span class="chapter-card__no">06</span>
-
-**[第 6 章 I/O 设备管理](chapter-06.md)**
-
-控制方式、缓冲、设备分配、SPOOLing、磁盘调度
-
-6 道练习 · [考点](exam/06.md) · [读讲解](chapter-06.md#s1) · [做练习](chapter-06.md#exercise-1)
-
-</div>
-
-</div>
+[各章大纲条目、概念讲解与练习（6 章）](learn/index.md)
 
 ## 应试导航
 
-各章必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，单独成页：
-
-[进入考点总览](exam/index.md)
+[各章必背清单、易混对照、简答模板与默写自测](exam/index.md)
 
 ## 复习路径
 
@@ -95,7 +20,6 @@
 
 </ol>
 
-卷面分值：2024 年 10 月卷六章按已列题型合计 89–90 分，2025 年 4 月卷 83–84 分。两卷都有未逐章归属的题型，各章「本章合计」只统计该章已列出的题型与分值。
 
 容量单位：KiB、MiB 按 1024 进位；带宽按题设换算。地址默认从 0 编号，其他条件见各题。
 

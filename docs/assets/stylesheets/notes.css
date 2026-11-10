@@ -139,6 +139,24 @@ html.no-js .study-toolbar { display: none; }
 .md-search__input::-webkit-search-cancel-button { display: none; }
 .md-search__options  .md-search__icon { min-width: 44px; min-height: 44px; }
 .search-retry[hidden] { display: none; }
+/* 桌面端的搜索按钮和字段里的放大镜是同一件事：Material 本来就在 60em 以上隐藏头部
+   按钮，自建的触发按钮也要一起隐藏，否则并排两个放大镜，而且面板打开后遮罩正好压住
+   左边那个，点了没反应。输出区原来的 .4s 淡入会让标题栏导航从半透明面板里透出来，
+   收到和字段一起展开的 .12s。 */
+@media screen and (min-width: 60em) {
+  .md-header__button[data-search-toggle] { display: none; }
+  [data-md-toggle="search"]:checked ~ .md-header .md-search__output { transition-duration: .12s; }
+  /* 输入框和字段里的图标层叠级相同、输入框又在前面，Material 桌面端还把放大镜设成
+     pointer-events:none，点上去既落不到 label、也按不动。面板展开时把它抬到输入框之上
+     并恢复点击，放大镜/返回箭头就是收起面板的开关。 */
+  [data-md-toggle="search"]:checked ~ .md-header .md-search__icon[for="__search"] {
+    pointer-events: auto;
+    z-index: 3;
+  }
+  /* 结果区高度跟着内容走，索引还没回来时面板只有一条状态栏，结果一到就弹到 75vh。
+     展开时先给结果区一个稳定高度，面板一次成形，只让列表在框内长出来。 */
+  [data-md-toggle="search"]:checked ~ .md-header .md-search-result { min-height: 50vh; }
+}
 
 /* 页脚备案信息（mkdocs.yml 的 copyright 渲染）：一条居中的小字横排，项间用「·」
    分隔。三行竖排会在通栏深色底上留出大片空行，横排收成一行更像页脚脚注。

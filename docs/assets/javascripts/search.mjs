@@ -13,6 +13,7 @@ if (root) {
   const trigger = document.createElement('button');
   trigger.type = 'button';
   trigger.className = originalTrigger.className;
+  trigger.dataset.searchToggle = '';
   trigger.setAttribute('aria-label', '打开搜索');
   trigger.setAttribute('aria-controls', 'study-search-panel');
   trigger.append(...originalTrigger.childNodes);
@@ -29,7 +30,12 @@ if (root) {
     trigger.setAttribute('aria-label', toggle.checked ? '关闭搜索' : '打开搜索');
     root.querySelector('.md-search__scrollwrap').tabIndex = toggle.checked ? 0 : -1;
     if (toggle.checked) load();
-    else if (returnOnClose && trigger.getClientRects().length) trigger.focus({preventScroll: true});
+    else {
+      // A field that keeps focus after closing never fires another focus event,
+      // so the next click on it would not open the panel again.
+      if (document.activeElement === input) input.blur();
+      if (returnOnClose && trigger.getClientRects().length) trigger.focus({preventScroll: true});
+    }
     returnOnClose = false;
   }
   function setOpen(open, restore = false) {
@@ -136,6 +142,7 @@ if (root) {
     input.removeAttribute('aria-busy');
     recovery.hidden = true;
     const fragment = document.createDocumentFragment();
+    let shown = 0;
     for (const group of items) {
       const row = document.createElement('li');
       row.className = 'md-search-result__item';
@@ -154,14 +161,15 @@ if (root) {
         if (doc.text) { const snippet = document.createElement('p'); snippet.append(safeMarkup(doc.text)); article.append(snippet); }
         link.append(article);
         row.append(link);
+        shown++;
       }
       fragment.append(row);
     }
     list.replaceChildren(fragment);
-    meta.textContent = items.length ? `${items.length} 个符合条件的结果` : '没有找到符合条件的结果，请换个关键词或查看课程目录';
-    if (!items.length) { recovery.hidden = false; retry.hidden = true; }
+    meta.textContent = shown ? `${shown} 个符合条件的结果` : '没有找到符合条件的结果，请换个关键词或查看课程目录';
+    if (!shown) { recovery.hidden = false; retry.hidden = true; }
     const alias = aliases[lastQuery.toUpperCase()];
-    if (!items.length && alias) {
+    if (!shown && alias) {
       const hint = document.createElement('p');
       hint.className = 'search-alias-hint';
       hint.textContent = '试试中文词：';
@@ -225,7 +233,26 @@ if (root) {
   root.addEventListener('keydown', event => {
     if (event.key === 'Escape') { event.preventDefault(); setOpen(false, true); }
   });
-  root.querySelectorAll('label[for="__search"]').forEach(label => label.addEventListener('click', () => { returnOnClose = true; }));
+  // Labels inside the search UI are a single toggle: open when the panel is closed,
+  // close when it is open. The state is captured on pointerdown, because losing focus
+  // already closes the panel before the click arrives; toggling on the click-time state
+  // reopened it and left the panel impossible to dismiss. Cancelling the default stops
+  // the label from flipping #__search itself on top of that.
+  let labelOpens = false;
+  root.addEventListener('pointerdown', event => {
+    if (!event.target.closest('label[for="__search"]')) return;
+    labelOpens = !toggle.checked;
+    event.preventDefault();
+  });
+  root.addEventListener('click', event => {
+    if (!event.target.closest('label[for="__search"]')) {
+      if (!toggle.checked) { setOpen(true); input.focus(); }
+      return;
+    }
+    event.preventDefault();
+    if (labelOpens) { setOpen(true); input.focus(); }
+    else setOpen(false, true);
+  });
   root.addEventListener('focusout', event => {
     if (event.relatedTarget) {
       if (!root.contains(event.relatedTarget) && toggle.checked) setOpen(false);

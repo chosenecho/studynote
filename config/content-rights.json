@@ -4,6 +4,42 @@
   "quotations": "config/quotations.json",
   "files": [
     {
+      "path": "LICENSING.md",
+      "status": "cleared",
+      "license": "Apache-2.0",
+      "source_kind": "original-software-and-documentation",
+      "basis": "2026-11-04 文案复核：对照现有许可说明精简；保留 Apache-2.0 与 CC BY 4.0 的适用范围、署名要求、第三方排除和反馈入口，未改变授权。",
+      "reviewed_on": "2026-11-04",
+      "sha256": "d5ab556ba8d9af6dd16a7716cf8fd73e5a713b117f8f996d8f07429b771ebfd8"
+    },
+    {
+      "path": "NOTICE",
+      "status": "cleared",
+      "license": "Apache-2.0",
+      "source_kind": "original-software-and-documentation",
+      "basis": "第一方软件、独立编写的随堂题库及维护文档；已审阅正文和默认案例，未保留教材题目或答案表达。编辑过程见 archive/releases/2026-11-04-open-content.md。",
+      "reviewed_on": "2026-11-04",
+      "sha256": "6abb8e4081c2cde42fb35a96b263df890fe124df3c5087837e02a288bf316982"
+    },
+    {
+      "path": "README.md",
+      "status": "cleared",
+      "license": "Apache-2.0",
+      "source_kind": "original-software-and-documentation",
+      "basis": "本轮仅在表述需要时修正站点说明，项目结构、命令与许可说明未变。",
+      "reviewed_on": "2026-11-08",
+      "sha256": "58ecc322c7c2484b05b07115d1ed82828667a2d035f9a7024a1ad849b6e42aa9"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "status": "cleared",
+      "license": "Apache-2.0",
+      "source_kind": "original-software-and-documentation",
+      "basis": "2026-11-06 核对现有 KaTeX 0.16.11 发行文件的构建期用途；浏览器不再运行公式渲染器，保留上游版本、许可与来源说明。",
+      "reviewed_on": "2026-11-06",
+      "sha256": "5acad6e436350b792d721b29fc6d24cc3be6868800ad93ea5d33c61fe371be80"
+    },
+    {
       "path": "archive/README.md",
       "status": "cleared",
       "license": "Apache-2.0",
@@ -11,15 +47,6 @@
       "basis": "本轮修正文字表述与标点，事实、结构与既有声明未变。",
       "reviewed_on": "2026-11-08",
       "sha256": "00b66aa1c1c9336d0769bd06844e33853f408349cac166d8efed3fb5b2fb48e7"
-    },
-    {
-      "path": "archive/releases/2026-11-08-multimedia-proofreading.md",
-      "status": "cleared",
-      "license": "Apache-2.0",
-      "source_kind": "original-software-and-documentation",
-      "basis": "第一方维护记录：本轮多媒体九章按成书分章稿逐节校对并润色，记录依据、改动类型、未变项与验收方式，不含教材原文、题目或插图。编辑核验不构成法律认定。",
-      "reviewed_on": "2026-11-08",
-      "sha256": "72456cb9b93e55157a186e791f83dbc20893e102836deba34bf2a0f190ea0798"
     },
     {
       "path": "archive/releases/2026-11-04-computer-networks.md",
@@ -49,6 +76,15 @@
       "sha256": "129fbe5bfa5c2dc403c145d8a5dd882ab65f891cb4e339bc723cc7128931e588"
     },
     {
+      "path": "archive/releases/2026-11-08-multimedia-proofreading.md",
+      "status": "cleared",
+      "license": "Apache-2.0",
+      "source_kind": "original-software-and-documentation",
+      "basis": "第一方维护记录：本轮多媒体九章按成书分章稿逐节校对并润色，记录依据、改动类型、未变项与验收方式，不含教材原文、题目或插图。编辑核验不构成法律认定。",
+      "reviewed_on": "2026-11-08",
+      "sha256": "72456cb9b93e55157a186e791f83dbc20893e102836deba34bf2a0f190ea0798"
+    },
+    {
       "path": "config/quotations.json",
       "status": "cleared",
       "license": "Apache-2.0",
@@ -65,6 +101,15 @@
       "basis": "2026-11-06 多媒体笔记实施复核：独立组织讲解、自编情境与数值，图示由本项目绘制；只公开书目、短考点及原创表达，不分发成书、教材插图或原题答案。大纲用于范围定位，保留来源疑点及未实测边界。私有对照与核算记录存于 local/reviews/multimedia-2026-11-06/。",
       "reviewed_on": "2026-11-06",
       "sha256": "2bcd095b0390ae3461b5a88a24364a14d6f200209adaa767dc619917d102111f"
+    },
+    {
+      "path": "docs/assets/images/beian.png",
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "source_kind": "official-filing-record",
+      "basis": "公安备案平台随备案号 32011202001988 发放的备案图标，仅在页脚展示该备案号；原图按 36×40 逐字节保存，不改色不缩放。图标的展示义务来自备案要求，不参与课程内容或项目许可。",
+      "reviewed_on": "2026-11-10",
+      "sha256": "8dfecad0dfcb3dc584f2c2447943eefb1fd65a058856eb0611e2c56ddc4c1fe1"
     },
     {
       "path": "docs/assets/images/favicon.svg",
@@ -101,15 +146,6 @@
       "basis": "2026-11-06 审阅原创课程内容、教学图示或分享图的来源、表达与输出；不复制教材文字或第三方素材。",
       "reviewed_on": "2026-11-06",
       "sha256": "fd6193f2ab7c3eea14fde64e13098d102cbe50e3e982392de071694d93e2301d"
-    },
-    {
-      "path": "docs/assets/images/beian.png",
-      "status": "cleared",
-      "license": "CC-BY-4.0",
-      "source_kind": "official-filing-record",
-      "basis": "公安备案平台随备案号 32011202001988 发放的备案图标，仅在页脚展示该备案号；原图按 36×40 逐字节保存，不改色不缩放。图标的展示义务来自备案要求，不参与课程内容或项目许可。",
-      "reviewed_on": "2026-11-10",
-      "sha256": "8dfecad0dfcb3dc584f2c2447943eefb1fd65a058856eb0611e2c56ddc4c1fe1"
     },
     {
       "path": "docs/assets/images/social/multimedia-technology.png",
@@ -233,9 +269,9 @@
       "status": "cleared",
       "license": "Apache-2.0",
       "source_kind": "original-software-and-documentation",
-      "basis": "2026-11-06 复核中文搜索优先保留 Lunr 排序、只在空结果时扫描原有索引的第一方实现；无第三方内容新增。",
-      "reviewed_on": "2026-11-06",
-      "sha256": "b0da1017ef7e6673753c7c4498607b25de90f7134db92e28b4521c780a9d17c4"
+      "basis": "2026-11-10 复核搜索面板的开关逻辑：label 的原生勾选取消、按 pointerdown 记录的意图关闭、关闭后让输入框失焦，并让结果计数等于实际列出的条目；仍为第一方实现，无第三方内容新增。",
+      "reviewed_on": "2026-11-10",
+      "sha256": "22679bce0d0b6fc29a43dbbd8de70be0d9b0ec5ec7e56129e4882dced22b9b80"
     },
     {
       "path": "docs/assets/stylesheets/labs.css",
@@ -251,9 +287,19 @@
       "status": "cleared",
       "license": "Apache-2.0",
       "source_kind": "original-software-and-documentation",
-      "basis": "2026-11-10 核验表格滚动容器的定位修正：为 KaTeX 隐藏 MathML 层建立包含块，避免绝对定位元素撑宽移动端页面；只加一条自有样式，未引入第三方资源。",
+      "basis": "2026-11-10 核验合并后的样式改动：页脚记录排版改为单行居中，表格滚动容器补定位以约束 KaTeX 隐藏 MathML 层；只使用 Material 语义变量与站点自有类名，未引入第三方资源。",
       "reviewed_on": "2026-11-10",
-      "sha256": "6b2edacbf0601d170e1d23b564143874ebd74ed16881709fa221978479d109cf"
+      "sha256": "6d1b648899dbbb54def0febe1b034e0a74d7c4274461b9edaf81c14a92bf9b78"
+    },
+    {
+      "path": "docs/assets/vendor/katex/LICENSE",
+      "status": "cleared",
+      "license": "MIT",
+      "source_kind": "third-party",
+      "basis": "逐字节核对 KaTeX 0.16.11 官方 npm 发行包；保留原 MIT 及字体声明。",
+      "reviewed_on": "2026-11-04",
+      "sha256": "766ccc1f306c885aa45542a9846bbd0a505b27a0374f146778171c2254ce18e3",
+      "source_url": "https://registry.npmjs.org/katex/-/katex-0.16.11.tgz"
     },
     {
       "path": "docs/assets/vendor/katex/contrib/auto-render.min.js",
@@ -483,16 +529,6 @@
       "basis": "逐字节核对 KaTeX 0.16.11 官方 npm 发行包；保留原 MIT 及字体声明。",
       "reviewed_on": "2026-11-04",
       "sha256": "e6bfe5deebd4c7ccd272055bab63bd3ab2c73b907b6e6a22d352740a81381fd4",
-      "source_url": "https://registry.npmjs.org/katex/-/katex-0.16.11.tgz"
-    },
-    {
-      "path": "docs/assets/vendor/katex/LICENSE",
-      "status": "cleared",
-      "license": "MIT",
-      "source_kind": "third-party",
-      "basis": "逐字节核对 KaTeX 0.16.11 官方 npm 发行包；保留原 MIT 及字体声明。",
-      "reviewed_on": "2026-11-04",
-      "sha256": "766ccc1f306c885aa45542a9846bbd0a505b27a0374f146778171c2254ce18e3",
       "source_url": "https://registry.npmjs.org/katex/-/katex-0.16.11.tgz"
     },
     {
@@ -809,6 +845,78 @@
       "basis": "2026-11-10 核验新增的应试导航与逐节必背行：考纲条目与层次取自配套自学考试大纲，术语、并列项与数字按成书压缩；计算机组成原理按两卷历年卷归章写卷面出法，计算机网络技术与多媒体技术及应用本地无历年卷，只按大纲题型写常见出法，不写卷面分布。概念讲解、图示与练习结构未变，未收录教材原文、题目或插图。",
       "reviewed_on": "2026-11-10",
       "sha256": "a080898812eab4ba55d6787f6e3765aaba1dcf2b36c429178388e51de2833574"
+    },
+    {
+      "path": "docs/courses/multimedia-technology/figures/animation-workflow.svg",
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "source_kind": "original-learning-content",
+      "basis": "2026-11-06 多媒体笔记实施复核：独立组织讲解、自编情境与数值，图示由本项目绘制；只公开书目、短考点及原创表达，不分发成书、教材插图或原题答案。大纲用于范围定位，保留来源疑点及未实测边界。私有对照与核算记录存于 local/reviews/multimedia-2026-11-06/。",
+      "reviewed_on": "2026-11-06",
+      "sha256": "1117e74d17f79a8b9ef25bdbeaa601c4ee804e6e418233867b1b592d1ce87d90"
+    },
+    {
+      "path": "docs/courses/multimedia-technology/figures/image-parameters.svg",
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "source_kind": "original-learning-content",
+      "basis": "2026-11-06 多媒体笔记实施复核：独立组织讲解、自编情境与数值，图示由本项目绘制；只公开书目、短考点及原创表达，不分发成书、教材插图或原题答案。大纲用于范围定位，保留来源疑点及未实测边界。私有对照与核算记录存于 local/reviews/multimedia-2026-11-06/。",
+      "reviewed_on": "2026-11-06",
+      "sha256": "8e9f206260173b19aa9028794840d928306c263ec781bbfb8d2c658717562270"
+    },
+    {
+      "path": "docs/courses/multimedia-technology/figures/ocr-workflow.svg",
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "source_kind": "original-learning-content",
+      "basis": "2026-11-06 多媒体笔记实施复核：独立组织讲解、自编情境与数值，图示由本项目绘制；只公开书目、短考点及原创表达，不分发成书、教材插图或原题答案。大纲用于范围定位，保留来源疑点及未实测边界。私有对照与核算记录存于 local/reviews/multimedia-2026-11-06/。",
+      "reviewed_on": "2026-11-06",
+      "sha256": "a03f639a252dcda5ef2fdd6e873dacb54ef2fbaf55c3310339467cee636fda2b"
+    },
+    {
+      "path": "docs/courses/multimedia-technology/figures/pcm-pipeline.svg",
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "source_kind": "original-learning-content",
+      "basis": "2026-11-06 多媒体笔记实施复核：独立组织讲解、自编情境与数值，图示由本项目绘制；只公开书目、短考点及原创表达，不分发成书、教材插图或原题答案。大纲用于范围定位，保留来源疑点及未实测边界。私有对照与核算记录存于 local/reviews/multimedia-2026-11-06/。",
+      "reviewed_on": "2026-11-06",
+      "sha256": "6a862948be8ca0642adc26627fb9742cc54be484bef2ef5240fcb2d236a4b119"
+    },
+    {
+      "path": "docs/courses/multimedia-technology/figures/project-lifecycle.svg",
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "source_kind": "original-learning-content",
+      "basis": "2026-11-06 多媒体笔记实施复核：独立组织讲解、自编情境与数值，图示由本项目绘制；只公开书目、短考点及原创表达，不分发成书、教材插图或原题答案。大纲用于范围定位，保留来源疑点及未实测边界。私有对照与核算记录存于 local/reviews/multimedia-2026-11-06/。",
+      "reviewed_on": "2026-11-06",
+      "sha256": "a7c75caec2564ac83782868020c2379559cbef02c4bc9abd173481974eb52309"
+    },
+    {
+      "path": "docs/courses/multimedia-technology/figures/stream-buffer.svg",
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "source_kind": "original-learning-content",
+      "basis": "2026-11-06 多媒体笔记实施复核：独立组织讲解、自编情境与数值，图示由本项目绘制；只公开书目、短考点及原创表达，不分发成书、教材插图或原题答案。大纲用于范围定位，保留来源疑点及未实测边界。私有对照与核算记录存于 local/reviews/multimedia-2026-11-06/。",
+      "reviewed_on": "2026-11-06",
+      "sha256": "d3054b4fc1195226296c206a1fe9003aa09ef348d6154f891efc3f6e4e2f53bd"
+    },
+    {
+      "path": "docs/courses/multimedia-technology/figures/system-workflow.svg",
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "source_kind": "original-learning-content",
+      "basis": "2026-11-06 多媒体笔记实施复核：独立组织讲解、自编情境与数值，图示由本项目绘制；只公开书目、短考点及原创表达，不分发成书、教材插图或原题答案。大纲用于范围定位，保留来源疑点及未实测边界。私有对照与核算记录存于 local/reviews/multimedia-2026-11-06/。",
+      "reviewed_on": "2026-11-06",
+      "sha256": "4e215a6b88301ca8e6bd3d951eb2755a80c245e507b8d8b7e72efb0091518d69"
+    },
+    {
+      "path": "docs/courses/multimedia-technology/figures/video-delivery.svg",
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "source_kind": "original-learning-content",
+      "basis": "2026-11-06 多媒体笔记实施复核：独立组织讲解、自编情境与数值，图示由本项目绘制；只公开书目、短考点及原创表达，不分发成书、教材插图或原题答案。大纲用于范围定位，保留来源疑点及未实测边界。私有对照与核算记录存于 local/reviews/multimedia-2026-11-06/。",
+      "reviewed_on": "2026-11-06",
+      "sha256": "d3e39df6da53f46958ea11b4e54831fd46bc8a20bb7d283f304c0afd11eaa937"
     },
     {
       "path": "docs/courses/multimedia-technology/index.md",
@@ -1171,6 +1279,15 @@
       "sha256": "50d370d8d258bf75a6f102d19cd4a7051e0dab084dd07071321d0865299036ca"
     },
     {
+      "path": "handbook/plans/2026-11-06-multimedia-notes.md",
+      "status": "cleared",
+      "license": "Apache-2.0",
+      "source_kind": "original-software-and-documentation",
+      "basis": "2026-11-06 原创实施计划与状态记录；仅含范围、任务、项目自身统计和本仓库链接，不含教材正文或原题。来源终校、软件实测与本地内容验收分别登记。 2026-11-06 笔记校对：复核本站讲解与自编题，重点数值和疑点回查原始扫描；修改为独立表述与自编复算，未添加扫描正文、插图或原题。校对范围见课程入口，私有证据不发布。",
+      "reviewed_on": "2026-11-06",
+      "sha256": "cc98f26c33fafa1692a3074454d0b9fb78b4b011a07b3b6dccbc9c20aab3987d"
+    },
+    {
       "path": "handbook/plans/2026-11-06-p1-p2-remediation.md",
       "status": "cleared",
       "license": "Apache-2.0",
@@ -1196,123 +1313,6 @@
       "basis": "第一方软件、独立编写的随堂题库及维护文档；已审阅正文和默认案例，未保留教材题目或答案表达。编辑过程见 archive/releases/2026-11-04-open-content.md。",
       "reviewed_on": "2026-11-04",
       "sha256": "ecc2d03c975ac0c05ee6cc280a0b6394dae51149b01ea5e373d65dbf6139d4e4"
-    },
-    {
-      "path": "LICENSING.md",
-      "status": "cleared",
-      "license": "Apache-2.0",
-      "source_kind": "original-software-and-documentation",
-      "basis": "2026-11-04 文案复核：对照现有许可说明精简；保留 Apache-2.0 与 CC BY 4.0 的适用范围、署名要求、第三方排除和反馈入口，未改变授权。",
-      "reviewed_on": "2026-11-04",
-      "sha256": "d5ab556ba8d9af6dd16a7716cf8fd73e5a713b117f8f996d8f07429b771ebfd8"
-    },
-    {
-      "path": "NOTICE",
-      "status": "cleared",
-      "license": "Apache-2.0",
-      "source_kind": "original-software-and-documentation",
-      "basis": "第一方软件、独立编写的随堂题库及维护文档；已审阅正文和默认案例，未保留教材题目或答案表达。编辑过程见 archive/releases/2026-11-04-open-content.md。",
-      "reviewed_on": "2026-11-04",
-      "sha256": "6abb8e4081c2cde42fb35a96b263df890fe124df3c5087837e02a288bf316982"
-    },
-    {
-      "path": "README.md",
-      "status": "cleared",
-      "license": "Apache-2.0",
-      "source_kind": "original-software-and-documentation",
-      "basis": "本轮仅在表述需要时修正站点说明，项目结构、命令与许可说明未变。",
-      "reviewed_on": "2026-11-08",
-      "sha256": "58ecc322c7c2484b05b07115d1ed82828667a2d035f9a7024a1ad849b6e42aa9"
-    },
-    {
-      "path": "THIRD_PARTY_NOTICES.md",
-      "status": "cleared",
-      "license": "Apache-2.0",
-      "source_kind": "original-software-and-documentation",
-      "basis": "2026-11-06 核对现有 KaTeX 0.16.11 发行文件的构建期用途；浏览器不再运行公式渲染器，保留上游版本、许可与来源说明。",
-      "reviewed_on": "2026-11-06",
-      "sha256": "5acad6e436350b792d721b29fc6d24cc3be6868800ad93ea5d33c61fe371be80"
-    },
-    {
-      "path": "docs/courses/multimedia-technology/figures/animation-workflow.svg",
-      "status": "cleared",
-      "license": "CC-BY-4.0",
-      "source_kind": "original-learning-content",
-      "basis": "2026-11-06 多媒体笔记实施复核：独立组织讲解、自编情境与数值，图示由本项目绘制；只公开书目、短考点及原创表达，不分发成书、教材插图或原题答案。大纲用于范围定位，保留来源疑点及未实测边界。私有对照与核算记录存于 local/reviews/multimedia-2026-11-06/。",
-      "reviewed_on": "2026-11-06",
-      "sha256": "1117e74d17f79a8b9ef25bdbeaa601c4ee804e6e418233867b1b592d1ce87d90"
-    },
-    {
-      "path": "docs/courses/multimedia-technology/figures/image-parameters.svg",
-      "status": "cleared",
-      "license": "CC-BY-4.0",
-      "source_kind": "original-learning-content",
-      "basis": "2026-11-06 多媒体笔记实施复核：独立组织讲解、自编情境与数值，图示由本项目绘制；只公开书目、短考点及原创表达，不分发成书、教材插图或原题答案。大纲用于范围定位，保留来源疑点及未实测边界。私有对照与核算记录存于 local/reviews/multimedia-2026-11-06/。",
-      "reviewed_on": "2026-11-06",
-      "sha256": "8e9f206260173b19aa9028794840d928306c263ec781bbfb8d2c658717562270"
-    },
-    {
-      "path": "docs/courses/multimedia-technology/figures/ocr-workflow.svg",
-      "status": "cleared",
-      "license": "CC-BY-4.0",
-      "source_kind": "original-learning-content",
-      "basis": "2026-11-06 多媒体笔记实施复核：独立组织讲解、自编情境与数值，图示由本项目绘制；只公开书目、短考点及原创表达，不分发成书、教材插图或原题答案。大纲用于范围定位，保留来源疑点及未实测边界。私有对照与核算记录存于 local/reviews/multimedia-2026-11-06/。",
-      "reviewed_on": "2026-11-06",
-      "sha256": "a03f639a252dcda5ef2fdd6e873dacb54ef2fbaf55c3310339467cee636fda2b"
-    },
-    {
-      "path": "docs/courses/multimedia-technology/figures/pcm-pipeline.svg",
-      "status": "cleared",
-      "license": "CC-BY-4.0",
-      "source_kind": "original-learning-content",
-      "basis": "2026-11-06 多媒体笔记实施复核：独立组织讲解、自编情境与数值，图示由本项目绘制；只公开书目、短考点及原创表达，不分发成书、教材插图或原题答案。大纲用于范围定位，保留来源疑点及未实测边界。私有对照与核算记录存于 local/reviews/multimedia-2026-11-06/。",
-      "reviewed_on": "2026-11-06",
-      "sha256": "6a862948be8ca0642adc26627fb9742cc54be484bef2ef5240fcb2d236a4b119"
-    },
-    {
-      "path": "docs/courses/multimedia-technology/figures/project-lifecycle.svg",
-      "status": "cleared",
-      "license": "CC-BY-4.0",
-      "source_kind": "original-learning-content",
-      "basis": "2026-11-06 多媒体笔记实施复核：独立组织讲解、自编情境与数值，图示由本项目绘制；只公开书目、短考点及原创表达，不分发成书、教材插图或原题答案。大纲用于范围定位，保留来源疑点及未实测边界。私有对照与核算记录存于 local/reviews/multimedia-2026-11-06/。",
-      "reviewed_on": "2026-11-06",
-      "sha256": "a7c75caec2564ac83782868020c2379559cbef02c4bc9abd173481974eb52309"
-    },
-    {
-      "path": "docs/courses/multimedia-technology/figures/stream-buffer.svg",
-      "status": "cleared",
-      "license": "CC-BY-4.0",
-      "source_kind": "original-learning-content",
-      "basis": "2026-11-06 多媒体笔记实施复核：独立组织讲解、自编情境与数值，图示由本项目绘制；只公开书目、短考点及原创表达，不分发成书、教材插图或原题答案。大纲用于范围定位，保留来源疑点及未实测边界。私有对照与核算记录存于 local/reviews/multimedia-2026-11-06/。",
-      "reviewed_on": "2026-11-06",
-      "sha256": "d3054b4fc1195226296c206a1fe9003aa09ef348d6154f891efc3f6e4e2f53bd"
-    },
-    {
-      "path": "docs/courses/multimedia-technology/figures/system-workflow.svg",
-      "status": "cleared",
-      "license": "CC-BY-4.0",
-      "source_kind": "original-learning-content",
-      "basis": "2026-11-06 多媒体笔记实施复核：独立组织讲解、自编情境与数值，图示由本项目绘制；只公开书目、短考点及原创表达，不分发成书、教材插图或原题答案。大纲用于范围定位，保留来源疑点及未实测边界。私有对照与核算记录存于 local/reviews/multimedia-2026-11-06/。",
-      "reviewed_on": "2026-11-06",
-      "sha256": "4e215a6b88301ca8e6bd3d951eb2755a80c245e507b8d8b7e72efb0091518d69"
-    },
-    {
-      "path": "docs/courses/multimedia-technology/figures/video-delivery.svg",
-      "status": "cleared",
-      "license": "CC-BY-4.0",
-      "source_kind": "original-learning-content",
-      "basis": "2026-11-06 多媒体笔记实施复核：独立组织讲解、自编情境与数值，图示由本项目绘制；只公开书目、短考点及原创表达，不分发成书、教材插图或原题答案。大纲用于范围定位，保留来源疑点及未实测边界。私有对照与核算记录存于 local/reviews/multimedia-2026-11-06/。",
-      "reviewed_on": "2026-11-06",
-      "sha256": "d3e39df6da53f46958ea11b4e54831fd46bc8a20bb7d283f304c0afd11eaa937"
-    },
-    {
-      "path": "handbook/plans/2026-11-06-multimedia-notes.md",
-      "status": "cleared",
-      "license": "Apache-2.0",
-      "source_kind": "original-software-and-documentation",
-      "basis": "2026-11-06 原创实施计划与状态记录；仅含范围、任务、项目自身统计和本仓库链接，不含教材正文或原题。来源终校、软件实测与本地内容验收分别登记。 2026-11-06 笔记校对：复核本站讲解与自编题，重点数值和疑点回查原始扫描；修改为独立表述与自编复算，未添加扫描正文、插图或原题。校对范围见课程入口，私有证据不发布。",
-      "reviewed_on": "2026-11-06",
-      "sha256": "cc98f26c33fafa1692a3074454d0b9fb78b4b011a07b3b6dccbc9c20aab3987d"
     }
   ]
 }

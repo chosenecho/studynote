@@ -3,7 +3,8 @@
     "id": "os",
     "slug": "operating-systems",
     "title": "操作系统概论",
-    "chapters": 6
+    "chapters": 6,
+    "examNav": true
   },
   {
     "id": "co",

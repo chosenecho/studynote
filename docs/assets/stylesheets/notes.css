@@ -137,8 +137,14 @@ html.no-js .study-toolbar { display: none; }
 .search-retry { display: block; min-height: 44px; margin: .75rem 1rem; padding: .45rem .8rem; border: 1px solid var(--note-accent); border-radius: .35rem; background: var(--note-surface); color: var(--note-accent); font: inherit; cursor: pointer; }
 .search-retry:disabled { opacity: .6; cursor: default; }
 .md-search__input::-webkit-search-cancel-button { display: none; }
-.md-search__options  .md-search__icon { min-width: 44px; min-height: 44px; }
+/* 44px 触摸目标让分享与清空两个图标成了 44×44 的盒子，而盒子里一个是行内块（图标贴
+   左上）、一个是按钮（图标居中），于是 × 比分享图标低也偏；把容器撑满字段行、两个
+   图标都居中，盒子的尺寸不变。 */
+.md-search__options { align-items: center; display: flex; height: 100%; top: 0; }
+.md-search__options .md-search__icon { display: grid; min-height: 44px; min-width: 44px; place-items: center; }
 .search-retry[hidden] { display: none; }
+/* 还没输入关键词时不摆空的结果区：面板就是一根输入框，选到词才长出结果卡片。 */
+[data-study-search][data-search-idle] .md-search__output { display: none; }
 /* 桌面端的搜索按钮和字段里的放大镜是同一件事：Material 本来就在 60em 以上隐藏头部
    按钮，自建的触发按钮也要一起隐藏，否则并排两个放大镜，而且面板打开后遮罩正好压住
    左边那个，点了没反应。输出区原来的 .4s 淡入会让标题栏导航从半透明面板里透出来，
@@ -189,7 +195,9 @@ html.no-js .study-toolbar { display: none; }
   color: var(--md-footer-fg-color--lighter);
 }
 .beian-record { display: inline-flex; align-items: center; gap: .3rem; }
-.beian-record img { width: auto; height: 1.15em; }
+/* 徽章 1.15em 比 14px 的汉字墨迹高 2px，居中后视觉上会往下坠 1px；上提 .07em
+   让图与字的光学中心对齐，用 transform 不参与布局，行盒高度不变。 */
+.beian-record img { width: auto; height: 1.15em; transform: translateY(-.07em); }
 @media (max-width: 880px) {
   .md-copyright__highlight { flex-direction: column; gap: .15rem; }
   .md-copyright__highlight > :not(:first-child)::before { content: none; }

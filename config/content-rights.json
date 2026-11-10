@@ -734,9 +734,9 @@
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
+      "basis": "2026-11-10 核验课程导航页：把课程首页改成两个并列部分的入口，学习导航一节保留章节卡片，应试导航一节链到考点总览；正文与练习未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "41a29897f9bea0ee62b72694ca9f0f5a4e6b74de413df6149ae465267d491edb"
+      "sha256": "e45b609ecf9d4c2676b9e6d53d90e2f726185903dd22cb3808e418fae676c326"
     },
     {
       "path": "docs/courses/computer-organization/chapter-01.md",
@@ -905,9 +905,9 @@
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
+      "basis": "2026-11-10 核验课程导航页：把课程首页改成两个并列部分的入口，学习导航一节保留章节卡片，应试导航一节链到考点总览；正文与练习未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "83494b1baaf545ee33fa139c7ec66be541f60e517accc8d03bcbd38a8fa77113"
+      "sha256": "1e8e269ec9d545fb918f1b852fc33e5cd22eeb039259fd163cd98918ff233890"
     },
     {
       "path": "docs/courses/index.md",
@@ -1166,9 +1166,9 @@
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验入口整理：章节页的考点入口上移到大纲定位行之后，课程首页与首页的入口统一标注为学习导航与应试导航；正文、清单与练习内容未变。",
+      "basis": "2026-11-10 核验课程导航页：把课程首页改成两个并列部分的入口，学习导航一节保留章节卡片，应试导航一节链到考点总览；正文与练习未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "0ec37991e627eb52f2382e40ab642862f9c168411c2b324b3a1d2f2ffed11fa4"
+      "sha256": "1616a27141a64b4eccef58dd9ec46b0c40b6567f028d6d2dcb7aea46237037d1"
     },
     {
       "path": "docs/courses/operating-systems/chapter-01.md",
@@ -1346,9 +1346,9 @@
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验课程首页精简：删去概述盒子与数字块，保留章节卡片并把考点入口改指独立考点页。",
+      "basis": "2026-11-10 核验课程导航页：把课程首页改成两个并列部分的入口，学习导航一节保留章节卡片，应试导航一节链到考点总览；正文与练习未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "5a8f087b155dc78408579106eb77baa4d3882c5034871b80e7c16f5583f0c775"
+      "sha256": "0eea6e65fd5e2bb50b4425f948969f3b33b8a0c619794a854c5bea009115362e"
     },
     {
       "path": "docs/errata.md",

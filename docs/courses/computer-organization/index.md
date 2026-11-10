@@ -2,11 +2,7 @@
 
 依据袁春风《计算机组成原理》（2016 年版）配套自学考试大纲整理。
 
-学习导航：本页各章的大纲条目、概念讲解与练习。
-
-应试导航：[各章必背清单、易混对照与默写自测](exam/index.md)。
-
-## 章节与练习
+## 学习导航
 
 <div class="chapter-grid" markdown>
 <div class="chapter-card" markdown>
@@ -82,6 +78,12 @@ SRAM、DRAM、芯片扩展、Flash、Cache、虚拟存储
 </div>
 
 </div>
+
+## 应试导航
+
+各章必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，单独成页：
+
+[进入考点总览](exam/index.md)
 
 ## 复习路径
 

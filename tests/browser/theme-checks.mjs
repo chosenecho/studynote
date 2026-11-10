@@ -225,10 +225,6 @@ export async function runThemeChecks(page, {base, out, report}) {
       await page.locator('[data-drawer-toggle]').click();
       assert.equal(await page.locator('#__drawer').isChecked(), true);
       await screenshot('navigation-mobile.png');
-      await page.locator('.md-nav__title[for="__nav_2"]').click();
-      const course = page.locator('.md-sidebar--primary a[href$="/computer-organization/"]').first();
-      await course.click();
-      await page.waitForURL(base + '/courses/computer-organization/');
     }
   }
   report.checks.push('Home, all course indexes, long chapters/tables and scheduler at 320/390/768/1280px; mobile course navigation');

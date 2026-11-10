@@ -56,7 +56,7 @@ progress[data-study-progress]::-moz-progress-bar { background: var(--note-accent
 .table-scroll-hint, .code-scroll-hint { margin: .15rem 0 .5rem; font-size: .65rem; color: var(--note-muted); }
 /* KaTeX 的 MathML 隐藏层是绝对定位，滚动容器未定位时它会逸出并撑宽移动端页面。 */
 .md-typeset__scrollwrap { position: relative; }
-.md-typeset__scrollwrap.is-long-table { max-height: 70dvh; overflow: auto; }
+.md-typeset__scrollwrap.is-long-table { max-height: none; overflow: auto; }
 .md-typeset__scrollwrap.is-long-table th { position: sticky; top: 0; z-index: 1; background: var(--note-muted-surface); }
 .katex-display { overflow-x: auto; overflow-y: hidden; padding-block: .3rem; }
 /* 手机（≤600px）：Material 给 th 的 100px min-width 加上 15px/20px 的内边距，一张普通

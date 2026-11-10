@@ -8,7 +8,8 @@ OS：操作系统概论；CO：计算机组成原理；CN：计算机网络技�
 | PCB | 进程控制块 | [OS 2](../courses/operating-systems/chapter-02.md#s2) |
 | P/V | P 等待、V 发信号 | [OS 2](../courses/operating-systems/chapter-02.md#s10) |
 | Mesa | 条件通知后重新竞争锁 | [OS 2](../courses/operating-systems/chapter-02.md#s12) |
-| IPC | 进程间通信 | [OS 2](../courses/operating-systems/chapter-02.md#s13) |
+| IPC（OS） | 进程间通信 | [OS 2](../courses/operating-systems/chapter-02.md#s13) |
+| IPC（CO） | 每周期完成的指令条数，是 CPI 的倒数 | [CO 4](../courses/computer-organization/chapter-04.md#s7) |
 | FCFS | 先来先服务 | [OS 3](../courses/operating-systems/chapter-03.md#s4) · [调度实验](../labs/scheduling.md) |
 | RR | 时间片轮转 | [OS 3](../courses/operating-systems/chapter-03.md#s4) |
 | EDF | 最早截止时间优先 | [OS 3](../courses/operating-systems/chapter-03.md#s5) |

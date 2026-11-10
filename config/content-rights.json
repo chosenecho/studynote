@@ -253,7 +253,7 @@
       "source_kind": "original-software-and-documentation",
       "basis": "2026-11-06 审阅第一方软件、存储兼容逻辑、交互状态和界面文案；2026-11-10 追加页脚备案行的图标与文字对齐样式，并让桌面端搜索面板只留字段内一个图标、结果区在展开时即有稳定高度；只影响样式，运行针对性单元及浏览器回归。",
       "reviewed_on": "2026-11-10",
-      "sha256": "b267200c0b773b6d4b12f590d72b5702e0d47891ef30533e8c7bb50a87373caf"
+      "sha256": "39dc3add5f7419f24f0f25c59396c64256eaaebe3b1d511a3f39256954ac9101"
     },
     {
       "path": "docs/assets/vendor/katex/contrib/auto-render.min.js",

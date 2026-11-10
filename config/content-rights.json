@@ -235,7 +235,7 @@
       "source_kind": "original-software-and-documentation",
       "basis": "2026-11-10 复核搜索面板的开关逻辑：label 的原生勾选取消、按 pointerdown 记录的意图关闭、关闭后让输入框失焦，并让结果计数等于实际列出的条目；仍为第一方实现，无第三方内容新增。",
       "reviewed_on": "2026-11-10",
-      "sha256": "22679bce0d0b6fc29a43dbbd8de70be0d9b0ec5ec7e56129e4882dced22b9b80"
+      "sha256": "b780001a7a836ce68a319b9b12fee24ca3d6be9f08a0bd726a7c74f992acad0f"
     },
     {
       "path": "docs/assets/stylesheets/labs.css",
@@ -253,7 +253,7 @@
       "source_kind": "original-software-and-documentation",
       "basis": "2026-11-06 审阅第一方软件、存储兼容逻辑、交互状态和界面文案；2026-11-10 追加页脚备案行的图标与文字对齐样式，并让桌面端搜索面板只留字段内一个图标、结果区在展开时即有稳定高度；只影响样式，运行针对性单元及浏览器回归。",
       "reviewed_on": "2026-11-10",
-      "sha256": "39dc3add5f7419f24f0f25c59396c64256eaaebe3b1d511a3f39256954ac9101"
+      "sha256": "9edab6bd64e6b8b0ae5655a99fe56c07bbafe4bab260165138f91bca8c49be4c"
     },
     {
       "path": "docs/assets/vendor/katex/contrib/auto-render.min.js",

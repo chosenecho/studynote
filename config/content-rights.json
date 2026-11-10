@@ -251,9 +251,9 @@
       "status": "cleared",
       "license": "Apache-2.0",
       "source_kind": "original-software-and-documentation",
-      "basis": "2026-11-06 审阅第一方软件、存储兼容逻辑、交互状态和界面文案；2026-11-10 追加页脚备案行的图标与文字对齐样式，只影响页脚排版，运行针对性单元及浏览器回归。",
+      "basis": "2026-11-10 核验新增的课程首页样式：仅使用 Material 语义变量与站点自有类名，未引入第三方代码、字体或远程资源。",
       "reviewed_on": "2026-11-10",
-      "sha256": "992f7a78f05cdf64e7dbbf75db43ed1aeab11e91f1a8a5eae4c106197f5b7af8"
+      "sha256": "d64af64bb976ac2cb02a606d18835997528d6b3dc5dafe6dd14e40f61d89a35c"
     },
     {
       "path": "docs/assets/vendor/katex/contrib/auto-render.min.js",
@@ -824,54 +824,54 @@
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验新增的应试导航与逐节必背行：考纲条目与层次取自配套大纲，术语、并列项与数字按成书压缩，卷面题型按本地真题卷归章整理；概念讲解与练习结构未变，未收录教材原文、题目或插图。",
+      "basis": "2026-11-10 仅为应试导航标题补充显式锚点，供课程首页深链接使用；正文、必背清单与练习未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "e2c5f756753af7f692a2b1404a8f7ab2432a263f35023b41d1d680d87e81cdf4"
+      "sha256": "092b8b0e8ad710241aabd90c91996703ebf85f45a3091dbac198f5787ec83929"
     },
     {
       "path": "docs/courses/operating-systems/chapter-02.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验新增的应试导航与逐节必背行：考纲条目与层次取自配套大纲，术语、并列项与数字按成书压缩，卷面题型按本地真题卷归章整理；概念讲解与练习结构未变，未收录教材原文、题目或插图。",
+      "basis": "2026-11-10 仅为应试导航标题补充显式锚点，供课程首页深链接使用；正文、必背清单与练习未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "b018c3a631dfde1b17d5ece33e730443cfb25e8bd1970210cd481a6713660276"
+      "sha256": "30623b56d20d35c046923841e37f005a7bafbb2f19efb2f0ba446f025e18373e"
     },
     {
       "path": "docs/courses/operating-systems/chapter-03.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验新增的应试导航与逐节必背行：考纲条目与层次取自配套大纲，术语、并列项与数字按成书压缩，卷面题型按本地真题卷归章整理；概念讲解与练习结构未变，未收录教材原文、题目或插图。",
+      "basis": "2026-11-10 仅为应试导航标题补充显式锚点，供课程首页深链接使用；正文、必背清单与练习未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "ae580e414066fbdf7bfc82b588e4960f5656760482c9438a91b3c3dbf653ac15"
+      "sha256": "e53ba677bb8dce99f29c4985403f27c72689717ab0922fa54d48a5d0face1d5f"
     },
     {
       "path": "docs/courses/operating-systems/chapter-04.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验新增的应试导航与逐节必背行：考纲条目与层次取自配套大纲，术语、并列项与数字按成书压缩，卷面题型按本地真题卷归章整理；概念讲解与练习结构未变，未收录教材原文、题目或插图。",
+      "basis": "2026-11-10 仅为应试导航标题补充显式锚点，供课程首页深链接使用；正文、必背清单与练习未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "0fb9592f1a3d9e0d620ad43564b57119896d53248a3ad1fc40d35e2cd5dd2aa5"
+      "sha256": "02acfb884ce6bf4e92d2a8c760e05da3ef54a25bdecd8aa8b3f35759f75690cd"
     },
     {
       "path": "docs/courses/operating-systems/chapter-05.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验新增的应试导航与逐节必背行：考纲条目与层次取自配套大纲，术语、并列项与数字按成书压缩，卷面题型按本地真题卷归章整理；概念讲解与练习结构未变，未收录教材原文、题目或插图。",
+      "basis": "2026-11-10 仅为应试导航标题补充显式锚点，供课程首页深链接使用；正文、必背清单与练习未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "c18dfbe965edf073b576cfd5ee9d3213953287cc7e9883d193094857dfdf15c1"
+      "sha256": "e90fb48eab0eabc8b937aff354d4248689b9671fd2b33c6624fb9c43298824b9"
     },
     {
       "path": "docs/courses/operating-systems/chapter-06.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验新增的应试导航与逐节必背行：考纲条目与层次取自配套大纲，术语、并列项与数字按成书压缩，卷面题型按本地真题卷归章整理；概念讲解与练习结构未变，未收录教材原文、题目或插图。",
+      "basis": "2026-11-10 仅为应试导航标题补充显式锚点，供课程首页深链接使用；正文、必背清单与练习未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "6466087e89de1afad3f7ab17b6a906a1ed2567c4370db969cd052e3663234f09"
+      "sha256": "777023abc2753e454d6dfa68439d2efa54652d89f6a0b95a82a8fa5ec10bd726"
     },
     {
       "path": "docs/courses/operating-systems/figures/address-walk.svg",
@@ -932,9 +932,9 @@
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验课程页复习路径改写：改为先背应试导航再读讲解；章节统计与链接未变。",
+      "basis": "2026-11-10 核验课程首页改版：课程要点、章节卡片与复习路径的文案均为本站自撰，链接只指向站内页面与章内锚点；未引入外部图片、字体或第三方文案。",
       "reviewed_on": "2026-11-10",
-      "sha256": "85ebea7696904fd58abb2af1d05307717b6416c7b223a4f5a90b64cbd91e8522"
+      "sha256": "bb5b012373b0d5b59512696e9315dc7f241d6c259ce4c870dc0483dce269aff4"
     },
     {
       "path": "docs/errata.md",
@@ -1121,9 +1121,9 @@
       "status": "cleared",
       "license": "Apache-2.0",
       "source_kind": "original-software-and-documentation",
-      "basis": "2026-11-10 核验开发约定：章节改动需保留学习导航、应试导航与练习结构；其余条目未变。",
+      "basis": "2026-11-10 核验开发约定补充：说明课程首页的四组样式类与锚点依赖；其余条目未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "fff4d6ee187a4898d83ea307521c0afbdca34dc7016352daf5d7af5331929a1d"
+      "sha256": "7bae8a699a653014822f0c65fe2dd4fb7338d1dc10d335f0b09b9232049c654c"
     },
     {
       "path": "handbook/history-cleanup.md",

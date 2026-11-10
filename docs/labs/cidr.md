@@ -4,6 +4,9 @@ description: 计算 IPv4 CIDR 地址块、掩码和最长前缀匹配，含独�
 
 # CIDR 地址块与路由
 
+[计算机网络技术](../courses/computer-networks/index.md) · [第 5 章 网络互联技术](../courses/computer-networks/chapter-05.md#s5)
+{: .lab-course }
+
 给定一个十进制 IPv4 地址及前缀长度，先预测地址块起点，再核对地址范围、掩码和可选路由表。
 
 <div class="study-lab" data-study-lab="cidr"><p>正在载入练习。</p></div>

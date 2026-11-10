@@ -6,6 +6,12 @@ import {createReadingStore, READING_KEY} from "./reading-state.mjs";
   const storageKey = "studynote:completed:v1";
   let reading;
   try { reading = createReadingStore(getCourses(), localStorage); } catch {}
+  // Heading permalinks are pointer affordances; keep them out of the keyboard order
+  // so Tab moves from heading to heading instead of stopping on every "¶".
+  document.querySelectorAll("a.headerlink").forEach((link) => {
+    link.tabIndex = -1;
+    link.setAttribute("aria-hidden", "true");
+  });
   function renderRecent() {
     document.querySelectorAll("[data-recent-chapter]").forEach(link => {
       const course = getCourses().find(c => c.id === link.dataset.recentChapter);
@@ -123,7 +129,7 @@ import {createReadingStore, READING_KEY} from "./reading-state.mjs";
       function fitImage(original = false) {
         dialog.dataset.original = String(original);
         fit.setAttribute("aria-pressed", String(original));
-        fit.textContent = original ? "适应屏幕" : "查看原图";
+        fit.textContent = original ? "适应宽度" : "原始尺寸";
         viewport.scrollTo(0, 0);
       }
       fit.addEventListener("click", () => fitImage(dialog.dataset.original !== "true"));

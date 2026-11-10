@@ -82,11 +82,11 @@ nav:
       - 第 7 章 计算机动画制作技术: courses/multimedia-technology/chapter-07.md
       - 第 8 章 多媒体制作工具: courses/multimedia-technology/chapter-08.md
       - 第 9 章 多媒体项目的开发过程: courses/multimedia-technology/chapter-09.md
+  - 课程目录: courses/index.md
   - 复习速查:
       - 速查首页: reference/index.md
       - 易错点清单: reference/pitfalls.md
       - 术语与缩写表: reference/glossary.md
-      - 课程目录: courses/index.md
       - 学习指南: guide.md
       - 版本与勘误: errata.md
       - 许可与版权: licensing.md

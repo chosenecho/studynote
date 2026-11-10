@@ -4,6 +4,9 @@ description: 查看定长补码编码、模加结果与带符号溢出的区别�
 
 # 补码加减练习
 
+[计算机组成原理](../courses/computer-organization/index.md) · [第 2 章 数据的表示和运算](../courses/computer-organization/chapter-02.md#s7)
+{: .lab-course }
+
 输入位宽与操作数，比较数学结果、截断后的补码值及溢出标志。
 
 <div class="study-lab" data-study-lab="complement"><p>正在载入练习；若长时间未出现操作区，请刷新页面。</p></div>

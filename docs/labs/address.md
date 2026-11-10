@@ -4,6 +4,9 @@ description: 拆分页号与页内偏移，通过页表计算物理地址并识�
 
 # 分页地址转换练习
 
+[操作系统概论](../courses/operating-systems/index.md) · [第 4 章 内存管理](../courses/operating-systems/chapter-04.md#s4)
+{: .lab-course }
+
 输入页大小、逻辑地址与页表，计算物理地址或判断缺页、越界。
 
 <div class="study-lab" data-study-lab="address"><p>正在载入练习；若长时间未出现操作区，请刷新页面。</p></div>

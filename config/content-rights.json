@@ -99,8 +99,8 @@
       "license": "Apache-2.0",
       "source_kind": "original-software-and-documentation",
       "basis": "2026-11-06 多媒体笔记实施复核：独立组织讲解、自编情境与数值，图示由本项目绘制；只公开书目、短考点及原创表达，不分发成书、教材插图或原题答案。大纲用于范围定位，保留来源疑点及未实测边界。私有对照与核算记录存于 local/reviews/multimedia-2026-11-06/。",
-      "reviewed_on": "2026-11-06",
-      "sha256": "2bcd095b0390ae3461b5a88a24364a14d6f200209adaa767dc619917d102111f"
+      "reviewed_on": "2026-11-10",
+      "sha256": "a06070915136a2a62f8b9c91408db342a4c378626cc649dbf8d2f76fc92a9c77"
     },
     {
       "path": "docs/assets/images/beian.png",
@@ -189,8 +189,8 @@
       "license": "Apache-2.0",
       "source_kind": "original-software-and-documentation",
       "basis": "2026-11-06 复核本次原创表单校验、错误状态、银行家算法参数检查和步骤说明；无第三方内容新增。",
-      "reviewed_on": "2026-11-06",
-      "sha256": "6b7c792ee87be08a53ff3e56a409747abc80d7c25e5a22561209c709cfea6a29"
+      "reviewed_on": "2026-11-10",
+      "sha256": "2a0b8e1d46ccf49c3b213c6e28cbd309c813185a8fbb5d9526f1ccc20c5d463e"
     },
     {
       "path": "docs/assets/javascripts/labs/loader.mjs",
@@ -252,8 +252,8 @@
       "license": "Apache-2.0",
       "source_kind": "original-software-and-documentation",
       "basis": "2026-11-06 审阅本次第一方软件、存储兼容逻辑、交互状态和界面文案；运行针对性单元及浏览器回归。",
-      "reviewed_on": "2026-11-06",
-      "sha256": "6bc2a79da3fcbcf634c98898f339d418bb2787a3166620667f81f9954ae79afa"
+      "reviewed_on": "2026-11-10",
+      "sha256": "9a2ae7b9cd46a50c5d566ca364b90d6aa8a01a47dcf7e83fb76acc9e058f5888"
     },
     {
       "path": "docs/assets/javascripts/reading-state.mjs",
@@ -279,8 +279,8 @@
       "license": "Apache-2.0",
       "source_kind": "original-software-and-documentation",
       "basis": "2026-11-06 审阅本次第一方软件、存储兼容逻辑、交互状态和界面文案；运行针对性单元及浏览器回归。",
-      "reviewed_on": "2026-11-06",
-      "sha256": "680b3a9d1eb3510f92bf1d1dcaf83520e49926d7669b57513812d6f46429bb34"
+      "reviewed_on": "2026-11-10",
+      "sha256": "2e730087e3d0be7c3de0fd2c3abfe1b5563677c79b2b0069f9f4d73e4640e99a"
     },
     {
       "path": "docs/assets/stylesheets/notes.css",
@@ -289,7 +289,7 @@
       "source_kind": "original-software-and-documentation",
       "basis": "2026-11-10 核验合并后的样式改动：页脚记录排版改为单行居中，表格滚动容器补定位以约束 KaTeX 隐藏 MathML 层；只使用 Material 语义变量与站点自有类名，未引入第三方资源。",
       "reviewed_on": "2026-11-10",
-      "sha256": "6d1b648899dbbb54def0febe1b034e0a74d7c4274461b9edaf81c14a92bf9b78"
+      "sha256": "9c07d055c1d83bb685634d2f45cc2100414fb76e8e0b14ad115f67ee363c8daf"
     },
     {
       "path": "docs/assets/vendor/katex/LICENSE",
@@ -934,7 +934,7 @@
       "source_kind": "original",
       "basis": "2026-11-10 仅为应试导航标题补充显式锚点，供课程首页深链接使用；正文、必背清单与练习未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "092b8b0e8ad710241aabd90c91996703ebf85f45a3091dbac198f5787ec83929"
+      "sha256": "aac96b1ba59cc7e9fe0855f5a23a38cb5f61ca3fe7dc7888569318a7a16024a9"
     },
     {
       "path": "docs/courses/operating-systems/chapter-02.md",
@@ -952,7 +952,7 @@
       "source_kind": "original",
       "basis": "2026-11-10 仅为应试导航标题补充显式锚点，供课程首页深链接使用；正文、必背清单与练习未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "e53ba677bb8dce99f29c4985403f27c72689717ab0922fa54d48a5d0face1d5f"
+      "sha256": "437f07d34f905f24f914af0b15b3aec847aa6a73c32fa4e58c1d776761f756c8"
     },
     {
       "path": "docs/courses/operating-systems/chapter-04.md",
@@ -961,7 +961,7 @@
       "source_kind": "original",
       "basis": "2026-11-10 仅为应试导航标题补充显式锚点，供课程首页深链接使用；正文、必背清单与练习未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "02acfb884ce6bf4e92d2a8c760e05da3ef54a25bdecd8aa8b3f35759f75690cd"
+      "sha256": "d4908dbc2ed7a039ba602977c65211ea059ea133efd0d768ae0f70796f19cce9"
     },
     {
       "path": "docs/courses/operating-systems/chapter-05.md",
@@ -970,7 +970,7 @@
       "source_kind": "original",
       "basis": "2026-11-10 仅为应试导航标题补充显式锚点，供课程首页深链接使用；正文、必背清单与练习未变。",
       "reviewed_on": "2026-11-10",
-      "sha256": "e90fb48eab0eabc8b937aff354d4248689b9671fd2b33c6624fb9c43298824b9"
+      "sha256": "e715a634ef576a915d7d52409329d6b66d2ee2928cc2979dedc456d4cd0333e8"
     },
     {
       "path": "docs/courses/operating-systems/chapter-06.md",
@@ -1042,7 +1042,7 @@
       "source_kind": "original",
       "basis": "2026-11-10 核验课程首页改版：课程要点、章节卡片与复习路径的文案均为本站自撰，链接只指向站内页面与章内锚点；未引入外部图片、字体或第三方文案。",
       "reviewed_on": "2026-11-10",
-      "sha256": "bb5b012373b0d5b59512696e9315dc7f241d6c259ce4c870dc0483dce269aff4"
+      "sha256": "e7a0ea438ac6700a69c5bb21c11a72c6971dbd389f86a7f249b2141e2fd3c675"
     },
     {
       "path": "docs/errata.md",
@@ -1077,8 +1077,8 @@
       "license": "CC-BY-4.0",
       "source_kind": "original",
       "basis": "本轮修正实验页与自测页说明文字的表述与标点，脚本、交互逻辑、题目答案与数据结构未变。",
-      "reviewed_on": "2026-11-08",
-      "sha256": "8b0bde8694327a78027607241a35080d34d88df834a85f543dd49252a0fc911a"
+      "reviewed_on": "2026-11-10",
+      "sha256": "b6590b9e13313de19aedfdd2be0434fde551f96892d687d8a14883df834cc0cf"
     },
     {
       "path": "docs/labs/banker.md",
@@ -1086,8 +1086,8 @@
       "license": "CC-BY-4.0",
       "source_kind": "original",
       "basis": "本轮修正实验页与自测页说明文字的表述与标点，脚本、交互逻辑、题目答案与数据结构未变。",
-      "reviewed_on": "2026-11-08",
-      "sha256": "9b14c7d69549a6c79a0ccef109b6e18f88dc84b559afd74359bc3aad552691e1"
+      "reviewed_on": "2026-11-10",
+      "sha256": "227eb23a04769ef8d5e43acdff91ce1afab46e8d56e208baa5b2728e389a7d76"
     },
     {
       "path": "docs/labs/cache.md",
@@ -1095,8 +1095,8 @@
       "license": "CC-BY-4.0",
       "source_kind": "original",
       "basis": "本轮修正实验页与自测页说明文字的表述与标点，脚本、交互逻辑、题目答案与数据结构未变。",
-      "reviewed_on": "2026-11-08",
-      "sha256": "aa4da3a2b4f8124e4f056389c110d0aa6d1459ef961c3981dda3eaef7b52b6c1"
+      "reviewed_on": "2026-11-10",
+      "sha256": "07baea0be20ed63cf56d2e4573f10606c67abf933203ab6c30477711908b2632"
     },
     {
       "path": "docs/labs/cidr.md",
@@ -1104,8 +1104,8 @@
       "license": "Apache-2.0",
       "source_kind": "original-software-and-documentation",
       "basis": "本轮修正实验页与自测页说明文字的表述与标点，脚本、交互逻辑、题目答案与数据结构未变。",
-      "reviewed_on": "2026-11-08",
-      "sha256": "dfac7f2cc94aeae8b64bea39feff844a6372948eed74f048e91b333ea361dca3"
+      "reviewed_on": "2026-11-10",
+      "sha256": "1c9229b7114db8730589dbf59792953f8633df71ca7a2807bfcf33957a8554f4"
     },
     {
       "path": "docs/labs/complement.md",
@@ -1113,8 +1113,8 @@
       "license": "CC-BY-4.0",
       "source_kind": "original",
       "basis": "本轮修正实验页与自测页说明文字的表述与标点，脚本、交互逻辑、题目答案与数据结构未变。",
-      "reviewed_on": "2026-11-08",
-      "sha256": "1ca91457b1c4902cb7b34b4fd85b02cd6fbbb0a0306707c26bc6149b59e48f13"
+      "reviewed_on": "2026-11-10",
+      "sha256": "1555b2afa0c73a6349e449f395be96016d0c3ac1b4dc768acbd8b21241ce6477"
     },
     {
       "path": "docs/labs/index.md",
@@ -1122,8 +1122,8 @@
       "license": "CC-BY-4.0",
       "source_kind": "original",
       "basis": "本轮修正实验页与自测页说明文字的表述与标点，脚本、交互逻辑、题目答案与数据结构未变。",
-      "reviewed_on": "2026-11-08",
-      "sha256": "9b5c7738c965ebf9ae292016f4d2bc5c442b6e22cc169bfa6b4ca818346a4d97"
+      "reviewed_on": "2026-11-10",
+      "sha256": "6cdd777c60c289c308526b4c9d0fab06a4dc412593b6eebed3c4ea9bb5fd2ee1"
     },
     {
       "path": "docs/labs/paging.md",
@@ -1131,8 +1131,8 @@
       "license": "CC-BY-4.0",
       "source_kind": "original",
       "basis": "本轮修正实验页与自测页说明文字的表述与标点，脚本、交互逻辑、题目答案与数据结构未变。",
-      "reviewed_on": "2026-11-08",
-      "sha256": "12d2d94fb29ae4599f0ac842a99e8d053e74af336b857c4151e01cae0ac33c1b"
+      "reviewed_on": "2026-11-10",
+      "sha256": "85f46844bd82437f223d3d8472607570d4c3802d7e8f8a241a444e0beb6247d8"
     },
     {
       "path": "docs/labs/quiz.md",
@@ -1140,8 +1140,8 @@
       "license": "CC-BY-4.0",
       "source_kind": "original",
       "basis": "本轮修正实验页与自测页说明文字的表述与标点，脚本、交互逻辑、题目答案与数据结构未变。",
-      "reviewed_on": "2026-11-08",
-      "sha256": "0ccc4f3c139607f774cc6faa87ed78836dbfa893fe5006a9bb2c05db92bc37a7"
+      "reviewed_on": "2026-11-10",
+      "sha256": "c279df8b724abe9521a35c627c3164845b09410e43ffe093f717b617ffa68705"
     },
     {
       "path": "docs/labs/scheduling.md",
@@ -1149,8 +1149,8 @@
       "license": "CC-BY-4.0",
       "source_kind": "original",
       "basis": "本轮修正实验页与自测页说明文字的表述与标点，脚本、交互逻辑、题目答案与数据结构未变。",
-      "reviewed_on": "2026-11-08",
-      "sha256": "df9c28e4ea98bc49575fc8d8488530fccab5c8ebe93880863b4f044afe820238"
+      "reviewed_on": "2026-11-10",
+      "sha256": "72478097cc2de615026c5a73b578f5c9b52284b3c65367e58a235ee5e8ea6119"
     },
     {
       "path": "docs/labs/semaphore.md",
@@ -1158,8 +1158,8 @@
       "license": "Apache-2.0",
       "source_kind": "original-software-and-documentation",
       "basis": "本轮修正实验页与自测页说明文字的表述与标点，脚本、交互逻辑、题目答案与数据结构未变。",
-      "reviewed_on": "2026-11-08",
-      "sha256": "367188e50f76dbad04845fdda74134571ec54a1b907b5ba6a1a061b482bb65a9"
+      "reviewed_on": "2026-11-10",
+      "sha256": "909db33ff6888c6841b3f19de6f5447f7eeea246dd509d5e0b9a732fec1eb7c0"
     },
     {
       "path": "docs/reference/glossary.md",
@@ -1293,8 +1293,8 @@
       "license": "Apache-2.0",
       "source_kind": "original-software-and-documentation",
       "basis": "本轮修正说明文字的表述与标点，流程、命令与许可说明的含义未变。",
-      "reviewed_on": "2026-11-08",
-      "sha256": "a26d1ae2cef56a673cab3ce0696c32e194a2092a36fcb86a1ecad48cb544c543"
+      "reviewed_on": "2026-11-10",
+      "sha256": "ff8a999852722da8923c719f3c0e12521aaaedfbef78aad98c0497e739e379c9"
     },
     {
       "path": "handbook/seo.md",

@@ -66,7 +66,8 @@ const configs = {
 };
 
 function mountLab(root,kind) {
- const config=configs[kind], id='study-'+kind;
+ const config=configs[kind], id='study-'+kind, storageKey='studynote:lab:'+location.pathname;
+ const examples=Object.fromEntries([...config.fields,config.prediction].map(f=>[f.name,String(f.value??'')]));
  root.classList.add('study-lab');
  function field(f){
   const attrs='id="'+id+'-'+f.name+'" name="'+f.name+'" aria-describedby="'+id+'-'+f.name+'-help '+id+'-'+f.name+'-error"';
@@ -76,6 +77,7 @@ function mountLab(root,kind) {
  }
  root.innerHTML='<form novalidate><div class="study-fields">'+config.fields.map(field).join('')+'</div><div class="study-prediction">'+field(config.prediction)+'</div><div class="lab-buttons"><button type="submit" class="md-button md-button--primary">运行并核对</button><button class="md-button" type="reset">恢复示例</button></div></form><div class="study-result" aria-live="polite" aria-atomic="true" tabindex="-1"><p>先做预测，运行后在这里查看结果。</p></div>';
  const form=root.querySelector('form'), result=root.querySelector('.study-result');
+ const controls=()=>[...form.querySelectorAll('input,select,textarea')];
  const clearError=el=>{el.removeAttribute('aria-invalid');root.querySelector('#'+el.id+'-error').textContent='';el.setCustomValidity('');};
  const labelText=el=>el.labels?.[0]?.textContent?.trim()||el.name;
  const validationMessage=el=>{
@@ -87,29 +89,60 @@ function mountLab(root,kind) {
  };
  const showError=(el,message)=>{el.setAttribute('aria-invalid','true');root.querySelector('#'+el.id+'-error').textContent=message;};
  const resetResult=()=>{result.innerHTML='<p>参数已更新，请重新运行核对。</p>';};
- form.addEventListener('input',e=>{clearError(e.target);resetResult();});
- form.addEventListener('change',resetResult);
+ function persist(output){
+  try{sessionStorage.setItem(storageKey,JSON.stringify({v:1,values:Object.fromEntries(controls().map(el=>[el.name,el.value])),result:output}));}catch{/* Blocked storage only disables restore. */}
+ }
+ function showResult(output,feedback,visible){
+  result.innerHTML='<h2>本次结果</h2><p class="lab-metrics">'+esc(output.summary)+'</p><p>'+esc(feedback)+'</p><div class="study-step-controls"><button class="md-button" type="button" data-step="prev">上一步</button><button class="md-button" type="button" data-step="next">下一步</button><button class="md-button" type="button" data-step="all">显示全部步骤</button><span data-step-count></span></div><ol class="study-steps">'+output.steps.map(s=>'<li><h3>'+esc(s.title)+'</h3><p>'+esc(s.body)+'</p></li>').join('')+'</ol>';
+  let shown=Math.min(Math.max(1,Number.isInteger(visible)?visible:1),output.steps.length);
+  const rows=[...result.querySelectorAll('.study-steps li')];
+  function update(){rows.forEach((row,i)=>row.hidden=i>=shown);result.querySelector('[data-step-count]').textContent='已显示 '+shown+' / '+rows.length+' 步';result.querySelector('[data-step=prev]').disabled=shown<=1;result.querySelector('[data-step=next]').disabled=shown>=rows.length;result.querySelector('[data-step=all]').disabled=shown>=rows.length;}
+  result.querySelectorAll('[data-step]').forEach(button=>button.addEventListener('click',()=>{shown=button.dataset.step==='all'?rows.length:shown+(button.dataset.step==='next'?1:-1);update();persist({summary:output.summary,steps:output.steps,feedback,visible:shown});}));
+  update();
+ }
+ function restore(){
+  let saved;
+  try{saved=JSON.parse(sessionStorage.getItem(storageKey)||'null');}catch{return;}
+  if(!saved||typeof saved!=='object'||saved.v!==1||!saved.values||typeof saved.values!=='object')return;
+  for(const el of controls()){
+   const value=saved.values[el.name];
+   if(typeof value!=='string'||value===el.value)continue;
+   if(el.tagName==='SELECT'&&![...el.options].some(option=>option.value===value))continue;
+   if(el.type==='number'&&!/^-?\d+$/.test(value))continue;
+   el.value=value;
+  }
+  const savedResult=saved.result;
+  if(!savedResult||typeof savedResult!=='object')return;
+  if(typeof savedResult.summary!=='string'||typeof savedResult.feedback!=='string')return;
+  if(!Array.isArray(savedResult.steps)||!savedResult.steps.length)return;
+  if(!savedResult.steps.every(step=>step&&typeof step.title==='string'&&typeof step.body==='string'))return;
+  showResult(savedResult,savedResult.feedback,savedResult.visible);
+ }
+ form.addEventListener('input',e=>{clearError(e.target);resetResult();persist(null);});
+ form.addEventListener('change',()=>{resetResult();persist(null);});
  form.addEventListener('focusout',e=>{
   // Avoid moving the submit button between pointerdown and click.
   if(e.relatedTarget?.matches('button[type=submit],button[type=reset]'))return;
   if(e.target.willValidate&&!e.target.validity.valid)showError(e.target,validationMessage(e.target));
  });
- form.addEventListener('reset',()=>{form.querySelectorAll('input,select,textarea').forEach(clearError);resetResult();});
+ form.addEventListener('reset',()=>{
+  controls().forEach(clearError);
+  for(const [name,value] of Object.entries(examples)){const el=form.elements.namedItem(name);if(el)el.value=value;}
+  resetResult();persist(null);
+ });
  form.addEventListener('submit',e=>{
   e.preventDefault(); const fields=[...form.querySelectorAll('input,select,textarea')];fields.forEach(clearError);
   const invalid=fields.find(el=>!el.validity.valid);
-  if(invalid){const message=validationMessage(invalid);showError(invalid,message);result.innerHTML='<p>未运行：'+esc(message)+'</p>';invalid.focus();return;}
-  const get=(name,parse=x=>x)=>{const el=form.elements.namedItem(name);try{return parse(el.value);}catch(error){showError(el,error.message);el.focus();throw error;}};
+  if(invalid){showError(invalid,validationMessage(invalid));result.innerHTML='<p>检查未通过：请改正下方标出的字段。</p>';invalid.focus();persist(null);return;}
+  const get=(name,parse=x=>x)=>{const el=form.elements.namedItem(name);try{return parse(el.value);}catch(error){showError(el,error.message);error.field=el;el.focus();throw error;}};
   try {
    const prediction=get('prediction').trim(), output=config.run(get);
    const predictionMatches=prediction===output.answer || (/^[0-9]+$/.test(prediction) && /^[0-9]+$/.test(output.answer) && Number(prediction)===Number(output.answer));
    const feedback=prediction?(predictionMatches?'预测正确。':'预测为“'+prediction+'”；正确结果为“'+output.answer+'”。'):'未填写预测。';
-   result.innerHTML='<h2>本次结果</h2><p class="lab-metrics">'+esc(output.summary)+'</p><p>'+esc(feedback)+'</p><div class="study-step-controls"><button class="md-button" type="button" data-step="prev">上一步</button><button class="md-button" type="button" data-step="next">下一步</button><button class="md-button" type="button" data-step="all">显示全部步骤</button><span data-step-count></span></div><ol class="study-steps">'+output.steps.map(s=>'<li><h3>'+esc(s.title)+'</h3><p>'+esc(s.body)+'</p></li>').join('')+'</ol>';
-   let visible=1; const rows=[...result.querySelectorAll('.study-steps li')];
-   function update(){rows.forEach((row,i)=>row.hidden=i>=visible);result.querySelector('[data-step-count]').textContent='已显示 '+visible+' / '+rows.length+' 步';result.querySelector('[data-step=prev]').disabled=visible<=1;result.querySelector('[data-step=next]').disabled=visible>=rows.length;result.querySelector('[data-step=all]').disabled=visible>=rows.length;}
-   result.querySelectorAll('[data-step]').forEach(button=>button.addEventListener('click',()=>{visible=button.dataset.step==='all'?rows.length:visible+(button.dataset.step==='next'?1:-1);update();}));update();result.focus({preventScroll:true});
-  }catch(error){result.textContent='未运行：'+error.message;}
+   showResult(output,feedback,1);persist({summary:output.summary,steps:output.steps,feedback,visible:1});result.focus({preventScroll:true});
+  }catch(error){result.textContent=error.field?'检查未通过：请改正下方标出的字段。':'未运行：'+error.message;persist(null);}
  });
+ restore();
 }
 
 function mountQuiz(root){
@@ -166,13 +199,32 @@ function mountQuiz(root){
   };
   next.onclick=()=>{if(!answered)return;store.next(filter.value);render();body.focus();};
  }
- filter.value=store.course;
- filter.onchange=()=>{chapters();render();};
+ const optionValue=(control,value)=>typeof value==='string'&&[...control.options].some(option=>option.value===value)?value:null;
+ const query=new URLSearchParams(location.search);
+ filter.value=optionValue(filter,query.get('course'))||optionValue(filter,store.course)||'all';
  chapters();
- for(const control of [chapterFilter,countFilter,shuffleFilter])control.onchange=()=>{store.start(filter.value,'all',settings());render();};
- root.querySelector('[data-new]').onclick=()=>{store.start(filter.value,'all',settings());render();body.focus();};
- root.querySelector('[data-missed]').onclick=()=>{if(store.start(filter.value,'missed',settings())){render();body.focus();}else progress.textContent='当前章节没有累计错题，可切换章节后重试。';};
- root.querySelector('[data-clear]').onclick=()=>{store.clear();render();body.focus();};
- render();
+ function syncUrl(){
+  const params=new URLSearchParams();
+  if(filter.value!=='all')params.set('course',filter.value);
+  if(chapterFilter.value&&chapterFilter.value!=='all')params.set('chapter',chapterFilter.value);
+  const search=params.toString();
+  history.replaceState(history.state,'',location.pathname+(search?'?'+search:'')+location.hash);
+ }
+ const linkedCourse=optionValue(filter,query.get('course')), linkedChapter=optionValue(chapterFilter,query.get('chapter'));
+ if(linkedCourse||linkedChapter){
+  // A reload keeps the URL this page wrote itself; only start a new round when
+  // the link actually asks for a different course or chapter.
+  const current=store.session(filter.value);
+  const wantsOtherCourse=linkedCourse&&linkedCourse!==store.course;
+  const wantsOtherChapter=linkedChapter&&linkedChapter!==String(current.settings.chapter);
+  if(linkedChapter)chapterFilter.value=linkedChapter;
+  if(wantsOtherCourse||wantsOtherChapter)store.start(filter.value,'all',settings());
+ }
+ filter.onchange=()=>{chapters();render();syncUrl();};
+ for(const control of [chapterFilter,countFilter,shuffleFilter])control.onchange=()=>{store.start(filter.value,'all',settings());render();syncUrl();};
+ root.querySelector('[data-new]').onclick=()=>{store.start(filter.value,'all',settings());render();syncUrl();body.focus();};
+ root.querySelector('[data-missed]').onclick=()=>{if(store.start(filter.value,'missed',settings())){render();syncUrl();body.focus();}else progress.textContent='当前章节没有累计错题，可切换章节后重试。';};
+ root.querySelector('[data-clear]').onclick=()=>{store.clear();render();syncUrl();body.focus();};
+ render();syncUrl();
 }
 document.querySelectorAll('[data-study-lab]').forEach(root=>{const kind=root.dataset.studyLab;if(kind==='quiz')mountQuiz(root);else if(configs[kind])mountLab(root,kind);});

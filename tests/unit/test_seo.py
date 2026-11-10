@@ -113,20 +113,29 @@ class SeoTests(unittest.TestCase):
                           {'复习速查': [{'速查首页': 'reference/index.md'},
                                        {'易错点清单': 'reference/pitfalls.md'}]}],
                   'extra': {'study_courses': [{'slug': 'demo', 'title': '演示课程'}]}}
-        for uri, parent in [('courses/demo/chapter-01.md', '演示课程'), ('labs/cache.md', '交互练习'),
-                            ('reference/pitfalls.md', '复习速查')]:
+        for uri, parent, depth in [('courses/demo/chapter-01.md', '演示课程', 2),
+                                   ('labs/cache.md', '交互练习', 1),
+                                   ('reference/pitfalls.md', '复习速查', 1)]:
             page = SimpleNamespace(meta={}, title='A < B & C', is_homepage=False,
                                    url=uri.removesuffix('.md') + '/',
                                    canonical_url=SITE + uri.removesuffix('.md') + '/',
                                    file=SimpleNamespace(src_uri=uri))
             context = hook.on_page_context({}, page, config)
-            self.assertEqual(context['study_breadcrumbs'][1]['name'], parent)
-            self.assertEqual(context['study_breadcrumbs'][1]['url'],
+            self.assertEqual(context['study_breadcrumbs'][depth]['name'], parent)
+            self.assertEqual(context['study_breadcrumbs'][depth]['url'],
                              SITE + {'演示课程': 'courses/demo/',
                                      '交互练习': 'labs/',
                                      '复习速查': 'reference/'}[parent])
             self.assertEqual(context['study_schema']['itemListElement'][-1]['name'], page.title)
             self.assertEqual(context['seo_title'], 'A < B & C - studynote')
+
+        page = SimpleNamespace(meta={}, title='第 1 章', is_homepage=False,
+                               url='courses/demo/chapter-01/',
+                               canonical_url=SITE + 'courses/demo/chapter-01/',
+                               file=SimpleNamespace(src_uri='courses/demo/chapter-01.md'))
+        context = hook.on_page_context({}, page, config)
+        self.assertEqual(context['study_breadcrumbs'][1]['name'], '课程目录')
+        self.assertEqual(context['study_breadcrumbs'][1]['url'], SITE + 'courses/')
 
         page = SimpleNamespace(meta={}, title='练习入口', is_homepage=False,
                                url='labs/', canonical_url=SITE + 'labs/',

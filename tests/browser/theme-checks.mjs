@@ -35,7 +35,8 @@ export async function runThemeChecks(page, {base, out, report}) {
   assert.match(await page.title(), /studynote/);
   assert.equal(await page.locator('article a[href="mailto:chosenecho@163.com"]').count(), 0);
   assert.match(await page.locator('article').innerText(), /许可与版权/);
-  assert.equal(await page.locator('.md-tabs__item').count(), courses.length+3);
+  assert.equal(await page.locator('.md-tabs__item').count(), courses.length+4);
+  assert.equal(await page.locator('.md-tabs__link').filter({hasText: '课程目录'}).count(), 1);
   assert.equal(await page.locator('.grid.cards > ul > li').count(), courses.length);
   await page.evaluate(ids => {
     localStorage.setItem('studynote:completed:v1', JSON.stringify(ids.map(id => id+'-1')));
@@ -186,7 +187,7 @@ export async function runThemeChecks(page, {base, out, report}) {
   assert.equal(await page.locator('.admonition.warning').filter({hasText:'OCR 尚未终校'}).count(), 0);
   await screenshot('multimedia-desktop.png');
   await open('/courses/multimedia-technology/chapter-09/');
-  assert.equal(await footerPath('next'), '/reference/');
+  assert.equal(await footerPath('next'), '/courses/');
   await page.locator('[data-complete]').check();
   await page.reload({waitUntil: 'networkidle'});
   assert.equal(await page.locator('[data-complete]').isChecked(), true);

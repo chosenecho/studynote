@@ -16,6 +16,6 @@ description: 调度、页面置换、银行家算法、PV、CIDR、地址转换�
 | 分清页号、偏移和物理块 | [操作系统概论](../courses/operating-systems/index.md) | [第 4 章 内存管理](../courses/operating-systems/chapter-04.md#s4) | [地址转换](address.md) | 分别尝试驻留、缺页、越界 |
 | 理解同一行的冲突 | [计算机组成原理](../courses/computer-organization/index.md) | [第 5 章 存储器层次结构](../courses/computer-organization/chapter-05.md#s5) | [Cache 映射](cache.md) | 比较同块访问和不同块同一行 |
 | 区分截断结果和溢出 | [计算机组成原理](../courses/computer-organization/index.md) | [第 2 章 数据的表示和运算](../courses/computer-organization/chapter-02.md#s7) | [补码加减](complement.md) | 先判断范围，再读位模式 |
-| 检查各课程的易错点 | [四门课程](../courses/index.md) | [第 1 章至第 9 章](../courses/index.md) | [随堂自测](quiz.md) | 提交后读解析，最后重练错题 |
+| 检查各课程的易错点 | [学习首页](../index.md) | [第 1 章至第 9 章](../index.md) | [随堂自测](quiz.md) | 提交后读解析，最后重练错题 |
 
 计算结果能用“上一步”“下一步”逐步看，也可以点“显示全部步骤”。页面下方附了算例，手算完拿来核对。

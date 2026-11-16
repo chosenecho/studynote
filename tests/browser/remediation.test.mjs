@@ -94,13 +94,13 @@ try{
     assert.equal(await page.locator('html').evaluate(el=>el.classList.contains('dialog-open')),false);
   }
   ok('Mobile/landscape/narrow image fit, original toggle, Escape, restored focus and scroll unlock');
-  await page.goto(base+'/courses/',{waitUntil:'networkidle'});
-  assert.equal(await page.locator('article a').evaluateAll(els=>els.filter(a=>new URL(a.href).pathname==='/courses/operating-systems/').length),1);
+  await page.goto(base+'/',{waitUntil:'networkidle'});
+  assert.equal(await page.locator('.grid.cards > ul > li').count(),4);
   await page.goto(base+'/search/?q='+encodeURIComponent('抖动'));
   await page.waitForURL(base+'/?q='+encodeURIComponent('抖动'));
   await page.waitForSelector('.md-search-result__link');
   assert.equal(api.length,0,'No runtime GitHub repository facts');
-  ok('Course index, query-preserving search entry and static repository link without API calls');
+  ok('Home dashboard, query-preserving search entry and static repository link without API calls');
   await page.goto(base+'/labs/quiz/',{waitUntil:'networkidle'});
   await page.locator('#quiz-course').selectOption('os');
   await page.locator('#quiz-chapter').selectOption('2');

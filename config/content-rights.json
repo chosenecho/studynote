@@ -269,9 +269,9 @@
       "status": "cleared",
       "license": "Apache-2.0",
       "source_kind": "original-software-and-documentation",
-      "basis": "2026-11-16 部署与依赖改动同步复核：搜索索引裁剪后同步复核，仍为第一方实现。",
+      "basis": "2026-11-16 部署与依赖改动同步复核：搜索索引裁剪后同步复核，仍为第一方实现；2026-11-16 站点结构重构：更新导航与复习入口链接、术语跨课程专节，未新增第三方内容。",
       "reviewed_on": "2026-11-16",
-      "sha256": "efd44063d4cb102372f18b09f1edfbd5af0df247e470ff1c6644f8d3f44982cd"
+      "sha256": "5b2172afa3ff7db6f0a2cececc3cdc72ae0015982913534abc8c4792ed288181"
     },
     {
       "path": "docs/assets/stylesheets/labs.css",
@@ -928,15 +928,6 @@
       "sha256": "815b5d0807d38f34d666bbf6bcb193cc784ff8e40a7e6ec8f638cf80ae7b051e"
     },
     {
-      "path": "docs/courses/index.md",
-      "status": "cleared",
-      "license": "CC-BY-4.0",
-      "source_kind": "original-learning-content",
-      "reviewed_on": "2026-11-10",
-      "basis": "2026-11-10 核验目录页措辞：复习导航改为学习导航与应试导航；课程列表与链接未变。",
-      "sha256": "fbb19ff0fe1cc1edc00e6ca0da572b7188a2cdef97aee17590dede5633b058f7"
-    },
-    {
       "path": "docs/courses/multimedia-technology/chapter-01.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
@@ -1400,18 +1391,18 @@
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
-      "reviewed_on": "2026-11-10",
-      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
-      "sha256": "8ebb21970c9c061568c360a37dc2c030ef321ff8b92c24bb32684477ef122563"
+      "reviewed_on": "2026-11-16",
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实；2026-11-16 站点结构重构：更新导航与复习入口链接、术语跨课程专节，未新增第三方内容。",
+      "sha256": "a25ef6698453e42bcc9984b4476f88a31098ba553bd635612f6028c8efaedde8"
     },
     {
       "path": "docs/index.md",
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
-      "reviewed_on": "2026-11-10",
-      "sha256": "abcaf64d10d6317937f597f8d966a02645cce0145de1bc81cbe1a7ef5defdd40"
+      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实；2026-11-16 站点结构重构：更新导航与复习入口链接、术语跨课程专节，未新增第三方内容。",
+      "reviewed_on": "2026-11-16",
+      "sha256": "89ab1bce4fb1385b116937ece79f289d33b29396496ffc530a9c99a207a7bd0c"
     },
     {
       "path": "docs/labs/address.md",
@@ -1463,9 +1454,9 @@
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "本轮修正实验页与自测页说明文字的表述与标点，脚本、交互逻辑、题目答案与数据结构未变。",
-      "reviewed_on": "2026-11-10",
-      "sha256": "1ea60dec6667867aa893207593efd73ad54fcdacebb58d615321ae022e9d5ac9"
+      "basis": "本轮修正实验页与自测页说明文字的表述与标点，脚本、交互逻辑、题目答案与数据结构未变；2026-11-16 站点结构重构：更新导航与复习入口链接、术语跨课程专节，未新增第三方内容。",
+      "reviewed_on": "2026-11-16",
+      "sha256": "a692a8b9ad1c94c1138e27ed8eab7fff7617abaef5d43cc868df25f155a6eb24"
     },
     {
       "path": "docs/labs/paging.md",
@@ -1481,9 +1472,9 @@
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "本轮修正实验页与自测页说明文字的表述与标点，脚本、交互逻辑、题目答案与数据结构未变。",
-      "reviewed_on": "2026-11-10",
-      "sha256": "9c6b37e24a23beeeb7623b8c446f67088d9d443d34d74f9317cbeca6e4bd62f5"
+      "basis": "本轮修正实验页与自测页说明文字的表述与标点，脚本、交互逻辑、题目答案与数据结构未变；2026-11-16 站点结构重构：更新导航与复习入口链接、术语跨课程专节，未新增第三方内容。",
+      "reviewed_on": "2026-11-16",
+      "sha256": "25b57ea1988d81013b01d986ae804c272e8a928002acaa305d2afb3a022933f3"
     },
     {
       "path": "docs/labs/scheduling.md",
@@ -1508,18 +1499,9 @@
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "本轮重写术语与易错条目的解释文字，保留锚点、术语对应关系与结论，未新增未证实事实。",
-      "reviewed_on": "2026-11-10",
-      "sha256": "0929c01a1f18d5f6e1dc5d5f6bb3015254f2f4e07b520712aab402792c3897d6"
-    },
-    {
-      "path": "docs/reference/index.md",
-      "status": "cleared",
-      "license": "CC-BY-4.0",
-      "source_kind": "original-learning-content",
-      "basis": "本轮重写术语与易错条目的解释文字，保留锚点、术语对应关系与结论，未新增未证实事实。",
-      "reviewed_on": "2026-11-08",
-      "sha256": "189aadb2781a8e61210b4d81b28e720392a921f16027ca4bce19737d2776cbc1"
+      "basis": "本轮重写术语与易错条目的解释文字，保留锚点、术语对应关系与结论，未新增未证实事实；2026-11-16 站点结构重构：更新导航与复习入口链接、术语跨课程专节，未新增第三方内容。",
+      "reviewed_on": "2026-11-16",
+      "sha256": "0df45be37e7c573edd8a9174352b7b524abef17159c582f4125975f510619fe2"
     },
     {
       "path": "docs/reference/pitfalls.md",
@@ -1553,9 +1535,9 @@
       "status": "cleared",
       "license": "Apache-2.0",
       "source_kind": "original-software-and-documentation",
-      "basis": "2026-11-16 核验取源位置说明：课程资料与历年真题统一指向独立资料库 C:\\WorkSpace\\textbook-library，快照复制与 SHA-256 核验流程未变；未新增第三方内容。",
+      "basis": "2026-11-16 核验取源位置说明：课程资料与历年真题统一指向独立资料库 C:\\WorkSpace\\textbook-library，快照复制与 SHA-256 核验流程未变；未新增第三方内容；2026-11-16 站点结构重构：更新导航与复习入口链接、术语跨课程专节，未新增第三方内容。",
       "reviewed_on": "2026-11-16",
-      "sha256": "0a7c0404886334b75d88ddf4d4112b36e40dfa064c6bcb2991627f0ed89c8ef8"
+      "sha256": "805bf8de9496cc6212a57b49a54983959129fb74a6f74ea74034e1cfe83aface"
     },
     {
       "path": "handbook/deployment.md",

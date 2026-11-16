@@ -101,7 +101,8 @@ def main():
             checks.append('Deep missing routes and internal error-file access retain true 404/no-store')
             status, headers, body = request('/search/?q=%E6%8A%96%E5%8A%A8')
             assert status == 302 and headers['Location'].endswith('/?q=%E6%8A%96%E5%8A%A8')
-            assert request('/courses/')[0] == 200
+            status, headers, _ = request('/courses/')
+            assert status == 301 and headers['Location'] == '/'
             css_status, css_headers, _ = request(css_uri)
             module_status, module_headers, _ = request('/assets/javascripts/reader.mjs')
             assert 'text/css' in css_headers.get('Content-Type', ''), (css_status, css_headers)

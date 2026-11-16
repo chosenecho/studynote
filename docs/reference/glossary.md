@@ -9,8 +9,6 @@ OS：操作系统概论；CO：计算机组成原理；CN：计算机网络技�
 | PCB | 进程控制块 | [OS 2](../courses/operating-systems/chapter-02.md#s2) |
 | P/V | P 等待、V 发信号 | [OS 2](../courses/operating-systems/chapter-02.md#s10) |
 | Mesa | 条件通知后重新竞争锁 | [OS 2](../courses/operating-systems/chapter-02.md#s12) |
-| IPC（OS） | 进程间通信 | [OS 2](../courses/operating-systems/chapter-02.md#s13) |
-| IPC（CO） | 每周期完成的指令条数，是 CPI 的倒数 | [CO 4](../courses/computer-organization/chapter-04.md#s7) |
 | FCFS | 先来先服务 | [OS 3](../courses/operating-systems/chapter-03.md#s4) · [调度实验](../labs/scheduling.md) |
 | RR | 时间片轮转 | [OS 3](../courses/operating-systems/chapter-03.md#s4) |
 | EDF | 最早截止时间优先 | [OS 3](../courses/operating-systems/chapter-03.md#s5) |
@@ -92,3 +90,10 @@ OS：操作系统概论；CO：计算机组成原理；CN：计算机网络技�
 | 动作补间 / 形状补间 | 属性变化 / 轮廓变形 | [MM 7](../courses/multimedia-technology/chapter-07.md#s6) |
 | 文档相对路径 | 相对当前文档目录 | [MM 8](../courses/multimedia-technology/chapter-08.md#s4) |
 | 导航图 / 屏幕脚本 | 内容关系与跳转 / 各屏要素 | [MM 9](../courses/multimedia-technology/chapter-09.md#s5) |
+
+## 跨课程专题 {#cross}
+
+| 术语 | 含义 | 章节 |
+| --- | --- | --- |
+| IPC（OS） | 进程间通信，操作系统用消息、管道或共享内存协调进程 | [OS 2](../courses/operating-systems/chapter-02.md#s13) |
+| IPC（CO） | 每周期完成的指令条数，是 CPI 的倒数 | [CO 4](../courses/computer-organization/chapter-04.md#s7) |

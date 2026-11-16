@@ -72,18 +72,14 @@ def on_page_context(context, page, config, **kwargs):
         return context
 
     crumbs = [{'name': '首页', 'url': config['site_url']}]
-    uri = PurePosixPath(page.file.src_uri)
-    nav_chain = _nav_parent_chain(config.get('nav', []), page.file.src_uri)
-    if nav_chain is None:
-        nav_chain = []
-    # Course pages sit one level below the course index; keep that level visible
-    # in the trail even though each course is its own top-level tab.
-    if uri.parts[:1] == ('courses',) and uri.as_posix() != 'courses/index.md':
-        crumbs.append({'name': '课程目录',
-                       'url': urljoin(config['site_url'], 'courses/')})
+    nav_chain = _nav_parent_chain(config.get('nav', []), page.file.src_uri) or []
     for name, path in nav_chain:
-        if path:
-            crumbs.append({'name': name, 'url': urljoin(config['site_url'], _nav_url(path))})
+        if not path:
+            continue
+        url = urljoin(config['site_url'], _nav_url(path))
+        # A grouping crumb that only resolves to this page adds nothing.
+        if url != page.canonical_url:
+            crumbs.append({'name': name, 'url': url})
     crumbs.append({'name': page.title, 'url': page.canonical_url})
     for crumb in crumbs:
         crumb['href'] = get_relative_url(crumb['url'][len(config['site_url']):] or '.', page.url)

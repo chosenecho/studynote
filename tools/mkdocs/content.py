@@ -186,9 +186,6 @@ def on_page_markdown(markdown, page, config, files):
     uri = Path(page.file.src_uri)
     if uri.as_posix() == 'index.md':
         page.meta['description'] = config['site_description'] + '按大纲查章节，记录复习进度并回查术语。'
-    if uri.as_posix() == 'courses/index.md':
-        links = '\n'.join(f'- [{c["title"]}]({c["slug"]}/index.md)：{c["chapters"]} 章。' for c in COURSES)
-        return markdown.replace('<!-- course-catalog -->', links)
     parts = uri.parts
     course = next((course for course in COURSES
                    if len(parts) >= 3 and parts[0] == 'courses' and parts[1] == course['slug']), None)

@@ -8,7 +8,7 @@ title: 自考计算机课程复习笔记
 
 每门课分两块：学习导航看讲解、做练习；应试导航背考点、做默写。勾“本章已复习”能记住进度，数据只存在这台浏览器。来源与版本见[版本与勘误](errata.md)。
 
-[学习指南](guide.md) · [版本与勘误](errata.md) · [全部课程](courses/index.md)
+[学习指南](guide.md) · [版本与勘误](errata.md)
 
 <div class="grid cards" markdown="1">
 
@@ -80,13 +80,10 @@ title: 自考计算机课程复习笔记
 
 学习内容采用 CC BY 4.0，代码采用 Apache-2.0。详见[许可与版权](licensing.md)，权利反馈按页面说明处理。
 
-## 复习速查
+## 复习
 
-- [易错点清单](reference/pitfalls.md)，收易混的概念和公式。
-- [术语与缩写表](reference/glossary.md)，缩写记不住就按章节回查。
-
-## 交互练习
-
-进程调度、页面置换、银行家算法、地址转换、Cache 映射、补码运算与随堂自测。
+- [易错点清单](reference/pitfalls.md)：收易混的概念和公式。
+- [术语与缩写表](reference/glossary.md)：缩写记不住就按章节回查。
+- [交互练习](labs/index.md)：进程调度、页面置换、银行家算法、地址转换、Cache 映射、补码运算与随堂自测。
 
 [进入交互练习 →](labs/index.md){ .md-button }

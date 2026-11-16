@@ -1,0 +1,709 @@
+{
+  "paper_id": "2023-10_02323_真题_53415",
+  "period": "2023-10",
+  "version_note": "2023-10 全国卷，OCR 抽取 39 题（fill_blank10、integration4、short_answer5、single_choice20）",
+  "questions": [
+    {
+      "question_id": "2023-10-02323-Q01",
+      "question_no": 1,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        1
+      ],
+      "section_refs": [
+        "1.2"
+      ],
+      "topic_tags": [
+        "实时系统",
+        "分时系统"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2023-10-02323-Q02",
+      "question_no": 2,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        1
+      ],
+      "section_refs": [
+        "1.2"
+      ],
+      "topic_tags": [
+        "批处理",
+        "单道与多道批处理"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2023-10-02323-Q03",
+      "question_no": 3,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        1
+      ],
+      "section_refs": [
+        "1.3"
+      ],
+      "topic_tags": [
+        "并发性",
+        "并发"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2023-10-02323-Q04",
+      "question_no": 4,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        2
+      ],
+      "section_refs": [
+        "2.3"
+      ],
+      "topic_tags": [
+        "状态转换",
+        "三态及转换"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2023-10-02323-Q05",
+      "question_no": 5,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        2
+      ],
+      "section_refs": [
+        "2.5"
+      ],
+      "topic_tags": [
+        "PV操作",
+        "内核"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2023-10-02323-Q06",
+      "question_no": 6,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        3
+      ],
+      "section_refs": [
+        "3.1"
+      ],
+      "topic_tags": [
+        "进程调度",
+        "进程调度功能"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2023-10-02323-Q07",
+      "question_no": 7,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        3
+      ],
+      "section_refs": [
+        "3.4"
+      ],
+      "topic_tags": [
+        "多级反馈",
+        "六种算法及抢占时机"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2023-10-02323-Q08",
+      "question_no": 8,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        3
+      ],
+      "section_refs": [
+        "3.4"
+      ],
+      "topic_tags": [
+        "调度算法",
+        "六种算法及抢占时机"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2023-10-02323-Q09",
+      "question_no": 9,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        3
+      ],
+      "section_refs": [
+        "3.5"
+      ],
+      "topic_tags": [
+        "实时系统",
+        "实时条件"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2023-10-02323-Q10",
+      "question_no": 10,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        3
+      ],
+      "section_refs": [
+        "3.8"
+      ],
+      "topic_tags": [
+        "破坏",
+        "死锁预防"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2023-10-02323-Q11",
+      "question_no": 11,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        4
+      ],
+      "section_refs": [
+        "4.4"
+      ],
+      "topic_tags": [
+        "地址转换",
+        "页"
+      ],
+      "syllabus_level": "简单应用",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2023-10-02323-Q12",
+      "question_no": 12,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        4
+      ],
+      "section_refs": [
+        "4.7"
+      ],
+      "topic_tags": [
+        "段页式",
+        "分段"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2023-10-02323-Q13",
+      "question_no": 13,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        4
+      ],
+      "section_refs": [
+        "4.8"
+      ],
+      "topic_tags": [
+        "虚拟存储",
+        "虚拟存储与请求分页硬件"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2023-10-02323-Q14",
+      "question_no": 14,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        4
+      ],
+      "section_refs": [
+        "4.3"
+      ],
+      "topic_tags": [
+        "分区",
+        "连续分配与动态分区"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2023-10-02323-Q15",
+      "question_no": 15,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        4
+      ],
+      "section_refs": [
+        "4.4"
+      ],
+      "topic_tags": [
+        "虚拟存储技术",
+        "页"
+      ],
+      "syllabus_level": "简单应用",
+      "review_status": "mapping-pending"
+    },
+    {
+      "question_id": "2023-10-02323-Q16",
+      "question_no": 16,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        5
+      ],
+      "section_refs": [
+        "5.5"
+      ],
+      "topic_tags": [
+        "目录项",
+        "目录"
+      ],
+      "syllabus_level": "简单应用",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2023-10-02323-Q17",
+      "question_no": 17,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        5
+      ],
+      "section_refs": [
+        "5.2"
+      ],
+      "topic_tags": [
+        "属性",
+        "文件概述"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2023-10-02323-Q18",
+      "question_no": 18,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        5
+      ],
+      "section_refs": [
+        "5.4"
+      ],
+      "topic_tags": [
+        "连续分配",
+        "连续和链接分配"
+      ],
+      "syllabus_level": "简单应用",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2023-10-02323-Q19",
+      "question_no": 19,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        6
+      ],
+      "section_refs": [
+        "6.4"
+      ],
+      "topic_tags": [
+        "共享",
+        "分配数据结构与方式"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2023-10-02323-Q20",
+      "question_no": 20,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        6
+      ],
+      "section_refs": [
+        "6.6"
+      ],
+      "topic_tags": [
+        "SPOOLing"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2023-10-02323-Q21",
+      "question_no": 21,
+      "type": "fill_blank",
+      "points": 2,
+      "chapter_refs": [
+        1
+      ],
+      "section_refs": [
+        "1.2"
+      ],
+      "topic_tags": [
+        "实时系统",
+        "单道与多道批处理"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2023-10-02323-Q22",
+      "question_no": 22,
+      "type": "fill_blank",
+      "points": 2,
+      "chapter_refs": [
+        2
+      ],
+      "section_refs": [
+        "2.2"
+      ],
+      "topic_tags": [
+        "异步性",
+        "进程定义与结构"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "mapping-pending"
+    },
+    {
+      "question_id": "2023-10-02323-Q23",
+      "question_no": 23,
+      "type": "fill_blank",
+      "points": 2,
+      "chapter_refs": [
+        2
+      ],
+      "section_refs": [
+        "2.12"
+      ],
+      "topic_tags": [
+        "管程",
+        "管程及两类应用"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2023-10-02323-Q24",
+      "question_no": 24,
+      "type": "fill_blank",
+      "points": 2,
+      "chapter_refs": [
+        3
+      ],
+      "section_refs": [
+        "3.7"
+      ],
+      "topic_tags": [
+        "死锁",
+        "死锁定义"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2023-10-02323-Q25",
+      "question_no": 25,
+      "type": "fill_blank",
+      "points": 2,
+      "chapter_refs": [
+        3
+      ],
+      "section_refs": [
+        "3.6"
+      ],
+      "topic_tags": [
+        "对称多处理",
+        "多处理机类型"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2023-10-02323-Q26",
+      "question_no": 26,
+      "type": "fill_blank",
+      "points": 2,
+      "chapter_refs": [
+        4
+      ],
+      "section_refs": [
+        "4.1"
+      ],
+      "topic_tags": [
+        "层次",
+        "局部性"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2023-10-02323-Q27",
+      "question_no": 27,
+      "type": "fill_blank",
+      "points": 2,
+      "chapter_refs": [
+        4
+      ],
+      "section_refs": [
+        "4.2"
+      ],
+      "topic_tags": [
+        "链接",
+        "链接与装入"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2023-10-02323-Q28",
+      "question_no": 28,
+      "type": "fill_blank",
+      "points": 2,
+      "chapter_refs": [
+        4
+      ],
+      "section_refs": [
+        "4.4"
+      ],
+      "topic_tags": [
+        "页大小",
+        "页"
+      ],
+      "syllabus_level": "简单应用",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2023-10-02323-Q29",
+      "question_no": 29,
+      "type": "fill_blank",
+      "points": 2,
+      "chapter_refs": [
+        5
+      ],
+      "section_refs": [
+        "5.5"
+      ],
+      "topic_tags": [
+        "目录项",
+        "目录"
+      ],
+      "syllabus_level": "简单应用",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2023-10-02323-Q30",
+      "question_no": 30,
+      "type": "fill_blank",
+      "points": 2,
+      "chapter_refs": [
+        6,
+        2
+      ],
+      "section_refs": [
+        "6.7",
+        "2.1"
+      ],
+      "topic_tags": [
+        "内核",
+        "I/O 软件层次"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2023-10-02323-Q31",
+      "question_no": 31,
+      "type": "short_answer",
+      "points": 4,
+      "chapter_refs": [
+        2
+      ],
+      "section_refs": [
+        "2.8"
+      ],
+      "topic_tags": [
+        "线程",
+        "线程概念与比较"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2023-10-02323-Q32",
+      "question_no": 32,
+      "type": "short_answer",
+      "points": 4,
+      "chapter_refs": [
+        3
+      ],
+      "section_refs": [
+        "3.3"
+      ],
+      "topic_tags": [
+        "平均周转",
+        "周转",
+        "平均带权周转"
+      ],
+      "syllabus_level": "简单应用",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2023-10-02323-Q33",
+      "question_no": 33,
+      "type": "short_answer",
+      "points": 4,
+      "chapter_refs": [
+        4
+      ],
+      "section_refs": [
+        "4.9"
+      ],
+      "topic_tags": [
+        "请求调页",
+        "页框分配"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2023-10-02323-Q34",
+      "question_no": 34,
+      "type": "short_answer",
+      "points": 4,
+      "chapter_refs": [
+        5
+      ],
+      "section_refs": [
+        "5.1"
+      ],
+      "topic_tags": [
+        "文件概述"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2023-10-02323-Q35",
+      "question_no": 35,
+      "type": "short_answer",
+      "points": 4,
+      "chapter_refs": [
+        6
+      ],
+      "section_refs": [
+        "6.3"
+      ],
+      "topic_tags": [
+        "缓冲"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2023-10-02323-Q36",
+      "question_no": 36,
+      "type": "integration",
+      "points": 10,
+      "chapter_refs": [
+        2
+      ],
+      "section_refs": [
+        "2.10"
+      ],
+      "topic_tags": [
+        "信号量",
+        "记录型信号量"
+      ],
+      "syllabus_level": "简单应用",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2023-10-02323-Q37",
+      "question_no": 37,
+      "type": "integration",
+      "points": 10,
+      "chapter_refs": [
+        3,
+        2
+      ],
+      "section_refs": [
+        "3.9",
+        "2.1"
+      ],
+      "topic_tags": [
+        "安全／不安全状态"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2023-10-02323-Q38",
+      "question_no": 38,
+      "type": "integration",
+      "points": 10,
+      "chapter_refs": [
+        4
+      ],
+      "section_refs": [
+        "4.6"
+      ],
+      "topic_tags": [
+        "二级页表",
+        "二级分页"
+      ],
+      "syllabus_level": "简单应用",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2023-10-02323-Q39",
+      "question_no": 39,
+      "type": "integration",
+      "points": 10,
+      "chapter_refs": [
+        5
+      ],
+      "section_refs": [
+        "5.1"
+      ],
+      "topic_tags": [
+        "文件概述"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    }
+  ]
+}

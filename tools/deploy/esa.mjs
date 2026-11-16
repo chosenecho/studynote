@@ -43,6 +43,9 @@ for (const rule of previous.Configs || []) if (site.retiredResponseRules.include
 await syncRules('HttpResponseHeaderModificationRule', site.responseRules.map(({headers, ...rule}) => ({...rule, RuleEnable: 'on', ResponseHeaderModification: Object.entries(headers).map(([Name, Value]) => ({Name, Value, Type: 'static', Operation: 'add'}))})));
 await syncRules('HttpsApplicationConfiguration', [{...site.httpsRule, RuleEnable: 'on'}]);
 await syncRules('CacheRule', site.cacheRules.map(rule => ({...rule, RuleEnable: 'on'})));
+// The compression rule had been living only at the edge, so a Brotli switch-off would
+// have gone unnoticed here. Listing it keeps the repository the source of truth.
+await syncRules('CompressionRule', site.compressionRules.map(rule => ({...rule, RuleEnable: 'on'})));
 await syncRules('OriginRule', site.originRules.map(rule => ({...rule, RuleEnable: 'on'})));
 const collection = await call('GetPerformanceDataCollection', {SiteId: site.siteId});
 if (collection.Enable !== site.performanceDataCollection) {

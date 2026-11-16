@@ -1,0 +1,8809 @@
+{
+ "code": "02318",
+ "name": "计算机组成原理",
+ "papers": [
+  {
+   "paper_id": "2015-04_02318_真题_44476",
+   "period": "2015-04",
+   "version_note": "2015-04 卷共 28 题，题号 1–28 连续；单选 15、名词解释 4、简答 6、简单应用 2、存储设计 1，无填空题；末题 Q28 分值栏记录为 0（题干标注 13 分），按记录原值保留。",
+   "questions": [
+    {
+     "question_id": "02318-2015-04-Q01",
+     "question_no": 1,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      1
+     ],
+     "section_refs": [
+      "1.1"
+     ],
+     "topic_tags": [
+      "硬件五大部件"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2015-04-Q02",
+     "question_no": 2,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.1"
+     ],
+     "topic_tags": [
+      "数制转换"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2015-04-Q03",
+     "question_no": 3,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.1"
+     ],
+     "topic_tags": [
+      "十六进制转换"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2015-04-Q04",
+     "question_no": 4,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.1"
+     ],
+     "topic_tags": [
+      "原码表示"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2015-04-Q05",
+     "question_no": 5,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.1"
+     ],
+     "topic_tags": [
+      "补码表示"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2015-04-Q06",
+     "question_no": 6,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.1"
+     ],
+     "topic_tags": [
+      "存储器分类"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2015-04-Q07",
+     "question_no": 7,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.2"
+     ],
+     "topic_tags": [
+      "DRAM 存储原理"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2015-04-Q08",
+     "question_no": 8,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.1"
+     ],
+     "topic_tags": [
+      "地址线位数"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2015-04-Q09",
+     "question_no": 9,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.1"
+     ],
+     "topic_tags": [
+      "随机存取"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2015-04-Q10",
+     "question_no": 10,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.2"
+     ],
+     "topic_tags": [
+      "堆栈指针"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2015-04-Q11",
+     "question_no": 11,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.2"
+     ],
+     "topic_tags": [
+      "指令助记符",
+      "逻辑运算指令"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2015-04-Q12",
+     "question_no": 12,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.1"
+     ],
+     "topic_tags": [
+      "指令寄存器"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2015-04-Q13",
+     "question_no": 13,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.5"
+     ],
+     "topic_tags": [
+      "微程序控制器"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2015-04-Q14",
+     "question_no": 14,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.4"
+     ],
+     "topic_tags": [
+      "并行接口"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2015-04-Q15",
+     "question_no": 15,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.5"
+     ],
+     "topic_tags": [
+      "中断屏蔽字"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2015-04-Q16",
+     "question_no": 16,
+     "type": "term_explain",
+     "points": 4,
+     "chapter_refs": [
+      1
+     ],
+     "section_refs": [
+      "1.1"
+     ],
+     "topic_tags": [
+      "运算器"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2015-04-Q17",
+     "question_no": 17,
+     "type": "term_explain",
+     "points": 4,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.3"
+     ],
+     "topic_tags": [
+      "助记符"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2015-04-Q18",
+     "question_no": 18,
+     "type": "term_explain",
+     "points": 4,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.3"
+     ],
+     "topic_tags": [
+      "串行传输"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2015-04-Q19",
+     "question_no": 19,
+     "type": "term_explain",
+     "points": 4,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.5"
+     ],
+     "topic_tags": [
+      "微程序"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2015-04-Q20",
+     "question_no": 20,
+     "type": "short_answer",
+     "points": 6,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.1"
+     ],
+     "topic_tags": [
+      "进位计数制"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2015-04-Q21",
+     "question_no": 21,
+     "type": "short_answer",
+     "points": 6,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.1"
+     ],
+     "topic_tags": [
+      "存储器速度指标"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2015-04-Q22",
+     "question_no": 22,
+     "type": "short_answer",
+     "points": 6,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.1"
+     ],
+     "topic_tags": [
+      "指令格式"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2015-04-Q23",
+     "question_no": 23,
+     "type": "short_answer",
+     "points": 6,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.1"
+     ],
+     "topic_tags": [
+      "寄存器类型"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2015-04-Q24",
+     "question_no": 24,
+     "type": "short_answer",
+     "points": 6,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.3"
+     ],
+     "topic_tags": [
+      "主设备",
+      "从设备"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2015-04-Q25",
+     "question_no": 25,
+     "type": "short_answer",
+     "points": 6,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.8"
+     ],
+     "topic_tags": [
+      "中断分类"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2015-04-Q26",
+     "question_no": 26,
+     "type": "application",
+     "points": 10,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.8"
+     ],
+     "topic_tags": [
+      "原码一位乘"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2015-04-Q27",
+     "question_no": 27,
+     "type": "application",
+     "points": 10,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.3"
+     ],
+     "topic_tags": [
+      "数据通路",
+      "指令执行流程"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2015-04-Q28",
+     "question_no": 28,
+     "type": "design",
+     "points": 0,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.3"
+     ],
+     "topic_tags": [
+      "芯片扩展",
+      "片选译码"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    }
+   ]
+  },
+  {
+   "paper_id": "2015-10_02318_真题_45294",
+   "period": "2015-10",
+   "version_note": "2015-10 卷共 25 题，题号 1–25 连续；单选 10、名词解释 6、简答 6、计算 2、存储设计 1，无填空题；单选每题 2 分；末题 Q25 分值栏记录为 0（题干标注 12 分），按记录原值保留。",
+   "questions": [
+    {
+     "question_id": "02318-2015-10-Q01",
+     "question_no": 1,
+     "type": "single_choice",
+     "points": 2,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.1"
+     ],
+     "topic_tags": [
+      "原码表示"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2015-10-Q02",
+     "question_no": 2,
+     "type": "single_choice",
+     "points": 2,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.1"
+     ],
+     "topic_tags": [
+      "补码表示"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2015-10-Q03",
+     "question_no": 3,
+     "type": "single_choice",
+     "points": 2,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.1"
+     ],
+     "topic_tags": [
+      "存储器分类",
+      "顺序存取"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2015-10-Q04",
+     "question_no": 4,
+     "type": "single_choice",
+     "points": 2,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.1"
+     ],
+     "topic_tags": [
+      "地址线位数"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2015-10-Q05",
+     "question_no": 5,
+     "type": "single_choice",
+     "points": 2,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.3"
+     ],
+     "topic_tags": [
+      "浮点数规格化"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2015-10-Q06",
+     "question_no": 6,
+     "type": "single_choice",
+     "points": 2,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.2"
+     ],
+     "topic_tags": [
+      "直接寻址"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2015-10-Q07",
+     "question_no": 7,
+     "type": "single_choice",
+     "points": 2,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.2"
+     ],
+     "topic_tags": [
+      "堆栈指针"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2015-10-Q08",
+     "question_no": 8,
+     "type": "single_choice",
+     "points": 2,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.8"
+     ],
+     "topic_tags": [
+      "中断响应"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2015-10-Q09",
+     "question_no": 9,
+     "type": "single_choice",
+     "points": 2,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.5"
+     ],
+     "topic_tags": [
+      "控制存储器",
+      "微程序"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2015-10-Q10",
+     "question_no": 10,
+     "type": "single_choice",
+     "points": 2,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.3"
+     ],
+     "topic_tags": [
+      "I/O 总线"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2015-10-Q11",
+     "question_no": 11,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      1
+     ],
+     "section_refs": [
+      "1.4"
+     ],
+     "topic_tags": [
+      "汇编程序"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2015-10-Q12",
+     "question_no": 12,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.6"
+     ],
+     "topic_tags": [
+      "虚拟存储器"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2015-10-Q13",
+     "question_no": 13,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.2"
+     ],
+     "topic_tags": [
+      "寻址方式"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2015-10-Q14",
+     "question_no": 14,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.5"
+     ],
+     "topic_tags": [
+      "微程序"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2015-10-Q15",
+     "question_no": 15,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.3"
+     ],
+     "topic_tags": [
+      "从设备"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2015-10-Q16",
+     "question_no": 16,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.2"
+     ],
+     "topic_tags": [
+      "不归零制记录"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2015-10-Q17",
+     "question_no": 17,
+     "type": "short_answer",
+     "points": 5,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.1"
+     ],
+     "topic_tags": [
+      "存储器容量"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2015-10-Q18",
+     "question_no": 18,
+     "type": "short_answer",
+     "points": 5,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.2"
+     ],
+     "topic_tags": [
+      "寻址方式",
+      "指令操作数"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2015-10-Q19",
+     "question_no": 19,
+     "type": "short_answer",
+     "points": 5,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.5"
+     ],
+     "topic_tags": [
+      "微指令格式"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2015-10-Q20",
+     "question_no": 20,
+     "type": "short_answer",
+     "points": 5,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.2"
+     ],
+     "topic_tags": [
+      "堆栈"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2015-10-Q21",
+     "question_no": 21,
+     "type": "short_answer",
+     "points": 5,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.3"
+     ],
+     "topic_tags": [
+      "总线传输方式"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2015-10-Q22",
+     "question_no": 22,
+     "type": "short_answer",
+     "points": 5,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.2"
+     ],
+     "topic_tags": [
+      "磁盘存取时间"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2015-10-Q23",
+     "question_no": 23,
+     "type": "calculation",
+     "points": 10,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.8"
+     ],
+     "topic_tags": [
+      "补码乘法",
+      "Booth 算法"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2015-10-Q24",
+     "question_no": 24,
+     "type": "calculation",
+     "points": 10,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.3"
+     ],
+     "topic_tags": [
+      "数据通路",
+      "指令执行流程"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2015-10-Q25",
+     "question_no": 25,
+     "type": "design",
+     "points": 0,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.3"
+     ],
+     "topic_tags": [
+      "芯片扩展",
+      "片选译码"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    }
+   ]
+  },
+  {
+   "paper_id": "2016-04_02318_真题_45846",
+   "period": "2016-04",
+   "version_note": "2016-04 卷共 30 题，题号 1–30 连续；单选 15、名词解释 6、简答 6、简单应用 2、存储设计 1，无填空题；单选每题 2 分；末题 Q30 分值栏记录为 0（题干标注 12 分），按记录原值保留。",
+   "questions": [
+    {
+     "question_id": "02318-2016-04-Q01",
+     "question_no": 1,
+     "type": "single_choice",
+     "points": 2,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.1"
+     ],
+     "topic_tags": [
+      "原码表示"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2016-04-Q02",
+     "question_no": 2,
+     "type": "single_choice",
+     "points": 2,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.1"
+     ],
+     "topic_tags": [
+      "数制转换"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2016-04-Q03",
+     "question_no": 3,
+     "type": "single_choice",
+     "points": 2,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.3"
+     ],
+     "topic_tags": [
+      "芯片扩展"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2016-04-Q04",
+     "question_no": 4,
+     "type": "single_choice",
+     "points": 2,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.1"
+     ],
+     "topic_tags": [
+      "存储器层次",
+      "存取速度"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2016-04-Q05",
+     "question_no": 5,
+     "type": "single_choice",
+     "points": 2,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.1"
+     ],
+     "topic_tags": [
+      "地址结构",
+      "指令格式"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2016-04-Q06",
+     "question_no": 6,
+     "type": "single_choice",
+     "points": 2,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.1"
+     ],
+     "topic_tags": [
+      "单地址指令"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2016-04-Q07",
+     "question_no": 7,
+     "type": "single_choice",
+     "points": 2,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.1"
+     ],
+     "topic_tags": [
+      "地址寄存器"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2016-04-Q08",
+     "question_no": 8,
+     "type": "single_choice",
+     "points": 2,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.5"
+     ],
+     "topic_tags": [
+      "微程序",
+      "控制存储器"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2016-04-Q09",
+     "question_no": 9,
+     "type": "single_choice",
+     "points": 2,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.4"
+     ],
+     "topic_tags": [
+      "串行接口"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2016-04-Q10",
+     "question_no": 10,
+     "type": "single_choice",
+     "points": 2,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.3"
+     ],
+     "topic_tags": [
+      "总线主设备"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2016-04-Q11",
+     "question_no": 11,
+     "type": "single_choice",
+     "points": 2,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.8"
+     ],
+     "topic_tags": [
+      "中断响应"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2016-04-Q12",
+     "question_no": 12,
+     "type": "single_choice",
+     "points": 2,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.5"
+     ],
+     "topic_tags": [
+      "中断屏蔽字"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2016-04-Q13",
+     "question_no": 13,
+     "type": "single_choice",
+     "points": 2,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.5"
+     ],
+     "topic_tags": [
+      "DMA 方式"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2016-04-Q14",
+     "question_no": 14,
+     "type": "single_choice",
+     "points": 2,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.1"
+     ],
+     "topic_tags": [
+      "输入输出设备"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2016-04-Q15",
+     "question_no": 15,
+     "type": "single_choice",
+     "points": 2,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.6"
+     ],
+     "topic_tags": [
+      "循环冗余校验"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2016-04-Q16",
+     "question_no": 16,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.1"
+     ],
+     "topic_tags": [
+      "指令"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2016-04-Q17",
+     "question_no": 17,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.1"
+     ],
+     "topic_tags": [
+      "控制器"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2016-04-Q18",
+     "question_no": 18,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.6"
+     ],
+     "topic_tags": [
+      "奇偶校验"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2016-04-Q19",
+     "question_no": 19,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.5"
+     ],
+     "topic_tags": [
+      "Cache"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2016-04-Q20",
+     "question_no": 20,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.2"
+     ],
+     "topic_tags": [
+      "堆栈"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2016-04-Q21",
+     "question_no": 21,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.5"
+     ],
+     "topic_tags": [
+      "微地址"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2016-04-Q22",
+     "question_no": 22,
+     "type": "short_answer",
+     "points": 4,
+     "chapter_refs": [
+      1
+     ],
+     "section_refs": [
+      "1.1"
+     ],
+     "topic_tags": [
+      "硬件五大部件"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2016-04-Q23",
+     "question_no": 23,
+     "type": "short_answer",
+     "points": 4,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.1"
+     ],
+     "topic_tags": [
+      "存储层次结构"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2016-04-Q24",
+     "question_no": 24,
+     "type": "short_answer",
+     "points": 4,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.2"
+     ],
+     "topic_tags": [
+      "操作码编码"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2016-04-Q25",
+     "question_no": 25,
+     "type": "short_answer",
+     "points": 4,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.1"
+     ],
+     "topic_tags": [
+      "程序计数器",
+      "状态寄存器"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2016-04-Q26",
+     "question_no": 26,
+     "type": "short_answer",
+     "points": 4,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.3"
+     ],
+     "topic_tags": [
+      "串行传输",
+      "并行传输"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2016-04-Q27",
+     "question_no": 27,
+     "type": "short_answer",
+     "points": 4,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.8"
+     ],
+     "topic_tags": [
+      "中断分类"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2016-04-Q28",
+     "question_no": 28,
+     "type": "application",
+     "points": 8,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.8"
+     ],
+     "topic_tags": [
+      "补码乘法",
+      "Booth 算法"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2016-04-Q29",
+     "question_no": 29,
+     "type": "application",
+     "points": 8,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.3"
+     ],
+     "topic_tags": [
+      "数据通路",
+      "指令执行流程"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2016-04-Q30",
+     "question_no": 30,
+     "type": "design",
+     "points": 0,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.3"
+     ],
+     "topic_tags": [
+      "芯片扩展",
+      "片选译码"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    }
+   ]
+  },
+  {
+   "paper_id": "2018-04_02318_真题_46531",
+   "period": "2018-04",
+   "version_note": "2018-04 卷共 30 题，题号 1–30 连续；单选 10、填空 6 条记录（题面登记 15 空，OCR 按题合并为 6 条）、名词解释 5、简答 4、计算 3、综合 2；Q26、Q27 分值栏记录为 0（属计算题共 16 分部分），按记录原值保留。",
+   "questions": [
+    {
+     "question_id": "02318-2018-04-Q01",
+     "question_no": 1,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.1"
+     ],
+     "topic_tags": [
+      "外存",
+      "U 盘"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2018-04-Q02",
+     "question_no": 2,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      1
+     ],
+     "section_refs": [
+      "1.2"
+     ],
+     "topic_tags": [
+      "系统软件"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2018-04-Q03",
+     "question_no": 3,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.3"
+     ],
+     "topic_tags": [
+      "IEEE754 偏移常数"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2018-04-Q04",
+     "question_no": 4,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.1"
+     ],
+     "topic_tags": [
+      "补码表示"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2018-04-Q05",
+     "question_no": 5,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.2"
+     ],
+     "topic_tags": [
+      "寄存器直接寻址"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2018-04-Q06",
+     "question_no": 6,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.3"
+     ],
+     "topic_tags": [
+      "MIPS 汇编指令"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2018-04-Q07",
+     "question_no": 7,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.5"
+     ],
+     "topic_tags": [
+      "微程序",
+      "控制存储器"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2018-04-Q08",
+     "question_no": 8,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.1"
+     ],
+     "topic_tags": [
+      "地址线位数"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2018-04-Q09",
+     "question_no": 9,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.1"
+     ],
+     "topic_tags": [
+      "存储层次结构"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2018-04-Q10",
+     "question_no": 10,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.10"
+     ],
+     "topic_tags": [
+      "浮点乘法",
+      "规格化"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2018-04-Q11",
+     "question_no": 11,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.4"
+     ],
+     "topic_tags": [
+      "MIPS 指令流水线"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2018-04-Q12",
+     "question_no": 12,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.5"
+     ],
+     "topic_tags": [
+      "cache 映射方式"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2018-04-Q13",
+     "question_no": 13,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.2"
+     ],
+     "topic_tags": [
+      "磁盘平均存取时间"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2018-04-Q14",
+     "question_no": 14,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.2"
+     ],
+     "topic_tags": [
+      "时钟周期",
+      "数据通路定时"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2018-04-Q15",
+     "question_no": 15,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.4"
+     ],
+     "topic_tags": [
+      "I/O 端口编址"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2018-04-Q16",
+     "question_no": 16,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.8"
+     ],
+     "topic_tags": [
+      "中断分类"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2018-04-Q17",
+     "question_no": 17,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.1"
+     ],
+     "topic_tags": [
+      "标志寄存器"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2018-04-Q18",
+     "question_no": 18,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.3"
+     ],
+     "topic_tags": [
+      "总线宽度"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2018-04-Q19",
+     "question_no": 19,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.2"
+     ],
+     "topic_tags": [
+      "随机存取存储器"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2018-04-Q20",
+     "question_no": 20,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.5"
+     ],
+     "topic_tags": [
+      "微地址"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2018-04-Q21",
+     "question_no": 21,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.5"
+     ],
+     "topic_tags": [
+      "DMA 控制器"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2018-04-Q22",
+     "question_no": 22,
+     "type": "short_answer",
+     "points": 5,
+     "chapter_refs": [
+      1
+     ],
+     "section_refs": [
+      "1.3"
+     ],
+     "topic_tags": [
+      "系统层次结构"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2018-04-Q23",
+     "question_no": 23,
+     "type": "short_answer",
+     "points": 5,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.4"
+     ],
+     "topic_tags": [
+      "汉字编码"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2018-04-Q24",
+     "question_no": 24,
+     "type": "short_answer",
+     "points": 5,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.10"
+     ],
+     "topic_tags": [
+      "对阶",
+      "浮点加减"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2018-04-Q25",
+     "question_no": 25,
+     "type": "short_answer",
+     "points": 5,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.2"
+     ],
+     "topic_tags": [
+      "变址寻址",
+      "基址寻址"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2018-04-Q26",
+     "question_no": 26,
+     "type": "calculation",
+     "points": 0,
+     "chapter_refs": [
+      1
+     ],
+     "section_refs": [
+      "1.5"
+     ],
+     "topic_tags": [
+      "CPI",
+      "MIPS",
+      "执行时间"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2018-04-Q27",
+     "question_no": 27,
+     "type": "calculation",
+     "points": 0,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.3"
+     ],
+     "topic_tags": [
+      "IEEE754 转换"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2018-04-Q28",
+     "question_no": 28,
+     "type": "calculation",
+     "points": 4,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.3"
+     ],
+     "topic_tags": [
+      "总线带宽计算"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2018-04-Q29",
+     "question_no": 29,
+     "type": "integration",
+     "points": 12,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.3"
+     ],
+     "topic_tags": [
+      "数据通路",
+      "节拍与控制信号"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2018-04-Q30",
+     "question_no": 30,
+     "type": "integration",
+     "points": 12,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.5"
+     ],
+     "topic_tags": [
+      "cache 直接映射",
+      "地址划分"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    }
+   ]
+  },
+  {
+   "paper_id": "2019-04_02318_真题_47059",
+   "period": "2019-04",
+   "version_note": "2019-04 卷共 34 题，题号 1–34 连续；单选 10、填空 10 条记录（题面登记 15 空）、名词解释 5、简答 4、计算 3、综合 2；Q30、Q31 分值栏记录为 0（属计算题共 16 分部分），按记录原值保留。",
+   "questions": [
+    {
+     "question_id": "02318-2019-04-Q01",
+     "question_no": 1,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.1"
+     ],
+     "topic_tags": [
+      "标志寄存器"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2019-04-Q02",
+     "question_no": 2,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.1"
+     ],
+     "topic_tags": [
+      "二进制编码"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2019-04-Q03",
+     "question_no": 3,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.1"
+     ],
+     "topic_tags": [
+      "补码表示"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2019-04-Q04",
+     "question_no": 4,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.6"
+     ],
+     "topic_tags": [
+      "奇偶校验"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2019-04-Q05",
+     "question_no": 5,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.2"
+     ],
+     "topic_tags": [
+      "寄存器间接寻址"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2019-04-Q06",
+     "question_no": 6,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.1"
+     ],
+     "topic_tags": [
+      "随机存取",
+      "主存"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2019-04-Q07",
+     "question_no": 7,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.1"
+     ],
+     "topic_tags": [
+      "地址线位数"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2019-04-Q08",
+     "question_no": 8,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.5"
+     ],
+     "topic_tags": [
+      "中断屏蔽字"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2019-04-Q09",
+     "question_no": 9,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.5"
+     ],
+     "topic_tags": [
+      "DMA 控制"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2019-04-Q10",
+     "question_no": 10,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.1"
+     ],
+     "topic_tags": [
+      "单地址指令"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2019-04-Q11",
+     "question_no": 11,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      1
+     ],
+     "section_refs": [
+      "1.2"
+     ],
+     "topic_tags": [
+      "软件分类"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2019-04-Q12",
+     "question_no": 12,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.3"
+     ],
+     "topic_tags": [
+      "总线信号线"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2019-04-Q13",
+     "question_no": 13,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.6"
+     ],
+     "topic_tags": [
+      "数据校验码"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2019-04-Q14",
+     "question_no": 14,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.1"
+     ],
+     "topic_tags": [
+      "数值数据三要素"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2019-04-Q15",
+     "question_no": 15,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.1"
+     ],
+     "topic_tags": [
+      "零地址指令"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2019-04-Q16",
+     "question_no": 16,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.2"
+     ],
+     "topic_tags": [
+      "CISC",
+      "RISC"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2019-04-Q17",
+     "question_no": 17,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.8"
+     ],
+     "topic_tags": [
+      "异常分类"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2019-04-Q18",
+     "question_no": 18,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.1"
+     ],
+     "topic_tags": [
+      "存储器分类",
+      "存取方式"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2019-04-Q19",
+     "question_no": 19,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.4"
+     ],
+     "topic_tags": [
+      "I/O 接口"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2019-04-Q20",
+     "question_no": 20,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.5"
+     ],
+     "topic_tags": [
+      "I/O 控制方式"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2019-04-Q21",
+     "question_no": 21,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.2"
+     ],
+     "topic_tags": [
+      "数据通路"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2019-04-Q22",
+     "question_no": 22,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.1"
+     ],
+     "topic_tags": [
+      "控制器"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2019-04-Q23",
+     "question_no": 23,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      1
+     ],
+     "section_refs": [
+      "1.1"
+     ],
+     "topic_tags": [
+      "字长"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2019-04-Q24",
+     "question_no": 24,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.2"
+     ],
+     "topic_tags": [
+      "寄存器间接寻址"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2019-04-Q25",
+     "question_no": 25,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.1"
+     ],
+     "topic_tags": [
+      "指令译码器"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2019-04-Q26",
+     "question_no": 26,
+     "type": "short_answer",
+     "points": 5,
+     "chapter_refs": [
+      1
+     ],
+     "section_refs": [
+      "1.1"
+     ],
+     "topic_tags": [
+      "冯·诺依曼结构"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2019-04-Q27",
+     "question_no": 27,
+     "type": "short_answer",
+     "points": 5,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.1"
+     ],
+     "topic_tags": [
+      "指令信息"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2019-04-Q28",
+     "question_no": 28,
+     "type": "short_answer",
+     "points": 5,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.1"
+     ],
+     "topic_tags": [
+      "指令执行步骤"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2019-04-Q29",
+     "question_no": 29,
+     "type": "short_answer",
+     "points": 5,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.2"
+     ],
+     "topic_tags": [
+      "SRAM",
+      "DRAM"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2019-04-Q30",
+     "question_no": 30,
+     "type": "calculation",
+     "points": 0,
+     "chapter_refs": [
+      1
+     ],
+     "section_refs": [
+      "1.5"
+     ],
+     "topic_tags": [
+      "时钟频率",
+      "CPI",
+      "执行时间"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2019-04-Q31",
+     "question_no": 31,
+     "type": "calculation",
+     "points": 0,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.3"
+     ],
+     "topic_tags": [
+      "IEEE754 转换"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2019-04-Q32",
+     "question_no": 32,
+     "type": "calculation",
+     "points": 4,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.3"
+     ],
+     "topic_tags": [
+      "总线带宽计算"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2019-04-Q33",
+     "question_no": 33,
+     "type": "integration",
+     "points": 12,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.3"
+     ],
+     "topic_tags": [
+      "数据通路",
+      "节拍与控制信号"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2019-04-Q34",
+     "question_no": 34,
+     "type": "integration",
+     "points": 12,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.5"
+     ],
+     "topic_tags": [
+      "cache 直接映射",
+      "地址划分"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    }
+   ]
+  },
+  {
+   "paper_id": "2020-08_02318_真题_47705",
+   "period": "2020-08",
+   "version_note": "2020-08 卷共 30 题，题号 1–30 连续；单选 10、填空 6 条记录（题面登记 15 空）、名词解释 5、简答 4、计算 3、综合 2；Q26、Q27 分值栏记录为 0（属计算题共 16 分部分），按记录原值保留。",
+   "questions": [
+    {
+     "question_id": "02318-2020-08-Q01",
+     "question_no": 1,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.1"
+     ],
+     "topic_tags": [
+      "补码表示"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-08-Q02",
+     "question_no": 2,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.6"
+     ],
+     "topic_tags": [
+      "偶校验"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-08-Q03",
+     "question_no": 3,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.2"
+     ],
+     "topic_tags": [
+      "变址寻址"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-08-Q04",
+     "question_no": 4,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.7"
+     ],
+     "topic_tags": [
+      "条件码",
+      "零标志"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-08-Q05",
+     "question_no": 5,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.1"
+     ],
+     "topic_tags": [
+      "程序计数器"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-08-Q06",
+     "question_no": 6,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.3"
+     ],
+     "topic_tags": [
+      "MIPS 汇编指令"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-08-Q07",
+     "question_no": 7,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.1"
+     ],
+     "topic_tags": [
+      "地址线位数"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-08-Q08",
+     "question_no": 8,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.1"
+     ],
+     "topic_tags": [
+      "存取方式分类"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-08-Q09",
+     "question_no": 9,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.5"
+     ],
+     "topic_tags": [
+      "中断控制方式"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-08-Q10",
+     "question_no": 10,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.5"
+     ],
+     "topic_tags": [
+      "多重中断"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-08-Q11",
+     "question_no": 11,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.1"
+     ],
+     "topic_tags": [
+      "进位记数制"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-08-Q12",
+     "question_no": 12,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.1"
+     ],
+     "topic_tags": [
+      "定点编码"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-08-Q13",
+     "question_no": 13,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.3"
+     ],
+     "topic_tags": [
+      "MIPS 指令格式"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-08-Q14",
+     "question_no": 14,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.6"
+     ],
+     "topic_tags": [
+      "流水线冒险"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-08-Q15",
+     "question_no": 15,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.6"
+     ],
+     "topic_tags": [
+      "虚拟存储器类型"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-08-Q16",
+     "question_no": 16,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.3"
+     ],
+     "topic_tags": [
+      "系统总线组成"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-08-Q17",
+     "question_no": 17,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.2"
+     ],
+     "topic_tags": [
+      "数据通路"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-08-Q18",
+     "question_no": 18,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.1"
+     ],
+     "topic_tags": [
+      "机器数"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-08-Q19",
+     "question_no": 19,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.5"
+     ],
+     "topic_tags": [
+      "小端方式"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-08-Q20",
+     "question_no": 20,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.2"
+     ],
+     "topic_tags": [
+      "寄存器直接寻址"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-08-Q21",
+     "question_no": 21,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.8"
+     ],
+     "topic_tags": [
+      "中断嵌套"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-08-Q22",
+     "question_no": 22,
+     "type": "short_answer",
+     "points": 5,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.10"
+     ],
+     "topic_tags": [
+      "浮点加减步骤"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-08-Q23",
+     "question_no": 23,
+     "type": "short_answer",
+     "points": 5,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.2"
+     ],
+     "topic_tags": [
+      "转移指令",
+      "调用指令"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-08-Q24",
+     "question_no": 24,
+     "type": "short_answer",
+     "points": 5,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.1"
+     ],
+     "topic_tags": [
+      "指令周期"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-08-Q25",
+     "question_no": 25,
+     "type": "short_answer",
+     "points": 5,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.8"
+     ],
+     "topic_tags": [
+      "中断响应",
+      "隐指令"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-08-Q26",
+     "question_no": 26,
+     "type": "calculation",
+     "points": 0,
+     "chapter_refs": [
+      1
+     ],
+     "section_refs": [
+      "1.5"
+     ],
+     "topic_tags": [
+      "时钟频率",
+      "CPI",
+      "执行时间"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-08-Q27",
+     "question_no": 27,
+     "type": "calculation",
+     "points": 0,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.3"
+     ],
+     "topic_tags": [
+      "IEEE754 转换"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-08-Q28",
+     "question_no": 28,
+     "type": "calculation",
+     "points": 4,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.3"
+     ],
+     "topic_tags": [
+      "总线带宽计算"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-08-Q29",
+     "question_no": 29,
+     "type": "integration",
+     "points": 12,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.5"
+     ],
+     "topic_tags": [
+      "cache 直接映射",
+      "地址划分"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-08-Q30",
+     "question_no": 30,
+     "type": "integration",
+     "points": 12,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.3"
+     ],
+     "topic_tags": [
+      "数据通路",
+      "节拍与控制信号"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    }
+   ]
+  },
+  {
+   "paper_id": "2020-10_02318_真题_48071",
+   "period": "2020-10",
+   "version_note": "2020-10 卷共 32 题，题号 1–32 连续；单选 10、填空 8 条记录（题面登记 15 空）、名词解释 5、简答 4、计算 3、综合 2；填空、计算、综合三类分值均按逐题记录保留（计算每题 6 分，综合两题分别为 10 分与 12 分）。",
+   "questions": [
+    {
+     "question_id": "02318-2020-10-Q01",
+     "question_no": 1,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.1"
+     ],
+     "topic_tags": [
+      "补码表示"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-10-Q02",
+     "question_no": 2,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.6"
+     ],
+     "topic_tags": [
+      "奇校验"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-10-Q03",
+     "question_no": 3,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.2"
+     ],
+     "topic_tags": [
+      "寄存器间接寻址"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-10-Q04",
+     "question_no": 4,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.7"
+     ],
+     "topic_tags": [
+      "条件码",
+      "符号标志"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-10-Q05",
+     "question_no": 5,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.1"
+     ],
+     "topic_tags": [
+      "随机存取",
+      "主存"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-10-Q06",
+     "question_no": 6,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.5"
+     ],
+     "topic_tags": [
+      "中断接口"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-10-Q07",
+     "question_no": 7,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.3"
+     ],
+     "topic_tags": [
+      "MIPS 汇编指令"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-10-Q08",
+     "question_no": 8,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.8"
+     ],
+     "topic_tags": [
+      "中断响应时机"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-10-Q09",
+     "question_no": 9,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.1"
+     ],
+     "topic_tags": [
+      "易失性存储器"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-10-Q10",
+     "question_no": 10,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.2"
+     ],
+     "topic_tags": [
+      "DRAM 刷新"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-10-Q11",
+     "question_no": 11,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      1
+     ],
+     "section_refs": [
+      "1.3"
+     ],
+     "topic_tags": [
+      "用户层次",
+      "系统程序员"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-10-Q12",
+     "question_no": 12,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.6"
+     ],
+     "topic_tags": [
+      "数据校验码"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-10-Q13",
+     "question_no": 13,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.1"
+     ],
+     "topic_tags": [
+      "地址码个数"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-10-Q14",
+     "question_no": 14,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.6"
+     ],
+     "topic_tags": [
+      "虚拟存储器类型"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-10-Q15",
+     "question_no": 15,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.2"
+     ],
+     "topic_tags": [
+      "磁盘读写操作"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-10-Q16",
+     "question_no": 16,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.4"
+     ],
+     "topic_tags": [
+      "I/O 接口功能"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-10-Q17",
+     "question_no": 17,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.5"
+     ],
+     "topic_tags": [
+      "控制器分类"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-10-Q18",
+     "question_no": 18,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.1"
+     ],
+     "topic_tags": [
+      "存储器可更改性"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-10-Q19",
+     "question_no": 19,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.3"
+     ],
+     "topic_tags": [
+      "总线"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-10-Q20",
+     "question_no": 20,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      1
+     ],
+     "section_refs": [
+      "1.4"
+     ],
+     "topic_tags": [
+      "汇编程序"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-10-Q21",
+     "question_no": 21,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.1"
+     ],
+     "topic_tags": [
+      "基数"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-10-Q22",
+     "question_no": 22,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.2"
+     ],
+     "topic_tags": [
+      "寄存器间接寻址"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-10-Q23",
+     "question_no": 23,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.1"
+     ],
+     "topic_tags": [
+      "直接存取存储器"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-10-Q24",
+     "question_no": 24,
+     "type": "short_answer",
+     "points": 5,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.1"
+     ],
+     "topic_tags": [
+      "指令执行步骤"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-10-Q25",
+     "question_no": 25,
+     "type": "short_answer",
+     "points": 5,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.5"
+     ],
+     "topic_tags": [
+      "cache 作用"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-10-Q26",
+     "question_no": 26,
+     "type": "short_answer",
+     "points": 5,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.4"
+     ],
+     "topic_tags": [
+      "I/O 端口编址"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-10-Q27",
+     "question_no": 27,
+     "type": "short_answer",
+     "points": 5,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.8"
+     ],
+     "topic_tags": [
+      "中断响应"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-10-Q28",
+     "question_no": 28,
+     "type": "calculation",
+     "points": 6,
+     "chapter_refs": [
+      1
+     ],
+     "section_refs": [
+      "1.5"
+     ],
+     "topic_tags": [
+      "时钟频率",
+      "CPI",
+      "执行时间"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-10-Q29",
+     "question_no": 29,
+     "type": "calculation",
+     "points": 6,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.3"
+     ],
+     "topic_tags": [
+      "IEEE754 转换"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-10-Q30",
+     "question_no": 30,
+     "type": "calculation",
+     "points": 6,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.5"
+     ],
+     "topic_tags": [
+      "中断 I/O 开销"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-10-Q31",
+     "question_no": 31,
+     "type": "integration",
+     "points": 10,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.5"
+     ],
+     "topic_tags": [
+      "cache 直接映射",
+      "地址划分"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2020-10-Q32",
+     "question_no": 32,
+     "type": "integration",
+     "points": 12,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.3"
+     ],
+     "topic_tags": [
+      "数据通路",
+      "节拍与控制信号"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    }
+   ]
+  },
+  {
+   "paper_id": "2021-04_02318_真题_49135",
+   "period": "2021-04",
+   "version_note": "2021-04 卷共 34 题，题号 1–34 连续；单选 10、填空 10 条记录（题面登记 15 空）、名词解释 5、简答 4、计算 3（每题 6 分）、综合 2；综合 Q33、Q34 分值记录为 12 与 10，与常规列的 10/12 顺序相反，按逐题记录原值保留。",
+   "questions": [
+    {
+     "question_id": "02318-2021-04-Q01",
+     "question_no": 1,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.1"
+     ],
+     "topic_tags": [
+      "补码表示"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-04-Q02",
+     "question_no": 2,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.6"
+     ],
+     "topic_tags": [
+      "奇校验"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-04-Q03",
+     "question_no": 3,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.2"
+     ],
+     "topic_tags": [
+      "变址寻址"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-04-Q04",
+     "question_no": 4,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.1"
+     ],
+     "topic_tags": [
+      "地址线位数"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-04-Q05",
+     "question_no": 5,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.5"
+     ],
+     "topic_tags": [
+      "控制存储器",
+      "微程序"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-04-Q06",
+     "question_no": 6,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.5"
+     ],
+     "topic_tags": [
+      "DMA 接口"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-04-Q07",
+     "question_no": 7,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.3"
+     ],
+     "topic_tags": [
+      "MIPS 汇编指令"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-04-Q08",
+     "question_no": 8,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.1"
+     ],
+     "topic_tags": [
+      "存取方式分类"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-04-Q09",
+     "question_no": 9,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.1"
+     ],
+     "topic_tags": [
+      "外部存储器"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-04-Q10",
+     "question_no": 10,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.5"
+     ],
+     "topic_tags": [
+      "中断屏蔽字"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-04-Q11",
+     "question_no": 11,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.7"
+     ],
+     "topic_tags": [
+      "ALU 基本功能"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-04-Q12",
+     "question_no": 12,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.1"
+     ],
+     "topic_tags": [
+      "进位记数制"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-04-Q13",
+     "question_no": 13,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.6"
+     ],
+     "topic_tags": [
+      "数据校验码"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-04-Q14",
+     "question_no": 14,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.2"
+     ],
+     "topic_tags": [
+      "CISC",
+      "RISC"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-04-Q15",
+     "question_no": 15,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.8"
+     ],
+     "topic_tags": [
+      "异常分类"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-04-Q16",
+     "question_no": 16,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.2"
+     ],
+     "topic_tags": [
+      "三级时序",
+      "数据通路定时"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-04-Q17",
+     "question_no": 17,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.1"
+     ],
+     "topic_tags": [
+      "存储器分类",
+      "存取方式"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-04-Q18",
+     "question_no": 18,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.3"
+     ],
+     "topic_tags": [
+      "字位扩展",
+      "存储器芯片扩展"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-04-Q19",
+     "question_no": 19,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.4"
+     ],
+     "topic_tags": [
+      "I/O 端口编址"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-04-Q20",
+     "question_no": 20,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.5"
+     ],
+     "topic_tags": [
+      "I/O 控制方式"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-04-Q21",
+     "question_no": 21,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.3"
+     ],
+     "topic_tags": [
+      "总线"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-04-Q22",
+     "question_no": 22,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      1
+     ],
+     "section_refs": [
+      "1.5"
+     ],
+     "topic_tags": [
+      "MIPS 指标"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-04-Q23",
+     "question_no": 23,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.5"
+     ],
+     "topic_tags": [
+      "大端方式"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-04-Q24",
+     "question_no": 24,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.2"
+     ],
+     "topic_tags": [
+      "寄存器寻址"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-04-Q25",
+     "question_no": 25,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.1"
+     ],
+     "topic_tags": [
+      "程序状态字寄存器"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-04-Q26",
+     "question_no": 26,
+     "type": "short_answer",
+     "points": 5,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.1"
+     ],
+     "topic_tags": [
+      "指令信息"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-04-Q27",
+     "question_no": 27,
+     "type": "short_answer",
+     "points": 5,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.1"
+     ],
+     "topic_tags": [
+      "程序计数器",
+      "指令译码器"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-04-Q28",
+     "question_no": 28,
+     "type": "short_answer",
+     "points": 5,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.5"
+     ],
+     "topic_tags": [
+      "cache 作用"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-04-Q29",
+     "question_no": 29,
+     "type": "short_answer",
+     "points": 5,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.8"
+     ],
+     "topic_tags": [
+      "中断处理阶段"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-04-Q30",
+     "question_no": 30,
+     "type": "calculation",
+     "points": 6,
+     "chapter_refs": [
+      1
+     ],
+     "section_refs": [
+      "1.5"
+     ],
+     "topic_tags": [
+      "时钟频率",
+      "CPI",
+      "执行时间"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-04-Q31",
+     "question_no": 31,
+     "type": "calculation",
+     "points": 6,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.3"
+     ],
+     "topic_tags": [
+      "IEEE754 转换"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-04-Q32",
+     "question_no": 32,
+     "type": "calculation",
+     "points": 6,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.3"
+     ],
+     "topic_tags": [
+      "总线带宽计算"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-04-Q33",
+     "question_no": 33,
+     "type": "integration",
+     "points": 12,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.3"
+     ],
+     "topic_tags": [
+      "数据通路",
+      "节拍与控制信号"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-04-Q34",
+     "question_no": 34,
+     "type": "integration",
+     "points": 10,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.5"
+     ],
+     "topic_tags": [
+      "cache 直接映射",
+      "地址划分"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    }
+   ]
+  },
+  {
+   "paper_id": "2021-10_02318_真题_49835",
+   "period": "2021-10",
+   "version_note": "2021-10 卷共 32 题，题号 1–32 连续；单选 10、填空 8 条记录（题面登记 15 空）、名词解释 5、简答 4、计算 3、综合 2；Q10 题干 OCR 有错字但考点可辨，按原文不改。",
+   "questions": [
+    {
+     "question_id": "02318-2021-10-Q01",
+     "question_no": 1,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.3"
+     ],
+     "topic_tags": [
+      "IEEE754 格式规定"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-10-Q02",
+     "question_no": 2,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      1
+     ],
+     "section_refs": [
+      "1.5"
+     ],
+     "topic_tags": [
+      "CPI 指标"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-10-Q03",
+     "question_no": 3,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      1
+     ],
+     "section_refs": [
+      "1.3"
+     ],
+     "topic_tags": [
+      "ISA",
+      "层次结构"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-10-Q04",
+     "question_no": 4,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.5"
+     ],
+     "topic_tags": [
+      "大端方式"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-10-Q05",
+     "question_no": 5,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.2"
+     ],
+     "topic_tags": [
+      "寄存器直接寻址"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-10-Q06",
+     "question_no": 6,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.7"
+     ],
+     "topic_tags": [
+      "标志位",
+      "无符号比较"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-10-Q07",
+     "question_no": 7,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.3"
+     ],
+     "topic_tags": [
+      "总线带宽"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-10-Q08",
+     "question_no": 8,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.2"
+     ],
+     "topic_tags": [
+      "SRAM"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-10-Q09",
+     "question_no": 9,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.8"
+     ],
+     "topic_tags": [
+      "中断响应周期"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-10-Q10",
+     "question_no": 10,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.8"
+     ],
+     "topic_tags": [
+      "中断向量表"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-10-Q11",
+     "question_no": 11,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.3"
+     ],
+     "topic_tags": [
+      "隐藏位",
+      "IEEE754 规格化"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-10-Q12",
+     "question_no": 12,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.3"
+     ],
+     "topic_tags": [
+      "MIPS 指令格式"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-10-Q13",
+     "question_no": 13,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.5"
+     ],
+     "topic_tags": [
+      "微程序定序器",
+      "微地址"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-10-Q14",
+     "question_no": 14,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.2"
+     ],
+     "topic_tags": [
+      "六管静态存储单元",
+      "单管动态存储单元"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-10-Q15",
+     "question_no": 15,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.2"
+     ],
+     "topic_tags": [
+      "磁盘读写操作"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-10-Q16",
+     "question_no": 16,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.5"
+     ],
+     "topic_tags": [
+      "DMA 方式"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-10-Q17",
+     "question_no": 17,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.5"
+     ],
+     "topic_tags": [
+      "cache 映射方式"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-10-Q18",
+     "question_no": 18,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.3"
+     ],
+     "topic_tags": [
+      "总线定时",
+      "同步通信"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-10-Q19",
+     "question_no": 19,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.8"
+     ],
+     "topic_tags": [
+      "中断服务程序"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-10-Q20",
+     "question_no": 20,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.4"
+     ],
+     "topic_tags": [
+      "I/O 端口"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-10-Q21",
+     "question_no": 21,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.1"
+     ],
+     "topic_tags": [
+      "存储周期"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-10-Q22",
+     "question_no": 22,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.1"
+     ],
+     "topic_tags": [
+      "顺序存取存储器"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-10-Q23",
+     "question_no": 23,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.2"
+     ],
+     "topic_tags": [
+      "寻址方式"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-10-Q24",
+     "question_no": 24,
+     "type": "short_answer",
+     "points": 5,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.3"
+     ],
+     "topic_tags": [
+      "尾数规格化",
+      "左右归"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-10-Q25",
+     "question_no": 25,
+     "type": "short_answer",
+     "points": 5,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.1"
+     ],
+     "topic_tags": [
+      "下条指令地址"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-10-Q26",
+     "question_no": 26,
+     "type": "short_answer",
+     "points": 5,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.6"
+     ],
+     "topic_tags": [
+      "流水线冒险"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-10-Q27",
+     "question_no": 27,
+     "type": "short_answer",
+     "points": 5,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.4"
+     ],
+     "topic_tags": [
+      "I/O 端口编址"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-10-Q28",
+     "question_no": 28,
+     "type": "calculation",
+     "points": 6,
+     "chapter_refs": [
+      1
+     ],
+     "section_refs": [
+      "1.5"
+     ],
+     "topic_tags": [
+      "CPI",
+      "执行时间"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-10-Q29",
+     "question_no": 29,
+     "type": "calculation",
+     "points": 6,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.3"
+     ],
+     "topic_tags": [
+      "IEEE754 转换"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-10-Q30",
+     "question_no": 30,
+     "type": "calculation",
+     "points": 6,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.7"
+     ],
+     "topic_tags": [
+      "补码加减",
+      "标志位"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-10-Q31",
+     "question_no": 31,
+     "type": "integration",
+     "points": 10,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.5"
+     ],
+     "topic_tags": [
+      "cache 直接映射",
+      "地址划分",
+      "cache 总容量"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2021-10-Q32",
+     "question_no": 32,
+     "type": "integration",
+     "points": 12,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.3"
+     ],
+     "topic_tags": [
+      "数据通路",
+      "节拍与控制信号"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    }
+   ]
+  },
+  {
+   "paper_id": "2022-04_02318_真题_50601",
+   "period": "2022-04",
+   "version_note": "2022-04 卷共 32 题，题号 1–32 连续；单选 10、填空 8 条记录（题面登记 15 空）、名词解释 5、简答 4、计算 3、综合 2；Q32 为 4 路组相联映射题，与本列其余卷的直接映射题不同。",
+   "questions": [
+    {
+     "question_id": "02318-2022-04-Q01",
+     "question_no": 1,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      1
+     ],
+     "section_refs": [
+      "1.5"
+     ],
+     "topic_tags": [
+      "MFLOPS",
+      "浮点性能指标"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-04-Q02",
+     "question_no": 2,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.3"
+     ],
+     "topic_tags": [
+      "IEEE754 偏置常数"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-04-Q03",
+     "question_no": 3,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.10"
+     ],
+     "topic_tags": [
+      "对阶",
+      "浮点加减"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-04-Q04",
+     "question_no": 4,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.1"
+     ],
+     "topic_tags": [
+      "补码表示范围"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-04-Q05",
+     "question_no": 5,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.7"
+     ],
+     "topic_tags": [
+      "溢出判断",
+      "OF 逻辑表达式"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-04-Q06",
+     "question_no": 6,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.2"
+     ],
+     "topic_tags": [
+      "偏移寻址"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-04-Q07",
+     "question_no": 7,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.2"
+     ],
+     "topic_tags": [
+      "RISC 特征"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-04-Q08",
+     "question_no": 8,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.5"
+     ],
+     "topic_tags": [
+      "微程序",
+      "控制存储器"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-04-Q09",
+     "question_no": 9,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.2"
+     ],
+     "topic_tags": [
+      "SRAM",
+      "高速缓存"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-04-Q10",
+     "question_no": 10,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.8"
+     ],
+     "topic_tags": [
+      "中断响应",
+      "保存断点"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-04-Q11",
+     "question_no": 11,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      1
+     ],
+     "section_refs": [
+      "1.1"
+     ],
+     "topic_tags": [
+      "电子器件代数"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-04-Q12",
+     "question_no": 12,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.4"
+     ],
+     "topic_tags": [
+      "I/O 端口编址"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-04-Q13",
+     "question_no": 13,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.5"
+     ],
+     "topic_tags": [
+      "cache 映射方式"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-04-Q14",
+     "question_no": 14,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.5"
+     ],
+     "topic_tags": [
+      "I/O 传输控制方式"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-04-Q15",
+     "question_no": 15,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.3"
+     ],
+     "topic_tags": [
+      "MIPS 指令格式"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-04-Q16",
+     "question_no": 16,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.3"
+     ],
+     "topic_tags": [
+      "IEEE754 尾数"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-04-Q17",
+     "question_no": 17,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.8"
+     ],
+     "topic_tags": [
+      "外部中断分类"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-04-Q18",
+     "question_no": 18,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.2"
+     ],
+     "topic_tags": [
+      "磁盘平均存取时间"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-04-Q19",
+     "question_no": 19,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      1
+     ],
+     "section_refs": [
+      "1.1"
+     ],
+     "topic_tags": [
+      "字长"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-04-Q20",
+     "question_no": 20,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.6"
+     ],
+     "topic_tags": [
+      "奇偶校验"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-04-Q21",
+     "question_no": 21,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.2"
+     ],
+     "topic_tags": [
+      "寄存器间接寻址"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-04-Q22",
+     "question_no": 22,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.1"
+     ],
+     "topic_tags": [
+      "程序状态字寄存器"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-04-Q23",
+     "question_no": 23,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.1"
+     ],
+     "topic_tags": [
+      "随机存取存储器"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-04-Q24",
+     "question_no": 24,
+     "type": "short_answer",
+     "points": 5,
+     "chapter_refs": [
+      1
+     ],
+     "section_refs": [
+      "1.3"
+     ],
+     "topic_tags": [
+      "层次结构"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-04-Q25",
+     "question_no": 25,
+     "type": "short_answer",
+     "points": 5,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.7"
+     ],
+     "topic_tags": [
+      "补码减法",
+      "加法器"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-04-Q26",
+     "question_no": 26,
+     "type": "short_answer",
+     "points": 5,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.5"
+     ],
+     "topic_tags": [
+      "微程序控制器",
+      "微指令"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-04-Q27",
+     "question_no": 27,
+     "type": "short_answer",
+     "points": 5,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.2"
+     ],
+     "topic_tags": [
+      "DRAM 刷新"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-04-Q28",
+     "question_no": 28,
+     "type": "calculation",
+     "points": 6,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.3"
+     ],
+     "topic_tags": [
+      "IEEE754 反转换"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-04-Q29",
+     "question_no": 29,
+     "type": "calculation",
+     "points": 6,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.7"
+     ],
+     "topic_tags": [
+      "补码加减",
+      "标志位"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-04-Q30",
+     "question_no": 30,
+     "type": "calculation",
+     "points": 6,
+     "chapter_refs": [
+      1
+     ],
+     "section_refs": [
+      "1.5"
+     ],
+     "topic_tags": [
+      "CPI",
+      "执行时间"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-04-Q31",
+     "question_no": 31,
+     "type": "integration",
+     "points": 12,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.3"
+     ],
+     "topic_tags": [
+      "数据通路",
+      "节拍与控制信号"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-04-Q32",
+     "question_no": 32,
+     "type": "integration",
+     "points": 10,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.5"
+     ],
+     "topic_tags": [
+      "组相联映射",
+      "cache 总容量"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    }
+   ]
+  },
+  {
+   "paper_id": "2022-10_02318_真题_51139",
+   "period": "2022-10",
+   "version_note": "2022-10 卷共 34 题，题号 1–34 连续；单选 15、填空 10 条记录、简答 4、计算分析 3、综合应用 2。题型异常：登记表声明填空 5 小题、名词解释 5 小题，OCR 却把 Q21–Q25 五道名词解释题记为填空并计 2 分，全卷无 term_explain 记录，按逐题记录原值保留。",
+   "questions": [
+    {
+     "question_id": "02318-2022-10-Q01",
+     "question_no": 1,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      1
+     ],
+     "section_refs": [
+      "1.1"
+     ],
+     "topic_tags": [
+      "计算机分代"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-10-Q02",
+     "question_no": 2,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      1
+     ],
+     "section_refs": [
+      "1.3"
+     ],
+     "topic_tags": [
+      "ISA",
+      "系统程序员"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-10-Q03",
+     "question_no": 3,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      1
+     ],
+     "section_refs": [
+      "1.5"
+     ],
+     "topic_tags": [
+      "MFLOPS"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-10-Q04",
+     "question_no": 4,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.3"
+     ],
+     "topic_tags": [
+      "IEEE754 符号位"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-10-Q05",
+     "question_no": 5,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.1"
+     ],
+     "topic_tags": [
+      "补码表示"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-10-Q06",
+     "question_no": 6,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.4"
+     ],
+     "topic_tags": [
+      "汉字字模"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-10-Q07",
+     "question_no": 7,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.2"
+     ],
+     "topic_tags": [
+      "符号扩展"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-10-Q08",
+     "question_no": 8,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.7"
+     ],
+     "topic_tags": [
+      "零标志 ZF"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-10-Q09",
+     "question_no": 9,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.10"
+     ],
+     "topic_tags": [
+      "左规"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-10-Q10",
+     "question_no": 10,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.2"
+     ],
+     "topic_tags": [
+      "相对寻址"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-10-Q11",
+     "question_no": 11,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.2"
+     ],
+     "topic_tags": [
+      "RISC 特征"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-10-Q12",
+     "question_no": 12,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.3"
+     ],
+     "topic_tags": [
+      "单周期数据通路"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-10-Q13",
+     "question_no": 13,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.2"
+     ],
+     "topic_tags": [
+      "DRAM 存储原理"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-10-Q14",
+     "question_no": 14,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.1"
+     ],
+     "topic_tags": [
+      "地址线位数"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-10-Q15",
+     "question_no": 15,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.4"
+     ],
+     "topic_tags": [
+      "I/O 编址"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-10-Q16",
+     "question_no": 16,
+     "type": "fill_blank",
+     "points": 2,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.3"
+     ],
+     "topic_tags": [
+      "IEEE754 偏置常数"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-10-Q17",
+     "question_no": 17,
+     "type": "fill_blank",
+     "points": 2,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.3"
+     ],
+     "topic_tags": [
+      "MIPS 指令格式"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-10-Q18",
+     "question_no": 18,
+     "type": "fill_blank",
+     "points": 2,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.5"
+     ],
+     "topic_tags": [
+      "控制器分类"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-10-Q19",
+     "question_no": 19,
+     "type": "fill_blank",
+     "points": 2,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.1"
+     ],
+     "topic_tags": [
+      "存储层次结构"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-10-Q20",
+     "question_no": 20,
+     "type": "fill_blank",
+     "points": 2,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.3"
+     ],
+     "topic_tags": [
+      "存储器芯片扩展"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-10-Q21",
+     "question_no": 21,
+     "type": "fill_blank",
+     "points": 2,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.10"
+     ],
+     "topic_tags": [
+      "对阶"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-10-Q22",
+     "question_no": 22,
+     "type": "fill_blank",
+     "points": 2,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.2"
+     ],
+     "topic_tags": [
+      "间接寻址"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-10-Q23",
+     "question_no": 23,
+     "type": "fill_blank",
+     "points": 2,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.2"
+     ],
+     "topic_tags": [
+      "输入输出指令"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-10-Q24",
+     "question_no": 24,
+     "type": "fill_blank",
+     "points": 2,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.2"
+     ],
+     "topic_tags": [
+      "RISC"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-10-Q25",
+     "question_no": 25,
+     "type": "fill_blank",
+     "points": 2,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.1"
+     ],
+     "topic_tags": [
+      "随机存取存储器"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-10-Q26",
+     "question_no": 26,
+     "type": "short_answer",
+     "points": 5,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.7"
+     ],
+     "topic_tags": [
+      "标志位",
+      "无符号数比较"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-10-Q27",
+     "question_no": 27,
+     "type": "short_answer",
+     "points": 5,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.3"
+     ],
+     "topic_tags": [
+      "MIPS bne 指令",
+      "相对寻址"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-10-Q28",
+     "question_no": 28,
+     "type": "short_answer",
+     "points": 5,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.5"
+     ],
+     "topic_tags": [
+      "硬连线控制器"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-10-Q29",
+     "question_no": 29,
+     "type": "short_answer",
+     "points": 5,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.5"
+     ],
+     "topic_tags": [
+      "DMA 方式步骤"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-10-Q30",
+     "question_no": 30,
+     "type": "calculation",
+     "points": 6,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.3"
+     ],
+     "topic_tags": [
+      "IEEE754 转换"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-10-Q31",
+     "question_no": 31,
+     "type": "calculation",
+     "points": 6,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.5"
+     ],
+     "topic_tags": [
+      "大端方式",
+      "小端方式",
+      "指令存储"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-10-Q32",
+     "question_no": 32,
+     "type": "calculation",
+     "points": 6,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.3"
+     ],
+     "topic_tags": [
+      "PCIe 带宽"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-10-Q33",
+     "question_no": 33,
+     "type": "integration",
+     "points": 10,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.3"
+     ],
+     "topic_tags": [
+      "数据通路",
+      "节拍与控制信号"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2022-10-Q34",
+     "question_no": 34,
+     "type": "integration",
+     "points": 12,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.5"
+     ],
+     "topic_tags": [
+      "组相联映射",
+      "cache 总容量",
+      "命中判断"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    }
+   ]
+  },
+  {
+   "paper_id": "2023-04_02318_真题_51710",
+   "period": "2023-04",
+   "version_note": "2023-04 卷共 34 题，题号 1–34 连续；单选 15、填空 5（每空 1 分）、名词解释 5、简答 4、计算分析 3、综合应用 2；题型完整、无异常。",
+   "questions": [
+    {
+     "question_id": "02318-2023-04-Q01",
+     "question_no": 1,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.1"
+     ],
+     "topic_tags": [
+      "补码表示"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-04-Q02",
+     "question_no": 2,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.6"
+     ],
+     "topic_tags": [
+      "偶校验"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-04-Q03",
+     "question_no": 3,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.2"
+     ],
+     "topic_tags": [
+      "寄存器直接寻址"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-04-Q04",
+     "question_no": 4,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.7"
+     ],
+     "topic_tags": [
+      "符号标志 SF"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-04-Q05",
+     "question_no": 5,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.3"
+     ],
+     "topic_tags": [
+      "MIPS 字长"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-04-Q06",
+     "question_no": 6,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.1"
+     ],
+     "topic_tags": [
+      "随机存取存储器"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-04-Q07",
+     "question_no": 7,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.1"
+     ],
+     "topic_tags": [
+      "地址线位数"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-04-Q08",
+     "question_no": 8,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.3"
+     ],
+     "topic_tags": [
+      "MIPS and 指令"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-04-Q09",
+     "question_no": 9,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.1"
+     ],
+     "topic_tags": [
+      "输出设备"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-04-Q10",
+     "question_no": 10,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.5"
+     ],
+     "topic_tags": [
+      "中断方式总线控制"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-04-Q11",
+     "question_no": 11,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.2"
+     ],
+     "topic_tags": [
+      "磁盘 DMA 请求"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-04-Q12",
+     "question_no": 12,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.2"
+     ],
+     "topic_tags": [
+      "SRAM 原理"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-04-Q13",
+     "question_no": 13,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.1"
+     ],
+     "topic_tags": [
+      "指令周期"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-04-Q14",
+     "question_no": 14,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.4"
+     ],
+     "topic_tags": [
+      "并行接口"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-04-Q15",
+     "question_no": 15,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.8"
+     ],
+     "topic_tags": [
+      "中断屏蔽字"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-04-Q16",
+     "question_no": 16,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      1
+     ],
+     "section_refs": [
+      "1.1"
+     ],
+     "topic_tags": [
+      "五大部件"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-04-Q17",
+     "question_no": 17,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.6"
+     ],
+     "topic_tags": [
+      "校验码种类"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-04-Q18",
+     "question_no": 18,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.3"
+     ],
+     "topic_tags": [
+      "MIPS 指令类型"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-04-Q19",
+     "question_no": 19,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.8"
+     ],
+     "topic_tags": [
+      "内部异常分类"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-04-Q20",
+     "question_no": 20,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.5"
+     ],
+     "topic_tags": [
+      "I/O 控制方式"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-04-Q21",
+     "question_no": 21,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.5"
+     ],
+     "topic_tags": [
+      "控制器"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-04-Q22",
+     "question_no": 22,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.2"
+     ],
+     "topic_tags": [
+      "机器数"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-04-Q23",
+     "question_no": 23,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.2"
+     ],
+     "topic_tags": [
+      "寄存器直接寻址"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-04-Q24",
+     "question_no": 24,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.2"
+     ],
+     "topic_tags": [
+      "数据通路"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-04-Q25",
+     "question_no": 25,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.2"
+     ],
+     "topic_tags": [
+      "直接存取存储器"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-04-Q26",
+     "question_no": 26,
+     "type": "short_answer",
+     "points": 5,
+     "chapter_refs": [
+      1
+     ],
+     "section_refs": [
+      "1.1"
+     ],
+     "topic_tags": [
+      "冯·诺依曼结构"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-04-Q27",
+     "question_no": 27,
+     "type": "short_answer",
+     "points": 5,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.1"
+     ],
+     "topic_tags": [
+      "进制应用"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-04-Q28",
+     "question_no": 28,
+     "type": "short_answer",
+     "points": 5,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.2"
+     ],
+     "topic_tags": [
+      "DRAM 刷新"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-04-Q29",
+     "question_no": 29,
+     "type": "short_answer",
+     "points": 5,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.8"
+     ],
+     "topic_tags": [
+      "中断响应隐指令"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-04-Q30",
+     "question_no": 30,
+     "type": "calculation",
+     "points": 6,
+     "chapter_refs": [
+      1
+     ],
+     "section_refs": [
+      "1.5"
+     ],
+     "topic_tags": [
+      "时钟频率",
+      "CPI"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-04-Q31",
+     "question_no": 31,
+     "type": "calculation",
+     "points": 6,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.3"
+     ],
+     "topic_tags": [
+      "IEEE754 转换"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-04-Q32",
+     "question_no": 32,
+     "type": "calculation",
+     "points": 6,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.3"
+     ],
+     "topic_tags": [
+      "总线带宽",
+      "总线宽度"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-04-Q33",
+     "question_no": 33,
+     "type": "integration",
+     "points": 12,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.3"
+     ],
+     "topic_tags": [
+      "数据通路",
+      "节拍与控制信号"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-04-Q34",
+     "question_no": 34,
+     "type": "integration",
+     "points": 10,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.5"
+     ],
+     "topic_tags": [
+      "直接映射",
+      "地址字段划分"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    }
+   ]
+  },
+  {
+   "paper_id": "2023-10_02318_真题_53414",
+   "period": "2023-10",
+   "version_note": "2023-10 卷共 34 题，题号 1–34 连续；单选 15、填空 5（每空 1 分）、名词解释 5、简答 4、计算分析 3、综合应用 2；题型完整、无异常。",
+   "questions": [
+    {
+     "question_id": "02318-2023-10-Q01",
+     "question_no": 1,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      1
+     ],
+     "section_refs": [
+      "1.1"
+     ],
+     "topic_tags": [
+      "存储程序"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-10-Q02",
+     "question_no": 2,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      1
+     ],
+     "section_refs": [
+      "1.3"
+     ],
+     "topic_tags": [
+      "最终用户",
+      "层次结构"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-10-Q03",
+     "question_no": 3,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      1
+     ],
+     "section_refs": [
+      "1.5"
+     ],
+     "topic_tags": [
+      "MIPS 指标"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-10-Q04",
+     "question_no": 4,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.3"
+     ],
+     "topic_tags": [
+      "IEEE754 阶码表示"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-10-Q05",
+     "question_no": 5,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.7"
+     ],
+     "topic_tags": [
+      "补码减法"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-10-Q06",
+     "question_no": 6,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.10"
+     ],
+     "topic_tags": [
+      "对阶"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-10-Q07",
+     "question_no": 7,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.2"
+     ],
+     "topic_tags": [
+      "偏移寻址"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-10-Q08",
+     "question_no": 8,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.2"
+     ],
+     "topic_tags": [
+      "RISC 特征"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-10-Q09",
+     "question_no": 9,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.3"
+     ],
+     "topic_tags": [
+      "单周期数据通路"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-10-Q10",
+     "question_no": 10,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.2"
+     ],
+     "topic_tags": [
+      "SRAM",
+      "高速缓存"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-10-Q11",
+     "question_no": 11,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.1"
+     ],
+     "topic_tags": [
+      "地址线位数"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-10-Q12",
+     "question_no": 12,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.3"
+     ],
+     "topic_tags": [
+      "MIPS I 型指令"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-10-Q13",
+     "question_no": 13,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.8"
+     ],
+     "topic_tags": [
+      "中断向量表"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-10-Q14",
+     "question_no": 14,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.5"
+     ],
+     "topic_tags": [
+      "DMA 方式"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-10-Q15",
+     "question_no": 15,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.2"
+     ],
+     "topic_tags": [
+      "磁盘位密度"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-10-Q16",
+     "question_no": 16,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.3"
+     ],
+     "topic_tags": [
+      "IEEE754 尾数"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-10-Q17",
+     "question_no": 17,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.3"
+     ],
+     "topic_tags": [
+      "MIPS 指令长度与对齐"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-10-Q18",
+     "question_no": 18,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.5"
+     ],
+     "topic_tags": [
+      "控制器实现方式"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-10-Q19",
+     "question_no": 19,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.1"
+     ],
+     "topic_tags": [
+      "存储层次结构"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-10-Q20",
+     "question_no": 20,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.5"
+     ],
+     "topic_tags": [
+      "I/O 控制方式"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-10-Q21",
+     "question_no": 21,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.2"
+     ],
+     "topic_tags": [
+      "寻址方式"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-10-Q22",
+     "question_no": 22,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.2"
+     ],
+     "topic_tags": [
+      "动态存储器"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-10-Q23",
+     "question_no": 23,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.2"
+     ],
+     "topic_tags": [
+      "顺序存取存储器"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-10-Q24",
+     "question_no": 24,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.8"
+     ],
+     "topic_tags": [
+      "中断响应"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-10-Q25",
+     "question_no": 25,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.4"
+     ],
+     "topic_tags": [
+      "I/O 端口"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-10-Q26",
+     "question_no": 26,
+     "type": "short_answer",
+     "points": 5,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.7"
+     ],
+     "topic_tags": [
+      "溢出判别",
+      "逻辑表达式"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-10-Q27",
+     "question_no": 27,
+     "type": "short_answer",
+     "points": 5,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.3"
+     ],
+     "topic_tags": [
+      "J 型指令",
+      "目标地址"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-10-Q28",
+     "question_no": 28,
+     "type": "short_answer",
+     "points": 5,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.5"
+     ],
+     "topic_tags": [
+      "微程序控制器",
+      "微命令"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-10-Q29",
+     "question_no": 29,
+     "type": "short_answer",
+     "points": 5,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.8"
+     ],
+     "topic_tags": [
+      "中断服务程序",
+      "开中断"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-10-Q30",
+     "question_no": 30,
+     "type": "calculation",
+     "points": 6,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.3"
+     ],
+     "topic_tags": [
+      "IEEE754 转换"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-10-Q31",
+     "question_no": 31,
+     "type": "calculation",
+     "points": 6,
+     "chapter_refs": [
+      1
+     ],
+     "section_refs": [
+      "1.5"
+     ],
+     "topic_tags": [
+      "CPI",
+      "指令条数",
+      "时钟周期数"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-10-Q32",
+     "question_no": 32,
+     "type": "calculation",
+     "points": 6,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.7"
+     ],
+     "topic_tags": [
+      "标志位",
+      "补码加法"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-10-Q33",
+     "question_no": 33,
+     "type": "integration",
+     "points": 11,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.3"
+     ],
+     "topic_tags": [
+      "数据通路",
+      "节拍与控制信号"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2023-10-Q34",
+     "question_no": 34,
+     "type": "integration",
+     "points": 11,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.5"
+     ],
+     "topic_tags": [
+      "组相联映射",
+      "cache 总容量",
+      "主存地址划分"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    }
+   ]
+  },
+  {
+   "paper_id": "2024-04_02318_真题_54418",
+   "period": "2024-04",
+   "version_note": "2024-04 卷共 34 题，题号 1–34 连续；单选 15、填空 5（每空 1 分）、名词解释 5、简答 4、计算分析 3、综合应用 2；题型完整，Q07 题源存疑、待核。",
+   "questions": [
+    {
+     "question_id": "02318-2024-04-Q01",
+     "question_no": 1,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.1"
+     ],
+     "topic_tags": [
+      "二进制表示"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-04-Q02",
+     "question_no": 2,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.6"
+     ],
+     "topic_tags": [
+      "偶校验"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-04-Q03",
+     "question_no": 3,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.2"
+     ],
+     "topic_tags": [
+      "寻址方式"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-04-Q04",
+     "question_no": 4,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.1"
+     ],
+     "topic_tags": [
+      "指令译码",
+      "控制器"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-04-Q05",
+     "question_no": 5,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.3"
+     ],
+     "topic_tags": [
+      "MIPS sub 指令"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-04-Q06",
+     "question_no": 6,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.3"
+     ],
+     "topic_tags": [
+      "条件分支指令"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-04-Q07",
+     "question_no": 7,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.1"
+     ],
+     "topic_tags": [
+      "地址线位数"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "blocked-pending-source"
+    },
+    {
+     "question_id": "02318-2024-04-Q08",
+     "question_no": 8,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.2"
+     ],
+     "topic_tags": [
+      "直接存取存储器"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-04-Q09",
+     "question_no": 9,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.2"
+     ],
+     "topic_tags": [
+      "外部存储器"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-04-Q10",
+     "question_no": 10,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.8"
+     ],
+     "topic_tags": [
+      "保存断点"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-04-Q11",
+     "question_no": 11,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.2"
+     ],
+     "topic_tags": [
+      "磁盘 DMA 请求"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-04-Q12",
+     "question_no": 12,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.5"
+     ],
+     "topic_tags": [
+      "打印机接口",
+      "程序直接控制"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-04-Q13",
+     "question_no": 13,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.8"
+     ],
+     "topic_tags": [
+      "多重中断"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-04-Q14",
+     "question_no": 14,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.4"
+     ],
+     "topic_tags": [
+      "串行接口"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-04-Q15",
+     "question_no": 15,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.1"
+     ],
+     "topic_tags": [
+      "单地址指令"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-04-Q16",
+     "question_no": 16,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      1
+     ],
+     "section_refs": [
+      "1.3"
+     ],
+     "topic_tags": [
+      "用户分类",
+      "层次结构"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-04-Q17",
+     "question_no": 17,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.1"
+     ],
+     "topic_tags": [
+      "基本数据类型"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-04-Q18",
+     "question_no": 18,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      1
+     ],
+     "section_refs": [
+      "1.1"
+     ],
+     "topic_tags": [
+      "CPU 组成部件"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-04-Q19",
+     "question_no": 19,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.6"
+     ],
+     "topic_tags": [
+      "虚拟存储器类型"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-04-Q20",
+     "question_no": 20,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.4"
+     ],
+     "topic_tags": [
+      "I/O 端口编址"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-04-Q21",
+     "question_no": 21,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.1"
+     ],
+     "topic_tags": [
+      "指令"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-04-Q22",
+     "question_no": 22,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      1
+     ],
+     "section_refs": [
+      "1.1"
+     ],
+     "topic_tags": [
+      "字长"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-04-Q23",
+     "question_no": 23,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.2"
+     ],
+     "topic_tags": [
+      "寄存器间接寻址"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-04-Q24",
+     "question_no": 24,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.5"
+     ],
+     "topic_tags": [
+      "微地址"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-04-Q25",
+     "question_no": 25,
+     "type": "term_explain",
+     "points": 3,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.3"
+     ],
+     "topic_tags": [
+      "同步总线"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-04-Q26",
+     "question_no": 26,
+     "type": "short_answer",
+     "points": 5,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.2"
+     ],
+     "topic_tags": [
+      "条件转移",
+      "标志信息"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-04-Q27",
+     "question_no": 27,
+     "type": "short_answer",
+     "points": 5,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.1",
+      "4.2"
+     ],
+     "topic_tags": [
+      "指令寄存器 IR",
+      "时序信号"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-04-Q28",
+     "question_no": 28,
+     "type": "short_answer",
+     "points": 5,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.2"
+     ],
+     "topic_tags": [
+      "DRAM 刷新"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-04-Q29",
+     "question_no": 29,
+     "type": "short_answer",
+     "points": 5,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.8"
+     ],
+     "topic_tags": [
+      "中断响应",
+      "三个操作"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-04-Q30",
+     "question_no": 30,
+     "type": "calculation",
+     "points": 6,
+     "chapter_refs": [
+      1
+     ],
+     "section_refs": [
+      "1.5"
+     ],
+     "topic_tags": [
+      "时钟频率",
+      "CPI"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-04-Q31",
+     "question_no": 31,
+     "type": "calculation",
+     "points": 6,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.3"
+     ],
+     "topic_tags": [
+      "IEEE754 转换"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-04-Q32",
+     "question_no": 32,
+     "type": "calculation",
+     "points": 6,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.3"
+     ],
+     "topic_tags": [
+      "同步总线带宽"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-04-Q33",
+     "question_no": 33,
+     "type": "integration",
+     "points": 11,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.3"
+     ],
+     "topic_tags": [
+      "数据通路",
+      "节拍与控制信号"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-04-Q34",
+     "question_no": 34,
+     "type": "integration",
+     "points": 11,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.5"
+     ],
+     "topic_tags": [
+      "直接映射",
+      "地址字段划分"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    }
+   ]
+  },
+  {
+   "paper_id": "2024-10_02318_真题_54947",
+   "period": "2024-10",
+   "version_note": "2024-10 卷共 30 题，题号 1–30 连续；单选 15、填空 5（每空 1 分）、简答 5（每题 7 分）、计算 3（每题 6 分）、综合 2（登记为 design 且分值记 0）；题型异常：无名词解释，末两题分值字段缺失，Q28 题源存疑待核。",
+   "questions": [
+    {
+     "question_id": "02318-2024-10-Q01",
+     "question_no": 1,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.7"
+     ],
+     "topic_tags": [
+      "标志寄存器"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-10-Q02",
+     "question_no": 2,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.1"
+     ],
+     "topic_tags": [
+      "二进制表示"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-10-Q03",
+     "question_no": 3,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.1"
+     ],
+     "topic_tags": [
+      "补码表示"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-10-Q04",
+     "question_no": 4,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.6"
+     ],
+     "topic_tags": [
+      "奇校验"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-10-Q05",
+     "question_no": 5,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.2"
+     ],
+     "topic_tags": [
+      "寄存器寻址"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-10-Q06",
+     "question_no": 6,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.2"
+     ],
+     "topic_tags": [
+      "直接存取存储器"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-10-Q07",
+     "question_no": 7,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.1"
+     ],
+     "topic_tags": [
+      "地址线位数"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-10-Q08",
+     "question_no": 8,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.5"
+     ],
+     "topic_tags": [
+      "DMA 方式总线控制"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-10-Q09",
+     "question_no": 9,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.3"
+     ],
+     "topic_tags": [
+      "MIPS ADD 指令"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-10-Q10",
+     "question_no": 10,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.1"
+     ],
+     "topic_tags": [
+      "单地址指令"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-10-Q11",
+     "question_no": 11,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.4"
+     ],
+     "topic_tags": [
+      "串行接口"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-10-Q12",
+     "question_no": 12,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.8"
+     ],
+     "topic_tags": [
+      "中断屏蔽字"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-10-Q13",
+     "question_no": 13,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.5"
+     ],
+     "topic_tags": [
+      "磁盘接口",
+      "DMA"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-10-Q14",
+     "question_no": 14,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.1"
+     ],
+     "topic_tags": [
+      "外部存储器"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-10-Q15",
+     "question_no": 15,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.5"
+     ],
+     "topic_tags": [
+      "微程序存放位置"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-10-Q16",
+     "question_no": 16,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      1
+     ],
+     "section_refs": [
+      "1.3"
+     ],
+     "topic_tags": [
+      "用户分类",
+      "层次结构"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-10-Q17",
+     "question_no": 17,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.1"
+     ],
+     "topic_tags": [
+      "数值数据三要素"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-10-Q18",
+     "question_no": 18,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.8"
+     ],
+     "topic_tags": [
+      "内部异常分类"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-10-Q19",
+     "question_no": 19,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.5"
+     ],
+     "topic_tags": [
+      "cache 映射方式"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-10-Q20",
+     "question_no": 20,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.5"
+     ],
+     "topic_tags": [
+      "I/O 控制方式"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-10-Q21",
+     "question_no": 21,
+     "type": "short_answer",
+     "points": 7,
+     "chapter_refs": [
+      1
+     ],
+     "section_refs": [
+      "1.1"
+     ],
+     "topic_tags": [
+      "冯·诺依曼结构"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-10-Q22",
+     "question_no": 22,
+     "type": "short_answer",
+     "points": 7,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.3"
+     ],
+     "topic_tags": [
+      "规格化",
+      "左规与右规"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-10-Q23",
+     "question_no": 23,
+     "type": "short_answer",
+     "points": 7,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.2"
+     ],
+     "topic_tags": [
+      "转移指令",
+      "调用指令"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-10-Q24",
+     "question_no": 24,
+     "type": "short_answer",
+     "points": 7,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.4"
+     ],
+     "topic_tags": [
+      "I/O 接口功能"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-10-Q25",
+     "question_no": 25,
+     "type": "short_answer",
+     "points": 7,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.4"
+     ],
+     "topic_tags": [
+      "五段流水线",
+      "流水段操作"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-10-Q26",
+     "question_no": 26,
+     "type": "calculation",
+     "points": 6,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.3"
+     ],
+     "topic_tags": [
+      "IEEE754 反转换"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-10-Q27",
+     "question_no": 27,
+     "type": "calculation",
+     "points": 6,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.3"
+     ],
+     "topic_tags": [
+      "同步总线带宽"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-10-Q28",
+     "question_no": 28,
+     "type": "calculation",
+     "points": 6,
+     "chapter_refs": [
+      1
+     ],
+     "section_refs": [
+      "1.5"
+     ],
+     "topic_tags": [
+      "时钟频率",
+      "CPI"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "blocked-pending-source"
+    },
+    {
+     "question_id": "02318-2024-10-Q29",
+     "question_no": 29,
+     "type": "design",
+     "points": 0,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.3"
+     ],
+     "topic_tags": [
+      "数据通路",
+      "节拍与控制信号"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2024-10-Q30",
+     "question_no": 30,
+     "type": "design",
+     "points": 0,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.5"
+     ],
+     "topic_tags": [
+      "直接映射",
+      "cache 总容量",
+      "行号映射"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    }
+   ]
+  },
+  {
+   "paper_id": "2025-04_02318_真题_55948",
+   "period": "2025-04",
+   "version_note": "2025-04 卷共 30 题，题号 1–30 连续；单选 15、填空 5（每空 1 分）、简答 5（每题 7 分）、计算分析 3、综合应用 2（登记为 design，11 分）；题型异常：无名词解释，Q01 题干只给出 3 个选项、Q02 仅 3 个选项记录不完整。",
+   "questions": [
+    {
+     "question_id": "02318-2025-04-Q01",
+     "question_no": 1,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      1
+     ],
+     "section_refs": [
+      "1.2"
+     ],
+     "topic_tags": [
+      "系统软件",
+      "应用软件"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2025-04-Q02",
+     "question_no": 2,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.1"
+     ],
+     "topic_tags": [
+      "补码求真值"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2025-04-Q03",
+     "question_no": 3,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.7"
+     ],
+     "topic_tags": [
+      "无符号数比较",
+      "标志位"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2025-04-Q04",
+     "question_no": 4,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.7"
+     ],
+     "topic_tags": [
+      "溢出判别逻辑表达式"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2025-04-Q05",
+     "question_no": 5,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.2"
+     ],
+     "topic_tags": [
+      "立即寻址"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2025-04-Q06",
+     "question_no": 6,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.2"
+     ],
+     "topic_tags": [
+      "RISC 特征"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2025-04-Q07",
+     "question_no": 7,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.3"
+     ],
+     "topic_tags": [
+      "芯片扩展",
+      "片数计算"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2025-04-Q08",
+     "question_no": 8,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.3"
+     ],
+     "topic_tags": [
+      "MIPS lw 指令"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2025-04-Q09",
+     "question_no": 9,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.5"
+     ],
+     "topic_tags": [
+      "微程序存放位置"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2025-04-Q10",
+     "question_no": 10,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.2"
+     ],
+     "topic_tags": [
+      "SRAM 存储单元"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2025-04-Q11",
+     "question_no": 11,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.1"
+     ],
+     "topic_tags": [
+      "随机存取存储器"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2025-04-Q12",
+     "question_no": 12,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.5"
+     ],
+     "topic_tags": [
+      "程序访问局部性",
+      "cache 性能"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2025-04-Q13",
+     "question_no": 13,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.8"
+     ],
+     "topic_tags": [
+      "中断屏蔽字"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2025-04-Q14",
+     "question_no": 14,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.5"
+     ],
+     "topic_tags": [
+      "DMA 方式"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2025-04-Q15",
+     "question_no": 15,
+     "type": "single_choice",
+     "points": 1,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.2"
+     ],
+     "topic_tags": [
+      "磁盘 DMA 阶段"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2025-04-Q16",
+     "question_no": 16,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      1
+     ],
+     "section_refs": [
+      "1.1"
+     ],
+     "topic_tags": [
+      "五大部件"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2025-04-Q17",
+     "question_no": 17,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.1"
+     ],
+     "topic_tags": [
+      "数值数据三要素"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2025-04-Q18",
+     "question_no": 18,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.3"
+     ],
+     "topic_tags": [
+      "MIPS 指令格式"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2025-04-Q19",
+     "question_no": 19,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.5"
+     ],
+     "topic_tags": [
+      "控制器实现方式"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2025-04-Q20",
+     "question_no": 20,
+     "type": "fill_blank",
+     "points": 1,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.5"
+     ],
+     "topic_tags": [
+      "cache 映射方式"
+     ],
+     "syllabus_level": "识记",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2025-04-Q21",
+     "question_no": 21,
+     "type": "short_answer",
+     "points": 7,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.2"
+     ],
+     "topic_tags": [
+      "CISC 特点"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2025-04-Q22",
+     "question_no": 22,
+     "type": "short_answer",
+     "points": 7,
+     "chapter_refs": [
+      6
+     ],
+     "section_refs": [
+      "6.4"
+     ],
+     "topic_tags": [
+      "I/O 端口编址"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2025-04-Q23",
+     "question_no": 23,
+     "type": "short_answer",
+     "points": 7,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.8"
+     ],
+     "topic_tags": [
+      "中断响应",
+      "三个操作"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2025-04-Q24",
+     "question_no": 24,
+     "type": "short_answer",
+     "points": 7,
+     "chapter_refs": [
+      3
+     ],
+     "section_refs": [
+      "3.4"
+     ],
+     "topic_tags": [
+      "下条指令地址",
+      "PC"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2025-04-Q25",
+     "question_no": 25,
+     "type": "short_answer",
+     "points": 7,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.7"
+     ],
+     "topic_tags": [
+      "标志位产生",
+      "带标志加法器"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2025-04-Q26",
+     "question_no": 26,
+     "type": "calculation",
+     "points": 6,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.3"
+     ],
+     "topic_tags": [
+      "IEEE754 转换"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2025-04-Q27",
+     "question_no": 27,
+     "type": "calculation",
+     "points": 6,
+     "chapter_refs": [
+      1
+     ],
+     "section_refs": [
+      "1.5"
+     ],
+     "topic_tags": [
+      "CPI",
+      "时钟周期数",
+      "执行时间"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2025-04-Q28",
+     "question_no": 28,
+     "type": "calculation",
+     "points": 6,
+     "chapter_refs": [
+      2
+     ],
+     "section_refs": [
+      "2.7"
+     ],
+     "topic_tags": [
+      "标志位",
+      "补码加法"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2025-04-Q29",
+     "question_no": 29,
+     "type": "design",
+     "points": 11,
+     "chapter_refs": [
+      4
+     ],
+     "section_refs": [
+      "4.3"
+     ],
+     "topic_tags": [
+      "数据通路",
+      "节拍与控制信号"
+     ],
+     "syllabus_level": "领会",
+     "review_status": "source-checked"
+    },
+    {
+     "question_id": "02318-2025-04-Q30",
+     "question_no": 30,
+     "type": "design",
+     "points": 11,
+     "chapter_refs": [
+      5
+     ],
+     "section_refs": [
+      "5.5"
+     ],
+     "topic_tags": [
+      "组相联映射",
+      "cache 总容量",
+      "组号映射"
+     ],
+     "syllabus_level": "简单应用",
+     "review_status": "source-checked"
+    }
+   ]
+  }
+ ]
+}

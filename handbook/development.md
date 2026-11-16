@@ -13,8 +13,23 @@ MkDocs 直接读取 `docs/`。课程位于 `docs/courses/<slug>/`，入口为 `i
 - `tools/mkdocs/content.py`：通过 `on_page_markdown` 添加复习工具栏、进度标记、折叠答案和图片尺寸。课程入口的“资料与核对规则”“资料依据与使用边界”“原有笔记处理”章节仅保留在源码中。
 - `tools/mkdocs/licenses.py`：通过 `on_files` 将根目录许可说明、`LICENSE`、`NOTICE`、`LICENSES/` 和权利清单作为虚拟文件提供给站点。
 - `tools/mkdocs/assets.py`：处理构建产物，内联阅读样式、调用 `render-math.cjs` 将公式构建为 KaTeX HTML/MathML，清理未使用的搜索语言包与 source map。
+- `tools/mkdocs/search_trim.py`：构建后裁剪搜索索引，去掉 HTML 标签并把每条正文截到 1600 字符。去标签是主要瘦身（标签占索引原文的大半），截断只砍长条的尾部；682 条正文从 434,878 字符降到 369,761 字符，产物 1.0 MB、Brotli 273 KB。只改产物，不动源页面。
 
 钩子不写入 `docs/`。课程之间的链接保留原生 Markdown 路径，不再另设输出目录或改写章节文件名。
+
+## Python 环境与依赖
+
+Python 依赖以 `pyproject.toml` 为唯一来源，锁定在 `uv.lock`；`requirements.txt` 已移除。`.python-version` 固定 3.12，与 CI 一致。
+
+```sh
+npm run uv:sync          # 经本地代理同步依赖
+npm run uv:lock          # 重新解析并锁定
+npm run uv:sync:direct   # 不走代理
+```
+
+代理默认 `http://127.0.0.1:10808`（FlClash 混合端口），在 [tools/dev/uv.ps1](../tools/dev/uv.ps1) 中修改。索引固定官方 PyPI，因为国内镜像缺 `pymdown-extensions` 11.0.1。`uv.toml` 只放索引与证书设置；代理只认 `HTTP_PROXY`、`HTTPS_PROXY`、`ALL_PROXY` 环境变量，由该脚本注入，不写进仓库配置。
+
+升级依赖时改 `pyproject.toml` 的版本号，跑 `npm run uv:lock` 与 `npm run uv:sync`，再按[第三方资源说明](../THIRD_PARTY_NOTICES.md)复核实际分发文件。
 
 ## 前端与主题
 

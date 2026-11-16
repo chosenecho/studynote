@@ -77,4 +77,28 @@ for (const host of config.hosts) {
   }
   if (actual.release !== release) throw new Error(`Public release verification failed for ${host}. Inspect active ECS release before retrying.`);
 }
+// Warm the edge. Node's fetch cannot do this reliably: parallel requests fail
+// with "TypeError: fetch failed", and serial ones run into ENOTFOUND after a few
+// dozen connections because every new socket needs a DNS lookup. curl keeps the
+// resolver happy and handles connection reuse, so warm in batches of ten.
+const pages = [];
+(function walk(dir) {
+  for (const name of readdirSync(dir).sort()) {
+    const path = `${dir}/${name}`;
+    if (statSync(path).isDirectory()) walk(path);
+    else if (name === 'index.html') pages.push(path.slice(5, -'index.html'.length) || '/');
+  }
+})('dist');
+const sink = process.platform === 'win32' ? 'NUL' : '/dev/null';
+let warmed = 0;
+for (let i = 0; i < pages.length; i += 10) {
+  const args = ['-sS', '--max-time', '25'];
+  for (const page of pages.slice(i, i + 10)) {
+    args.push('-o', sink, '-w', '%{http_code}\n', `https://${config.hosts[0]}${page}`);
+  }
+  const codes = run(process.platform === 'win32' ? 'curl.exe' : 'curl', args, true);
+  warmed += codes.split('\n').filter(code => code.trim() === '200').length;
+}
+writeFileSync(`${evidence}/warm.json`, JSON.stringify({pages: pages.length, warmed}, null, 2) + '\n');
+console.log(`Edge warmed: ${warmed}/${pages.length} pages`);
 console.log(JSON.stringify({release, evidence, instanceId: config.instanceId, ...metadata}));

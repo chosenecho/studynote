@@ -156,6 +156,7 @@ hooks:
   - tools/mkdocs/licenses.py
   - tools/mkdocs/assets.py
   - tools/mkdocs/seo.py
+  - tools/mkdocs/search_trim.py
 markdown_extensions:
   - tables
   - toc:

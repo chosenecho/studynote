@@ -22,6 +22,7 @@ if (root) {
   const pendingQueries = [];
   const aliases = {FCFS: '先来先服务', SPF: '短进程优先', SJF: '短进程优先', RR: '时间片轮转', CPU: '处理器', DRAM: '动态随机存储器', ISA: '指令系统', DOS: '操作系统', PCB: '进程控制块', TLB: '快表', DMA: '直接存储器存取'};
   let documents = [];
+  let byLocation = new Map();
   let lastQuery = '';
   let returnOnClose = false;
   // No query yet: the panel is only the field, with no empty result area under it.
@@ -115,9 +116,30 @@ if (root) {
     }
     return copy(parsed.body);
   }
+  function queryParts() {
+    return lastQuery.toLowerCase().match(/[\p{L}\p{N}]+/gu) || [];
+  }
+  // The worker returns markup with <mark> highlights, so match against the plain
+  // copy of the same entry instead of the rendered one.
+  function plainDoc(doc) {
+    return byLocation.get(doc.location) || {title: String(doc.title).replace(/<[^>]*>/g, ''), text: String(doc.text).replace(/<[^>]*>/g, '')};
+  }
+  // A part counts as present when the entry text contains it, or — for a Han run of
+  // three or more characters, which the worker tokenizer cannot split — when most of
+  // its adjacent pairs appear. Same rule the fallback scan scores with.
+  function textMatch(doc, parts) {
+    const source = plainDoc(doc);
+    const content = (source.title + ' ' + source.text).toLowerCase();
+    return parts.every(part => {
+      if (content.includes(part)) return true;
+      if (!/^[\p{Script=Han}]{3,}$/u.test(part)) return false;
+      const grams = [...new Set(Array.from(part).slice(1).map((char, i) => part[i] + char))];
+      return grams.filter(gram => content.includes(gram)).length >= Math.ceil(grams.length * .6);
+    });
+  }
   // Rescue terms absent from the worker index using the same downloaded data.
   function fallbackResults() {
-    const parts = lastQuery.toLowerCase().match(/[\p{L}\p{N}]+/gu) || [];
+    const parts = queryParts();
     if (!parts.length) return [];
     const matches = [];
     for (const doc of documents) {
@@ -147,8 +169,34 @@ if (root) {
     }
     return [...groups.values()];
   }
+  // Text decides membership, the worker decides order: keep the worker groups whose
+  // entries really contain the query, then append the pages it missed. The worker's
+  // tokenizer splits only on whitespace and punctuation, so a Chinese phrase reaches it
+  // as one long token and comes back both short of pages and padded with pages that do
+  // not contain it; scoring alone cannot repair either half.
+  function merge(items) {
+    const parts = queryParts();
+    if (!parts.length) return items;
+    const groups = [];
+    const seen = new Set();
+    for (const group of items) {
+      const kept = group.filter(doc => textMatch(doc, parts));
+      if (!kept.length) continue;
+      groups.push(kept);
+      for (const doc of kept) seen.add(doc.location.split('#')[0]);
+    }
+    for (const group of fallbackResults()) {
+      // The home page's key is the empty string, so test for a missing location rather
+      // than a falsy one.
+      const key = group[0]?.location.split('#')[0];
+      if (key === undefined || seen.has(key)) continue;
+      groups.push(group);
+      seen.add(key);
+    }
+    return groups;
+  }
   function render(items) {
-    if (!items.length) items = fallbackResults();
+    items = merge(items);
     delete root.dataset.searchIdle;
     input.removeAttribute('aria-busy');
     recovery.hidden = true;
@@ -209,6 +257,7 @@ if (root) {
       if (token !== generation || !loading) return;
       const plain = html => new DOMParser().parseFromString(String(html), 'text/html').body.textContent;
       documents = data.docs.map(doc => ({...doc, title: plain(doc.title), text: plain(doc.text)}));
+      byLocation = new Map(documents.map(doc => [doc.location, doc]));
       worker = new Worker(new URL(config.search, location.href));
       worker.onerror = event => { event.preventDefault(); window.clearTimeout(timeout); if (token === generation) fail('搜索引擎未能载入，请重试或浏览课程目录。'); };
       worker.onmessage = event => {

@@ -82,7 +82,7 @@ def audit(root):
 
     def frame_duration():
         question, answer = practice(7, 3)
-        first, last, frames, fps = map(int, match(r'从第(\d+)帧到第(\d+)帧，共(\d+)帧，按(\d+)帧/秒', question))
+        first, last, frames, fps = map(int, match(r'从第(\d+)帧到第(\d+)帧，共(\d+)帧(?:（[^）]*）)?，按(\d+)帧/秒', question))
         seconds, = match(r'时长为[^=]*=([\d.]+)秒', answer)
         require(last-first+1 == frames and '完整播放一次' in question, 'animation inclusive complete-frame convention changed')
         require(Fraction(seconds) == Fraction(frames, fps), 'animation duration disagrees with complete frame count')

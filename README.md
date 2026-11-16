@@ -16,15 +16,15 @@
 
 ## 本地运行
 
-需要 Python 3.10+；开发与测试使用 Node.js 22+。在仓库根目录执行：
+需要 Python 3.12（由 `.python-version` 固定）与 Node.js 22+；Python 依赖由 uv 管理，清单在 `pyproject.toml`，锁定在 `uv.lock`。在仓库根目录执行：
 
 ```sh
-python -m pip install -r requirements.txt
+npm run uv:sync
 npm ci
 npm run dev
 ```
 
-打开 http://127.0.0.1:8000/。仅构建站点可直接执行 `python -m mkdocs build --strict`，产物写入 `dist/`。
+`npm run uv:sync` 经本地代理下载依赖，默认代理为 `http://127.0.0.1:10808`，改端口见 [tools/dev/uv.ps1](tools/dev/uv.ps1)；直连时用 `npm run uv:sync:direct`。打开 http://127.0.0.1:8000/。仅构建站点可直接执行 `npm run build`，产物写入 `dist/`。
 
 ## 目录
 

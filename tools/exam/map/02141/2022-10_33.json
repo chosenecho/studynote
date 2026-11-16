@@ -1,0 +1,636 @@
+{
+  "paper_id": "2022-10_02141_真题_51105",
+  "period": "2022-10",
+  "version_note": "章节点按 config/syllabus.json 的 cn-1…cn-9 对齐，逐题人工判定",
+  "questions": [
+    {
+      "question_id": "2022-10-02141-Q01",
+      "question_no": 1,
+      "type": "single_choice",
+      "points": 2,
+      "chapter_refs": [
+        2
+      ],
+      "section_refs": [
+        "2.3"
+      ],
+      "topic_tags": [
+        "码元速率",
+        "波特",
+        "单位"
+      ],
+      "syllabus_level": "简单应用",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2022-10-02141-Q02",
+      "question_no": 2,
+      "type": "single_choice",
+      "points": 2,
+      "chapter_refs": [
+        3
+      ],
+      "section_refs": [
+        "3.2"
+      ],
+      "topic_tags": [
+        "数据单元",
+        "PDU",
+        "OSI 参考模型"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2022-10-02141-Q03",
+      "question_no": 3,
+      "type": "single_choice",
+      "points": 2,
+      "chapter_refs": [
+        3
+      ],
+      "section_refs": [
+        "3.2"
+      ],
+      "topic_tags": [
+        "结点到结点层",
+        "分层",
+        "物理层"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2022-10-02141-Q04",
+      "question_no": 4,
+      "type": "single_choice",
+      "points": 2,
+      "chapter_refs": [
+        3
+      ],
+      "section_refs": [
+        "3.6"
+      ],
+      "topic_tags": [
+        "TCP 首部",
+        "窗口字段",
+        "流量控制"
+      ],
+      "syllabus_level": "简单应用",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2022-10-02141-Q05",
+      "question_no": 5,
+      "type": "single_choice",
+      "points": 2,
+      "chapter_refs": [
+        2
+      ],
+      "section_refs": [
+        "2.1"
+      ],
+      "topic_tags": [
+        "二进制",
+        "数据表示",
+        "数值形式"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2022-10-02141-Q06",
+      "question_no": 6,
+      "type": "single_choice",
+      "points": 2,
+      "chapter_refs": [
+        4
+      ],
+      "section_refs": [
+        "4.4"
+      ],
+      "topic_tags": [
+        "交换机",
+        "直接交换",
+        "存储转发"
+      ],
+      "syllabus_level": "简单应用",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2022-10-02141-Q07",
+      "question_no": 7,
+      "type": "single_choice",
+      "points": 2,
+      "chapter_refs": [
+        5
+      ],
+      "section_refs": [
+        "5.2"
+      ],
+      "topic_tags": [
+        "IP",
+        "无连接",
+        "不可靠"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2022-10-02141-Q08",
+      "question_no": 8,
+      "type": "single_choice",
+      "points": 2,
+      "chapter_refs": [
+        5
+      ],
+      "section_refs": [
+        "5.7"
+      ],
+      "topic_tags": [
+        "路由器",
+        "交换结构",
+        "功能结构"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2022-10-02141-Q09",
+      "question_no": 9,
+      "type": "single_choice",
+      "points": 2,
+      "chapter_refs": [
+        6
+      ],
+      "section_refs": [
+        "6.1"
+      ],
+      "topic_tags": [
+        "B/S 模式",
+        "浏览器/服务器"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2022-10-02141-Q10",
+      "question_no": 10,
+      "type": "single_choice",
+      "points": 2,
+      "chapter_refs": [
+        9
+      ],
+      "section_refs": [
+        "9.1"
+      ],
+      "topic_tags": [
+        "拒绝服务攻击",
+        "可用性",
+        "网络威胁"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2022-10-02141-Q11",
+      "question_no": 11,
+      "type": "fill_blank",
+      "points": 1,
+      "chapter_refs": [
+        4
+      ],
+      "section_refs": [
+        "4.4"
+      ],
+      "topic_tags": [
+        "以太网",
+        "交换机",
+        "数据转发"
+      ],
+      "syllabus_level": "简单应用",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2022-10-02141-Q12",
+      "question_no": 12,
+      "type": "fill_blank",
+      "points": 1,
+      "chapter_refs": [
+        2
+      ],
+      "section_refs": [
+        "2.7"
+      ],
+      "topic_tags": [
+        "时分多路复用",
+        "统计复用",
+        "时隙"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2022-10-02141-Q13",
+      "question_no": 13,
+      "type": "fill_blank",
+      "points": 1,
+      "chapter_refs": [
+        2
+      ],
+      "section_refs": [
+        "2.1"
+      ],
+      "topic_tags": [
+        "数据通信",
+        "主机",
+        "通信实质"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2022-10-02141-Q14",
+      "question_no": 14,
+      "type": "fill_blank",
+      "points": 1,
+      "chapter_refs": [
+        3
+      ],
+      "section_refs": [
+        "3.2"
+      ],
+      "topic_tags": [
+        "面向连接",
+        "无连接",
+        "服务形式"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2022-10-02141-Q15",
+      "question_no": 15,
+      "type": "fill_blank",
+      "points": 1,
+      "chapter_refs": [
+        3
+      ],
+      "section_refs": [
+        "3.5"
+      ],
+      "topic_tags": [
+        "TCP 连接管理",
+        "连接建立",
+        "连接拆除"
+      ],
+      "syllabus_level": "简单应用",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2022-10-02141-Q16",
+      "question_no": 16,
+      "type": "fill_blank",
+      "points": 1,
+      "chapter_refs": [
+        1
+      ],
+      "section_refs": [
+        "1.6"
+      ],
+      "topic_tags": [
+        "IEEE",
+        "局域网标准委员会",
+        "简称"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2022-10-02141-Q17",
+      "question_no": 17,
+      "type": "fill_blank",
+      "points": 1,
+      "chapter_refs": [
+        4
+      ],
+      "section_refs": [
+        "4.3"
+      ],
+      "topic_tags": [
+        "MAC 帧",
+        "长度/类型",
+        "帧字段"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2022-10-02141-Q18",
+      "question_no": 18,
+      "type": "fill_blank",
+      "points": 1,
+      "chapter_refs": [
+        5
+      ],
+      "section_refs": [
+        "5.2"
+      ],
+      "topic_tags": [
+        "IP 分组",
+        "总长度",
+        "封装上限"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2022-10-02141-Q19",
+      "question_no": 19,
+      "type": "fill_blank",
+      "points": 1,
+      "chapter_refs": [
+        5
+      ],
+      "section_refs": [
+        "5.7"
+      ],
+      "topic_tags": [
+        "路由表",
+        "直连路由",
+        "优先级"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2022-10-02141-Q20",
+      "question_no": 20,
+      "type": "fill_blank",
+      "points": 1,
+      "chapter_refs": [
+        5
+      ],
+      "section_refs": [
+        "5.8"
+      ],
+      "topic_tags": [
+        "ICMP",
+        "源点抑制",
+        "差错报告"
+      ],
+      "syllabus_level": "简单应用",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2022-10-02141-Q21",
+      "question_no": 21,
+      "type": "fill_blank",
+      "points": 1,
+      "chapter_refs": [
+        6
+      ],
+      "section_refs": [
+        "6.3"
+      ],
+      "topic_tags": [
+        "FTP",
+        "数据连接",
+        "文件传输"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2022-10-02141-Q22",
+      "question_no": 22,
+      "type": "fill_blank",
+      "points": 1,
+      "chapter_refs": [
+        7
+      ],
+      "section_refs": [
+        "7.2"
+      ],
+      "topic_tags": [
+        "MIB",
+        "动态数据",
+        "数据分类"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2022-10-02141-Q23",
+      "question_no": 23,
+      "type": "fill_blank",
+      "points": 1,
+      "chapter_refs": [
+        9
+      ],
+      "section_refs": [
+        "9.5"
+      ],
+      "topic_tags": [
+        "报文摘要",
+        "单向散列",
+        "数字签名"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2022-10-02141-Q24",
+      "question_no": 24,
+      "type": "fill_blank",
+      "points": 1,
+      "chapter_refs": [
+        9
+      ],
+      "section_refs": [
+        "9.6"
+      ],
+      "topic_tags": [
+        "IPsec",
+        "安全关联",
+        "逻辑连接"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2022-10-02141-Q25",
+      "question_no": 25,
+      "type": "fill_blank",
+      "points": 1,
+      "chapter_refs": [
+        9
+      ],
+      "section_refs": [
+        "9.8"
+      ],
+      "topic_tags": [
+        "病毒防范",
+        "杀毒软件",
+        "特征库"
+      ],
+      "syllabus_level": "简单应用",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2022-10-02141-Q26",
+      "question_no": 26,
+      "type": "short_answer",
+      "points": 7,
+      "chapter_refs": [
+        1
+      ],
+      "section_refs": [
+        "1.2"
+      ],
+      "topic_tags": [
+        "拓扑结构",
+        "总线",
+        "网状"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2022-10-02141-Q27",
+      "question_no": 27,
+      "type": "short_answer",
+      "points": 7,
+      "chapter_refs": [
+        2
+      ],
+      "section_refs": [
+        "2.8"
+      ],
+      "topic_tags": [
+        "回退 N 步",
+        "选择重传",
+        "ARQ"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2022-10-02141-Q28",
+      "question_no": 28,
+      "type": "short_answer",
+      "points": 7,
+      "chapter_refs": [
+        3
+      ],
+      "section_refs": [
+        "3.1"
+      ],
+      "topic_tags": [
+        "协议",
+        "语法",
+        "语义",
+        "时序"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2022-10-02141-Q29",
+      "question_no": 29,
+      "type": "short_answer",
+      "points": 7,
+      "chapter_refs": [
+        4
+      ],
+      "section_refs": [
+        "4.5"
+      ],
+      "topic_tags": [
+        "VLAN",
+        "广播风暴",
+        "划分方法"
+      ],
+      "syllabus_level": "综合应用",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2022-10-02141-Q30",
+      "question_no": 30,
+      "type": "short_answer",
+      "points": 7,
+      "chapter_refs": [
+        7
+      ],
+      "section_refs": [
+        "7.5"
+      ],
+      "topic_tags": [
+        "SNMP",
+        "UDP",
+        "可靠性"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2022-10-02141-Q31",
+      "question_no": 31,
+      "type": "integration",
+      "points": 10,
+      "chapter_refs": [
+        5
+      ],
+      "section_refs": [
+        "5.8"
+      ],
+      "topic_tags": [
+        "DHCP",
+        "自动获取地址",
+        "工作过程"
+      ],
+      "syllabus_level": "简单应用",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2022-10-02141-Q32",
+      "question_no": 32,
+      "type": "integration",
+      "points": 10,
+      "chapter_refs": [
+        6
+      ],
+      "section_refs": [
+        "6.5"
+      ],
+      "topic_tags": [
+        "URL",
+        "HTTP",
+        "状态码"
+      ],
+      "syllabus_level": "综合应用",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2022-10-02141-Q33",
+      "question_no": 33,
+      "type": "integration",
+      "points": 10,
+      "chapter_refs": [
+        5,
+        9
+      ],
+      "section_refs": [
+        "9.7",
+        "5.6"
+      ],
+      "topic_tags": [
+        "防火墙",
+        "NAT",
+        "访问控制"
+      ],
+      "syllabus_level": "简单应用",
+      "review_status": "source-checked"
+    }
+  ]
+}

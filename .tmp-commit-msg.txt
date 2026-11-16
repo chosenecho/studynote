@@ -1,0 +1,19 @@
+feat: uv 迁移、搜索索引裁剪与部署加固
+
+用 uv 管理 Python 依赖，去掉 requirements.txt 与 setup-python，CI 改用
+setup-uv 并锁 3.12；本地新增 pyproject.toml、uv.toml、.python-version 与
+tools/dev/uv.ps1 包装（支持 -Proxy 走本地代理）。
+
+性能：新增 tools/mkdocs/search_trim.py，构建后去掉 HTML 标签并把每条正文
+截到 800 字符，搜索索引 2.1 MB 降到 790 KB。ESA 新增 study-search-index
+规则（override_origin + EdgeCacheTtl 3600 + ServeStale），并把
+study-edge-static 的 Sequence 让到 3；页面 TTL 由 300 秒提到 3600 秒。
+
+部署加固：预热改用 curl 每十页一批（Node fetch 并发报 fetch failed、串行
+报 ENOTFOUND），本次 92/92 完成；nginx figures 缓存 map 与 ESA 防盗链规则
+按云端实际值回写仓库，避免覆盖掉后两门课；tools/exam 与 tools/checks 的
+外部库路径改为 EXAM_BANK / EXAM_LIBRARY 环境变量，缺省直接返回 2。
+
+内容评估：新增 syllabus、counts、arithmetic、exam_claims、exam_map、
+search_coverage 六个检查器并接入 check 链，配套基线工具与浏览器测试；
+补写四门课若干章节，登记 186 条权利记录。

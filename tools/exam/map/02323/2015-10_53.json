@@ -1,0 +1,962 @@
+{
+  "paper_id": "2015-10_02323_真题_45289",
+  "period": "2015-10",
+  "version_note": "2015-10 全国卷，OCR 抽取 53 题（fill_blank20、integration3、multiple_choice5、short_answer5、single_choice20）",
+  "questions": [
+    {
+      "question_id": "2015-10-02323-Q01",
+      "question_no": 1,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        6
+      ],
+      "section_refs": [
+        "6.1"
+      ],
+      "topic_tags": [
+        "外围设备",
+        "I/O 系统组成"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-10-02323-Q02",
+      "question_no": 2,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        2
+      ],
+      "section_refs": [
+        "2.1"
+      ],
+      "topic_tags": [
+        "程序的执行",
+        "顺序执行"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-10-02323-Q03",
+      "question_no": 3,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        1
+      ],
+      "section_refs": [
+        "1.2"
+      ],
+      "topic_tags": [
+        "批处理",
+        "单道与多道批处理"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-10-02323-Q04",
+      "question_no": 4,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        6
+      ],
+      "section_refs": [
+        "6.1"
+      ],
+      "topic_tags": [
+        "外围设备",
+        "I/O 系统组成"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-10-02323-Q05",
+      "question_no": 5,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        2
+      ],
+      "section_refs": [
+        "2.2"
+      ],
+      "topic_tags": [
+        "PCB",
+        "进程定义与结构"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-10-02323-Q06",
+      "question_no": 6,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        3
+      ],
+      "section_refs": [
+        "3.4"
+      ],
+      "topic_tags": [
+        "调度算法",
+        "六种算法及抢占时机"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-10-02323-Q07",
+      "question_no": 7,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        4
+      ],
+      "section_refs": [
+        "4.1"
+      ],
+      "topic_tags": [
+        "存取速度",
+        "层次"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-10-02323-Q08",
+      "question_no": 8,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        4
+      ],
+      "section_refs": [
+        "4.8"
+      ],
+      "topic_tags": [
+        "虚拟存储",
+        "虚拟存储与请求分页硬件"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-10-02323-Q09",
+      "question_no": 9,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        4
+      ],
+      "section_refs": [
+        "4.8"
+      ],
+      "topic_tags": [
+        "虚拟地址",
+        "虚拟存储与请求分页硬件"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-10-02323-Q10",
+      "question_no": 10,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        5
+      ],
+      "section_refs": [
+        "5.2"
+      ],
+      "topic_tags": [
+        "保密",
+        "文件概述"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-10-02323-Q11",
+      "question_no": 11,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        4
+      ],
+      "section_refs": [
+        "4.1"
+      ],
+      "topic_tags": [
+        "存储介质",
+        "层次"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-10-02323-Q12",
+      "question_no": 12,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        5
+      ],
+      "section_refs": [
+        "5.2"
+      ],
+      "topic_tags": [
+        "打开",
+        "文件概述"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-10-02323-Q13",
+      "question_no": 13,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        5
+      ],
+      "section_refs": [
+        "5.4"
+      ],
+      "topic_tags": [
+        "逻辑记录",
+        "连续和链接分配"
+      ],
+      "syllabus_level": "简单应用",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-10-02323-Q14",
+      "question_no": 14,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        6
+      ],
+      "section_refs": [
+        "6.5"
+      ],
+      "topic_tags": [
+        "设备独立性"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "mapping-pending"
+    },
+    {
+      "question_id": "2015-10-02323-Q15",
+      "question_no": 15,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        6
+      ],
+      "section_refs": [
+        "6.4"
+      ],
+      "topic_tags": [
+        "外围设备",
+        "分配数据结构与方式"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "mapping-pending"
+    },
+    {
+      "question_id": "2015-10-02323-Q16",
+      "question_no": 16,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        6
+      ],
+      "section_refs": [
+        "6.3"
+      ],
+      "topic_tags": [
+        "缓冲"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-10-02323-Q17",
+      "question_no": 17,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        2
+      ],
+      "section_refs": [
+        "2.1"
+      ],
+      "topic_tags": [
+        "并发进程",
+        "顺序执行"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-10-02323-Q18",
+      "question_no": 18,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        2
+      ],
+      "section_refs": [
+        "2.10"
+      ],
+      "topic_tags": [
+        "PV操作",
+        "整型信号量"
+      ],
+      "syllabus_level": "简单应用",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-10-02323-Q19",
+      "question_no": 19,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        2
+      ],
+      "section_refs": [
+        "2.1"
+      ],
+      "topic_tags": [
+        "并发进程",
+        "顺序执行"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-10-02323-Q20",
+      "question_no": 20,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        3
+      ],
+      "section_refs": [
+        "3.7"
+      ],
+      "topic_tags": [
+        "死锁",
+        "死锁定义"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-10-02323-Q21",
+      "question_no": 21,
+      "type": "multiple_choice",
+      "points": 2,
+      "chapter_refs": [
+        3
+      ],
+      "section_refs": [
+        "3.4"
+      ],
+      "topic_tags": [
+        "调度算法",
+        "六种算法及抢占时机"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-10-02323-Q22",
+      "question_no": 22,
+      "type": "multiple_choice",
+      "points": 2,
+      "chapter_refs": [
+        4
+      ],
+      "section_refs": [
+        "4.3"
+      ],
+      "topic_tags": [
+        "分区",
+        "连续分配与动态分区"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-10-02323-Q23",
+      "question_no": 23,
+      "type": "multiple_choice",
+      "points": 2,
+      "chapter_refs": [
+        5
+      ],
+      "section_refs": [
+        "5.6"
+      ],
+      "topic_tags": [
+        "目录结构",
+        "目录"
+      ],
+      "syllabus_level": "简单应用",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-10-02323-Q24",
+      "question_no": 24,
+      "type": "multiple_choice",
+      "points": 2,
+      "chapter_refs": [
+        6
+      ],
+      "section_refs": [
+        "6.9"
+      ],
+      "topic_tags": [
+        "调度算法",
+        "磁盘调度"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-10-02323-Q25",
+      "question_no": 25,
+      "type": "multiple_choice",
+      "points": 2,
+      "chapter_refs": [
+        2
+      ],
+      "section_refs": [
+        "2.9"
+      ],
+      "topic_tags": [
+        "同步",
+        "同步基本概念与四条准则"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-10-02323-Q26",
+      "question_no": 26,
+      "type": "fill_blank",
+      "points": 1,
+      "chapter_refs": [
+        1
+      ],
+      "section_refs": [
+        "1.2"
+      ],
+      "topic_tags": [
+        "网络操作系统",
+        "单道与多道批处理"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-10-02323-Q27",
+      "question_no": 27,
+      "type": "fill_blank",
+      "points": 1,
+      "chapter_refs": [
+        2
+      ],
+      "section_refs": [
+        "2.6"
+      ],
+      "topic_tags": [
+        "系统调用",
+        "两种执行态"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-10-02323-Q28",
+      "question_no": 28,
+      "type": "fill_blank",
+      "points": 1,
+      "chapter_refs": [
+        1
+      ],
+      "section_refs": [
+        "1.2"
+      ],
+      "topic_tags": [
+        "单道与多道批处理",
+        "分时系统"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-10-02323-Q29",
+      "question_no": 29,
+      "type": "fill_blank",
+      "points": 1,
+      "chapter_refs": [
+        2
+      ],
+      "section_refs": [
+        "2.3"
+      ],
+      "topic_tags": [
+        "三态及转换",
+        "组织"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-10-02323-Q30",
+      "question_no": 30,
+      "type": "fill_blank",
+      "points": 1,
+      "chapter_refs": [
+        3
+      ],
+      "section_refs": [
+        "3.4"
+      ],
+      "topic_tags": [
+        "就绪",
+        "六种算法及抢占时机"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-10-02323-Q31",
+      "question_no": 31,
+      "type": "fill_blank",
+      "points": 1,
+      "chapter_refs": [
+        4
+      ],
+      "section_refs": [
+        "4.1"
+      ],
+      "topic_tags": [
+        "层次",
+        "局部性"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-10-02323-Q32",
+      "question_no": 32,
+      "type": "fill_blank",
+      "points": 1,
+      "chapter_refs": [
+        4
+      ],
+      "section_refs": [
+        "4.1"
+      ],
+      "topic_tags": [
+        "层次",
+        "局部性"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-10-02323-Q33",
+      "question_no": 33,
+      "type": "fill_blank",
+      "points": 1,
+      "chapter_refs": [
+        4
+      ],
+      "section_refs": [
+        "4.5"
+      ],
+      "topic_tags": [
+        "快表",
+        "快表（TLB）"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-10-02323-Q34",
+      "question_no": 34,
+      "type": "fill_blank",
+      "points": 1,
+      "chapter_refs": [
+        5
+      ],
+      "section_refs": [
+        "5.1"
+      ],
+      "topic_tags": [
+        "信息集合",
+        "文件概述"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-10-02323-Q35",
+      "question_no": 35,
+      "type": "fill_blank",
+      "points": 1,
+      "chapter_refs": [
+        5
+      ],
+      "section_refs": [
+        "5.4"
+      ],
+      "topic_tags": [
+        "索引文件",
+        "连续和链接分配"
+      ],
+      "syllabus_level": "简单应用",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-10-02323-Q36",
+      "question_no": 36,
+      "type": "fill_blank",
+      "points": 1,
+      "chapter_refs": [
+        4
+      ],
+      "section_refs": [
+        "4.8"
+      ],
+      "topic_tags": [
+        "虚拟存储",
+        "虚拟存储与请求分页硬件"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-10-02323-Q37",
+      "question_no": 37,
+      "type": "fill_blank",
+      "points": 1,
+      "chapter_refs": [
+        6
+      ],
+      "section_refs": [
+        "6.1"
+      ],
+      "topic_tags": [
+        "外围设备",
+        "I/O 系统组成"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-10-02323-Q38",
+      "question_no": 38,
+      "type": "fill_blank",
+      "points": 1,
+      "chapter_refs": [
+        6
+      ],
+      "section_refs": [
+        "6.2"
+      ],
+      "topic_tags": [
+        "外围设备",
+        "控制方式"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-10-02323-Q39",
+      "question_no": 39,
+      "type": "fill_blank",
+      "points": 1,
+      "chapter_refs": [
+        6
+      ],
+      "section_refs": [
+        "6.9"
+      ],
+      "topic_tags": [
+        "驱动调度",
+        "磁盘调度"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-10-02323-Q40",
+      "question_no": 40,
+      "type": "fill_blank",
+      "points": 1,
+      "chapter_refs": [
+        6
+      ],
+      "section_refs": [
+        "6.9"
+      ],
+      "topic_tags": [
+        "先来先服务",
+        "磁盘调度"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-10-02323-Q41",
+      "question_no": 41,
+      "type": "fill_blank",
+      "points": 1,
+      "chapter_refs": [
+        2
+      ],
+      "section_refs": [
+        "2.1"
+      ],
+      "topic_tags": [
+        "可同时执行",
+        "顺序执行"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-10-02323-Q42",
+      "question_no": 42,
+      "type": "fill_blank",
+      "points": 1,
+      "chapter_refs": [
+        2
+      ],
+      "section_refs": [
+        "2.10"
+      ],
+      "topic_tags": [
+        "PV操作",
+        "整型信号量"
+      ],
+      "syllabus_level": "简单应用",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-10-02323-Q43",
+      "question_no": 43,
+      "type": "fill_blank",
+      "points": 1,
+      "chapter_refs": [
+        2
+      ],
+      "section_refs": [
+        "2.9"
+      ],
+      "topic_tags": [
+        "同步机制",
+        "同步基本概念与四条准则"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-10-02323-Q44",
+      "question_no": 44,
+      "type": "fill_blank",
+      "points": 1,
+      "chapter_refs": [
+        2
+      ],
+      "section_refs": [
+        "2.13"
+      ],
+      "topic_tags": [
+        "信件",
+        "进程通信"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-10-02323-Q45",
+      "question_no": 45,
+      "type": "fill_blank",
+      "points": 1,
+      "chapter_refs": [
+        3
+      ],
+      "section_refs": [
+        "3.11"
+      ],
+      "topic_tags": [
+        "死锁",
+        "检测",
+        "解除"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-10-02323-Q46",
+      "question_no": 46,
+      "type": "short_answer",
+      "points": 4,
+      "chapter_refs": [
+        1
+      ],
+      "section_refs": [
+        "1.2"
+      ],
+      "topic_tags": [
+        "实时操作系统",
+        "单道与多道批处理"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-10-02323-Q47",
+      "question_no": 47,
+      "type": "short_answer",
+      "points": 4,
+      "chapter_refs": [
+        4
+      ],
+      "section_refs": [
+        "4.3"
+      ],
+      "topic_tags": [
+        "空闲区",
+        "连续分配与动态分区"
+      ],
+      "syllabus_level": "简单应用",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-10-02323-Q48",
+      "question_no": 48,
+      "type": "short_answer",
+      "points": 4,
+      "chapter_refs": [
+        6
+      ],
+      "section_refs": [
+        "6.8"
+      ],
+      "topic_tags": [
+        "传输时间",
+        "磁盘结构与时间"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-10-02323-Q49",
+      "question_no": 49,
+      "type": "short_answer",
+      "points": 4,
+      "chapter_refs": [
+        2
+      ],
+      "section_refs": [
+        "2.9"
+      ],
+      "topic_tags": [
+        "临界资源",
+        "同步基本概念与四条准则"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-10-02323-Q50",
+      "question_no": 50,
+      "type": "short_answer",
+      "points": 4,
+      "chapter_refs": [
+        3,
+        2
+      ],
+      "section_refs": [
+        "3.9",
+        "2.1"
+      ],
+      "topic_tags": [
+        "共享",
+        "安全／不安全状态"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-10-02323-Q51",
+      "question_no": 51,
+      "type": "integration",
+      "points": 10,
+      "chapter_refs": [
+        3
+      ],
+      "section_refs": [
+        "3.3"
+      ],
+      "topic_tags": [
+        "平均周转",
+        "周转"
+      ],
+      "syllabus_level": "简单应用",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-10-02323-Q52",
+      "question_no": 52,
+      "type": "integration",
+      "points": 10,
+      "chapter_refs": [
+        4
+      ],
+      "section_refs": [
+        "4.8"
+      ],
+      "topic_tags": [
+        "缺页",
+        "虚拟存储与请求分页硬件"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-10-02323-Q53",
+      "question_no": 53,
+      "type": "integration",
+      "points": 10,
+      "chapter_refs": [
+        5
+      ],
+      "section_refs": [
+        "5.4"
+      ],
+      "topic_tags": [
+        "逻辑记录",
+        "连续和链接分配"
+      ],
+      "syllabus_level": "简单应用",
+      "review_status": "source-checked"
+    }
+  ]
+}

@@ -289,7 +289,7 @@
       "source_kind": "original-software-and-documentation",
       "basis": "2026-11-06 审阅第一方软件、存储兼容逻辑、交互状态和界面文案；2026-11-10 追加页脚备案行的图标与文字对齐样式，并让桌面端搜索面板只留字段内一个图标、结果区在展开时即有稳定高度；只影响样式，运行针对性单元及浏览器回归。",
       "reviewed_on": "2026-11-10",
-      "sha256": "b67e16575feccbc5fca6ee594ac0f18ef8c28a5aeefc7380d49ab46e1f433a69"
+      "sha256": "bc298d0c8e4832f0477bd963cc4645cab9cf2a18ba343c6aa69c5fcaaaafa37a"
     },
     {
       "path": "docs/assets/vendor/katex/LICENSE",
@@ -700,7 +700,7 @@
       "source_kind": "original-learning-content",
       "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "4c2a473587181e0852fd4968d461db732d567d0b10584547ef9375edef462693"
+      "sha256": "328ef1a6fc367508c9ccd13744c37c1cb51c8251aebb79bc5a380401586eaf86"
     },
     {
       "path": "docs/courses/computer-networks/figures/management-loop.svg",
@@ -745,7 +745,7 @@
       "source_kind": "original-learning-content",
       "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "e1c518c9d984125e822a6a00df61d87695a12d0ed01f893c9bc5ee4cd81e3390"
+      "sha256": "fc8b3d3e41f162e56b42d9dc92274aad77b21b2bb2f2ea7b6db835bb2be856bd"
     },
     {
       "path": "docs/courses/computer-organization/chapter-01.md",
@@ -862,7 +862,7 @@
       "source_kind": "original-learning-content",
       "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "3a62ebfc608013918084c2fda262d8ee3bf3985914618de586b9b67554417f70"
+      "sha256": "2ccbb163d3fd833917cec5cd3e69705502fd79d132ff065c580ce4e58d0cfa90"
     },
     {
       "path": "docs/courses/computer-organization/figures/bus-transaction.svg",
@@ -925,7 +925,7 @@
       "source_kind": "original-learning-content",
       "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "7ce673c4a009a63c37715bb1b3514445f60494c2199e03418a6eaf2d0b2951c8"
+      "sha256": "815b5d0807d38f34d666bbf6bcb193cc784ff8e40a7e6ec8f638cf80ae7b051e"
     },
     {
       "path": "docs/courses/index.md",
@@ -1105,7 +1105,7 @@
       "source_kind": "original-learning-content",
       "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。；2026-11-16 内容评估批次按成书逐条补写并复核。",
       "reviewed_on": "2026-11-16",
-      "sha256": "3a27a57e0d3d22b36f2cf4b8bd052dcfc8c17ec48b26a6e475608d0aa58fd5d6"
+      "sha256": "1998387ac318e204829e760f91046da1f73b9811a40c100dd21f281ff53bbd44"
     },
     {
       "path": "docs/courses/multimedia-technology/figures/animation-workflow.svg",
@@ -1195,7 +1195,7 @@
       "source_kind": "original-learning-content",
       "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "7f973131120df6d5b0e390881a547c4437d27baa72baae8d26f33cd7035fa15d"
+      "sha256": "33918bae5440dcebd943115f8a75ca21a002cc2a61a8844ccba1a82eab34eba8"
     },
     {
       "path": "docs/courses/operating-systems/chapter-01.md",
@@ -1312,7 +1312,7 @@
       "source_kind": "original-learning-content",
       "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "c1ce917e96d3ddd590844fe634906ab733b39de28dbfc138e7a8a4e07f7ebb9f"
+      "sha256": "b04d033ca9049eacb47dcaeacb390c16642731ef4563e93e552d6db803692d20"
     },
     {
       "path": "docs/courses/operating-systems/figures/address-walk.svg",
@@ -1384,7 +1384,7 @@
       "source_kind": "original-learning-content",
       "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "03f63a69a01b5f58309e7e3ae01708214f30333d43c38201dba8261838edd604"
+      "sha256": "76265bcae386ccbeba8bef282b9592ae436ae32169b534dff00d2d8f357a80b3"
     },
     {
       "path": "docs/errata.md",
@@ -1411,7 +1411,7 @@
       "source_kind": "original",
       "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "82d8d3d7a3b0fc79d0058a808baf71e4b43b84e730f6f842050b0260ab3f3431"
+      "sha256": "abcaf64d10d6317937f597f8d966a02645cce0145de1bc81cbe1a7ef5defdd40"
     },
     {
       "path": "docs/labs/address.md",
@@ -1510,7 +1510,7 @@
       "source_kind": "original",
       "basis": "本轮重写术语与易错条目的解释文字，保留锚点、术语对应关系与结论，未新增未证实事实。",
       "reviewed_on": "2026-11-10",
-      "sha256": "df79faa114e46e5ff21160abab445fa20fea603d3fd983943125fc856da690ee"
+      "sha256": "0929c01a1f18d5f6e1dc5d5f6bb3015254f2f4e07b520712aab402792c3897d6"
     },
     {
       "path": "docs/reference/index.md",
@@ -1528,7 +1528,7 @@
       "source_kind": "original",
       "basis": "本轮重写术语与易错条目的解释文字，保留锚点、术语对应关系与结论，未新增未证实事实。",
       "reviewed_on": "2026-11-08",
-      "sha256": "ff44227f62c709655559705c4eff44c8036c4610b92d937dea4854420cab58da"
+      "sha256": "1b8f222f29304624bb9c2121c201151549cd8cc42dbef2d704bb76d4dda4494c"
     },
     {
       "path": "docs/robots.txt",
@@ -1555,7 +1555,7 @@
       "source_kind": "original-software-and-documentation",
       "basis": "2026-11-16 核验取源位置说明：课程资料与历年真题统一指向独立资料库 C:\\WorkSpace\\textbook-library，快照复制与 SHA-256 核验流程未变；未新增第三方内容。",
       "reviewed_on": "2026-11-16",
-      "sha256": "9281c4997182a3db478d20288ce1bf51091953c6e96dde02c9cb28bc2d5ce564"
+      "sha256": "0a7c0404886334b75d88ddf4d4112b36e40dfa064c6bcb2991627f0ed89c8ef8"
     },
     {
       "path": "handbook/deployment.md",

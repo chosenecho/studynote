@@ -56,12 +56,12 @@ nav:
           - 第 6 章 I/O 设备管理: courses/operating-systems/chapter-06.md
       - 应试导航:
           - 考点总览: courses/operating-systems/exam/index.md
-          - 第 1 章 操作系统简介 · 考点: courses/operating-systems/exam/01.md
-          - 第 2 章 进程管理 · 考点: courses/operating-systems/exam/02.md
-          - 第 3 章 进程调度与死锁 · 考点: courses/operating-systems/exam/03.md
-          - 第 4 章 内存管理 · 考点: courses/operating-systems/exam/04.md
-          - 第 5 章 文件系统 · 考点: courses/operating-systems/exam/05.md
-          - 第 6 章 I/O 设备管理 · 考点: courses/operating-systems/exam/06.md
+          - 第 1 章 操作系统简介 · 应试导航: courses/operating-systems/exam/01.md
+          - 第 2 章 进程管理 · 应试导航: courses/operating-systems/exam/02.md
+          - 第 3 章 进程调度与死锁 · 应试导航: courses/operating-systems/exam/03.md
+          - 第 4 章 内存管理 · 应试导航: courses/operating-systems/exam/04.md
+          - 第 5 章 文件系统 · 应试导航: courses/operating-systems/exam/05.md
+          - 第 6 章 I/O 设备管理 · 应试导航: courses/operating-systems/exam/06.md
   - 计算机组成原理:
       - 课程导航: courses/computer-organization/index.md
       - 学习导航:
@@ -74,12 +74,12 @@ nav:
           - 第 6 章 互连及输入输出组织: courses/computer-organization/chapter-06.md
       - 应试导航:
           - 考点总览: courses/computer-organization/exam/index.md
-          - 第 1 章 计算机系统概述 · 考点: courses/computer-organization/exam/01.md
-          - 第 2 章 数据的表示和运算 · 考点: courses/computer-organization/exam/02.md
-          - 第 3 章 指令系统 · 考点: courses/computer-organization/exam/03.md
-          - 第 4 章 中央处理器 · 考点: courses/computer-organization/exam/04.md
-          - 第 5 章 存储器层次结构 · 考点: courses/computer-organization/exam/05.md
-          - 第 6 章 互连及输入输出组织 · 考点: courses/computer-organization/exam/06.md
+          - 第 1 章 计算机系统概述 · 应试导航: courses/computer-organization/exam/01.md
+          - 第 2 章 数据的表示和运算 · 应试导航: courses/computer-organization/exam/02.md
+          - 第 3 章 指令系统 · 应试导航: courses/computer-organization/exam/03.md
+          - 第 4 章 中央处理器 · 应试导航: courses/computer-organization/exam/04.md
+          - 第 5 章 存储器层次结构 · 应试导航: courses/computer-organization/exam/05.md
+          - 第 6 章 互连及输入输出组织 · 应试导航: courses/computer-organization/exam/06.md
   - 计算机网络技术:
       - 课程导航: courses/computer-networks/index.md
       - 学习导航:
@@ -95,15 +95,15 @@ nav:
           - 第 9 章 计算机网络安全: courses/computer-networks/chapter-09.md
       - 应试导航:
           - 考点总览: courses/computer-networks/exam/index.md
-          - 第 1 章 计算机网络技术概论 · 考点: courses/computer-networks/exam/01.md
-          - 第 2 章 数据通信基础 · 考点: courses/computer-networks/exam/02.md
-          - 第 3 章 网络协议和体系结构 · 考点: courses/computer-networks/exam/03.md
-          - 第 4 章 局域网技术 · 考点: courses/computer-networks/exam/04.md
-          - 第 5 章 网络互联技术 · 考点: courses/computer-networks/exam/05.md
-          - 第 6 章 网络应用技术 · 考点: courses/computer-networks/exam/06.md
-          - 第 7 章 网络管理技术 · 考点: courses/computer-networks/exam/07.md
-          - 第 8 章 网络操作系统 · 考点: courses/computer-networks/exam/08.md
-          - 第 9 章 计算机网络安全 · 考点: courses/computer-networks/exam/09.md
+          - 第 1 章 计算机网络技术概论 · 应试导航: courses/computer-networks/exam/01.md
+          - 第 2 章 数据通信基础 · 应试导航: courses/computer-networks/exam/02.md
+          - 第 3 章 网络协议和体系结构 · 应试导航: courses/computer-networks/exam/03.md
+          - 第 4 章 局域网技术 · 应试导航: courses/computer-networks/exam/04.md
+          - 第 5 章 网络互联技术 · 应试导航: courses/computer-networks/exam/05.md
+          - 第 6 章 网络应用技术 · 应试导航: courses/computer-networks/exam/06.md
+          - 第 7 章 网络管理技术 · 应试导航: courses/computer-networks/exam/07.md
+          - 第 8 章 网络操作系统 · 应试导航: courses/computer-networks/exam/08.md
+          - 第 9 章 计算机网络安全 · 应试导航: courses/computer-networks/exam/09.md
   - 多媒体技术及应用（第三版）:
       - 课程导航: courses/multimedia-technology/index.md
       - 学习导航:
@@ -119,34 +119,35 @@ nav:
           - 第 9 章 多媒体项目的开发过程: courses/multimedia-technology/chapter-09.md
       - 应试导航:
           - 考点总览: courses/multimedia-technology/exam/index.md
-          - 第 1 章 多媒体技术基础知识 · 考点: courses/multimedia-technology/exam/01.md
-          - 第 2 章 多媒体计算机系统 · 考点: courses/multimedia-technology/exam/02.md
-          - 第 3 章 文本处理技术 · 考点: courses/multimedia-technology/exam/03.md
-          - 第 4 章 图形图像处理技术 · 考点: courses/multimedia-technology/exam/04.md
-          - 第 5 章 音频处理技术 · 考点: courses/multimedia-technology/exam/05.md
-          - 第 6 章 视频处理技术 · 考点: courses/multimedia-technology/exam/06.md
-          - 第 7 章 计算机动画制作技术 · 考点: courses/multimedia-technology/exam/07.md
-          - 第 8 章 多媒体制作工具 · 考点: courses/multimedia-technology/exam/08.md
-          - 第 9 章 多媒体项目的开发过程 · 考点: courses/multimedia-technology/exam/09.md
+          - 第 1 章 多媒体技术基础知识 · 应试导航: courses/multimedia-technology/exam/01.md
+          - 第 2 章 多媒体计算机系统 · 应试导航: courses/multimedia-technology/exam/02.md
+          - 第 3 章 文本处理技术 · 应试导航: courses/multimedia-technology/exam/03.md
+          - 第 4 章 图形图像处理技术 · 应试导航: courses/multimedia-technology/exam/04.md
+          - 第 5 章 音频处理技术 · 应试导航: courses/multimedia-technology/exam/05.md
+          - 第 6 章 视频处理技术 · 应试导航: courses/multimedia-technology/exam/06.md
+          - 第 7 章 计算机动画制作技术 · 应试导航: courses/multimedia-technology/exam/07.md
+          - 第 8 章 多媒体制作工具 · 应试导航: courses/multimedia-technology/exam/08.md
+          - 第 9 章 多媒体项目的开发过程 · 应试导航: courses/multimedia-technology/exam/09.md
   - 课程目录: courses/index.md
   - 复习速查:
       - 速查首页: reference/index.md
       - 易错点清单: reference/pitfalls.md
       - 术语与缩写表: reference/glossary.md
-      - 学习指南: guide.md
-      - 版本与勘误: errata.md
-      - 许可与版权: licensing.md
   - 交互练习:
       - 练习入口: labs/index.md
       - 进程调度实验: labs/scheduling.md
       - 页面置换: labs/paging.md
       - 银行家算法: labs/banker.md
-      - PV 与信号量: labs/semaphore.md
+      - PV 与记录型信号量: labs/semaphore.md
       - CIDR 地址块: labs/cidr.md
       - 分页地址转换: labs/address.md
       - Cache 映射: labs/cache.md
       - 补码加减: labs/complement.md
       - 随堂自测: labs/quiz.md
+  - 站点说明:
+      - 学习指南: guide.md
+      - 版本与勘误: errata.md
+      - 许可与版权: licensing.md
 
 plugins:
   - search:
@@ -161,7 +162,7 @@ markdown_extensions:
   - tables
   - toc:
       permalink: true
-      toc_depth: 3
+      toc_depth: 4
   - attr_list
   - md_in_html
   - admonition

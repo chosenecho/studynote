@@ -25,6 +25,35 @@ DIALOG = (
     '<img alt=""></div><p></p></dialog>'
 )
 EXERCISE_SECTION = re.compile(r'(^## 练习[^\n]*\n)([\s\S]*?)(?=^## |\Z)', re.M)
+# Syllabus groups in the reference pages, keyed by course id. Chinese headings get
+# generated `_N` anchors, so the groups carry explicit ASCII ids.
+REFERENCE_ANCHORS = {
+    'os': 'os',
+    'co': 'co',
+    'cn': 'cn',
+    'mm': 'multimedia',
+}
+
+
+def layer_exits(links):
+    """A one-line exit row: no heading, so page templates and TOC stay unchanged."""
+    return '<div class="layer-exits" markdown="1">\n\n' + links + '\n\n</div>'
+
+
+def exam_exits(number):
+    return layer_exits(
+        f'[学习导航：本章讲解与练习](../learn/index.md) · '
+        f'[本章练习](../chapter-{number:02}.md#exercise-1) · '
+        '[易错点](../../../reference/pitfalls.md) · '
+        '[术语与缩写表](../../../reference/glossary.md)')
+
+
+def chapter_exits(course):
+    """Point the reading-side page back at its own reference groups."""
+    anchor = REFERENCE_ANCHORS.get(course['id'], course['title'])
+    return layer_exits(
+        f'相关速查：[易错点清单](../../reference/pitfalls.md#{anchor}) · '
+        f'[术语与缩写表](../../reference/glossary.md#{anchor})')
 
 
 def exercise(match):
@@ -181,6 +210,7 @@ def on_page_markdown(markdown, page, config, files):
             toolbar = TOOLBAR.format(id=f'{course["id"]}-{number}')
             # Python-Markdown needs a block wrapper around the dialog element.
             dialog = '<div class="image-dialog-holder">\n\n' + DIALOG + '\n\n</div>\n'
+            body = body + '\n\n' + chapter_exits(course)
             return title + '\n\n' + toolbar + '\n\n' + body + ('\n\n' + dialog if '<img' in body else '')
     if course and len(parts) == 4 and parts[2] in ('exam', 'learn'):
         if uri.name == 'index.md':
@@ -199,6 +229,7 @@ def on_page_markdown(markdown, page, config, files):
                 page.meta['description'] = (
                     f'{course["title"]}{label}：必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测。'
                 )
+                return markdown.rstrip('\n') + '\n\n' + exam_exits(int(number[1]))
         return markdown
     if uri.parent.as_posix() == 'reference':
         title = markdown.split('\n', 1)[0].lstrip('# ').strip()

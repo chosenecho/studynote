@@ -5,8 +5,11 @@ import re
 import sys
 from urllib.parse import unquote, urlsplit
 
+import yaml
+
 ROOT = Path(__file__).resolve().parents[2]
 courses = json.loads((ROOT / 'config/courses.json').read_text(encoding='utf-8'))
+config = yaml.safe_load((ROOT / 'mkdocs.yml').read_text(encoding='utf-8'))
 errors = []
 for field in ('id', 'slug', 'title'):
     values = [c[field] for c in courses]
@@ -31,6 +34,58 @@ for course in courses:
         errors.append(f'{folder.name}: exam pages differ: {actual_exam ^ expected_exam}')
     if any(p.name.startswith('chapter-') for p in exam.glob('*.md')):
         errors.append(f'{folder.name}: exam pages must not use the chapter- file prefix')
+# Navigation labels must read like the page they open; landing-role labels are exempt.
+ROLE_LABELS = {'课程导航', '学习概览', '考点总览', '学习首页', '速查首页', '练习入口'}
+VIRTUAL_PAGES = {'licensing.md', 'third-party-notices.md'}
+TAB_COUNT = len(courses) + 5
+
+
+def nav_pairs(items, out):
+    for item in items:
+        if isinstance(item, dict):
+            for label, value in item.items():
+                if isinstance(value, str):
+                    out.append((label, value))
+                else:
+                    out.append((label, None))
+                    nav_pairs(value, out)
+    return out
+
+
+def title_of(path):
+    for line in path.read_text(encoding='utf-8').splitlines():
+        if line.startswith('# '):
+            return line[2:].strip()
+    return ''
+
+
+def compact(value):
+    return re.sub(r'[·・:：\s]', '', value)
+
+
+for label, target in nav_pairs(config['nav'], []):
+    if target is None:
+        continue
+    path = ROOT / 'docs' / target
+    if not path.is_file():
+        if target not in VIRTUAL_PAGES:
+            errors.append(f'导航指向不存在的源文件：{label} -> {target}')
+        continue
+    title = title_of(path)
+    if compact(label) == compact(title) or compact(label) in compact(title):
+        continue
+    if label in ROLE_LABELS:
+        continue
+    errors.append(f'导航标签与页面标题不一致：{label} != {title}（{target}）')
+if len(config['nav']) != TAB_COUNT:
+    errors.append(
+        f'顶层导航数量应为 {TAB_COUNT}（课程 {len(courses)} 门 + 5 个固定分区），实际 {len(config["nav"])}')
+
+# Heading depth stays at four levels or fewer so the rendered TOC covers every block.
+for path in (ROOT / 'docs/courses').rglob('*.md'):
+    for match in re.finditer(r'^(#{5,6})\s', path.read_text(encoding='utf-8'), re.M):
+        errors.append(f'{path.relative_to(ROOT).as_posix()}: 标题层级过深 {match.group(1)}')
+
 sources = list((ROOT / 'docs').rglob('*.md')) + list((ROOT / 'handbook').rglob('*.md'))
 sources += [ROOT / name for name in ('README.md', 'LICENSING.md', 'THIRD_PARTY_NOTICES.md')]
 for p in sources:

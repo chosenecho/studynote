@@ -37,6 +37,8 @@ for chapter in chapters:
         require(f'(../chapter-{number}.md)' in exam, 'exam page does not link back to the chapter')
         for block in EXAM_BLOCKS:
             require(exam.count(f'## {block}') == 1, f'exam page lacks a single {block} block')
+        require(sum(1 for line in exam.splitlines() if line.startswith('## ')) == len(EXAM_BLOCKS),
+                'exam page must keep exactly the six fixed blocks')
         for dropped in EXAM_DROPPED:
             require(dropped not in exam, f'exam page keeps the dropped block {dropped}')
         require('??? note "对照答案"' in exam, 'exam page lacks the folded answer block')
@@ -89,7 +91,25 @@ for chapter in chapters:
     question_count += len(questions)
 if figures != referenced:
     errors.append('Unreferenced or unregistered course figures: ' + str(figures ^ referenced))
-print(f'Syllabus coverage: {len(chapters)} chapters, {section_count} sections, {question_count} explained independent questions, {len(figures)} figures, {len(chapters)} exam pages')
+# Totals shown on the two entry pages are hand-written; recompute them from the sources.
+card_count = 0
+for course in courses:
+    slug = course['slug']
+    learn = (ROOT / f'docs/courses/{slug}/learn/index.md').read_text(encoding='utf-8')
+    for number, declared in re.findall(r'chapter-(\d{2})\.md\)\*\*\n\n(\d+) 道练习', learn):
+        spec = next(c for c in chapters if c['path'] == f'docs/courses/{slug}/chapter-{number}.md')
+        if int(declared) != len(spec['practice']):
+            errors.append(f'{slug}/learn 第 {number} 章：卡片写 {declared} 道练习，正文有 {len(spec["practice"])} 道')
+        card_count += 1
+    entry = (ROOT / f'docs/courses/{slug}/exam/index.md').read_text(encoding='utf-8')
+    for number, memorize, recall in re.findall(r'\((\d{2})\.md\)\*\*\n\n必背 (\d+) 条 · 默写 (\d+) 题', entry):
+        page = (ROOT / f'docs/courses/{slug}/exam/{number}.md').read_text(encoding='utf-8')
+        actual = (len(re.findall(r'^\d+\. ', page.split('## 必背清单', 1)[-1].split('## 必背数字与公式', 1)[0], re.M)),
+                  len(re.findall(r'^\d+\. ', page.split('## 默写自测', 1)[-1].split('??? note', 1)[0], re.M)))
+        if (int(memorize), int(recall)) != actual:
+            errors.append(f'{slug}/exam 第 {number} 章：卡片写 {memorize}/{recall}，实际 {actual[0]}/{actual[1]}')
+        card_count += 1
+print(f'Syllabus coverage: {len(chapters)} chapters, {section_count} sections, {question_count} explained independent questions, {len(figures)} figures, {len(chapters)} exam pages, {card_count} entry-page totals')
 if errors:
     print(chr(10).join(errors))
     sys.exit(1)

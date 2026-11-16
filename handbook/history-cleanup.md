@@ -20,7 +20,7 @@ main 已改变历史和提交标识。已有克隆优先重新克隆；如有未
 
 ## 尚未清除的副本
 
-GitHub 的已合并 PR 引用和缓存、已有外部克隆、搜索引擎缓存及云端历史部署不随 main 改写消失。不能把当前远端分支检查通过表述为所有副本已撤回，也不能保证零版权风险。
+GitHub 的已合并 PR 引用和缓存、已有外部克隆、搜索引擎缓存及云端历史部署不随 main 改写消失。不能因为当前远端分支检查通过，就说所有副本已撤回，也保证不了零版权风险。
 
 仓库 API 在 2026-11-04 的改写前快照中没有返回 fork、发行版附件或 Actions 附件；该快照不代表没有外部克隆或后续副本。已合并 PR 的差异仍可能保留旧材料，必要时按平台流程联系 GitHub Support，另行申请清除关联引用与缓存。官方流程见 [Removing sensitive data from a repository](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository)。
 

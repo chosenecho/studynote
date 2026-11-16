@@ -62,7 +62,7 @@ systemctl status certbot.timer
 
 `application/json` 是唯一不被 `follow_origin_bypass` 缓存的类型，实测 `/search/search_index.json` 连续请求均为 `MISS`，每次搜索都回源。`study-search-index` 规则对它单独设 `override_origin` 与 `EdgeCacheTtl` 3600 秒并开启 `ServeStale`，浏览器仍跟随源站。注意 ESA 的 `EdgeCacheMode` 没有 `cache_ttl` 这个值，写错会返回 `InvalidParameter.ArgValue`。
 
-规则建好后线上索引仍为 `MISS`：部署后索引已降到 790 KB，规则仍未生效，`/search/search_index.json` 持续 `MISS`。ESA 基础版不缓存这个 json，与体积无关——277 字节的 `sitemap.xml` 能正常缓存。规则保留不影响站点，但不应在文档或交付说明里写成已启用 json 缓存。索引本身由 [search_trim.py](../tools/mkdocs/search_trim.py) 在构建后裁剪：去掉 HTML 标签并把每条正文截到 800 字符，2.1 MB 降到 790 KB，Brotli 后 466 KB 降到 218 KB。规则改动需 `npm run esa:configure -- --apply` 才生效。
+规则建好后线上索引仍为 `MISS`：部署后索引已降到 790 KB，规则仍未生效，`/search/search_index.json` 持续 `MISS`。ESA 基础版不缓存这个 json，与体积无关：277 字节的 `sitemap.xml` 能正常缓存。规则保留不影响站点，但不应在文档或交付说明里写成已启用 json 缓存。索引本身由 [search_trim.py](../tools/mkdocs/search_trim.py) 在构建后裁剪：去掉 HTML 标签并把每条正文截到 800 字符，2.1 MB 降到 790 KB，Brotli 后 466 KB 降到 218 KB。规则改动需 `npm run esa:configure -- --apply` 才生效。
 
 HTTPS、CSP、防嵌入、防 MIME 嗅探、HSTS、权限与来源策略由命名规则维护；压缩和原有 TLS 安全设置继续保留。已关闭 ESA 质量数据采集，避免向 HTML 注入外部 RUM 脚本。预览与同步：
 

@@ -39,6 +39,7 @@ lines.append('| --- | ---: | ---: | ---: | ---: | ---: | ---: |')
 
 totals = {'papers': 0, 'questions': 0, 'recent': 0, 'checked': 0, 'pending': 0, 'blocked': 0}
 chapter_hits = {}
+chapter_recent = {}
 bankless = []
 for course in data.get('courses', []):
     code = course.get('code', '')
@@ -71,6 +72,8 @@ for course in data.get('courses', []):
             for chapter in question.get('chapter_refs', []):
                 key = (code, int(chapter))
                 chapter_hits[key] = chapter_hits.get(key, 0) + 1
+                if recent:
+                    chapter_recent[key] = chapter_recent.get(key, 0) + 1
     for key in totals:
         totals[key] += per[key]
     lines.append(f"| {code} | {per['papers']} | {per['questions']} | {per['recent']} | "
@@ -85,9 +88,26 @@ lines += ['', f"合计：{totals['papers']} 套，{totals['questions']} 题，�
               f"{totals['recent']} 题；已核 {totals['checked']}，待映射 {totals['pending']}，"
               f"阻断 {totals['blocked']}。", '',
           '## 章节命中（近五年与旧卷合计，按题号计数）', '',
-          '| 课程代码 | 章 | 命中题号数 |', '| --- | ---: | ---: |']
+          '| 课程代码 | 章 | 命中题号数 | 其中近五年 |', '| --- | ---: | ---: | ---: |']
 for (code, chapter), hits in sorted(chapter_hits.items()):
-    lines.append(f'| {code} | {chapter} | {hits} |')
+    lines.append(f'| {code} | {chapter} | {hits} | {chapter_recent.get((code, chapter), 0)} |')
+
+syllabus_path = ROOT / 'config/syllabus.json'
+if syllabus_path.is_file():
+    syllabus = json.loads(syllabus_path.read_text(encoding='utf-8'))
+    prefix_of_code = {'02323': 'OS', '02318': 'CO', '02141': 'CN', '13511': 'MM'}
+    code_of_prefix = {value: key for key, value in prefix_of_code.items()}
+    mapped_codes = {course.get('code', '') for course in data.get('courses', [])}
+    gaps = []
+    for chapter in syllabus['chapters']:
+        prefix, number = chapter['id'].split('-')[0].upper(), int(chapter['id'].split('-')[1])
+        code = code_of_prefix.get(prefix, '')
+        if code not in mapped_codes:
+            continue
+        if chapter_recent.get((code, number), 0) == 0:
+            gaps.append(f'- {code} 第 {number} 章（{chapter["title"]}）：近五年映射中没有题号落点。')
+    if gaps:
+        lines += ['', '## 近五年无题号落点的章', ''] + gaps
 
 OUT.parent.mkdir(parents=True, exist_ok=True)
 OUT.write_text('\n'.join(lines) + '\n', encoding='utf-8')

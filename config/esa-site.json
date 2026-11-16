@@ -21,7 +21,7 @@
     },
     {
       "RuleName": "study-hotlink-no-store",
-      "Rule": "((http.host eq \"chosenecho.top\" or http.host eq \"studynote.chosenecho.top\") and (starts_with(http.request.uri.path, \"/assets/\") or starts_with(http.request.uri.path, \"/courses/operating-systems/figures/\") or starts_with(http.request.uri.path, \"/courses/computer-organization/figures/\")) and http.referer contains \"://\" and not (http.referer contains \"://chosenecho.top/\") and not (http.referer contains \"://studynote.chosenecho.top/\"))",
+      "Rule": "((http.host eq \"chosenecho.top\" or http.host eq \"studynote.chosenecho.top\") and (starts_with(http.request.uri.path, \"/assets/\") or starts_with(http.request.uri.path, \"/courses/operating-systems/figures/\") or starts_with(http.request.uri.path, \"/courses/computer-organization/figures/\") or starts_with(http.request.uri.path, \"/courses/computer-networks/figures/\") or starts_with(http.request.uri.path, \"/courses/multimedia-technology/figures/\")) and http.referer contains \"://\" and not (http.referer contains \"://chosenecho.top/\") and not (http.referer contains \"://studynote.chosenecho.top/\"))",
       "Sequence": 2,
       "headers": {
         "Cache-Control": "no-store"
@@ -48,6 +48,15 @@
     "study-cache-hashed",
     "study-cache-vendor"
   ],
+  "compressionRules": [
+    {
+      "RuleName": "study-compression",
+      "Rule": "((http.host eq \"chosenecho.top\" or http.host eq \"studynote.chosenecho.top\"))",
+      "Sequence": 1,
+      "Gzip": "on",
+      "Brotli": "on"
+    }
+  ],
   "cacheRules": [
     {
       "RuleName": "study-verification-bypass",
@@ -59,16 +68,28 @@
       "PostCache": "off"
     },
     {
+      "RuleName": "study-search-index",
+      "Rule": "((http.host eq \"chosenecho.top\" or http.host eq \"studynote.chosenecho.top\") and http.request.uri.path eq \"/search/search_index.json\")",
+      "Sequence": 2,
+      "BypassCache": "cache_all",
+      "EdgeCacheMode": "override_origin",
+      "EdgeCacheTtl": "3600",
+      "BrowserCacheMode": "follow_origin",
+      "QueryStringMode": "ignore_all",
+      "PostCache": "off",
+      "ServeStale": "on"
+    },
+    {
       "RuleName": "study-edge-static",
       "Rule": "(http.host eq \"chosenecho.top\" or http.host eq \"studynote.chosenecho.top\")",
-      "Sequence": 2,
+      "Sequence": 3,
       "BypassCache": "cache_all",
       "EdgeCacheMode": "follow_origin_bypass",
       "EdgeStatusCodeCacheTtl": "4xx=0,5xx=0",
       "BrowserCacheMode": "follow_origin",
       "QueryStringMode": "ignore_all",
       "PostCache": "off",
-      "ServeStale": "off"
+      "ServeStale": "on"
     }
   ],
   "originRules": [

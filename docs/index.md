@@ -82,8 +82,8 @@ title: 自考计算机课程复习笔记
 
 ## 复习速查
 
-- [易错点清单](reference/pitfalls.md)：易混概念与公式。
-- [术语与缩写表](reference/glossary.md)：术语释义与章节链接。
+- [易错点清单](reference/pitfalls.md)，收易混的概念和公式。
+- [术语与缩写表](reference/glossary.md)，缩写记不住就按章节回查。
 
 ## 交互练习
 

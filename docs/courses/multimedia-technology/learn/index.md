@@ -84,7 +84,7 @@
 
 **[第 8 章 多媒体制作工具](../chapter-08.md)**
 
-6 道练习 · [读讲解](../chapter-08.md#s1) · [做练习](../chapter-08.md#exercise-1) · [考点](../exam/08.md)
+8 道练习 · [读讲解](../chapter-08.md#s1) · [做练习](../chapter-08.md#exercise-1) · [考点](../exam/08.md)
 
 </div>
 

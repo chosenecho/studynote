@@ -13,8 +13,23 @@ MkDocs 直接读取 `docs/`。课程位于 `docs/courses/<slug>/`，入口为 `i
 - `tools/mkdocs/content.py`：通过 `on_page_markdown` 添加复习工具栏、进度标记、折叠答案和图片尺寸。课程入口的“资料与核对规则”“资料依据与使用边界”“原有笔记处理”章节仅保留在源码中。
 - `tools/mkdocs/licenses.py`：通过 `on_files` 将根目录许可说明、`LICENSE`、`NOTICE`、`LICENSES/` 和权利清单作为虚拟文件提供给站点。
 - `tools/mkdocs/assets.py`：处理构建产物，内联阅读样式、调用 `render-math.cjs` 将公式构建为 KaTeX HTML/MathML，清理未使用的搜索语言包与 source map。
+- `tools/mkdocs/search_trim.py`：构建后裁剪搜索索引，去掉 HTML 标签并把每条正文截到 1600 字符。去标签是主要瘦身（标签占索引原文的大半），截断只砍长条的尾部；682 条正文合计 372,701 字符，产物 1.0 MB、Brotli 275 KB。只改产物，不动源页面。
 
 钩子不写入 `docs/`。课程之间的链接保留原生 Markdown 路径，不再另设输出目录或改写章节文件名。
+
+## Python 环境与依赖
+
+Python 依赖以 `pyproject.toml` 为唯一来源，锁定在 `uv.lock`；`requirements.txt` 已移除。`.python-version` 固定 3.12，与 CI 一致。
+
+```sh
+npm run uv:sync          # 经本地代理同步依赖
+npm run uv:lock          # 重新解析并锁定
+npm run uv:sync:direct   # 不走代理
+```
+
+代理默认 `http://127.0.0.1:10808`（FlClash 混合端口），在 [tools/dev/uv.ps1](../tools/dev/uv.ps1) 中修改。索引固定官方 PyPI，因为国内镜像缺 `pymdown-extensions` 11.0.1。`uv.toml` 只放索引与证书设置；代理只认 `HTTP_PROXY`、`HTTPS_PROXY`、`ALL_PROXY` 环境变量，由该脚本注入，不写进仓库配置。
+
+升级依赖时改 `pyproject.toml` 的版本号，跑 `npm run uv:lock` 与 `npm run uv:sync`，再按[第三方资源说明](../THIRD_PARTY_NOTICES.md)复核实际分发文件。
 
 ## 前端与主题
 
@@ -24,7 +39,7 @@ MkDocs 直接读取 `docs/`。课程位于 `docs/courses/<slug>/`，入口为 `i
 
 阅读和实验样式位于 `docs/assets/stylesheets/`；KaTeX 原发行文件位于 `docs/assets/vendor/katex/`，保留其 LICENSE。模板覆盖位于 `theme/`。
 
-页面采用 Material 原生导航、课程索引、页脚、配色、卡片、按钮和折叠组件。新增页面先使用 `mkdocs.yml` 和 Markdown 扩展，样式仅补充阅读、实验、打印与无障碍需求。
+页面用 Material 自带的导航、页脚、配色、卡片和折叠组件，课程索引另外接上。新增页面先走 `mkdocs.yml` 和 Markdown 扩展，样式只在阅读、实验、打印和无障碍上补足。
 
 课程首页与考点页面由 Markdown 与自有样式组成：`.chapter-grid`、`.chapter-card`、`.course-steps`。每门课拆成两套页面：`chapter-NN.md` 放学习导航、概念讲解与练习；`exam/NN.md` 放必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，`exam/index.md` 是考点总览。考点页文件名不得以 `chapter-` 开头，否则会与章节文件集校验冲突；章页用 `(exam/NN.md)` 链到考点页，考点页用 `(../chapter-NN.md)` 链回。
 

@@ -1,0 +1,616 @@
+{
+  "code": "13511",
+  "name": "多媒体技术及应用（第三版）",
+  "papers": [
+    {
+      "paper_id": "FJ-13511-202304",
+      "period": "2023-04",
+      "version_note": "2023-04 福建自考 13511 卷，33 个题号，3 页原图，无 OCR 文本；本地题库无该课程数据，本文件只按逐题 JSONL 汇聚题号、题型、分值、考点与状态，不含题干、选项与答案原文。题型取记录 type 字段，分值按台账分题型计（单选 1、多选 2、名词解释 4、简答 15、论述 20），因此 Q20 记录为多选但只有 4 个选项，与台账单选 20 题、多选 5 题的划分相差 1 题，合计 101 分，按记录原值保留待核。Q33 取第 1 章主记录，第 9 章另有一条不计题的跨章引用未纳入。Q25 记录的 chapter_refs 为空，chapter_refs 与 section_refs 均照记录留空。topic_tags 逐条照记录同名字段复制，保留其中的章节号与省份真指标记，不做改写。JSONL 没有逐题认知层次字段，syllabus_level 统一填未登记。section_refs 只做编号解析，第 9 章等无编号的章节当空数组处理。section_refs 与 syllabus.json 的章节分组不是同一编号体系，不做换算。",
+      "questions": [
+        {
+          "question_id": "13511-FJ-202304-Q01",
+          "question_no": 1,
+          "type": "single_choice",
+          "points": 1,
+          "chapter_refs": [
+            1
+          ],
+          "section_refs": [
+            "1.1.1"
+          ],
+          "topic_tags": [
+            "福建真题",
+            "显示媒体",
+            "输入媒体"
+          ],
+          "syllabus_level": "未登记",
+          "review_status": "source-checked"
+        },
+        {
+          "question_id": "13511-FJ-202304-Q02",
+          "question_no": 2,
+          "type": "single_choice",
+          "points": 1,
+          "chapter_refs": [
+            2,
+            5
+          ],
+          "section_refs": [
+            "2.2.5",
+            "5.1"
+          ],
+          "topic_tags": [
+            "福建真题",
+            "第2章 2.2.5",
+            "第5章 5.1"
+          ],
+          "syllabus_level": "未登记",
+          "review_status": "source-checked"
+        },
+        {
+          "question_id": "13511-FJ-202304-Q03",
+          "question_no": 3,
+          "type": "single_choice",
+          "points": 1,
+          "chapter_refs": [
+            3
+          ],
+          "section_refs": [
+            "3.2"
+          ],
+          "topic_tags": [
+            "文本存储类型",
+            "文件格式辨析"
+          ],
+          "syllabus_level": "未登记",
+          "review_status": "source-checked"
+        },
+        {
+          "question_id": "13511-FJ-202304-Q04",
+          "question_no": 4,
+          "type": "single_choice",
+          "points": 1,
+          "chapter_refs": [
+            1
+          ],
+          "section_refs": [
+            "1.1.2"
+          ],
+          "topic_tags": [
+            "多媒体技术特征",
+            "集成性"
+          ],
+          "syllabus_level": "未登记",
+          "review_status": "source-checked"
+        },
+        {
+          "question_id": "13511-FJ-202304-Q05",
+          "question_no": 5,
+          "type": "single_choice",
+          "points": 1,
+          "chapter_refs": [
+            2
+          ],
+          "section_refs": [
+            "2.2.3"
+          ],
+          "topic_tags": [
+            "福建真题",
+            "光盘",
+            "存储设备"
+          ],
+          "syllabus_level": "未登记",
+          "review_status": "source-checked"
+        },
+        {
+          "question_id": "13511-FJ-202304-Q06",
+          "question_no": 6,
+          "type": "single_choice",
+          "points": 1,
+          "chapter_refs": [
+            8
+          ],
+          "section_refs": [
+            "8.14"
+          ],
+          "topic_tags": [
+            "福建真题",
+            "多媒体创作工具",
+            "基于时间"
+          ],
+          "syllabus_level": "未登记",
+          "review_status": "mapping-pending"
+        },
+        {
+          "question_id": "13511-FJ-202304-Q07",
+          "question_no": 7,
+          "type": "single_choice",
+          "points": 1,
+          "chapter_refs": [
+            1
+          ],
+          "section_refs": [
+            "1.1.2"
+          ],
+          "topic_tags": [
+            "多媒体技术定义",
+            "多媒体技术特征"
+          ],
+          "syllabus_level": "未登记",
+          "review_status": "source-checked"
+        },
+        {
+          "question_id": "13511-FJ-202304-Q08",
+          "question_no": 8,
+          "type": "single_choice",
+          "points": 1,
+          "chapter_refs": [
+            4
+          ],
+          "section_refs": [
+            "4.2.1"
+          ],
+          "topic_tags": [
+            "图形图像处理",
+            "福建真题"
+          ],
+          "syllabus_level": "未登记",
+          "review_status": "source-checked"
+        },
+        {
+          "question_id": "13511-FJ-202304-Q09",
+          "question_no": 9,
+          "type": "single_choice",
+          "points": 1,
+          "chapter_refs": [
+            4
+          ],
+          "section_refs": [
+            "4.2.1"
+          ],
+          "topic_tags": [
+            "图形图像处理",
+            "福建真题"
+          ],
+          "syllabus_level": "未登记",
+          "review_status": "source-checked"
+        },
+        {
+          "question_id": "13511-FJ-202304-Q10",
+          "question_no": 10,
+          "type": "single_choice",
+          "points": 1,
+          "chapter_refs": [
+            4
+          ],
+          "section_refs": [
+            "4.2.1"
+          ],
+          "topic_tags": [
+            "图形图像处理",
+            "福建真题"
+          ],
+          "syllabus_level": "未登记",
+          "review_status": "source-checked"
+        },
+        {
+          "question_id": "13511-FJ-202304-Q11",
+          "question_no": 11,
+          "type": "single_choice",
+          "points": 1,
+          "chapter_refs": [
+            4
+          ],
+          "section_refs": [
+            "4.2.2"
+          ],
+          "topic_tags": [
+            "图形图像处理",
+            "福建真题"
+          ],
+          "syllabus_level": "未登记",
+          "review_status": "source-checked"
+        },
+        {
+          "question_id": "13511-FJ-202304-Q12",
+          "question_no": 12,
+          "type": "single_choice",
+          "points": 1,
+          "chapter_refs": [
+            4
+          ],
+          "section_refs": [
+            "4.2.2"
+          ],
+          "topic_tags": [
+            "图形图像处理",
+            "福建真题"
+          ],
+          "syllabus_level": "未登记",
+          "review_status": "source-checked"
+        },
+        {
+          "question_id": "13511-FJ-202304-Q13",
+          "question_no": 13,
+          "type": "single_choice",
+          "points": 1,
+          "chapter_refs": [
+            4
+          ],
+          "section_refs": [
+            "4.2.1"
+          ],
+          "topic_tags": [
+            "图形图像处理",
+            "福建真题"
+          ],
+          "syllabus_level": "未登记",
+          "review_status": "source-checked"
+        },
+        {
+          "question_id": "13511-FJ-202304-Q14",
+          "question_no": 14,
+          "type": "single_choice",
+          "points": 1,
+          "chapter_refs": [
+            4
+          ],
+          "section_refs": [
+            "4.4.4"
+          ],
+          "topic_tags": [
+            "图形图像处理",
+            "福建真题"
+          ],
+          "syllabus_level": "未登记",
+          "review_status": "source-checked"
+        },
+        {
+          "question_id": "13511-FJ-202304-Q15",
+          "question_no": 15,
+          "type": "single_choice",
+          "points": 1,
+          "chapter_refs": [
+            4
+          ],
+          "section_refs": [
+            "4.4.4"
+          ],
+          "topic_tags": [
+            "图形图像处理",
+            "福建真题"
+          ],
+          "syllabus_level": "未登记",
+          "review_status": "source-checked"
+        },
+        {
+          "question_id": "13511-FJ-202304-Q16",
+          "question_no": 16,
+          "type": "single_choice",
+          "points": 1,
+          "chapter_refs": [
+            6
+          ],
+          "section_refs": [],
+          "topic_tags": [
+            "福建真题",
+            "第6章候选；教材依据待核"
+          ],
+          "syllabus_level": "未登记",
+          "review_status": "mapping-pending"
+        },
+        {
+          "question_id": "13511-FJ-202304-Q17",
+          "question_no": 17,
+          "type": "single_choice",
+          "points": 1,
+          "chapter_refs": [
+            6
+          ],
+          "section_refs": [
+            "6.5"
+          ],
+          "topic_tags": [
+            "福建真题",
+            "第6章 6.5"
+          ],
+          "syllabus_level": "未登记",
+          "review_status": "source-checked"
+        },
+        {
+          "question_id": "13511-FJ-202304-Q18",
+          "question_no": 18,
+          "type": "single_choice",
+          "points": 1,
+          "chapter_refs": [
+            5
+          ],
+          "section_refs": [
+            "5.5"
+          ],
+          "topic_tags": [
+            "福建真题",
+            "第5章 5.5"
+          ],
+          "syllabus_level": "未登记",
+          "review_status": "source-checked"
+        },
+        {
+          "question_id": "13511-FJ-202304-Q19",
+          "question_no": 19,
+          "type": "single_choice",
+          "points": 1,
+          "chapter_refs": [
+            6
+          ],
+          "section_refs": [],
+          "topic_tags": [
+            "福建真题",
+            "第6章候选；教材依据待核"
+          ],
+          "syllabus_level": "未登记",
+          "review_status": "mapping-pending"
+        },
+        {
+          "question_id": "13511-FJ-202304-Q20",
+          "question_no": 20,
+          "type": "multiple_choice",
+          "points": 2,
+          "chapter_refs": [
+            5,
+            6
+          ],
+          "section_refs": [
+            "6.5"
+          ],
+          "topic_tags": [
+            "福建真题",
+            "第5章音频编辑",
+            "第6章 6.5"
+          ],
+          "syllabus_level": "未登记",
+          "review_status": "source-checked"
+        },
+        {
+          "question_id": "13511-FJ-202304-Q21",
+          "question_no": 21,
+          "type": "multiple_choice",
+          "points": 2,
+          "chapter_refs": [
+            1
+          ],
+          "section_refs": [
+            "1.1.1"
+          ],
+          "topic_tags": [
+            "感觉媒体",
+            "显示媒体"
+          ],
+          "syllabus_level": "未登记",
+          "review_status": "source-checked"
+        },
+        {
+          "question_id": "13511-FJ-202304-Q22",
+          "question_no": 22,
+          "type": "multiple_choice",
+          "points": 2,
+          "chapter_refs": [
+            2,
+            8
+          ],
+          "section_refs": [
+            "2.5",
+            "8.14"
+          ],
+          "topic_tags": [
+            "福建真题",
+            "创作工具",
+            "图标工具"
+          ],
+          "syllabus_level": "未登记",
+          "review_status": "source-checked"
+        },
+        {
+          "question_id": "13511-FJ-202304-Q23",
+          "question_no": 23,
+          "type": "multiple_choice",
+          "points": 2,
+          "chapter_refs": [
+            4
+          ],
+          "section_refs": [
+            "4.2.4"
+          ],
+          "topic_tags": [
+            "福建真题",
+            "文件扩展名",
+            "位图"
+          ],
+          "syllabus_level": "未登记",
+          "review_status": "source-checked"
+        },
+        {
+          "question_id": "13511-FJ-202304-Q24",
+          "question_no": 24,
+          "type": "multiple_choice",
+          "points": 2,
+          "chapter_refs": [
+            4
+          ],
+          "section_refs": [
+            "4.2.1"
+          ],
+          "topic_tags": [
+            "色彩三要素",
+            "色彩应用",
+            "多选"
+          ],
+          "syllabus_level": "未登记",
+          "review_status": "source-checked"
+        },
+        {
+          "question_id": "13511-FJ-202304-Q25",
+          "question_no": 25,
+          "type": "multiple_choice",
+          "points": 2,
+          "chapter_refs": [],
+          "section_refs": [],
+          "topic_tags": [
+            "福建真题",
+            "多媒体制作工具",
+            "电子相册"
+          ],
+          "syllabus_level": "未登记",
+          "review_status": "mapping-pending"
+        },
+        {
+          "question_id": "13511-FJ-202304-Q26",
+          "question_no": 26,
+          "type": "term_definition",
+          "points": 4,
+          "chapter_refs": [
+            1
+          ],
+          "section_refs": [
+            "1.1.1"
+          ],
+          "topic_tags": [
+            "多媒体定义"
+          ],
+          "syllabus_level": "未登记",
+          "review_status": "source-checked"
+        },
+        {
+          "question_id": "13511-FJ-202304-Q27",
+          "question_no": 27,
+          "type": "term_definition",
+          "points": 4,
+          "chapter_refs": [
+            6
+          ],
+          "section_refs": [
+            "6.1"
+          ],
+          "topic_tags": [
+            "福建真题",
+            "第6章 6.1"
+          ],
+          "syllabus_level": "未登记",
+          "review_status": "source-checked"
+        },
+        {
+          "question_id": "13511-FJ-202304-Q28",
+          "question_no": 28,
+          "type": "term_definition",
+          "points": 4,
+          "chapter_refs": [
+            4
+          ],
+          "section_refs": [
+            "4.2.1"
+          ],
+          "topic_tags": [
+            "明度",
+            "亮度",
+            "名词解释"
+          ],
+          "syllabus_level": "未登记",
+          "review_status": "source-checked"
+        },
+        {
+          "question_id": "13511-FJ-202304-Q29",
+          "question_no": 29,
+          "type": "term_definition",
+          "points": 4,
+          "chapter_refs": [
+            4
+          ],
+          "section_refs": [
+            "4.4.1"
+          ],
+          "topic_tags": [
+            "图像编辑",
+            "图像内容编辑",
+            "名词解释"
+          ],
+          "syllabus_level": "未登记",
+          "review_status": "source-checked"
+        },
+        {
+          "question_id": "13511-FJ-202304-Q30",
+          "question_no": 30,
+          "type": "term_definition",
+          "points": 4,
+          "chapter_refs": [
+            6
+          ],
+          "section_refs": [
+            "6.1.3"
+          ],
+          "topic_tags": [
+            "福建真题",
+            "第6章 6.1.3"
+          ],
+          "syllabus_level": "未登记",
+          "review_status": "source-checked"
+        },
+        {
+          "question_id": "13511-FJ-202304-Q31",
+          "question_no": 31,
+          "type": "short_answer",
+          "points": 15,
+          "chapter_refs": [
+            1
+          ],
+          "section_refs": [
+            "1.1.1"
+          ],
+          "topic_tags": [
+            "感觉媒体分类",
+            "简答题"
+          ],
+          "syllabus_level": "未登记",
+          "review_status": "source-checked"
+        },
+        {
+          "question_id": "13511-FJ-202304-Q32",
+          "question_no": 32,
+          "type": "short_answer",
+          "points": 15,
+          "chapter_refs": [
+            4
+          ],
+          "section_refs": [
+            "4.3.3"
+          ],
+          "topic_tags": [
+            "摄影构图",
+            "拍摄",
+            "简答题"
+          ],
+          "syllabus_level": "未登记",
+          "review_status": "source-checked"
+        },
+        {
+          "question_id": "13511-FJ-202304-Q33",
+          "question_no": 33,
+          "type": "essay",
+          "points": 20,
+          "chapter_refs": [
+            1,
+            2,
+            6,
+            9
+          ],
+          "section_refs": [],
+          "topic_tags": [
+            "多媒体通信",
+            "综合论述"
+          ],
+          "syllabus_level": "未登记",
+          "review_status": "source-checked"
+        }
+      ]
+    }
+  ]
+}

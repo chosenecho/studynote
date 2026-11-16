@@ -68,6 +68,29 @@ class BuildTests(unittest.TestCase):
             self.assertEqual(''.join(words), '死锁 Cache')
             self.assertIn('Cache', words)
 
+    def test_browser_chinese_tokenizer_rejects_missing_or_changed_vendor_bundle(self):
+        with TemporaryDirectory() as tmp:
+            site = Path(tmp)
+            with self.assertRaisesRegex(ValueError, 'Missing browser Chinese tokenizer'):
+                assets.patch_browser_lunr_zh(site)
+            path = site / 'assets/javascripts/lunr/min/lunr.zh.min.js'
+            path.parent.mkdir(parents=True)
+            unknown = 'vendor wrapper changed; review before upgrading'
+            path.write_text(unknown, encoding='utf-8')
+            with self.assertRaisesRegex(ValueError, 'Unexpected browser Chinese tokenizer bundle'):
+                assets.patch_browser_lunr_zh(site)
+            self.assertEqual(path.read_text(encoding='utf-8'), unknown)
+
+    def test_math_rejects_missing_delimiters_before_rendering(self):
+        with TemporaryDirectory() as tmp:
+            site = Path(tmp)
+            page = site / 'index.html'
+            source = '<span class="arithmatex">2^3=8</span>'
+            page.write_text(source, encoding='utf-8')
+            with self.assertRaisesRegex(ValueError, 'Unexpected math delimiters'):
+                assets.render_math(site)
+            self.assertEqual(page.read_text(encoding='utf-8'), source)
+
     def test_svg_geometry_uses_root_viewbox_not_nested_rectangle(self):
         with TemporaryDirectory() as tmp:
             root = Path(tmp)

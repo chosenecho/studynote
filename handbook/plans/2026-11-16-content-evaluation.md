@@ -95,11 +95,11 @@ P1 与 P3 可以并行：P3 的映射工作不依赖章节评审批次，但统�
 | --- | --- | --- | --- |
 | 大纲覆盖 | `tools/checks/syllabus.py` | 把 `scope` 拆成 `1.1`、`2.5` 这类编号，逐条要求：讲解可见、`exam/NN.md` 至少出现一次 `【考纲 X.Y】` 标签、练习的"考点：第 N 节"引用到该节；输出覆盖矩阵与未签核清单到 `artifacts/eval/syllabus-coverage.json` | 子串缺失阻断；未签核只警告并写文件 |
 | 真题声明锚点 | `tools/checks/exam_claims.py` | 扫"常考""考过""近年没出过""高频"所在段落与表格行，要求同块内有 `<!-- 真题: 02323-2021-04-Q12 -->` 形式的锚点；首批只登记不阻断 | 先警告，P4 后转为阻断 |
-| 真题映射统计 | `tools/checks/exam_map.py` | 读 `config/exam-map.json`，按 `EXAM_DB` 指向的 sqlite 校验题号存在、题型与分值可读，输出近五年考点覆盖率、每章命中题量与分值、反向缺口清单 | 无 `EXAM_DB` 或文件缺失时跳过并打印提示，CI 不依赖 |
+| 真题映射统计 | `tools/checks/exam_map.py` | 读 `config/exam-map.json` 做纯映射层校验（结构、重复、题型分值、章节落点），可选按 `EXAM_DB` 指向的 sqlite 核验题号存在；输出近五年考点覆盖率、每章命中题量与分值、反向缺口清单 | 无 `EXAM_DB` 时降级为纯映射校验并返回 0；显式指定但路径失效则失败 |
 | 三页一致与计数 | `tools/checks/counts.py` | 校验索引卡"必背 N 条 · 默写 M 题"与实际列表长度；抽取"必背数字与公式"表的数值，与同章讲解中出现的数值比对；三页术语表差集 | 计数不符阻断；术语差集只警告 |
 | 算式复算 | `tools/checks/arithmetic.py` | 按多媒体复算的写法，把 OS/CO/CN 题面输入与答案数值配对重算，先覆盖 OS 6 章与 CO 6 章的显式算式题 | 复算不符阻断 |
 
-`npm run check` 增加两个可选脚本：`check:content`（syllabus + counts + arithmetic，离线可跑）与 `check:exams`（exam_map，需要 `EXAM_DB`）。CI 只跑前者；后者在本地评估与发布前手动执行。
+`npm run check` 增加两个脚本：`check:content`（syllabus + counts + arithmetic，离线可跑）与 `check:exams`（exam_map，纯映射层可无数据库运行，CI 亦执行；本地评估可另设 `EXAM_DB` 追加库内核验）。
 
 **8. P2 逐章评审**
 

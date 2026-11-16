@@ -1,18 +1,21 @@
-# Run uv through the local proxy.
+# Run uv, optionally through a proxy.
 #
 # Usage:
+#   powershell -NoProfile -ExecutionPolicy Bypass -File tools/dev/uv.ps1 sync --locked
 #   powershell -NoProfile -ExecutionPolicy Bypass -File tools/dev/uv.ps1 lock
-#   powershell -NoProfile -ExecutionPolicy Bypass -File tools/dev/uv.ps1 sync
-#   powershell -NoProfile -ExecutionPolicy Bypass -File tools/dev/uv.ps1 run mkdocs build --strict
 #   powershell -NoProfile -ExecutionPolicy Bypass -File tools/dev/uv.ps1 -Proxy http://127.0.0.1:7890 sync
 #
-# Default proxy is FlClash's mixed port 10808 (accepts plain HTTP CONNECT).
-# The index is pinned to official PyPI: domestic mirrors lack
-# pymdown-extensions 11.0.1, which the site needs.
+# The proxy is optional: pass -Proxy to inject HTTP(S)_PROXY / ALL_PROXY for this
+# run. Without it, uv uses whatever the environment already provides, so CI and
+# other machines never depend on a fixed local port. The index stays pinned to
+# official PyPI for this process only (the committed uv.lock is resolved against
+# it): domestic mirrors lack pymdown-extensions 11.0.1, and an ambient
+# UV_DEFAULT_INDEX pointing at a mirror would otherwise make --locked report a
+# stale lockfile.
 
 $ErrorActionPreference = 'Stop'
 
-$proxy = 'http://127.0.0.1:10808'
+$proxy = $null
 $rest = New-Object System.Collections.Generic.List[string]
 $i = 0
 while ($i -lt $args.Count) {
@@ -25,11 +28,11 @@ while ($i -lt $args.Count) {
     }
 }
 
-$env:HTTP_PROXY = $proxy
-$env:HTTPS_PROXY = $proxy
-$env:ALL_PROXY = $proxy
+if ($proxy) {
+    $env:HTTP_PROXY = $proxy
+    $env:HTTPS_PROXY = $proxy
+    $env:ALL_PROXY = $proxy
+}
 $env:UV_DEFAULT_INDEX = 'https://pypi.org/simple'
-$env:UV_HTTP_TIMEOUT = '120'
-
 & uv @rest
 exit $LASTEXITCODE

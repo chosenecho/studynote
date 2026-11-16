@@ -24,7 +24,7 @@ npm ci
 npm run dev
 ```
 
-`npm run uv:sync` 经本地代理下载依赖，默认代理为 `http://127.0.0.1:10808`，改端口见 [tools/dev/uv.ps1](tools/dev/uv.ps1)；直连时用 `npm run uv:sync:direct`。打开 http://127.0.0.1:8000/。仅构建站点可直接执行 `npm run build`，产物写入 `dist/`。
+`npm run uv:sync` 按锁文件安装（`uv sync --locked`），默认沿用环境变量，不依赖本机代理端口。锁文件对官方 PyPI 解析；若环境变量 `UV_DEFAULT_INDEX`/`UV_INDEX_URL` 指向非官方镜像，先将其设为 `https://pypi.org/simple` 或清除，否则 `--locked` 会报锁文件过期。需要代理时可显式使用 [tools/dev/uv.ps1](tools/dev/uv.ps1)：`powershell -NoProfile -ExecutionPolicy Bypass -File tools/dev/uv.ps1 -Proxy http://127.0.0.1:10808 sync --locked`。打开 http://127.0.0.1:8000/。仅构建站点可直接执行 `npm run build`，产物写入 `dist/`。
 
 ## 目录
 

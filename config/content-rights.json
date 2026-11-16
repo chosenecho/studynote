@@ -287,9 +287,9 @@
       "status": "cleared",
       "license": "Apache-2.0",
       "source_kind": "original-software-and-documentation",
-      "basis": "2026-11-06 审阅第一方软件、存储兼容逻辑、交互状态和界面文案；2026-11-10 追加页脚备案行的图标与文字对齐样式，并让桌面端搜索面板只留字段内一个图标、结果区在展开时即有稳定高度；只影响样式，运行针对性单元及浏览器回归。",
-      "reviewed_on": "2026-11-10",
-      "sha256": "b67e16575feccbc5fca6ee594ac0f18ef8c28a5aeefc7380d49ab46e1f433a69"
+      "basis": "2026-11-16 内容组织修复：新增页脚指路行样式，只涉及排版，不含第三方素材。 未新增第三方文字、题目或图像，许可类别与来源类别不变。",
+      "reviewed_on": "2026-11-16",
+      "sha256": "bc298d0c8e4832f0477bd963cc4645cab9cf2a18ba343c6aa69c5fcaaaafa37a"
     },
     {
       "path": "docs/assets/vendor/katex/LICENSE",
@@ -698,9 +698,9 @@
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
-      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
-      "reviewed_on": "2026-11-10",
-      "sha256": "5659c65fc5ce89bf4442c5aaf389bd4211d1eee46e95180a1a58d43e7cbb67a1"
+      "basis": "2026-11-16 内容组织修复：入口页回链改指学习入口页，开场句补学习指南链接。 未新增第三方文字、题目或图像，许可类别与来源类别不变。",
+      "reviewed_on": "2026-11-16",
+      "sha256": "328ef1a6fc367508c9ccd13744c37c1cb51c8251aebb79bc5a380401586eaf86"
     },
     {
       "path": "docs/courses/computer-networks/figures/management-loop.svg",
@@ -743,9 +743,9 @@
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
-      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
-      "reviewed_on": "2026-11-10",
-      "sha256": "b19b978741bb5be5ef083324e0309d0c8485effbc34b1db4225dd652a79832b0"
+      "basis": "2026-11-16 内容组织修复：入口开场句改为指向学习指南，去掉重复的复习顺序说明。 未新增第三方文字、题目或图像，许可类别与来源类别不变。",
+      "reviewed_on": "2026-11-16",
+      "sha256": "fc8b3d3e41f162e56b42d9dc92274aad77b21b2bb2f2ea7b6db835bb2be856bd"
     },
     {
       "path": "docs/courses/computer-organization/chapter-01.md",
@@ -860,9 +860,9 @@
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
-      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
-      "reviewed_on": "2026-11-10",
-      "sha256": "91aa3e17866afca317a33a320b4431c59d31190423973f03b1a6185f27c840f6"
+      "basis": "2026-11-16 内容组织修复：入口页回链改指学习入口页，开场句补学习指南链接。 未新增第三方文字、题目或图像，许可类别与来源类别不变。",
+      "reviewed_on": "2026-11-16",
+      "sha256": "2ccbb163d3fd833917cec5cd3e69705502fd79d132ff065c580ce4e58d0cfa90"
     },
     {
       "path": "docs/courses/computer-organization/figures/bus-transaction.svg",
@@ -923,9 +923,9 @@
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
-      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
-      "reviewed_on": "2026-11-10",
-      "sha256": "8f203b18bee5e7d839b42390eeaaeddf593107b1f99784aab9d926fa0bdaf57a"
+      "basis": "2026-11-16 内容组织修复：入口开场句改为指向学习指南，去掉重复的复习顺序说明。 未新增第三方文字、题目或图像，许可类别与来源类别不变。",
+      "reviewed_on": "2026-11-16",
+      "sha256": "815b5d0807d38f34d666bbf6bcb193cc784ff8e40a7e6ec8f638cf80ae7b051e"
     },
     {
       "path": "docs/courses/index.md",
@@ -1103,9 +1103,9 @@
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
-      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
-      "reviewed_on": "2026-11-10",
-      "sha256": "2198c342e29a6377bbf6d45f81d31a16423a5dbf55dab5153f45a814c1e86350"
+      "basis": "2026-11-16 内容组织修复：入口页回链改指学习入口页，开场句补学习指南链接。 未新增第三方文字、题目或图像，许可类别与来源类别不变。",
+      "reviewed_on": "2026-11-16",
+      "sha256": "df479024cb87db3f2c52cd4b397a7756b83b18dcc70f7fa679b1f945e3b3eb01"
     },
     {
       "path": "docs/courses/multimedia-technology/figures/animation-workflow.svg",
@@ -1193,9 +1193,9 @@
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
-      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
-      "reviewed_on": "2026-11-10",
-      "sha256": "983d0994656378ac26ed4a709ecf95931067fe4a9e02b7df7146074146911f41"
+      "basis": "2026-11-16 内容组织修复：入口开场句改为指向学习指南，去掉重复的复习顺序说明。 未新增第三方文字、题目或图像，许可类别与来源类别不变。",
+      "reviewed_on": "2026-11-16",
+      "sha256": "63faa7db2a6eb54846c5281191313778b06799bb7038db2707512d7e965662f0"
     },
     {
       "path": "docs/courses/operating-systems/chapter-01.md",
@@ -1310,9 +1310,9 @@
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
-      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
-      "reviewed_on": "2026-11-10",
-      "sha256": "e3b231886c5bc4a9691eaad8421b4f8781756b1d393f6207b48de5b8145270ac"
+      "basis": "2026-11-16 内容组织修复：入口页回链改指学习入口页，开场句补学习指南链接。 未新增第三方文字、题目或图像，许可类别与来源类别不变。",
+      "reviewed_on": "2026-11-16",
+      "sha256": "b04d033ca9049eacb47dcaeacb390c16642731ef4563e93e552d6db803692d20"
     },
     {
       "path": "docs/courses/operating-systems/figures/address-walk.svg",
@@ -1382,9 +1382,9 @@
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
-      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
-      "reviewed_on": "2026-11-10",
-      "sha256": "7b09b03d2b6c74ac2c54fe1b07f0c89c242c0a31bbc46590b7899a58b9dea348"
+      "basis": "2026-11-16 内容组织修复：入口开场句改为指向学习指南，去掉重复的复习顺序说明。 未新增第三方文字、题目或图像，许可类别与来源类别不变。",
+      "reviewed_on": "2026-11-16",
+      "sha256": "76265bcae386ccbeba8bef282b9592ae436ae32169b534dff00d2d8f357a80b3"
     },
     {
       "path": "docs/errata.md",
@@ -1409,9 +1409,9 @@
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
-      "reviewed_on": "2026-11-10",
-      "sha256": "63d4ad7edb431a7ba404fccad9b57a4ccdb48fcf476cbe8a2ab7393fdc7d3c3b"
+      "basis": "2026-11-16 内容组织修复：首页四张课程卡片的「学习导航」改指真正的学习入口页，纠正了原先指向课程导航页的错指。 未新增第三方文字、题目或图像，许可类别与来源类别不变。",
+      "reviewed_on": "2026-11-16",
+      "sha256": "cea58162c5c97b667de18579b4df312549c410797fed347e898fc29d436ea39e"
     },
     {
       "path": "docs/labs/address.md",
@@ -1508,9 +1508,9 @@
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "本轮重写术语与易错条目的解释文字，保留锚点、术语对应关系与结论，未新增未证实事实。",
-      "reviewed_on": "2026-11-10",
-      "sha256": "df79faa114e46e5ff21160abab445fa20fea603d3fd983943125fc856da690ee"
+      "basis": "2026-11-16 内容组织修复：术语表按课程拆成四个分组并改用 ASCII 锚点，只调整分组与锚点，未改条目释义与正文。 未新增第三方文字、题目或图像，许可类别与来源类别不变。",
+      "reviewed_on": "2026-11-16",
+      "sha256": "0929c01a1f18d5f6e1dc5d5f6bb3015254f2f4e07b520712aab402792c3897d6"
     },
     {
       "path": "docs/reference/index.md",
@@ -1526,9 +1526,9 @@
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "本轮重写术语与易错条目的解释文字，保留锚点、术语对应关系与结论，未新增未证实事实。",
-      "reviewed_on": "2026-11-08",
-      "sha256": "ff44227f62c709655559705c4eff44c8036c4610b92d937dea4854420cab58da"
+      "basis": "2026-11-16 内容组织修复：易错点按课程分组，跨课程主题单列到页末并加 ASCII 锚点，未改条目内容。 未新增第三方文字、题目或图像，许可类别与来源类别不变。",
+      "reviewed_on": "2026-11-16",
+      "sha256": "1b8f222f29304624bb9c2121c201151549cd8cc42dbef2d704bb76d4dda4494c"
     },
     {
       "path": "docs/robots.txt",
@@ -1553,9 +1553,9 @@
       "status": "cleared",
       "license": "Apache-2.0",
       "source_kind": "original-software-and-documentation",
-      "basis": "本轮按已核验成书快照独立组织计算机网络讲解、任务与图示，审阅新内容及站点接入差异；未收录教材题目、附录答案或插图。见 archive/releases/2026-11-04-computer-networks.md。编辑核验不构成法律认定。",
-      "reviewed_on": "2026-11-04",
-      "sha256": "ec098e9fa30c7a06c106f3767104878a2f97e5cb9acbe37eb24c76cda9211302"
+      "basis": "2026-11-16 内容组织修复：新增「站点组织规则」一节，记录层级、命名、页脚与标题层级约定。 未新增第三方文字、题目或图像，许可类别与来源类别不变。",
+      "reviewed_on": "2026-11-16",
+      "sha256": "cfda48b30fbe76abaf1ab0cd93138c80c4337ebcdd7ba9ae42751eed006ca202"
     },
     {
       "path": "handbook/deployment.md",

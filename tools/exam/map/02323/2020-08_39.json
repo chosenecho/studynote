@@ -15,7 +15,8 @@
         "1.4"
       ],
       "topic_tags": [
-        "用户接口"
+        "用户接口",
+        "操作系统的功能"
       ],
       "syllabus_level": "识记",
       "review_status": "source-checked"
@@ -32,10 +33,11 @@
         "1.6"
       ],
       "topic_tags": [
-        "程序计数器"
+        "程序计数器",
+        "指令执行"
       ],
       "syllabus_level": "识记",
-      "review_status": "mapping-pending"
+      "review_status": "source-checked"
     },
     {
       "question_id": "2020-08-02323-Q03",
@@ -49,9 +51,10 @@
         "1.5"
       ],
       "topic_tags": [
-        "操作系统是"
+        "操作系统是",
+        "三种体系结构"
       ],
-      "syllabus_level": "识记",
+      "syllabus_level": "领会",
       "review_status": "source-checked"
     },
     {
@@ -68,7 +71,7 @@
       "topic_tags": [
         "并发性"
       ],
-      "syllabus_level": "领会",
+      "syllabus_level": "识记",
       "review_status": "source-checked"
     },
     {
@@ -83,7 +86,8 @@
         "2.2"
       ],
       "topic_tags": [
-        "进程控制块"
+        "进程控制块",
+        "进程定义"
       ],
       "syllabus_level": "识记",
       "review_status": "source-checked"
@@ -100,9 +104,10 @@
         "3.4"
       ],
       "topic_tags": [
-        "时间片轮转"
+        "时间片轮转",
+        "六种算法及抢占时机"
       ],
-      "syllabus_level": "领会",
+      "syllabus_level": "识记",
       "review_status": "source-checked"
     },
     {
@@ -117,9 +122,10 @@
         "3.4"
       ],
       "topic_tags": [
-        "调度算法"
+        "调度算法",
+        "六种算法及抢占时机"
       ],
-      "syllabus_level": "领会",
+      "syllabus_level": "识记",
       "review_status": "source-checked"
     },
     {
@@ -134,9 +140,10 @@
         "3.4"
       ],
       "topic_tags": [
-        "调度算法"
+        "调度算法",
+        "六种算法及抢占时机"
       ],
-      "syllabus_level": "领会",
+      "syllabus_level": "识记",
       "review_status": "source-checked"
     },
     {
@@ -151,7 +158,8 @@
         "3.8"
       ],
       "topic_tags": [
-        "预防"
+        "预防",
+        "死锁预防"
       ],
       "syllabus_level": "识记",
       "review_status": "source-checked"
@@ -165,12 +173,13 @@
         3
       ],
       "section_refs": [
-        "3.7"
+        "3.11"
       ],
       "topic_tags": [
-        "死锁"
+        "死锁",
+        "检测、解除，死锁定理"
       ],
-      "syllabus_level": "领会",
+      "syllabus_level": "识记",
       "review_status": "source-checked"
     },
     {
@@ -185,7 +194,8 @@
         "4.1"
       ],
       "topic_tags": [
-        "访问时间"
+        "访问时间",
+        "层次、局部性"
       ],
       "syllabus_level": "识记",
       "review_status": "source-checked"
@@ -202,9 +212,10 @@
         "4.2"
       ],
       "topic_tags": [
-        "装入"
+        "装入",
+        "链接"
       ],
-      "syllabus_level": "领会",
+      "syllabus_level": "识记",
       "review_status": "source-checked"
     },
     {
@@ -219,7 +230,8 @@
         "4.7"
       ],
       "topic_tags": [
-        "分段"
+        "分段",
+        "分段、段页式"
       ],
       "syllabus_level": "领会",
       "review_status": "source-checked"
@@ -236,7 +248,8 @@
         "4.10"
       ],
       "topic_tags": [
-        "置换"
+        "置换",
+        "页面置换"
       ],
       "syllabus_level": "领会",
       "review_status": "source-checked"
@@ -253,7 +266,8 @@
         "4.4"
       ],
       "topic_tags": [
-        "分页"
+        "分页",
+        "页、页框、页表"
       ],
       "syllabus_level": "识记",
       "review_status": "source-checked"
@@ -272,7 +286,7 @@
       "topic_tags": [
         "目录结构"
       ],
-      "syllabus_level": "简单应用",
+      "syllabus_level": "识记",
       "review_status": "source-checked"
     },
     {
@@ -287,7 +301,7 @@
         "5.8"
       ],
       "topic_tags": [
-        "文件"
+        "空间管理"
       ],
       "syllabus_level": "简单应用",
       "review_status": "source-checked"
@@ -304,9 +318,10 @@
         "5.3"
       ],
       "topic_tags": [
-        "目录"
+        "目录操作",
+        "目录、路径"
       ],
-      "syllabus_level": "识记",
+      "syllabus_level": "领会",
       "review_status": "source-checked"
     },
     {
@@ -321,9 +336,10 @@
         "6.6"
       ],
       "topic_tags": [
-        "逻辑设备"
+        "逻辑设备",
+        "SPOOLing"
       ],
-      "syllabus_level": "识记",
+      "syllabus_level": "综合应用",
       "review_status": "source-checked"
     },
     {
@@ -338,6 +354,7 @@
         "6.2"
       ],
       "topic_tags": [
+        "控制方式",
         "SPOOLing"
       ],
       "syllabus_level": "领会",
@@ -355,7 +372,8 @@
         "1.2"
       ],
       "topic_tags": [
-        "批处理"
+        "批处理",
+        "单道"
       ],
       "syllabus_level": "识记",
       "review_status": "source-checked"
@@ -372,7 +390,8 @@
         "2.13"
       ],
       "topic_tags": [
-        "共享存储器"
+        "共享存储器",
+        "进程通信"
       ],
       "syllabus_level": "识记",
       "review_status": "source-checked"
@@ -408,7 +427,8 @@
         "3.6"
       ],
       "topic_tags": [
-        "多处理器"
+        "多处理器",
+        "多处理机类型、分配"
       ],
       "syllabus_level": "识记",
       "review_status": "source-checked"
@@ -427,7 +447,7 @@
       "topic_tags": [
         "平均周转"
       ],
-      "syllabus_level": "简单应用",
+      "syllabus_level": "识记",
       "review_status": "source-checked"
     },
     {
@@ -442,7 +462,8 @@
         "4.8"
       ],
       "topic_tags": [
-        "存储器"
+        "存储器",
+        "虚拟存储"
       ],
       "syllabus_level": "识记",
       "review_status": "source-checked"
@@ -459,9 +480,10 @@
         "4.2"
       ],
       "topic_tags": [
+        "装入",
         "重定位"
       ],
-      "syllabus_level": "领会",
+      "syllabus_level": "识记",
       "review_status": "source-checked"
     },
     {
@@ -476,7 +498,8 @@
         "4.4"
       ],
       "topic_tags": [
-        "逻辑地址"
+        "逻辑地址",
+        "页、页框、页表"
       ],
       "syllabus_level": "识记",
       "review_status": "source-checked"
@@ -493,10 +516,10 @@
         "5.1"
       ],
       "topic_tags": [
-        "文件"
+        "文件概述"
       ],
       "syllabus_level": "识记",
-      "review_status": "mapping-pending"
+      "review_status": "source-checked"
     },
     {
       "question_id": "2020-08-02323-Q30",
@@ -510,10 +533,10 @@
         "6.7"
       ],
       "topic_tags": [
-        "设备"
+        "I/O 软件层次"
       ],
-      "syllabus_level": "识记",
-      "review_status": "mapping-pending"
+      "syllabus_level": "综合应用",
+      "review_status": "source-checked"
     },
     {
       "question_id": "2020-08-02323-Q31",
@@ -527,7 +550,8 @@
         "2.8"
       ],
       "topic_tags": [
-        "系统调用"
+        "系统调用",
+        "线程概念"
       ],
       "syllabus_level": "领会",
       "review_status": "source-checked"
@@ -544,7 +568,8 @@
         "3.7"
       ],
       "topic_tags": [
-        "死锁"
+        "死锁",
+        "产生原因"
       ],
       "syllabus_level": "领会",
       "review_status": "source-checked"
@@ -561,6 +586,7 @@
         "4.11"
       ],
       "topic_tags": [
+        "抖动",
         "虚拟存储"
       ],
       "syllabus_level": "领会",
@@ -578,6 +604,7 @@
         "5.8"
       ],
       "topic_tags": [
+        "空间管理",
         "磁盘空间"
       ],
       "syllabus_level": "简单应用",
@@ -595,9 +622,10 @@
         "6.6"
       ],
       "topic_tags": [
-        "SPOOLing"
+        "SPOOLing",
+        "系统组成"
       ],
-      "syllabus_level": "识记",
+      "syllabus_level": "综合应用",
       "review_status": "source-checked"
     },
     {
@@ -614,7 +642,7 @@
       "topic_tags": [
         "信号量"
       ],
-      "syllabus_level": "简单应用",
+      "syllabus_level": "领会",
       "review_status": "source-checked"
     },
     {
@@ -629,7 +657,8 @@
         "3.9"
       ],
       "topic_tags": [
-        "安全序列"
+        "安全序列",
+        "安全／不安全状态"
       ],
       "syllabus_level": "识记",
       "review_status": "source-checked"
@@ -646,9 +675,10 @@
         "4.4"
       ],
       "topic_tags": [
-        "分页"
+        "分页",
+        "页、页框、页表"
       ],
-      "syllabus_level": "简单应用",
+      "syllabus_level": "识记",
       "review_status": "source-checked"
     },
     {
@@ -663,6 +693,7 @@
         "6.9"
       ],
       "topic_tags": [
+        "磁盘调度",
         "调度算法"
       ],
       "syllabus_level": "领会",

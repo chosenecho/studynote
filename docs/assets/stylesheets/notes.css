@@ -49,6 +49,12 @@ progress[data-study-progress]::-moz-progress-bar { background: var(--note-accent
 .md-typeset .study-breadcrumbs ol { display: flex; flex-wrap: wrap; gap: .3rem .5rem; list-style: none; margin: 0; padding: 0; }
 .md-typeset .study-breadcrumbs li { margin: 0; }
 .study-breadcrumbs li + li::before { content: "/"; margin-right: .5rem; }
+/* 与侧边栏保持同一套逻辑：当前位置用强调色，其余路径项与未选中的导航一样用正文色，
+   悬停/聚焦再点亮。原先面包屑把祖先链接染成强调色、当前位置留成正文色，和侧边栏
+   “当前位置是强调色、未选中是正文色”正好相反。 */
+.md-typeset .study-breadcrumbs a { color: var(--note-text); text-decoration: none; }
+.md-typeset .study-breadcrumbs a:is(:hover, :focus-visible) { color: var(--note-accent); text-decoration: underline; }
+.md-typeset .study-breadcrumbs [aria-current="page"] { color: var(--note-accent); }
 .md-typeset .exercise-options ul { list-style: none; padding: 0; margin-left: 0; }
 .md-typeset .exercise-options li { margin-left: 0; }
 .md-typeset details.exercise-answer > summary { min-height: 44px; }

@@ -1,0 +1,16 @@
+[project]
+name = "studynote"
+version = "1.0.0"
+description = "操作系统概论、计算机组成原理、计算机网络技术和多媒体技术的章节笔记与交互练习"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+dependencies = [
+    "mkdocs==1.6.1",
+    "mkdocs-material==9.7.7",
+    "pymdown-extensions==11.0.1",
+]
+
+[tool.uv]
+# 依赖以本文件为唯一来源；锁定文件为 uv.lock。
+# 下载走本地代理，见 tools/dev/uv.ps1 与 handbook/development.md。

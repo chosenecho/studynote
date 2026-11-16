@@ -5,7 +5,7 @@
 ## 本地准备
 
 ```sh
-python -m pip install -r requirements.txt
+npm run uv:sync
 npm ci
 npx playwright install chromium
 npx esa login
@@ -24,7 +24,7 @@ workbench version
 
 上传前确认远端归档和发布目录不存在。归档经 SHA-256 校验后解包到 `/var/www/studynote/releases/<release>/`，目录权限为 `755`，文件为 `644`。通过 `nginx -t` 后，原子切换 `current` 符号链接并重载 Nginx。激活失败时恢复原链接。源码提交、内容摘要、逐文件摘要、缓存刷新请求与激活结果保存在本地 `artifacts/releases/<release>/`。
 
-激活后刷新正式域名和跳转域名的 ESA 缓存，读取 `studynote.chosenecho.top/__release.json` 确认发布编号。日常发布无需改变 DNS、证书或源站校验值。
+激活后刷新正式域名和跳转域名的 ESA 缓存，读取 `studynote.chosenecho.top/__release.json` 确认发布编号。随后按 `dist/` 的页面清单用 curl 每十页一批请求每个页面，把边缘缓存填满，避免发布后的第一批访问全部回源；预热结果写入 `artifacts/releases/<release>/warm.json`。Node 的 fetch 在这里不可用：并发请求报 `TypeError: fetch failed`，串行几十次后报 `ENOTFOUND`，每建一个连接都要一次 DNS 解析。日常发布无需改变 DNS、证书或源站校验值。
 
 ## DNS 与回源
 
@@ -56,7 +56,13 @@ systemctl status certbot.timer
 
 ## 缓存与安全
 
-缓存值由 [nginx-http.conf](../tools/deploy/nginx-http.conf) 的映射定义。普通页面与未指纹化脚本短缓存；Material 指纹资源长期不可变缓存；图标、第三方静态库与课程插图按日缓存。错误响应使用 `no-store`。ESA 跟随源站缓存策略，静态内容的缓存键忽略查询参数，POST 不缓存，ACME 与发布信息绕过缓存。退役的边缘响应头缓存规则已删除，避免把源站错误页改成长缓存。
+缓存值由 [nginx-http.conf](../tools/deploy/nginx-http.conf) 的映射定义。普通页面与未指纹化脚本缓存一小时；Material 指纹资源长期不可变缓存；图标、第三方静态库与课程插图按日缓存。错误响应使用 `no-store`。ESA 跟随源站缓存策略，静态内容的缓存键忽略查询参数，POST 不缓存，ACME 与发布信息绕过缓存。退役的边缘响应头缓存规则已删除，避免把源站错误页改成长缓存。
+
+页面 TTL 从 300 秒提到 3600 秒，是因为 5 Mbps 源站下每五分钟回源一次会把出口带宽吃满；发布脚本在激活后清空两个域名的 ESA 缓存，新内容仍然立即生效，`must-revalidate` 保证过期后不会返回旧页面。边缘规则同时开启 `ServeStale`，源站变慢或短暂不可用时返回旧缓存而不是错误页。
+
+`application/json` 是唯一不被 `follow_origin_bypass` 缓存的类型，实测 `/search/search_index.json` 连续请求均为 `MISS`，每次搜索都回源。`study-search-index` 规则对它单独设 `override_origin` 与 `EdgeCacheTtl` 3600 秒并开启 `ServeStale`，浏览器仍跟随源站。注意 ESA 的 `EdgeCacheMode` 没有 `cache_ttl` 这个值，写错会返回 `InvalidParameter.ArgValue`。
+
+规则建好后线上索引仍为 `MISS`：部署后索引已降到 790 KB，规则仍未生效，`/search/search_index.json` 持续 `MISS`。ESA 基础版不缓存这个 json，与体积无关——277 字节的 `sitemap.xml` 能正常缓存。规则保留不影响站点，但不应在文档或交付说明里写成已启用 json 缓存。索引本身由 [search_trim.py](../tools/mkdocs/search_trim.py) 在构建后裁剪：去掉 HTML 标签并把每条正文截到 800 字符，2.1 MB 降到 790 KB，Brotli 后 466 KB 降到 218 KB。规则改动需 `npm run esa:configure -- --apply` 才生效。
 
 HTTPS、CSP、防嵌入、防 MIME 嗅探、HSTS、权限与来源策略由命名规则维护；压缩和原有 TLS 安全设置继续保留。已关闭 ESA 质量数据采集，避免向 HTML 注入外部 RUM 脚本。预览与同步：
 

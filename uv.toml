@@ -1,0 +1,5 @@
+# uv 项目配置。索引固定为官方 PyPI：国内镜像缺 pymdown-extensions 11.0.1。
+# 代理不在这里配置，uv 只认 HTTP_PROXY / HTTPS_PROXY / ALL_PROXY 环境变量，
+# 统一由 tools/dev/uv.ps1 注入。
+index-url = "https://pypi.org/simple"
+system-certs = true

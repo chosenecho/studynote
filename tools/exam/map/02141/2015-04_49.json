@@ -1,0 +1,963 @@
+{
+  "paper_id": "2015-04_02141_真题_44444",
+  "period": "2015-04",
+  "version_note": "OCR 抽取 49 题（选择 20、填空 20、简答 3、计算 3、应用 3）",
+  "questions": [
+    {
+      "question_id": "2015-04-02141-Q01",
+      "question_no": 1,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        6
+      ],
+      "section_refs": [
+        "6.5"
+      ],
+      "topic_tags": [
+        "HTTP 协议",
+        "Web 浏览",
+        "应用层协议"
+      ],
+      "syllabus_level": "综合应用",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-04-02141-Q02",
+      "question_no": 2,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        2
+      ],
+      "section_refs": [
+        "2.7"
+      ],
+      "topic_tags": [
+        "T1 载波",
+        "时分复用",
+        "帧结构"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-04-02141-Q03",
+      "question_no": 3,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        3
+      ],
+      "section_refs": [
+        "3.2"
+      ],
+      "topic_tags": [
+        "HDLC 帧",
+        "比特填充",
+        "透明传输"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-04-02141-Q04",
+      "question_no": 4,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        5
+      ],
+      "section_refs": [
+        "5.8"
+      ],
+      "topic_tags": [
+        "ICMP",
+        "差错报告",
+        "IP 层机制"
+      ],
+      "syllabus_level": "简单应用",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-04-02141-Q05",
+      "question_no": 5,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        5
+      ],
+      "section_refs": [
+        "5.8"
+      ],
+      "topic_tags": [
+        "RARP",
+        "物理地址",
+        "地址解析"
+      ],
+      "syllabus_level": "简单应用",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-04-02141-Q06",
+      "question_no": 6,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        2
+      ],
+      "section_refs": [
+        "2.10"
+      ],
+      "topic_tags": [
+        "数据报",
+        "分组转发",
+        "无连接"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-04-02141-Q07",
+      "question_no": 7,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        4
+      ],
+      "section_refs": [
+        "4.3"
+      ],
+      "topic_tags": [
+        "万兆以太网",
+        "光接口",
+        "传输距离"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-04-02141-Q08",
+      "question_no": 8,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        2
+      ],
+      "section_refs": [
+        "2.4"
+      ],
+      "topic_tags": [
+        "红外线",
+        "电磁波",
+        "波长"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-04-02141-Q09",
+      "question_no": 9,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        4
+      ],
+      "section_refs": [
+        "4.7"
+      ],
+      "topic_tags": [
+        "无线局域网",
+        "Ad Hoc",
+        "点对多点"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-04-02141-Q10",
+      "question_no": 10,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        9
+      ],
+      "section_refs": [
+        "9.2"
+      ],
+      "topic_tags": [
+        "VPN",
+        "隧道技术",
+        "PPTP"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-04-02141-Q11",
+      "question_no": 11,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        7,
+        9
+      ],
+      "section_refs": [
+        "7.4",
+        "9.2"
+      ],
+      "topic_tags": [
+        "计费管理",
+        "VPN 管理",
+        "管理功能"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-04-02141-Q12",
+      "question_no": 12,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        7
+      ],
+      "section_refs": [
+        "7.5",
+        "7.1"
+      ],
+      "topic_tags": [
+        "SNMP",
+        "CMIS/CMIP",
+        "网络管理协议"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-04-02141-Q13",
+      "question_no": 13,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        9
+      ],
+      "section_refs": [
+        "9.7"
+      ],
+      "topic_tags": [
+        "防火墙",
+        "访问控制",
+        "边界防护"
+      ],
+      "syllabus_level": "简单应用",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-04-02141-Q14",
+      "question_no": 14,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        9
+      ],
+      "section_refs": [
+        "9.2"
+      ],
+      "topic_tags": [
+        "VPN",
+        "缩略语",
+        "安全互联"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-04-02141-Q15",
+      "question_no": 15,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        1,
+        2
+      ],
+      "section_refs": [
+        "1.2",
+        "2.10"
+      ],
+      "topic_tags": [
+        "DDN",
+        "租用电路",
+        "广域网"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-04-02141-Q16",
+      "question_no": 16,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        6
+      ],
+      "section_refs": [
+        "6.7"
+      ],
+      "topic_tags": [
+        "HTML",
+        "网页编写",
+        "超文本"
+      ],
+      "syllabus_level": "综合应用",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-04-02141-Q17",
+      "question_no": 17,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        3
+      ],
+      "section_refs": [
+        "3.2",
+        "3.3"
+      ],
+      "topic_tags": [
+        "IP 协议",
+        "网络层",
+        "OSI 对应"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-04-02141-Q18",
+      "question_no": 18,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        1
+      ],
+      "section_refs": [
+        "1.2"
+      ],
+      "topic_tags": [
+        "Intranet",
+        "内部网",
+        "互联网"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-04-02141-Q19",
+      "question_no": 19,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        3
+      ],
+      "section_refs": [
+        "3.2",
+        "3.5"
+      ],
+      "topic_tags": [
+        "TCP",
+        "传输层",
+        "OSI 对应"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-04-02141-Q20",
+      "question_no": 20,
+      "type": "single_choice",
+      "points": 1,
+      "chapter_refs": [
+        6
+      ],
+      "section_refs": [
+        "6.5"
+      ],
+      "topic_tags": [
+        "URL",
+        "网页地址",
+        "WWW"
+      ],
+      "syllabus_level": "综合应用",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-04-02141-Q21",
+      "question_no": 21,
+      "type": "fill_blank",
+      "points": 1,
+      "chapter_refs": [
+        3,
+        1
+      ],
+      "section_refs": [
+        "3.1",
+        "1.6"
+      ],
+      "topic_tags": [
+        "OSI 参考模型",
+        "体系结构",
+        "标准化"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-04-02141-Q22",
+      "question_no": 22,
+      "type": "fill_blank",
+      "points": 1,
+      "chapter_refs": [
+        2
+      ],
+      "section_refs": [
+        "2.10"
+      ],
+      "topic_tags": [
+        "公共数据网",
+        "电路交换",
+        "分组交换"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-04-02141-Q23",
+      "question_no": 23,
+      "type": "fill_blank",
+      "points": 1,
+      "chapter_refs": [
+        2
+      ],
+      "section_refs": [
+        "2.7"
+      ],
+      "topic_tags": [
+        "频分复用",
+        "时分复用",
+        "多路复用"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-04-02141-Q24",
+      "question_no": 24,
+      "type": "fill_blank",
+      "points": 1,
+      "chapter_refs": [
+        3
+      ],
+      "section_refs": [
+        "3.5"
+      ],
+      "topic_tags": [
+        "TCP 首部",
+        "固定首部长度",
+        "报文段"
+      ],
+      "syllabus_level": "简单应用",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-04-02141-Q25",
+      "question_no": 25,
+      "type": "fill_blank",
+      "points": 1,
+      "chapter_refs": [
+        3
+      ],
+      "section_refs": [
+        "3.2"
+      ],
+      "topic_tags": [
+        "表示层",
+        "语法转换",
+        "OSI 七层"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-04-02141-Q26",
+      "question_no": 26,
+      "type": "fill_blank",
+      "points": 1,
+      "chapter_refs": [
+        2
+      ],
+      "section_refs": [
+        "2.8"
+      ],
+      "topic_tags": [
+        "反馈差错控制",
+        "检错重发",
+        "ARQ"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-04-02141-Q27",
+      "question_no": 27,
+      "type": "fill_blank",
+      "points": 1,
+      "chapter_refs": [
+        4,
+        2
+      ],
+      "section_refs": [
+        "4.1",
+        "2.4"
+      ],
+      "topic_tags": [
+        "FDDI",
+        "物理层子层",
+        "光纤"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-04-02141-Q28",
+      "question_no": 28,
+      "type": "fill_blank",
+      "points": 1,
+      "chapter_refs": [
+        4
+      ],
+      "section_refs": [
+        "4.2",
+        "4.3"
+      ],
+      "topic_tags": [
+        "千兆以太网",
+        "载波扩展",
+        "帧突发"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-04-02141-Q29",
+      "question_no": 29,
+      "type": "fill_blank",
+      "points": 1,
+      "chapter_refs": [
+        1
+      ],
+      "section_refs": [
+        "1.4"
+      ],
+      "topic_tags": [
+        "发送时延",
+        "时延计算",
+        "速率"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-04-02141-Q30",
+      "question_no": 30,
+      "type": "fill_blank",
+      "points": 1,
+      "chapter_refs": [
+        2
+      ],
+      "section_refs": [
+        "2.4"
+      ],
+      "topic_tags": [
+        "HomePNA",
+        "接入网",
+        "电话线"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-04-02141-Q31",
+      "question_no": 31,
+      "type": "fill_blank",
+      "points": 1,
+      "chapter_refs": [
+        2
+      ],
+      "section_refs": [
+        "2.4"
+      ],
+      "topic_tags": [
+        "RADSL",
+        "非对称接入",
+        "自适应速率"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-04-02141-Q32",
+      "question_no": 32,
+      "type": "fill_blank",
+      "points": 1,
+      "chapter_refs": [
+        2,
+        1
+      ],
+      "section_refs": [
+        "2.10",
+        "1.2"
+      ],
+      "topic_tags": [
+        "ISDN",
+        "电路交换",
+        "综合业务"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-04-02141-Q33",
+      "question_no": 33,
+      "type": "fill_blank",
+      "points": 1,
+      "chapter_refs": [
+        2
+      ],
+      "section_refs": [
+        "2.4"
+      ],
+      "topic_tags": [
+        "DSL",
+        "铜线复用",
+        "频分"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-04-02141-Q34",
+      "question_no": 34,
+      "type": "fill_blank",
+      "points": 1,
+      "chapter_refs": [
+        9
+      ],
+      "section_refs": [
+        "9.7"
+      ],
+      "topic_tags": [
+        "防火墙",
+        "包过滤",
+        "应用层网关"
+      ],
+      "syllabus_level": "简单应用",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-04-02141-Q35",
+      "question_no": 35,
+      "type": "fill_blank",
+      "points": 1,
+      "chapter_refs": [
+        2,
+        1
+      ],
+      "section_refs": [
+        "2.4",
+        "1.2"
+      ],
+      "topic_tags": [
+        "光纤接入",
+        "接入网",
+        "传输介质"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-04-02141-Q36",
+      "question_no": 36,
+      "type": "fill_blank",
+      "points": 1,
+      "chapter_refs": [
+        1,
+        6
+      ],
+      "section_refs": [
+        "1.2",
+        "6.1"
+      ],
+      "topic_tags": [
+        "Intranet",
+        "B/S 结构",
+        "内部网络"
+      ],
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-04-02141-Q37",
+      "question_no": 37,
+      "type": "fill_blank",
+      "points": 1,
+      "chapter_refs": [
+        6
+      ],
+      "section_refs": [
+        "6.4"
+      ],
+      "topic_tags": [
+        "电子邮件",
+        "邮件服务器",
+        "地址格式"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-04-02141-Q38",
+      "question_no": 38,
+      "type": "fill_blank",
+      "points": 1,
+      "chapter_refs": [
+        6
+      ],
+      "section_refs": [
+        "6.7"
+      ],
+      "topic_tags": [
+        "超链接",
+        "HTML",
+        "网页元素"
+      ],
+      "syllabus_level": "综合应用",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-04-02141-Q39",
+      "question_no": 39,
+      "type": "fill_blank",
+      "points": 1,
+      "chapter_refs": [
+        2
+      ],
+      "section_refs": [
+        "2.4"
+      ],
+      "topic_tags": [
+        "ADSL",
+        "信号分离器",
+        "频分"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-04-02141-Q40",
+      "question_no": 40,
+      "type": "fill_blank",
+      "points": 1,
+      "chapter_refs": [
+        5
+      ],
+      "section_refs": [
+        "5.4"
+      ],
+      "topic_tags": [
+        "子网掩码",
+        "同一子网判断",
+        "按位与"
+      ],
+      "syllabus_level": "综合应用",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-04-02141-Q41",
+      "question_no": 41,
+      "type": "short_answer",
+      "points": 6,
+      "chapter_refs": [
+        1,
+        6
+      ],
+      "section_refs": [
+        "1.2",
+        "6.1"
+      ],
+      "topic_tags": [
+        "Intranet",
+        "特点",
+        "内部网络"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-04-02141-Q42",
+      "question_no": 42,
+      "type": "short_answer",
+      "points": 6,
+      "chapter_refs": [
+        5
+      ],
+      "section_refs": [
+        "5.3",
+        "5.4"
+      ],
+      "topic_tags": [
+        "C 类地址",
+        "子网划分",
+        "子网掩码"
+      ],
+      "syllabus_level": "综合应用",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-04-02141-Q43",
+      "question_no": 43,
+      "type": "short_answer",
+      "points": 6,
+      "chapter_refs": [
+        3
+      ],
+      "section_refs": [
+        "3.3"
+      ],
+      "topic_tags": [
+        "TCP/IP 参考模型",
+        "四层结构",
+        "层次名称"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-04-02141-Q44",
+      "question_no": 44,
+      "type": "calculation",
+      "points": 6,
+      "chapter_refs": [
+        4,
+        1
+      ],
+      "section_refs": [
+        "4.2",
+        "1.4"
+      ],
+      "topic_tags": [
+        "令牌环",
+        "比特长度",
+        "传播延迟"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-04-02141-Q45",
+      "question_no": 45,
+      "type": "calculation",
+      "points": 6,
+      "chapter_refs": [
+        2
+      ],
+      "section_refs": [
+        "2.3"
+      ],
+      "topic_tags": [
+        "信道容量",
+        "香农公式",
+        "信噪比"
+      ],
+      "syllabus_level": "简单应用",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-04-02141-Q46",
+      "question_no": 46,
+      "type": "calculation",
+      "points": 6,
+      "chapter_refs": [
+        2
+      ],
+      "section_refs": [
+        "2.9"
+      ],
+      "topic_tags": [
+        "CRC",
+        "生成多项式",
+        "冗余位"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-04-02141-Q47",
+      "question_no": 47,
+      "type": "application",
+      "points": 8,
+      "chapter_refs": [
+        4
+      ],
+      "section_refs": [
+        "4.2"
+      ],
+      "topic_tags": [
+        "令牌环",
+        "令牌传递",
+        "介质访问控制"
+      ],
+      "syllabus_level": "领会",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-04-02141-Q48",
+      "question_no": 48,
+      "type": "application",
+      "points": 8,
+      "chapter_refs": [
+        2
+      ],
+      "section_refs": [
+        "2.3",
+        "2.5",
+        "2.6"
+      ],
+      "topic_tags": [
+        "PCM",
+        "量化级",
+        "调制速率"
+      ],
+      "syllabus_level": "简单应用",
+      "review_status": "source-checked"
+    },
+    {
+      "question_id": "2015-04-02141-Q49",
+      "question_no": 49,
+      "type": "application",
+      "points": 8,
+      "chapter_refs": [
+        2
+      ],
+      "section_refs": [
+        "2.5"
+      ],
+      "topic_tags": [
+        "差分曼彻斯特码",
+        "线路编码",
+        "比特填充"
+      ],
+      "syllabus_level": "简单应用",
+      "review_status": "source-checked"
+    }
+  ]
+}

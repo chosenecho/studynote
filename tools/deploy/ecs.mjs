@@ -86,7 +86,7 @@ const pages = [];
   for (const name of readdirSync(dir).sort()) {
     const path = `${dir}/${name}`;
     if (statSync(path).isDirectory()) walk(path);
-    else if (name === 'index.html') pages.push(path.slice(5, -'index.html'.length) || '/');
+    else if (name === 'index.html') pages.push('/' + path.slice(5, -'index.html'.length));
   }
 })('dist');
 const sink = process.platform === 'win32' ? 'NUL' : '/dev/null';

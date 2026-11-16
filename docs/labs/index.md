@@ -18,4 +18,4 @@ description: 调度、页面置换、银行家算法、PV、CIDR、地址转换�
 | 区分截断结果和溢出 | [计算机组成原理](../courses/computer-organization/index.md) | [第 2 章 数据的表示和运算](../courses/computer-organization/chapter-02.md#s7) | [补码加减](complement.md) | 先判断范围，再读位模式 |
 | 检查各课程的易错点 | [四门课程](../courses/index.md) | [第 1 章至第 9 章](../courses/index.md) | [随堂自测](quiz.md) | 提交后读解析，最后重练错题 |
 
-计算结果可用“上一步”“下一步”逐步查看，或点击“显示全部步骤”。 页面下方另有算例，供手算后核对。
+计算结果能用“上一步”“下一步”逐步看，也可以点“显示全部步骤”。页面下方附了算例，手算完拿来核对。

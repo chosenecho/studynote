@@ -1,6 +1,6 @@
 # KaTeX 静态资源
 
-资源位于 docs/assets/vendor/katex/。版本标记以 katex.min.js 内的 version 为准，许可见同目录 LICENSE。
+资源位于 docs/assets/vendor/katex/。版本以 katex.min.js 里的 version 为准，许可看同目录的 LICENSE。
 
 | 文件 | 用途 |
 | --- | --- |

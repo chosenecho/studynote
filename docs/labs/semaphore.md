@@ -7,7 +7,7 @@ description: 逐步追踪记录型信号量的许可计数、阻塞队列与唤�
 [操作系统概论](../courses/operating-systems/index.md) · [第 2 章 进程管理](../courses/operating-systems/chapter-02.md#s10)
 {: .lab-course }
 
-先预测最终计数与阻塞者，再逐步观察原子 P/V 调用。这里采用记录型定义：P 先减一，负数时阻塞；V 先加一，结果不大于零时唤醒一个等待者。
+先预测最终计数和阻塞者，再逐步观察原子 P/V 调用。这里用记录型定义：P 先减一，为负时阻塞；V 先加一，结果不大于零时唤醒一个等待者。
 
 <div class="study-lab" data-study-lab="semaphore"><p>正在载入练习。</p></div>
 <noscript>交互需要 JavaScript；下面的模型与算例仍可直接阅读。</noscript>

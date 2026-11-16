@@ -14,10 +14,8 @@
       "section_refs": [
         "1.3"
       ],
-      "topic_tags": [
-        "共享"
-      ],
-      "syllabus_level": "领会",
+      "topic_tags": [],
+      "syllabus_level": "识记",
       "review_status": "source-checked"
     },
     {
@@ -32,9 +30,10 @@
         "4.2"
       ],
       "topic_tags": [
-        "逻辑地址"
+        "逻辑地址",
+        "链接"
       ],
-      "syllabus_level": "领会",
+      "syllabus_level": "识记",
       "review_status": "source-checked"
     },
     {
@@ -49,7 +48,8 @@
         "1.6"
       ],
       "topic_tags": [
-        "累加器"
+        "累加器",
+        "指令执行"
       ],
       "syllabus_level": "识记",
       "review_status": "source-checked"
@@ -77,16 +77,17 @@
       "type": "single_choice",
       "points": 1,
       "chapter_refs": [
-        5
+        2
       ],
       "section_refs": [
-        "5.1"
+        "2.13"
       ],
       "topic_tags": [
-        "文件"
+        "管道通信",
+        "进程通信"
       ],
       "syllabus_level": "识记",
-      "review_status": "mapping-pending"
+      "review_status": "source-checked"
     },
     {
       "question_id": "2021-10-02323-Q06",
@@ -100,7 +101,8 @@
         "3.11"
       ],
       "topic_tags": [
-        "资源分配图"
+        "资源分配图",
+        "检测、解除，死锁定理"
       ],
       "syllabus_level": "识记",
       "review_status": "source-checked"
@@ -117,9 +119,10 @@
         "3.4"
       ],
       "topic_tags": [
-        "多级反馈"
+        "多级反馈",
+        "六种算法及抢占时机"
       ],
-      "syllabus_level": "领会",
+      "syllabus_level": "识记",
       "review_status": "source-checked"
     },
     {
@@ -134,6 +137,7 @@
         "3.10"
       ],
       "topic_tags": [
+        "银行家算法",
         "银行家"
       ],
       "syllabus_level": "简单应用",
@@ -151,9 +155,10 @@
         "3.4"
       ],
       "topic_tags": [
-        "调度算法"
+        "调度算法",
+        "六种算法及抢占时机"
       ],
-      "syllabus_level": "领会",
+      "syllabus_level": "识记",
       "review_status": "source-checked"
     },
     {
@@ -185,7 +190,8 @@
         "4.1"
       ],
       "topic_tags": [
-        "局部性"
+        "局部性",
+        "层次、局部性"
       ],
       "syllabus_level": "识记",
       "review_status": "source-checked"
@@ -202,9 +208,10 @@
         "4.2"
       ],
       "topic_tags": [
-        "链接"
+        "链接",
+        "装入"
       ],
-      "syllabus_level": "领会",
+      "syllabus_level": "识记",
       "review_status": "source-checked"
     },
     {
@@ -219,10 +226,11 @@
         "4.2"
       ],
       "topic_tags": [
-        "可执行"
+        "可执行",
+        "链接"
       ],
-      "syllabus_level": "领会",
-      "review_status": "mapping-pending"
+      "syllabus_level": "识记",
+      "review_status": "source-checked"
     },
     {
       "question_id": "2021-10-02323-Q14",
@@ -236,6 +244,7 @@
         "4.3"
       ],
       "topic_tags": [
+        "动态分区",
         "分区"
       ],
       "syllabus_level": "识记",
@@ -253,7 +262,8 @@
         "4.7"
       ],
       "topic_tags": [
-        "分段"
+        "分段",
+        "分段、段页式"
       ],
       "syllabus_level": "领会",
       "review_status": "source-checked"
@@ -270,10 +280,10 @@
         "5.1"
       ],
       "topic_tags": [
-        "文件"
+        "文件概述"
       ],
       "syllabus_level": "识记",
-      "review_status": "mapping-pending"
+      "review_status": "source-checked"
     },
     {
       "question_id": "2021-10-02323-Q17",
@@ -287,9 +297,10 @@
         "5.3"
       ],
       "topic_tags": [
-        "路径"
+        "路径",
+        "目录、路径"
       ],
-      "syllabus_level": "识记",
+      "syllabus_level": "领会",
       "review_status": "source-checked"
     },
     {
@@ -304,9 +315,10 @@
         "5.3"
       ],
       "topic_tags": [
+        "目录操作",
         "目录文件"
       ],
-      "syllabus_level": "识记",
+      "syllabus_level": "领会",
       "review_status": "source-checked"
     },
     {
@@ -321,10 +333,11 @@
         "6.4"
       ],
       "topic_tags": [
-        "共享"
+        "分配数据结构",
+        "方式"
       ],
       "syllabus_level": "识记",
-      "review_status": "mapping-pending"
+      "review_status": "source-checked"
     },
     {
       "question_id": "2021-10-02323-Q20",
@@ -354,9 +367,12 @@
       "section_refs": [
         "4.3"
       ],
-      "topic_tags": [],
+      "topic_tags": [
+        "连续分配",
+        "动态分区"
+      ],
       "syllabus_level": "识记",
-      "review_status": "mapping-pending"
+      "review_status": "source-checked"
     },
     {
       "question_id": "2021-10-02323-Q22",
@@ -388,9 +404,11 @@
         "2.7",
         "3.1"
       ],
-      "topic_tags": [],
+      "topic_tags": [
+        "时钟体系、 时钟机制"
+      ],
       "syllabus_level": "识记",
-      "review_status": "mapping-pending"
+      "review_status": "source-checked"
     },
     {
       "question_id": "2021-10-02323-Q24",
@@ -403,9 +421,12 @@
       "section_refs": [
         "3.2"
       ],
-      "topic_tags": [],
+      "topic_tags": [
+        "响应时间",
+        "评价目标"
+      ],
       "syllabus_level": "识记",
-      "review_status": "mapping-pending"
+      "review_status": "source-checked"
     },
     {
       "question_id": "2021-10-02323-Q25",
@@ -419,7 +440,8 @@
         "3.9"
       ],
       "topic_tags": [
-        "安全序列"
+        "安全序列",
+        "安全／不安全状态"
       ],
       "syllabus_level": "识记",
       "review_status": "source-checked"
@@ -436,7 +458,8 @@
         "4.4"
       ],
       "topic_tags": [
-        "页大小"
+        "页大小",
+        "页、页框、页表"
       ],
       "syllabus_level": "识记",
       "review_status": "source-checked"
@@ -453,7 +476,8 @@
         "4.11"
       ],
       "topic_tags": [
-        "访问时间"
+        "访问时间",
+        "缺页性能、工作集"
       ],
       "syllabus_level": "识记",
       "review_status": "source-checked"
@@ -470,10 +494,11 @@
         "4.4"
       ],
       "topic_tags": [
-        "Linux"
+        "Linux",
+        "页、页框、页表"
       ],
       "syllabus_level": "识记",
-      "review_status": "mapping-pending"
+      "review_status": "source-checked"
     },
     {
       "question_id": "2021-10-02323-Q29",
@@ -487,9 +512,10 @@
         "5.4"
       ],
       "topic_tags": [
-        "链接"
+        "链接",
+        "连续和链接分配"
       ],
-      "syllabus_level": "简单应用",
+      "syllabus_level": "识记",
       "review_status": "source-checked"
     },
     {
@@ -506,7 +532,7 @@
       "topic_tags": [
         "设备独立性"
       ],
-      "syllabus_level": "领会",
+      "syllabus_level": "综合应用",
       "review_status": "source-checked"
     },
     {
@@ -521,10 +547,11 @@
         "2.5"
       ],
       "topic_tags": [
-        "设备"
+        "中断原因",
+        "中断处理"
       ],
       "syllabus_level": "领会",
-      "review_status": "mapping-pending"
+      "review_status": "source-checked"
     },
     {
       "question_id": "2021-10-02323-Q32",
@@ -540,7 +567,7 @@
       "topic_tags": [
         "松弛度"
       ],
-      "syllabus_level": "领会",
+      "syllabus_level": "识记",
       "review_status": "source-checked"
     },
     {
@@ -557,10 +584,11 @@
         "1.1"
       ],
       "topic_tags": [
+        "虚拟存储",
         "虚拟存储技术"
       ],
       "syllabus_level": "领会",
-      "review_status": "mapping-pending"
+      "review_status": "source-checked"
     },
     {
       "question_id": "2021-10-02323-Q34",
@@ -574,6 +602,7 @@
         "5.8"
       ],
       "topic_tags": [
+        "空间管理",
         "磁盘空间"
       ],
       "syllabus_level": "简单应用",
@@ -591,10 +620,11 @@
         "6.4"
       ],
       "topic_tags": [
-        "先来先服务"
+        "设备分配算法",
+        "分配数据结构"
       ],
       "syllabus_level": "领会",
-      "review_status": "mapping-pending"
+      "review_status": "source-checked"
     },
     {
       "question_id": "2021-10-02323-Q36",
@@ -625,9 +655,10 @@
         "3.4"
       ],
       "topic_tags": [
-        "先来先服务"
+        "先来先服务",
+        "六种算法及抢占时机"
       ],
-      "syllabus_level": "领会",
+      "syllabus_level": "识记",
       "review_status": "source-checked"
     },
     {
@@ -642,9 +673,10 @@
         "4.6"
       ],
       "topic_tags": [
-        "两级页表"
+        "两级页表",
+        "二级分页"
       ],
-      "syllabus_level": "简单应用",
+      "syllabus_level": "综合应用",
       "review_status": "source-checked"
     },
     {
@@ -659,6 +691,7 @@
         "6.9"
       ],
       "topic_tags": [
+        "磁盘调度",
         "SSTF"
       ],
       "syllabus_level": "领会",

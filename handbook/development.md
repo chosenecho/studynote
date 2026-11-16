@@ -22,12 +22,11 @@ MkDocs 直接读取 `docs/`。课程位于 `docs/courses/<slug>/`，入口为 `i
 Python 依赖以 `pyproject.toml` 为唯一来源，锁定在 `uv.lock`；`requirements.txt` 已移除。`.python-version` 固定 3.12，与 CI 一致。
 
 ```sh
-npm run uv:sync          # 经本地代理同步依赖
-npm run uv:lock          # 重新解析并锁定
-npm run uv:sync:direct   # 不走代理
+npm run uv:sync          # 按 uv.lock 同步依赖（--locked，不改锁文件）
+npm run uv:lock          # 改动依赖后重新解析并锁定
 ```
 
-代理默认 `http://127.0.0.1:10808`（FlClash 混合端口），在 [tools/dev/uv.ps1](../tools/dev/uv.ps1) 中修改。索引固定官方 PyPI，因为国内镜像缺 `pymdown-extensions` 11.0.1。`uv.toml` 只放索引与证书设置；代理只认 `HTTP_PROXY`、`HTTPS_PROXY`、`ALL_PROXY` 环境变量，由该脚本注入，不写进仓库配置。
+依赖通过 uv 管理，构建与检查一律 `uv run --locked`，锁文件与 `pyproject.toml` 不一致时直接失败，避免运行中悄悄改锁。代理是可选项：默认直连或沿用环境变量里的代理；本机需要固定代理时用 `tools/dev/uv.ps1 -Proxy http://127.0.0.1:10808` 显式传入，端口不写死。索引固定官方 PyPI，因为国内镜像缺 `pymdown-extensions` 11.0.1；`uv.toml` 的 `index-url` 会被环境变量 `UV_DEFAULT_INDEX`（或 `UV_INDEX_URL`）覆盖，而 `uv.lock` 是对官方索引锁定的，所以在设置了非官方镜像环境变量的机器上，跑 `--locked` 前须把 `UV_DEFAULT_INDEX` 设为 `https://pypi.org/simple` 或清除，否则报锁文件过期。`uv.toml` 只放索引与证书设置；代理只认 `HTTP_PROXY`、`HTTPS_PROXY`、`ALL_PROXY` 环境变量，由该脚本按需注入，不写进仓库配置。
 
 升级依赖时改 `pyproject.toml` 的版本号，跑 `npm run uv:lock` 与 `npm run uv:sync`，再按[第三方资源说明](../THIRD_PARTY_NOTICES.md)复核实际分发文件。
 
@@ -66,13 +65,16 @@ Material 9.7.7 的搜索分享会先保存旧链接再更新链接。`initSearch
 | `npm run check:structure` | 课程注册、文件编号、源码链接与目录边界 |
 | `npm run check:notes` | 笔记结构、图片引用与行文规则 |
 | `npm run check:revisions` | 已核对技术修订 |
-| `npm run test:unit` | 原生构建钩子、许可分发、权利检查与练习模型 |
+| `npm run check:exams` | 真题映射结构与章节落点（纯映射层，可无数据库运行） |
+| `npm run test:unit` | 原生构建钩子、许可分发、权利检查、真题合并重建与练习模型 |
 | `npm run build` | MkDocs 严格构建 |
 | `npm run check:links` | 产物链接、锚点与图片 |
 | `npm run test:browser` | 主题、搜索、阅读控制、实验、打印与窄屏 |
+| `npm run test:search` | 搜索面板结果与产物索引一致（索引真值，不校验索引是否丢词） |
+| `npm run check:search` | 产物索引对构建后页面正文的搜索完整性（原文真值，含丢失预算） |
 | `npm run check:rights` | 发布内容的核验记录、摘要与未登记文件 |
 
-`npm run check` 依次执行权利、结构、大纲与练习覆盖、技术回归、单元测试、构建与产物链接检查。发布命令在上传前再次约束内容权利。
+`npm run check` 依次执行权利、结构、笔记结构、技术回归、大纲与练习覆盖、真题映射、单元测试、严格构建、搜索完整性与产物链接、SEO 检查。发布命令在上传前再次约束内容权利。
 
 Playwright 为仓库锁定的开发依赖。浏览器证据默认写入 `artifacts/browser/labs/`；`STUDY_BASE_URL` 和 `STUDY_OUTPUT_DIR` 可指定站点与证据目录。
 

@@ -52,8 +52,8 @@ def check_draft(draft, chapters, levels):
             if level not in levels:
                 problems.append(f'{code}/{qid}: syllabus_level {level!r}')
             chs = question.get('chapter_refs') or []
-            if not chs:
-                problems.append(f'{code}/{qid}: empty chapter_refs')
+            if not chs and status == 'source-checked':
+                problems.append(f'{code}/{qid}: source-checked question with empty chapter_refs')
             for ch in chs:
                 if not isinstance(ch, int) or ch not in chapters:
                     problems.append(f'{code}/{qid}: chapter_refs {ch!r} outside the course')
@@ -63,6 +63,18 @@ def check_draft(draft, chapters, levels):
                 elif int(ref.split('.')[0]) not in chs:
                     problems.append(f'{code}/{qid}: section_refs {ref} not covered by chapter_refs')
     return problems
+
+
+def merge_courses(existing, drafts):
+    """Combine validated drafts with the existing map.
+
+    A draft wins for its own code; any course present only in the current map is
+    kept as-is. Courses are returned sorted by code so the output is stable.
+    """
+    by_code = {course['code']: course for course in drafts}
+    for code, course in existing.items():
+        by_code.setdefault(code, course)
+    return [by_code[code] for code in sorted(by_code)]
 
 
 def main():
@@ -99,15 +111,12 @@ def main():
         print('\n'.join(problems))
         fail(f'{len(problems)} problems in drafts, nothing written')
 
-    by_code = {course['code']: course for course in merged}
-    for code, course in existing.items():
-        by_code.setdefault(code, course)
-    data['courses'] = [by_code[code] for code in sorted(by_code)]
+    data['courses'] = merge_courses(existing, merged)
     MAP.parent.mkdir(parents=True, exist_ok=True)
     MAP.write_text(json.dumps(data, ensure_ascii=False, indent=2, sort_keys=False) + '\n', encoding='utf-8')
 
-    for code in sorted(by_code):
-        course = by_code[code]
+    for course in data['courses']:
+        code = course['code']
         questions = sum(len(paper.get('questions', [])) for paper in course.get('papers', []))
         checked = sum(1 for paper in course.get('papers', []) for q in paper.get('questions', [])
                       if q.get('review_status') == 'source-checked')

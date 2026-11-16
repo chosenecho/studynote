@@ -26,9 +26,9 @@
       "status": "cleared",
       "license": "Apache-2.0",
       "source_kind": "original-software-and-documentation",
-      "basis": "2026-11-16 核验本地运行说明改为 uv 管理依赖：同步命令、代理端口与构建入口；未新增第三方内容。",
+      "basis": "2026-11-16 核验本地运行说明：uv 按锁文件同步、代理改为可选显式注入，并提示非官方索引环境变量会导致 --locked 报锁过期；未新增第三方内容。",
       "reviewed_on": "2026-11-16",
-      "sha256": "2799460dcd74a2c44b93715fcb0cbabf31b9434363bf3f0a29b90ced817fcc9d"
+      "sha256": "ca0ae70ac97a734fb6746a47e8c8d3abc598ae8fd94b3221c55c42764349932f"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -1562,18 +1562,18 @@
       "status": "cleared",
       "license": "Apache-2.0",
       "source_kind": "original-software-and-documentation",
-      "basis": "2026-11-16 核验 P2 上线结果：预热改用 curl 批量（fetch 不可用）、记录 search_index 在 ESA 基础版不缓存；部署流程与安全说明未变。",
+      "basis": "2026-11-16 核验部署文档：区分历史观测与当前索引体积测量，说明 search_index 缓存结论不足以覆盖所有 JSON，并更新为近期构建的约 1.0 MB 体积；部署流程与安全说明未变。",
       "reviewed_on": "2026-11-16",
-      "sha256": "5693f153d37bedf902736dce1549a73eda4fe61ee6b131cad7c20781b44baeff"
+      "sha256": "e0c90d594667fed88b5aefc2274ef731dc7c3cd22558807582b9bb4e82a378f3"
     },
     {
       "path": "handbook/development.md",
       "status": "cleared",
       "license": "Apache-2.0",
       "source_kind": "original-software-and-documentation",
-      "basis": "2026-11-16 部署与依赖改动同步复核：新增 search_trim.py 钩子说明与 Python 环境章节，仍为第一方文档。",
+      "basis": "2026-11-16 部署与依赖改动同步复核：核对 uv 锁定运行、可选代理与索引环境变量说明、检查入口表（区分 test:search 索引真值与 check:search 原文真值，含真题映射）；仍为第一方文档。",
       "reviewed_on": "2026-11-16",
-      "sha256": "397647eaaa439994956064a627e82dba9977f2fff8cfe42694bb91342c54a0f1"
+      "sha256": "e575fd76835cd3d4d785045338db98f3f67077f2f670870eb1ccf3a269150cde"
     },
     {
       "path": "handbook/history-cleanup.md",
@@ -1652,9 +1652,9 @@
       "status": "cleared",
       "license": "Apache-2.0",
       "source_kind": "original-software-and-documentation",
-      "basis": "2026-11-16 新建评估计划：范围、维度与现状基线取自本仓库现有检查器输出与 config/syllabus.json，未收录教材原文、真题题面或扫描件。",
+      "basis": "2026-11-16 新建评估计划：范围、维度与现状基线取自本仓库现有检查器输出与 config/syllabus.json，未收录教材原文、真题题面或扫描件；随后按实现更新 exam_map 无库降级与 check 接入的说明。",
       "reviewed_on": "2026-11-16",
-      "sha256": "45bb2efa65c22a0a17a65a2c7648405cf4d56c3709ebfab4f3eaf81e3ae9014b"
+      "sha256": "1ea9f91635dec52ccdea3df58fd0bb884ebf6a89038069ada90be34491604bdc"
     },
     {
       "path": "handbook/plans/2026-11-16-deployment-audit.md",

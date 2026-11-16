@@ -20,7 +20,7 @@
 {% block content %}
   <h1>页面没有找到</h1>
   <ul>
-    <li><a href="{{ root }}">回到学习首页</a></li>
+    <li><a href="{{ root }}">回到首页</a></li>
     {% for course in config.extra.study_courses %}
       <li><a href="{{ root }}courses/{{ course.slug }}/">{{ course.title }} · 课程概览</a></li>
     {% endfor %}

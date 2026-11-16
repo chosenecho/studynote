@@ -43,7 +43,7 @@ theme:
     - content.code.copy
     - toc.follow
 nav:
-  - 学习首页: index.md
+  - 首页: index.md
   - 操作系统概论:
       - 课程导航: courses/operating-systems/index.md
       - 学习导航:

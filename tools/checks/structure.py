@@ -35,7 +35,7 @@ for course in courses:
     if any(p.name.startswith('chapter-') for p in exam.glob('*.md')):
         errors.append(f'{folder.name}: exam pages must not use the chapter- file prefix')
 # Navigation labels must read like the page they open; landing-role labels are exempt.
-ROLE_LABELS = {'课程导航', '学习概览', '考点总览', '学习首页', '复习首页', '速查首页', '练习入口'}
+ROLE_LABELS = {'课程导航', '学习概览', '考点总览', '首页', '复习首页', '速查首页', '练习入口'}
 VIRTUAL_PAGES = {'licensing.md', 'third-party-notices.md'}
 TAB_COUNT = len(courses) + 3
 
@@ -79,7 +79,7 @@ for label, target in nav_pairs(config['nav'], []):
     errors.append(f'导航标签与页面标题不一致：{label} != {title}（{target}）')
 if len(config['nav']) != TAB_COUNT:
     errors.append(
-        f'顶层导航数量应为 {TAB_COUNT}（课程 {len(courses)} 门 + 3 个固定分区：学习首页、复习、关于），实际 {len(config["nav"])}')
+        f'顶层导航数量应为 {TAB_COUNT}（课程 {len(courses)} 门 + 3 个固定分区：首页、复习、关于），实际 {len(config["nav"])}')
 
 # Heading depth stays at four levels or fewer so the rendered TOC covers every block.
 for path in (ROOT / 'docs/courses').rglob('*.md'):

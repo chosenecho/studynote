@@ -269,9 +269,9 @@
       "status": "cleared",
       "license": "Apache-2.0",
       "source_kind": "original-software-and-documentation",
-      "basis": "2026-11-16 部署与依赖改动同步复核：搜索索引裁剪后同步复核，仍为第一方实现；2026-11-16 站点结构重构：更新导航与复习入口链接、术语跨课程专节，未新增第三方内容。",
+      "basis": "2026-11-16 部署与依赖改动同步复核：搜索索引裁剪后同步复核，仍为第一方实现；2026-11-16 站点结构重构：更新导航与复习入口链接、术语跨课程专节，未新增第三方内容。 2026-11-16 导航改名：学习首页改为首页。",
       "reviewed_on": "2026-11-16",
-      "sha256": "5b2172afa3ff7db6f0a2cececc3cdc72ae0015982913534abc8c4792ed288181"
+      "sha256": "268c5649cf70c9ae638302f5963c42ac56b8eb1ae55653f3a1ce8ba0c7fb3af9"
     },
     {
       "path": "docs/assets/stylesheets/labs.css",
@@ -1454,9 +1454,9 @@
       "status": "cleared",
       "license": "CC-BY-4.0",
       "source_kind": "original",
-      "basis": "本轮修正实验页与自测页说明文字的表述与标点，脚本、交互逻辑、题目答案与数据结构未变；2026-11-16 站点结构重构：更新导航与复习入口链接、术语跨课程专节，未新增第三方内容。",
+      "basis": "本轮修正实验页与自测页说明文字的表述与标点，脚本、交互逻辑、题目答案与数据结构未变；2026-11-16 站点结构重构：更新导航与复习入口链接、术语跨课程专节，未新增第三方内容。 2026-11-16 导航改名：学习首页改为首页。",
       "reviewed_on": "2026-11-16",
-      "sha256": "a692a8b9ad1c94c1138e27ed8eab7fff7617abaef5d43cc868df25f155a6eb24"
+      "sha256": "4ee133b2640c04817bc7844d0be6ed1a64415185544872fa83bb24a776ab85ac"
     },
     {
       "path": "docs/labs/paging.md",
@@ -1544,9 +1544,9 @@
       "status": "cleared",
       "license": "Apache-2.0",
       "source_kind": "original-software-and-documentation",
-      "basis": "2026-11-16 核验取源位置说明：课程资料与历年真题统一指向独立资料库 C:\\WorkSpace\\textbook-library，快照复制与 SHA-256 核验流程未变；未新增第三方内容；2026-11-16 站点结构重构：更新导航与复习入口链接、术语跨课程专节，未新增第三方内容。",
+      "basis": "2026-11-16 核验取源位置说明：课程资料与历年真题统一指向独立资料库 C:\\WorkSpace\\textbook-library，快照复制与 SHA-256 核验流程未变；未新增第三方内容；2026-11-16 站点结构重构：更新导航与复习入口链接、术语跨课程专节，未新增第三方内容。 2026-11-16 导航改名：学习首页改为首页。",
       "reviewed_on": "2026-11-16",
-      "sha256": "805bf8de9496cc6212a57b49a54983959129fb74a6f74ea74034e1cfe83aface"
+      "sha256": "6914a5901b8fd8d640254ee5821e78adf95744136c0eda7fdfda4999a97085b9"
     },
     {
       "path": "handbook/deployment.md",

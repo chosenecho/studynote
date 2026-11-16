@@ -103,7 +103,7 @@ if (root) {
     meta.textContent = '正在搜索…';
     pendingQueries.push(lastQuery);
     worker.postMessage({type: 2, data: lastQuery});
-    queryTimeout = window.setTimeout(() => fail('搜索未能完成，请重新加载搜索或浏览学习首页。'), 4000);
+    queryTimeout = window.setTimeout(() => fail('搜索未能完成，请重新加载搜索或浏览首页。'), 4000);
   }
   function safeMarkup(html) {
     const parsed = new DOMParser().parseFromString(String(html), 'text/html');
@@ -225,7 +225,7 @@ if (root) {
       fragment.append(row);
     }
     list.replaceChildren(fragment);
-    meta.textContent = shown ? `${shown} 个符合条件的结果` : '没有找到符合条件的结果，请换个关键词或查看学习首页';
+    meta.textContent = shown ? `${shown} 个符合条件的结果` : '没有找到符合条件的结果，请换个关键词或查看首页';
     if (!shown) { recovery.hidden = false; retry.hidden = true; }
     const alias = aliases[lastQuery.toUpperCase()];
     if (!shown && alias) {
@@ -248,7 +248,7 @@ if (root) {
     meta.textContent = '正在加载搜索引擎…';
     controller = new AbortController();
     const token = ++generation;
-    const timeout = window.setTimeout(() => { if (token === generation && !ready) fail('搜索加载超时，请重试或浏览学习首页。'); }, 4000);
+    const timeout = window.setTimeout(() => { if (token === generation && !ready) fail('搜索加载超时，请重试或浏览首页。'); }, 4000);
     try {
       const response = await fetch(new URL('search/search_index.json', base), {signal: controller.signal, cache: force ? 'reload' : 'default'});
       if (!response.ok) throw Error('search index request failed');
@@ -259,7 +259,7 @@ if (root) {
       documents = data.docs.map(doc => ({...doc, title: plain(doc.title), text: plain(doc.text)}));
       byLocation = new Map(documents.map(doc => [doc.location, doc]));
       worker = new Worker(new URL(config.search, location.href));
-      worker.onerror = event => { event.preventDefault(); window.clearTimeout(timeout); if (token === generation) fail('搜索引擎未能载入，请重试或浏览学习首页。'); };
+      worker.onerror = event => { event.preventDefault(); window.clearTimeout(timeout); if (token === generation) fail('搜索引擎未能载入，请重试或浏览首页。'); };
       worker.onmessage = event => {
         if (token !== generation) return;
         if (event.data.type === 1) {
@@ -279,7 +279,7 @@ if (root) {
       worker.postMessage({type: 0, data: {...data, options: {suggest: false}}});
     } catch {
       window.clearTimeout(timeout);
-      if (token === generation && loading) fail('搜索索引加载失败，请重试或浏览学习首页。');
+      if (token === generation && loading) fail('搜索索引加载失败，请重试或浏览首页。');
     }
   }
   trigger.addEventListener('click', () => { setOpen(!toggle.checked, toggle.checked); if (toggle.checked) input.focus(); });

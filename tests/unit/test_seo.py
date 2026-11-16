@@ -109,10 +109,11 @@ class SeoTests(unittest.TestCase):
                   'nav': [{'演示课程': [{'课程导航': 'courses/demo/index.md'},
                                        {'学习导航': [{'学习概览': 'courses/demo/learn/index.md'},
                                                     {'第 1 章': 'courses/demo/chapter-01.md'}]}]},
-                          {'复习': [{'速查': [{'易错点清单': 'reference/pitfalls.md'},
-                                             {'术语与缩写表': 'reference/glossary.md'}]},
-                                   {'交互练习': [{'练习入口': 'labs/index.md'},
-                                                {'Cache': 'labs/cache.md'}]}]},
+                          {'复习': [{'复习首页': 'reference/index.md'},
+                                    {'易错点清单': 'reference/pitfalls.md'},
+                                    {'术语与缩写表': 'reference/glossary.md'},
+                                    {'交互练习': [{'练习入口': 'labs/index.md'},
+                                                 {'Cache': 'labs/cache.md'}]}]},
                           {'关于': [{'学习指南': 'guide.md'},
                                    {'版本与勘误': 'errata.md'}]}],
                   'extra': {'study_courses': [{'slug': 'demo', 'title': '演示课程'}]}}
@@ -120,9 +121,10 @@ class SeoTests(unittest.TestCase):
             ('courses/demo/chapter-01.md', ['首页', '演示课程', '学习导航'],
              [SITE, SITE + 'courses/demo/', SITE + 'courses/demo/learn/']),
             ('labs/cache.md', ['首页', '复习', '交互练习'],
-             [SITE, SITE + 'reference/pitfalls/', SITE + 'labs/']),
-            ('reference/pitfalls.md', ['首页'], [SITE]),
-            ('labs/index.md', ['首页', '复习'], [SITE, SITE + 'reference/pitfalls/']),
+             [SITE, SITE + 'reference/', SITE + 'labs/']),
+            ('reference/pitfalls.md', ['首页', '复习'], [SITE, SITE + 'reference/']),
+            ('reference/glossary.md', ['首页', '复习'], [SITE, SITE + 'reference/']),
+            ('labs/index.md', ['首页', '复习'], [SITE, SITE + 'reference/']),
         ]
         for uri, names, urls in cases:
             base = uri[:-len('index.md')] if uri.endswith('index.md') else uri[:-len('.md')] + '/'

@@ -54,6 +54,13 @@ export async function runThemeChecks(page, {base, out, report}) {
   }
   await screenshot('home-desktop.png');
 
+  await open('/reference/glossary/');
+  assert.equal(await page.locator('.md-sidebar--primary .md-nav__link')
+    .filter({hasText: '速查'}).count(), 0, 'review sidebar should not add a 速查 level');
+  assert.deepEqual(await page.locator('.study-breadcrumbs li').allInnerTexts(),
+    ['首页', '复习', '术语与缩写表']);
+  await open('/');
+
   await open('/licensing/');
   assert.match(await page.locator('article').innerText(), /教材、大纲与第三方引用/);
   const licenseResponse = await page.request.get(base + '/licenses/Apache-2.0.txt');

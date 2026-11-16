@@ -15,11 +15,10 @@
         "6.1"
       ],
       "topic_tags": [
-        "外围设备",
-        "I/O 系统组成"
+        "外围设备"
       ],
       "syllabus_level": "识记",
-      "review_status": "source-checked"
+      "review_status": "mapping-pending"
     },
     {
       "question_id": "2015-10-02323-Q02",
@@ -33,11 +32,10 @@
         "2.1"
       ],
       "topic_tags": [
-        "程序的执行",
-        "顺序执行"
+        "程序的执行"
       ],
       "syllabus_level": "识记",
-      "review_status": "source-checked"
+      "review_status": "mapping-pending"
     },
     {
       "question_id": "2015-10-02323-Q03",
@@ -51,8 +49,7 @@
         "1.2"
       ],
       "topic_tags": [
-        "批处理",
-        "单道与多道批处理"
+        "批处理"
       ],
       "syllabus_level": "识记",
       "review_status": "source-checked"
@@ -69,11 +66,10 @@
         "6.1"
       ],
       "topic_tags": [
-        "外围设备",
-        "I/O 系统组成"
+        "外围设备"
       ],
       "syllabus_level": "识记",
-      "review_status": "source-checked"
+      "review_status": "mapping-pending"
     },
     {
       "question_id": "2015-10-02323-Q05",
@@ -87,8 +83,7 @@
         "2.2"
       ],
       "topic_tags": [
-        "PCB",
-        "进程定义与结构"
+        "进程控制块"
       ],
       "syllabus_level": "识记",
       "review_status": "source-checked"
@@ -105,8 +100,7 @@
         "3.4"
       ],
       "topic_tags": [
-        "调度算法",
-        "六种算法及抢占时机"
+        "调度算法"
       ],
       "syllabus_level": "领会",
       "review_status": "source-checked"
@@ -123,11 +117,10 @@
         "4.1"
       ],
       "topic_tags": [
-        "存取速度",
-        "层次"
+        "存取速度"
       ],
       "syllabus_level": "识记",
-      "review_status": "source-checked"
+      "review_status": "mapping-pending"
     },
     {
       "question_id": "2015-10-02323-Q08",
@@ -141,8 +134,7 @@
         "4.8"
       ],
       "topic_tags": [
-        "虚拟存储",
-        "虚拟存储与请求分页硬件"
+        "虚拟存储"
       ],
       "syllabus_level": "识记",
       "review_status": "source-checked"
@@ -159,8 +151,7 @@
         "4.8"
       ],
       "topic_tags": [
-        "虚拟地址",
-        "虚拟存储与请求分页硬件"
+        "虚拟地址"
       ],
       "syllabus_level": "识记",
       "review_status": "source-checked"
@@ -177,11 +168,10 @@
         "5.2"
       ],
       "topic_tags": [
-        "保密",
-        "文件概述"
+        "保密"
       ],
       "syllabus_level": "识记",
-      "review_status": "source-checked"
+      "review_status": "mapping-pending"
     },
     {
       "question_id": "2015-10-02323-Q11",
@@ -195,11 +185,10 @@
         "4.1"
       ],
       "topic_tags": [
-        "存储介质",
-        "层次"
+        "存储介质"
       ],
       "syllabus_level": "识记",
-      "review_status": "source-checked"
+      "review_status": "mapping-pending"
     },
     {
       "question_id": "2015-10-02323-Q12",
@@ -213,8 +202,7 @@
         "5.2"
       ],
       "topic_tags": [
-        "打开",
-        "文件概述"
+        "打开"
       ],
       "syllabus_level": "识记",
       "review_status": "source-checked"
@@ -231,11 +219,10 @@
         "5.4"
       ],
       "topic_tags": [
-        "逻辑记录",
-        "连续和链接分配"
+        "逻辑记录"
       ],
       "syllabus_level": "简单应用",
-      "review_status": "source-checked"
+      "review_status": "mapping-pending"
     },
     {
       "question_id": "2015-10-02323-Q14",
@@ -249,7 +236,7 @@
         "6.5"
       ],
       "topic_tags": [
-        "设备独立性"
+        "设备"
       ],
       "syllabus_level": "领会",
       "review_status": "mapping-pending"
@@ -266,8 +253,7 @@
         "6.4"
       ],
       "topic_tags": [
-        "外围设备",
-        "分配数据结构与方式"
+        "外围设备"
       ],
       "syllabus_level": "识记",
       "review_status": "mapping-pending"
@@ -301,11 +287,10 @@
         "2.1"
       ],
       "topic_tags": [
-        "并发进程",
-        "顺序执行"
+        "并发进程"
       ],
       "syllabus_level": "识记",
-      "review_status": "source-checked"
+      "review_status": "mapping-pending"
     },
     {
       "question_id": "2015-10-02323-Q18",
@@ -319,8 +304,8 @@
         "2.10"
       ],
       "topic_tags": [
-        "PV操作",
-        "整型信号量"
+        "V",
+        "原语"
       ],
       "syllabus_level": "简单应用",
       "review_status": "source-checked"
@@ -337,11 +322,10 @@
         "2.1"
       ],
       "topic_tags": [
-        "并发进程",
-        "顺序执行"
+        "并发进程"
       ],
       "syllabus_level": "识记",
-      "review_status": "source-checked"
+      "review_status": "mapping-pending"
     },
     {
       "question_id": "2015-10-02323-Q20",
@@ -355,8 +339,7 @@
         "3.7"
       ],
       "topic_tags": [
-        "死锁",
-        "死锁定义"
+        "死锁"
       ],
       "syllabus_level": "领会",
       "review_status": "source-checked"
@@ -373,8 +356,7 @@
         "3.4"
       ],
       "topic_tags": [
-        "调度算法",
-        "六种算法及抢占时机"
+        "调度算法"
       ],
       "syllabus_level": "领会",
       "review_status": "source-checked"
@@ -391,8 +373,7 @@
         "4.3"
       ],
       "topic_tags": [
-        "分区",
-        "连续分配与动态分区"
+        "分区"
       ],
       "syllabus_level": "识记",
       "review_status": "source-checked"
@@ -409,8 +390,7 @@
         "5.6"
       ],
       "topic_tags": [
-        "目录结构",
-        "目录"
+        "目录结构"
       ],
       "syllabus_level": "简单应用",
       "review_status": "source-checked"
@@ -427,11 +407,10 @@
         "6.9"
       ],
       "topic_tags": [
-        "调度算法",
-        "磁盘调度"
+        "调度算法"
       ],
       "syllabus_level": "领会",
-      "review_status": "source-checked"
+      "review_status": "mapping-pending"
     },
     {
       "question_id": "2015-10-02323-Q25",
@@ -445,8 +424,7 @@
         "2.9"
       ],
       "topic_tags": [
-        "同步",
-        "同步基本概念与四条准则"
+        "同步"
       ],
       "syllabus_level": "领会",
       "review_status": "source-checked"
@@ -463,11 +441,10 @@
         "1.2"
       ],
       "topic_tags": [
-        "网络操作系统",
-        "单道与多道批处理"
+        "网络操作系统"
       ],
       "syllabus_level": "识记",
-      "review_status": "source-checked"
+      "review_status": "mapping-pending"
     },
     {
       "question_id": "2015-10-02323-Q27",
@@ -481,8 +458,7 @@
         "2.6"
       ],
       "topic_tags": [
-        "系统调用",
-        "两种执行态"
+        "系统调用"
       ],
       "syllabus_level": "识记",
       "review_status": "source-checked"
@@ -499,11 +475,10 @@
         "1.2"
       ],
       "topic_tags": [
-        "单道与多道批处理",
-        "分时系统"
+        "存储器"
       ],
       "syllabus_level": "识记",
-      "review_status": "source-checked"
+      "review_status": "mapping-pending"
     },
     {
       "question_id": "2015-10-02323-Q29",
@@ -516,12 +491,9 @@
       "section_refs": [
         "2.3"
       ],
-      "topic_tags": [
-        "三态及转换",
-        "组织"
-      ],
+      "topic_tags": [],
       "syllabus_level": "识记",
-      "review_status": "source-checked"
+      "review_status": "mapping-pending"
     },
     {
       "question_id": "2015-10-02323-Q30",
@@ -535,8 +507,7 @@
         "3.4"
       ],
       "topic_tags": [
-        "就绪",
-        "六种算法及抢占时机"
+        "就绪"
       ],
       "syllabus_level": "领会",
       "review_status": "source-checked"
@@ -553,8 +524,7 @@
         "4.1"
       ],
       "topic_tags": [
-        "层次",
-        "局部性"
+        "存储器"
       ],
       "syllabus_level": "识记",
       "review_status": "source-checked"
@@ -571,8 +541,7 @@
         "4.1"
       ],
       "topic_tags": [
-        "层次",
-        "局部性"
+        "存储器"
       ],
       "syllabus_level": "识记",
       "review_status": "source-checked"
@@ -589,8 +558,7 @@
         "4.5"
       ],
       "topic_tags": [
-        "快表",
-        "快表（TLB）"
+        "快表"
       ],
       "syllabus_level": "领会",
       "review_status": "source-checked"
@@ -607,11 +575,10 @@
         "5.1"
       ],
       "topic_tags": [
-        "信息集合",
-        "文件概述"
+        "信息集合"
       ],
       "syllabus_level": "识记",
-      "review_status": "source-checked"
+      "review_status": "mapping-pending"
     },
     {
       "question_id": "2015-10-02323-Q35",
@@ -625,11 +592,10 @@
         "5.4"
       ],
       "topic_tags": [
-        "索引文件",
-        "连续和链接分配"
+        "索引文件"
       ],
       "syllabus_level": "简单应用",
-      "review_status": "source-checked"
+      "review_status": "mapping-pending"
     },
     {
       "question_id": "2015-10-02323-Q36",
@@ -643,8 +609,7 @@
         "4.8"
       ],
       "topic_tags": [
-        "虚拟存储",
-        "虚拟存储与请求分页硬件"
+        "虚拟存储"
       ],
       "syllabus_level": "识记",
       "review_status": "source-checked"
@@ -661,11 +626,10 @@
         "6.1"
       ],
       "topic_tags": [
-        "外围设备",
-        "I/O 系统组成"
+        "外围设备"
       ],
       "syllabus_level": "识记",
-      "review_status": "source-checked"
+      "review_status": "mapping-pending"
     },
     {
       "question_id": "2015-10-02323-Q38",
@@ -679,11 +643,10 @@
         "6.2"
       ],
       "topic_tags": [
-        "外围设备",
-        "控制方式"
+        "外围设备"
       ],
       "syllabus_level": "领会",
-      "review_status": "source-checked"
+      "review_status": "mapping-pending"
     },
     {
       "question_id": "2015-10-02323-Q39",
@@ -697,11 +660,10 @@
         "6.9"
       ],
       "topic_tags": [
-        "驱动调度",
-        "磁盘调度"
+        "驱动调度"
       ],
       "syllabus_level": "领会",
-      "review_status": "source-checked"
+      "review_status": "mapping-pending"
     },
     {
       "question_id": "2015-10-02323-Q40",
@@ -715,11 +677,10 @@
         "6.9"
       ],
       "topic_tags": [
-        "先来先服务",
-        "磁盘调度"
+        "先来先服务"
       ],
       "syllabus_level": "领会",
-      "review_status": "source-checked"
+      "review_status": "mapping-pending"
     },
     {
       "question_id": "2015-10-02323-Q41",
@@ -733,11 +694,10 @@
         "2.1"
       ],
       "topic_tags": [
-        "可同时执行",
-        "顺序执行"
+        "可同时执行"
       ],
       "syllabus_level": "识记",
-      "review_status": "source-checked"
+      "review_status": "mapping-pending"
     },
     {
       "question_id": "2015-10-02323-Q42",
@@ -751,8 +711,8 @@
         "2.10"
       ],
       "topic_tags": [
-        "PV操作",
-        "整型信号量"
+        "P",
+        "原语"
       ],
       "syllabus_level": "简单应用",
       "review_status": "source-checked"
@@ -769,11 +729,10 @@
         "2.9"
       ],
       "topic_tags": [
-        "同步机制",
-        "同步基本概念与四条准则"
+        "同步机制"
       ],
       "syllabus_level": "领会",
-      "review_status": "source-checked"
+      "review_status": "mapping-pending"
     },
     {
       "question_id": "2015-10-02323-Q44",
@@ -787,11 +746,10 @@
         "2.13"
       ],
       "topic_tags": [
-        "信件",
-        "进程通信"
+        "信件"
       ],
       "syllabus_level": "识记",
-      "review_status": "source-checked"
+      "review_status": "mapping-pending"
     },
     {
       "question_id": "2015-10-02323-Q45",
@@ -805,9 +763,7 @@
         "3.11"
       ],
       "topic_tags": [
-        "死锁",
-        "检测",
-        "解除"
+        "死锁"
       ],
       "syllabus_level": "识记",
       "review_status": "source-checked"
@@ -824,11 +780,10 @@
         "1.2"
       ],
       "topic_tags": [
-        "实时操作系统",
-        "单道与多道批处理"
+        "实时操作系统"
       ],
       "syllabus_level": "识记",
-      "review_status": "source-checked"
+      "review_status": "mapping-pending"
     },
     {
       "question_id": "2015-10-02323-Q47",
@@ -842,8 +797,7 @@
         "4.3"
       ],
       "topic_tags": [
-        "空闲区",
-        "连续分配与动态分区"
+        "空闲区"
       ],
       "syllabus_level": "简单应用",
       "review_status": "source-checked"
@@ -860,8 +814,7 @@
         "6.8"
       ],
       "topic_tags": [
-        "传输时间",
-        "磁盘结构与时间"
+        "传输时间"
       ],
       "syllabus_level": "识记",
       "review_status": "source-checked"
@@ -878,8 +831,7 @@
         "2.9"
       ],
       "topic_tags": [
-        "临界资源",
-        "同步基本概念与四条准则"
+        "临界资源"
       ],
       "syllabus_level": "领会",
       "review_status": "source-checked"
@@ -898,8 +850,7 @@
         "2.1"
       ],
       "topic_tags": [
-        "共享",
-        "安全／不安全状态"
+        "共享"
       ],
       "syllabus_level": "识记",
       "review_status": "source-checked"
@@ -916,8 +867,7 @@
         "3.3"
       ],
       "topic_tags": [
-        "平均周转",
-        "周转"
+        "平均周转"
       ],
       "syllabus_level": "简单应用",
       "review_status": "source-checked"
@@ -934,8 +884,7 @@
         "4.8"
       ],
       "topic_tags": [
-        "缺页",
-        "虚拟存储与请求分页硬件"
+        "缺页"
       ],
       "syllabus_level": "领会",
       "review_status": "source-checked"
@@ -952,11 +901,10 @@
         "5.4"
       ],
       "topic_tags": [
-        "逻辑记录",
-        "连续和链接分配"
+        "逻辑记录"
       ],
       "syllabus_level": "简单应用",
-      "review_status": "source-checked"
+      "review_status": "mapping-pending"
     }
   ]
 }

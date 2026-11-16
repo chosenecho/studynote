@@ -1573,7 +1573,7 @@
       "source_kind": "original-software-and-documentation",
       "basis": "2026-11-16 部署与依赖改动同步复核：新增 search_trim.py 钩子说明与 Python 环境章节，仍为第一方文档。",
       "reviewed_on": "2026-11-16",
-      "sha256": "62328912a9847e3c2e620d38685c54cf6ff0746a3b882ca12efe9221b0d35be1"
+      "sha256": "3137d386197e24121950f7b90a8a57b1d62fa80c355f62b6d1aca50906a75014"
     },
     {
       "path": "handbook/history-cleanup.md",
@@ -1645,7 +1645,7 @@
       "source_kind": "original-software-and-documentation",
       "reviewed_on": "2026-11-16",
       "basis": "2026-11-16 核验评估结果收尾：补入第 8 章拆节、topics 对齐、11 条已修缺陷状态与后续任务；统计取自本仓库检查器输出与忽略目录中的评审卡，未收录教材原文、真题题面或扫描件。",
-      "sha256": "dddddd5fba591b50c3b574f5ff0c9a5d4ba4356f732b52c4a45c80203c5550d6"
+      "sha256": "bbfd025fa30d564a6ce0149550688bea7f75865b995b66f9f93f709829cfe3f9"
     },
     {
       "path": "handbook/plans/2026-11-16-content-evaluation.md",

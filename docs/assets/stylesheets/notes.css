@@ -1,4 +1,4 @@
-/* Material owns the page layout, typography, navigation, cards and buttons.
+﻿/* Material owns the page layout, typography, navigation, cards and buttons.
    These aliases only adapt the existing study tools to its active palette. */
 [data-md-color-scheme] {
   --note-bg: var(--md-default-bg-color);
@@ -268,3 +268,14 @@ html.no-js .study-toolbar { display: none; }
 @media (max-width: 700px) {
     .md-typeset .chapter-grid { grid-template-columns: 1fr; }
 }
+
+/* Cross-layer exit rows: exam pages and chapter footers (generated, no heading) */
+.md-typeset .layer-exits {
+    margin: 1.6rem 0 .4rem;
+    padding-top: .7rem;
+    border-top: 1px solid var(--note-border);
+    font-size: .8rem;
+    line-height: 1.8;
+    color: var(--note-muted);
+}
+.md-typeset .layer-exits a { color: var(--note-accent); }

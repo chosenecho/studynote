@@ -207,5 +207,27 @@ class BuildTests(unittest.TestCase):
                     content.chapter_images(f'![Bad]({invalid})', page)
 
 
+    def test_exit_rows_link_across_layers_without_changing_page_blocks(self):
+        course = dict(id='os', slug='operating-systems', title='操作系统概论', chapters=2)
+        page = SimpleNamespace(file=SimpleNamespace(src_uri='courses/operating-systems/exam/02.md'),
+                              url='courses/operating-systems/exam/02/', meta={})
+        source = '# 第 2 章 进程管理 · 应试导航' + chr(10)*2 + '## 必背名词' + chr(10)*2 + '内容' + chr(10)
+        with patch.object(content, 'COURSES', [course]):
+            rendered = content.on_page_markdown(source, page, {}, [])
+        self.assertIn('layer-exits', rendered)
+        self.assertIn('../learn/index.md', rendered)
+        self.assertIn('../chapter-02.md#exercise-1', rendered)
+        self.assertEqual(sum(1 for line in rendered.splitlines() if line.startswith('## ')), 1)
+        exits = content.exam_exits(2)
+        self.assertNotIn('## ', exits)
+        self.assertNotIn('??? note', exits)
+        self.assertIn('../../../reference/pitfalls.md', exits)
+        self.assertIn('../../../reference/glossary.md', exits)
+        chapter = content.chapter_exits(course)
+        self.assertIn('](../../reference/pitfalls.md#os)', chapter)
+        self.assertIn('](../../reference/glossary.md#os)', chapter)
+        self.assertNotIn('chapter-', chapter)
+
+
 if __name__ == '__main__':
     unittest.main()

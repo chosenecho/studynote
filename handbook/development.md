@@ -39,7 +39,7 @@ npm run uv:sync:direct   # 不走代理
 
 阅读和实验样式位于 `docs/assets/stylesheets/`；KaTeX 原发行文件位于 `docs/assets/vendor/katex/`，保留其 LICENSE。模板覆盖位于 `theme/`。
 
-页面采用 Material 原生导航、课程索引、页脚、配色、卡片、按钮和折叠组件。新增页面先使用 `mkdocs.yml` 和 Markdown 扩展，样式仅补充阅读、实验、打印与无障碍需求。
+页面用 Material 自带的导航、页脚、配色、卡片和折叠组件，课程索引另外接上。新增页面先走 `mkdocs.yml` 和 Markdown 扩展，样式只在阅读、实验、打印和无障碍上补足。
 
 课程首页与考点页面由 Markdown 与自有样式组成：`.chapter-grid`、`.chapter-card`、`.course-steps`。每门课拆成两套页面：`chapter-NN.md` 放学习导航、概念讲解与练习；`exam/NN.md` 放必背名词、必背清单、数字与公式、易混对照、简答模板与默写自测，`exam/index.md` 是考点总览。考点页文件名不得以 `chapter-` 开头，否则会与章节文件集校验冲突；章页用 `(exam/NN.md)` 链到考点页，考点页用 `(../chapter-NN.md)` 链回。
 

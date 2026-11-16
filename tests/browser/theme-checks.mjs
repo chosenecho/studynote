@@ -71,6 +71,10 @@ export async function runThemeChecks(page, {base, out, report}) {
   await page.locator('.md-tabs a[href="courses/operating-systems/"]').click();
   await page.waitForURL(base + '/courses/operating-systems/');
   assert.match(await page.locator('h1').innerText(), /^操作系统概论/);
+  assert.equal((await page.locator('.md-nav__item--section > .md-nav__container > a .md-ellipsis')
+    .first().innerText()).trim(), '课程导航');
+  assert.equal((await page.locator('.md-tabs__link').filter({hasText: '操作系统概论'}).innerText()).trim(),
+    '操作系统概论');
   assert.equal(await footerPath('next'), '/courses/operating-systems/learn/');
   await open('/courses/operating-systems/learn/');
   assert.equal(await page.locator('[data-progress-chapter]').count(), 6);

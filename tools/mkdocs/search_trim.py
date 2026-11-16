@@ -5,9 +5,9 @@ as the text. The index is fetched the first time a reader opens search, which ma
 the single largest transfer on the site.
 
 Stripping the tags is the real cut. Capping each entry at 1600 characters then trims
-the tail of long sections: 682 entries, 434,878 characters of text down to 369,761,
-1.0 MB of JSON and 273 KB after Brotli. The cap costs 4.4% of term-page pairs — a term
-that appears only deep inside a long exam page stops reaching it — so the number is a
+the tail of long sections: 682 entries, 372,701 characters of text left, 1.0 MB of JSON
+and 275 KB after Brotli. The cap costs about 4% of term-page pairs — a term that
+appears only deep inside a long exam page stops reaching it — so the number is a
 measured trade, not a free win; `tools/checks/search_coverage.py` fails the build when
 that loss grows.
 

@@ -1,6 +1,7 @@
 # 术语与缩写表
 
 OS：操作系统概论；CO：计算机组成原理；CN：计算机网络技术；MM：多媒体技术及应用。
+## 操作系统概论 {#os}
 
 | 术语 | 含义 | 章节 |
 | --- | --- | --- |
@@ -24,6 +25,11 @@ OS：操作系统概论；CO：计算机组成原理；CN：计算机网络技�
 | FAT | 文件分配表，记簇链 | [OS 5](../courses/operating-systems/chapter-05.md#s5) |
 | i 结点 | 记文件属性与数据位置 | [OS 5](../courses/operating-systems/chapter-05.md#s7) |
 | SPOOLing | 磁盘队列暂存设备作业 | [OS 6](../courses/operating-systems/chapter-06.md#s6) |
+
+## 计算机组成原理 {#co}
+
+| 术语 | 含义 | 章节 |
+| --- | --- | --- |
 | PC | 程序计数器，记指令位置 | [CO 1](../courses/computer-organization/chapter-01.md#s4) |
 | IR | 暂存当前指令 | [CO 1](../courses/computer-organization/chapter-01.md#s4) |
 | ISA | 指令集体系结构，约定机器级行为 | [CO 1](../courses/computer-organization/chapter-01.md#s3) |
@@ -40,7 +46,7 @@ OS：操作系统概论；CO：计算机组成原理；CN：计算机网络技�
 | DMA | 直接存储器访问，设备侧或专用引擎搬运 | [CO 6](../courses/computer-organization/chapter-06.md#s5) |
 | IOMMU | I/O 地址转换与设备隔离 | [CO 6](../courses/computer-organization/chapter-06.md#s5) |
 
-## 计算机网络技术
+## 计算机网络技术 {#cn}
 
 | 术语 | 含义 | 章节 |
 | --- | --- | --- |

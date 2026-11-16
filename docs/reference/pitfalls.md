@@ -1,6 +1,6 @@
 # 易错点清单
 
-## 操作系统概论
+## 操作系统概论 {#os}
 
 | 章节 | 易混概念 | 区别 |
 | --- | --- | --- |
@@ -17,7 +17,7 @@
 
 同步一行中，empty 记录空槽位，full 记录成品数，两者都是信号量。
 
-## 计算机组成原理
+## 计算机组成原理 {#co}
 
 | 章节 | 易混概念 | 区别 |
 | --- | --- | --- |
@@ -31,16 +31,7 @@
 | [总线](../courses/computer-organization/chapter-06.md#s3) | 峰值带宽 | 每次传输字节数 × 每秒传输次数 |
 | [总线](../courses/computer-organization/chapter-06.md#s3) | 有效带宽 | 交付字节数 ÷ 事务总耗时 |
 
-## 访存时间
-
-完整未命中时间包含本次访问的全部耗时；额外惩罚只计算超出命中时间的部分。两种写法见[Cache 性能](../courses/computer-organization/chapter-05.md#s5)：
-
-- 给额外惩罚 $P$：$AMAT=T_h+mP$。
-- 给完整未命中时间 $T_m$：$AMAT=(1-m)T_h+mT_m$。
-
-$m$ 为未命中率，$T_h$ 为命中时间，各时间量使用同一单位。[缺页平均耗时](../courses/operating-systems/chapter-04.md#s11)也按同样方式加权。
-
-## 计算机网络技术
+## 计算机网络技术 {#cn}
 
 | 章节 | 容易混淆的判断 | 回查方式 |
 | --- | --- | --- |
@@ -71,3 +62,12 @@ $m$ 为未命中率，$T_h$ 为命中时间，各时间量使用同一单位。[
 | [项目开发](../courses/multimedia-technology/chapter-09.md#s6) | 制作端预览与交付验收 | 保留版本、环境、预期和实际 |
 
 旧软件任务按教材版本描述；OCR 错误与原书疑点见对应正文。
+
+## 跨课程专题：访存时间 {#cross}
+
+完整未命中时间包含本次访问的全部耗时；额外惩罚只计算超出命中时间的部分。两种写法见[Cache 性能](../courses/computer-organization/chapter-05.md#s5)：
+
+- 给额外惩罚 $P$：$AMAT=T_h+mP$。
+- 给完整未命中时间 $T_m$：$AMAT=(1-m)T_h+mT_m$。
+
+$m$ 为未命中率，$T_h$ 为命中时间，各时间量使用同一单位。[缺页平均耗时](../courses/operating-systems/chapter-04.md#s11)也按同样方式加权。

@@ -1504,6 +1504,15 @@
       "sha256": "0df45be37e7c573edd8a9174352b7b524abef17159c582f4125975f510619fe2"
     },
     {
+      "path": "docs/reference/index.md",
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "source_kind": "original",
+      "reviewed_on": "2026-11-16",
+      "basis": "2026-11-16 站点结构重构：新增复习首页，汇总速查与交互练习入口，未新增第三方内容。",
+      "sha256": "373cf8012c06e910772c71bebbce31774e4bb54d0b2d82230e5532c77290616d"
+    },
+    {
       "path": "docs/reference/pitfalls.md",
       "status": "cleared",
       "license": "CC-BY-4.0",

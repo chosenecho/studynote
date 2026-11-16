@@ -38,6 +38,9 @@ export async function runThemeChecks(page, {base, out, report}) {
   assert.equal(await page.locator('.md-tabs__item').count(), courses.length+3);
   assert.equal(await page.locator('.md-tabs__link').filter({hasText: '复习'}).count(), 1);
   assert.equal(await page.locator('.md-tabs__link').filter({hasText: '关于'}).count(), 1);
+  const reviewTabHref = await page.locator('.md-tabs__link').filter({hasText: '复习'}).getAttribute('href');
+  assert.ok(reviewTabHref.includes('reference/') && !reviewTabHref.includes('pitfalls'),
+    `复习 tab should open the review hub, got ${reviewTabHref}`);
   assert.equal(await page.locator('.grid.cards > ul > li').count(), courses.length);
   await page.evaluate(ids => {
     localStorage.setItem('studynote:completed:v1', JSON.stringify(ids.map(id => id+'-1')));

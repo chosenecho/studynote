@@ -35,7 +35,7 @@ for course in courses:
     if any(p.name.startswith('chapter-') for p in exam.glob('*.md')):
         errors.append(f'{folder.name}: exam pages must not use the chapter- file prefix')
 # Navigation labels must read like the page they open; landing-role labels are exempt.
-ROLE_LABELS = {'课程导航', '学习概览', '考点总览', '学习首页', '速查首页', '练习入口'}
+ROLE_LABELS = {'课程导航', '学习概览', '考点总览', '学习首页', '复习首页', '速查首页', '练习入口'}
 VIRTUAL_PAGES = {'licensing.md', 'third-party-notices.md'}
 TAB_COUNT = len(courses) + 3
 

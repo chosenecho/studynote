@@ -1,4 +1,4 @@
-﻿/* Material owns the page layout, typography, navigation, cards and buttons.
+/* Material owns the page layout, typography, navigation, cards and buttons.
    These aliases only adapt the existing study tools to its active palette. */
 [data-md-color-scheme] {
   --note-bg: var(--md-default-bg-color);

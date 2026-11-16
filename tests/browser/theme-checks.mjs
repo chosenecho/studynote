@@ -73,6 +73,12 @@ export async function runThemeChecks(page, {base, out, report}) {
   assert.match(await page.locator('h1').innerText(), /^操作系统概论/);
   assert.equal((await page.locator('.md-nav__item--section > .md-nav__container > a .md-ellipsis')
     .first().innerText()).trim(), '课程导航');
+  assert.ok(await page.locator('body').evaluate(el => getComputedStyle(el).getPropertyValue('--note-accent').trim()),
+    'study color aliases should resolve');
+  const currentCrumb = page.locator('.study-breadcrumbs [aria-current="page"]');
+  assert.notEqual(await currentCrumb.evaluate(el => getComputedStyle(el).color),
+    await page.locator('.study-breadcrumbs a').first().evaluate(el => getComputedStyle(el).color),
+    'breadcrumb current page should use the accent color');
   assert.equal((await page.locator('.md-tabs__link').filter({hasText: '操作系统概论'}).innerText()).trim(),
     '操作系统概论');
   assert.equal(await footerPath('next'), '/courses/operating-systems/learn/');

@@ -293,11 +293,15 @@ html.no-js .study-toolbar { display: none; }
 /* In-text links rely on colour alone by Material default. Underline them, but not
    heading permalinks, buttons, figure zoom links or card links. :where() keeps the
    specificity at 0,1,1 so the breadcrumb rule above (.md-typeset .study-breadcrumbs a,
-   0,2,1) still wins and stays un-underlined. */
+   0,2,1) still wins and stays un-underlined.
+   The underline is a WCAG 1.4.1 non-colour cue (link #4051b5 only reaches 3.06:1 vs
+   body text in light, 2.35:1 in dark), so it cannot be removed; it is drawn as a thin,
+   45%-opacity hairline so it reads as a subtle rule instead of a bold stroke. */
 .md-typeset :is(p, li, dd, blockquote, td) a:where(:not(.headerlink):not(.md-button):not(.figure-zoom):not(.zoom-hint):not(.recent-study)) {
   text-decoration: underline;
-  text-decoration-thickness: .06em;
-  text-underline-offset: .18em;
+  text-decoration-thickness: 1px;
+  text-decoration-color: color-mix(in srgb, currentColor 45%, transparent);
+  text-underline-offset: .22em;
 }
 /* Top tabs: white text at opacity .7 over #4051b5 is 4.28:1. .8 reaches 5.04:1. */
 .md-tabs__link { opacity: .8; }

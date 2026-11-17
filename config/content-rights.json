@@ -289,7 +289,7 @@
       "source_kind": "original-software-and-documentation",
       "basis": "2026-11-06 审阅第一方软件、存储兼容逻辑、交互状态和界面文案；2026-11-10 追加页脚备案行的图标与文字对齐样式，并让桌面端搜索面板只留字段内一个图标、结果区在展开时即有稳定高度；只影响样式，运行针对性单元及浏览器回归；2026-11-16 移除文件开头的 UTF-8 BOM，恢复 --note-* 颜色别名，使面包屑当前位置等复用强调色；只影响样式，运行全量检查与浏览器回归。",
       "reviewed_on": "2026-11-16",
-      "sha256": "d162b5ac555d12523a6ab37b05da02c95aa8cedfc14ecbe615edfc7ce5d37cd7"
+      "sha256": "a7acd84597108b87a1c33dd9739dedbb9faa61964cf86aa72a66828ce1588524"
     },
     {
       "path": "docs/assets/vendor/katex/LICENSE",

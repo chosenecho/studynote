@@ -41,3 +41,8 @@ html.no-js:not(.study-js) [data-study-lab] { display: none; }
 .study-option input { flex: none; width: 20px; height: 20px; margin-top: .3rem; accent-color: var(--note-accent); }
 @media(max-width:600px) { .study-lab { padding: 1rem .75rem; } .study-fields { grid-template-columns: 1fr; } .study-lab .lab-buttons button { flex: 1 1 auto; } }
 @media print { .study-lab form, .study-step-controls { display: none; } .study-lab { padding: 0; border: 0; } html.study-js [data-study-lab] { min-height: 0; } }
+
+/* 2026-11-17 R1: Material's `.md-typeset small{opacity:.75}` stacks on the muted
+   token and drops lab field hints to 2.88:1 (light) / 3.38:1 (dark). Removing the
+   second opacity cut restores 4.61:1 / 4.92:1 without touching the global token. */
+.md-typeset .study-lab small { opacity: 1; }

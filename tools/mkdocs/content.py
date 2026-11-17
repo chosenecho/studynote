@@ -236,7 +236,7 @@ def on_page_markdown(markdown, page, config, files):
 
 def on_page_content(html, page, **kwargs):
     # Exclude dynamic controls and no-script notices before the search plugin indexes HTML.
-    return re.sub(
+    html = re.sub(
         r'<(noscript|form|div)([^>]*)>',
         lambda m: m.group(0) if 'data-search-exclude' in m.group(2) or not (
             m.group(1) == 'noscript' or 'data-study-lab' in m.group(2)
@@ -244,3 +244,16 @@ def on_page_content(html, page, **kwargs):
         ) else '<' + m.group(1) + ' data-search-exclude' + m.group(2) + '>',
         html,
     )
+    # Table header cells carry no scope by default; add it so screen readers can
+    # associate data cells with their row/column headers (WCAG 1.3.1).
+    html = re.sub(
+        r'<thead>([\s\S]*?)</thead>',
+        lambda m: '<thead>' + re.sub(r'<th(?![^>]*\bscope=)', '<th scope="col"', m.group(1)) + '</thead>',
+        html,
+    )
+    html = re.sub(
+        r'<tbody>([\s\S]*?)</tbody>',
+        lambda m: '<tbody>' + re.sub(r'<th(?![^>]*\bscope=)', '<th scope="row"', m.group(1)) + '</tbody>',
+        html,
+    )
+    return html

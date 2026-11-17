@@ -226,7 +226,7 @@
       "source_kind": "original-software-and-documentation",
       "basis": "第一方软件、独立编写的随堂题库及维护文档；已审阅正文和默认案例，未保留教材题目或答案表达。编辑过程见 archive/releases/2026-11-04-open-content.md。 2026-11-05 编辑复核：独立编写搜索加载、失败恢复和键盘交互、自测本地记录及调度结果失效提示；审阅本次代码、样式和操作说明差异，未改动题库内容或引入第三方引文、教材题目与插图。编辑记录不构成法律认定。",
       "reviewed_on": "2026-11-05",
-      "sha256": "8274798dacd87dc8e5d282e5c0d3e4018785b14dcc8c967f968c61dc259ededa"
+      "sha256": "c3a2c27b44e9ffd27fab5b9be299d067acf31628973d204a6833624df0f766be"
     },
     {
       "path": "docs/assets/javascripts/labs/scheduling.mjs",
@@ -271,7 +271,7 @@
       "source_kind": "original-software-and-documentation",
       "basis": "2026-11-16 部署与依赖改动同步复核：搜索索引裁剪后同步复核，仍为第一方实现；2026-11-16 站点结构重构：更新导航与复习入口链接、术语跨课程专节，未新增第三方内容。 2026-11-16 导航改名：学习首页改为首页。",
       "reviewed_on": "2026-11-16",
-      "sha256": "268c5649cf70c9ae638302f5963c42ac56b8eb1ae55653f3a1ce8ba0c7fb3af9"
+      "sha256": "e62cde495fd0bab9511c07a4bfe40d52cf8feccc0c298fbcd2b4be8e9ead3a65"
     },
     {
       "path": "docs/assets/stylesheets/labs.css",
@@ -280,7 +280,7 @@
       "source_kind": "original-software-and-documentation",
       "basis": "2026-11-06 审阅本次第一方软件、存储兼容逻辑、交互状态和界面文案；运行针对性单元及浏览器回归。",
       "reviewed_on": "2026-11-10",
-      "sha256": "2e730087e3d0be7c3de0fd2c3abfe1b5563677c79b2b0069f9f4d73e4640e99a"
+      "sha256": "620d8bb9e8cc0619ec5229f0a67d7f3f7f9d39e9dff8c3a0dff3350e7b22eb9f"
     },
     {
       "path": "docs/assets/stylesheets/notes.css",
@@ -289,7 +289,7 @@
       "source_kind": "original-software-and-documentation",
       "basis": "2026-11-06 审阅第一方软件、存储兼容逻辑、交互状态和界面文案；2026-11-10 追加页脚备案行的图标与文字对齐样式，并让桌面端搜索面板只留字段内一个图标、结果区在展开时即有稳定高度；只影响样式，运行针对性单元及浏览器回归；2026-11-16 移除文件开头的 UTF-8 BOM，恢复 --note-* 颜色别名，使面包屑当前位置等复用强调色；只影响样式，运行全量检查与浏览器回归。",
       "reviewed_on": "2026-11-16",
-      "sha256": "7d5b8415d61ac0be7d7e516ed20185a8a73dbb9e79c4aaf7fe137f7ea0ef4045"
+      "sha256": "d162b5ac555d12523a6ab37b05da02c95aa8cedfc14ecbe615edfc7ce5d37cd7"
     },
     {
       "path": "docs/assets/vendor/katex/LICENSE",

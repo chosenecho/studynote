@@ -25,6 +25,7 @@ if (root) {
   let byLocation = new Map();
   let lastQuery = '';
   let returnOnClose = false;
+  let suppressFocusOpen = false;
   // No query yet: the panel is only the field, with no empty result area under it.
   root.dataset.searchIdle = '';
 
@@ -34,10 +35,12 @@ if (root) {
     root.querySelector('.md-search__scrollwrap').tabIndex = toggle.checked ? 0 : -1;
     if (toggle.checked) load();
     else {
-      // A field that keeps focus after closing never fires another focus event,
-      // so the next click on it would not open the panel again.
-      if (document.activeElement === input) input.blur();
+      // Return focus to the opener when the panel closes from a keyboard action
+      // (Esc). On desktop the header trigger is display:none, so fall back to the
+      // field itself; suppress the "focus opens the panel" handler so it stays closed.
       if (returnOnClose && trigger.getClientRects().length) trigger.focus({preventScroll: true});
+      else if (returnOnClose) { suppressFocusOpen = true; input.focus({preventScroll: true}); suppressFocusOpen = false; }
+      else if (document.activeElement === input) input.blur();
     }
     returnOnClose = false;
   }
@@ -284,8 +287,8 @@ if (root) {
   }
   trigger.addEventListener('click', () => { setOpen(!toggle.checked, toggle.checked); if (toggle.checked) input.focus(); });
   toggle.addEventListener('change', sync);
-  input.addEventListener('focus', () => { if (!toggle.checked) setOpen(true); else load(); });
-  input.addEventListener('input', event => { window.clearTimeout(timer); if (event.isComposing) return; timer = window.setTimeout(() => { if (!ready) load(); else query(); }, 150); });
+  input.addEventListener('focus', () => { if (suppressFocusOpen) return; if (!toggle.checked) setOpen(true); else load(); });
+  input.addEventListener('input', event => { if (!toggle.checked) setOpen(true); window.clearTimeout(timer); if (event.isComposing) return; timer = window.setTimeout(() => { if (!ready) load(); else query(); }, 150); });
   input.addEventListener('compositionend', () => { window.clearTimeout(timer); if (!ready) load(); else query(); });
   retry.addEventListener('click', () => { retry.disabled = true; retry.textContent = '正在重试…'; load(true); });
   form.addEventListener('submit', event => { event.preventDefault(); query(); });

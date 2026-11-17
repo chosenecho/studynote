@@ -285,3 +285,36 @@ html.no-js .study-toolbar { display: none; }
     color: var(--note-muted);
 }
 .md-typeset .layer-exits a { color: var(--note-accent); }
+
+/* --- 2026-11-17 R1: accessibility fixes (see artifacts/review/2026-11-17-r1-change-plan.md) --- */
+/* Visually hidden but still in the accessibility tree; used to give icon-only
+   nav toggle labels an accessible name (landmark-unique). */
+.md-visually-hidden { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
+/* In-text links rely on colour alone by Material default. Underline them, but not
+   heading permalinks, buttons, figure zoom links or card links. :where() keeps the
+   specificity at 0,1,1 so the breadcrumb rule above (.md-typeset .study-breadcrumbs a,
+   0,2,1) still wins and stays un-underlined. */
+.md-typeset :is(p, li, dd, blockquote, td) a:where(:not(.headerlink):not(.md-button):not(.figure-zoom):not(.zoom-hint):not(.recent-study)) {
+  text-decoration: underline;
+  text-decoration-thickness: .06em;
+  text-underline-offset: .18em;
+}
+/* Top tabs: white text at opacity .7 over #4051b5 is 4.28:1. .8 reaches 5.04:1. */
+.md-tabs__link { opacity: .8; }
+/* Table links that are the only child of a cell get a 24x24 touch target. */
+.md-typeset table:not([class]) td > a:only-child { display: inline-flex; align-items: center; justify-content: center; min-width: 24px; min-height: 24px; }
+/* Layer-exit rows: 24px targets on desktop, 44px on touch widths. */
+.md-typeset .layer-exits a { display: inline-flex; align-items: center; min-height: 24px; }
+@media (max-width: 600px) {
+  /* Breadcrumb links: 44px touch targets; the trail may scroll sideways rather
+     than wrap several rows tall, and must never widen the page itself. Keep each
+     label on one line and stop the flex items from shrinking (a shrunk CJK label
+     would stack two characters vertically). */
+  .md-typeset .study-breadcrumbs a { display: inline-flex; align-items: center; min-height: 44px; white-space: nowrap; }
+  .md-typeset .study-breadcrumbs li { flex: 0 0 auto; }
+  .md-typeset .study-breadcrumbs ol { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: thin; }
+  .md-typeset .layer-exits a { min-height: 44px; }
+}
+/* Primary button: default #4051b5 is 6.86:1, but Material's hover/focus accent
+   #526cfe drops white text to 4.26:1. A darker hover keeps it at 7.92:1. */
+[data-md-color-scheme="default"] .md-typeset .md-button--primary:is(:hover, :focus-visible) { color: #fff; background: #3a4a9e; border-color: #3a4a9e; }

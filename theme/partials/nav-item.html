@@ -1,9 +1,13 @@
 {#-
   Copied from mkdocs-material 9.7.7 and kept in sync manually.
 
-  Only local change: for a section whose index page is a course landing page
-  labelled "课程导航", render the index page's own nav title in the sidebar
-  instead of the section (tab) title. The tab keeps the course name.
+  Only local changes:
+  1. For a section whose index page is a course landing page labelled "课程导航",
+     render the index page's own nav title in the sidebar instead of the section
+     (tab) title. The tab keeps the course name.
+  2. Give the icon-only toggle <label> (index branch) a visually hidden section
+     title, so the nested <nav aria-labelledby="…_label"> it controls has a unique
+     accessible name (fixes axe landmark-unique).
 -#}
 {% macro render_status(nav_item, type) %}
   {% set class = "md-status md-status--" ~ type %}
@@ -127,6 +131,11 @@
             {% if nav_item.children | length > 1 %}
               {% set tabindex = "0" if not is_section %}
               <label class="md-nav__link {{ class }}" for="{{ path }}" id="{{ path }}_label" tabindex="{{ tabindex }}">
+                {#- Local change: this toggle label holds only an icon, so the
+                    <nav aria-labelledby="…_label"> it controls had no accessible
+                    name (axe landmark-unique). Add the section title as visually
+                    hidden text so every nested nav is uniquely named. -#}
+                <span class="md-visually-hidden">{{ render_title(nav_item) }}</span>
                 <span class="md-nav__icon md-icon"></span>
               </label>
             {% endif %}

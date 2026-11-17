@@ -52,6 +52,9 @@ const {schedule} = await import('./scheduling.mjs' + new URL(import.meta.url).se
         const chart = document.createElement("div");
         chart.className = "gantt";
         chart.setAttribute("aria-label", "\u6309\u65F6\u95F4\u987A\u5E8F\u6392\u5217\u7684\u6267\u884C\u7247\u6BB5\uFF0C\u957F\u5EA6\u4E0E\u8FD0\u884C\u65F6\u95F4\u6210\u6BD4\u4F8B");
+        // The track scrolls inside .gantt; give the region a tab stop so keyboard
+        // users can scroll it (scrollable-region-focusable).
+        chart.tabIndex = 0;
         // Keep the bar proportional: blocks share a track whose minimum width leaves
         // ~44px per unit; the track scrolls inside .gantt instead of widening the page.
         const totalDuration = result.segments.reduce((n, segment) => n + (segment.end - segment.start), 0) || 1;

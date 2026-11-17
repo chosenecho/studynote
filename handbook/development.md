@@ -13,7 +13,7 @@ MkDocs 直接读取 `docs/`。课程位于 `docs/courses/<slug>/`，入口为 `i
 - `tools/mkdocs/content.py`：通过 `on_page_markdown` 添加复习工具栏、进度标记、折叠答案和图片尺寸。课程入口的“资料与核对规则”“资料依据与使用边界”“原有笔记处理”章节仅保留在源码中。
 - `tools/mkdocs/licenses.py`：通过 `on_files` 将根目录许可说明、`LICENSE`、`NOTICE`、`LICENSES/` 和权利清单作为虚拟文件提供给站点。
 - `tools/mkdocs/assets.py`：处理构建产物，内联阅读样式、调用 `render-math.cjs` 将公式构建为 KaTeX HTML/MathML，清理未使用的搜索语言包与 source map。
-- `tools/mkdocs/search_trim.py`：构建后裁剪搜索索引，去掉 HTML 标签并把每条正文截到 1600 字符。去标签是主要瘦身（标签占索引原文的大半），截断只砍长条的尾部；682 条正文合计 372,701 字符，产物 1.0 MB、Brotli 275 KB。只改产物，不动源页面。
+- `tools/mkdocs/search_trim.py`：构建后去掉搜索索引的 HTML 标签并归一空白，保留完整正文，不再按 1600 字符截断。2026-11-17 整改实测为 685 条、442,964 字符，JSON 1,191,083 B、Brotli 312,265 B；相对同批旧裁剪产物增加 16.08%，换取固定 28 词的 507 个正文词—页面对全部保留。`check:search` 的总量与单词丢失预算均为 0。只改产物，不动源页面；实测与局限见 `plans/2026-11-17-site-remediation-results.md`。
 
 钩子不写入 `docs/`。课程之间的链接保留原生 Markdown 路径，不再另设输出目录或改写章节文件名。
 

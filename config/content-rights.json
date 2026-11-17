@@ -618,8 +618,8 @@
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
       "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
-      "reviewed_on": "2026-11-10",
-      "sha256": "d9b5232796ff27b1efefad3580d2bce9069ee98b6668b3d00e1c04b0fb28e3d9"
+      "reviewed_on": "2026-11-17",
+      "sha256": "9066e949729b9f01a341702b551c4211c443ad1629cd59027157162a46f9c82a"
     },
     {
       "path": "docs/courses/computer-networks/exam/02.md",
@@ -627,8 +627,8 @@
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
       "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
-      "reviewed_on": "2026-11-16",
-      "sha256": "4114d103add7481419773127a6eec4e01ccc491796f59505580d9955289acae5"
+      "reviewed_on": "2026-11-17",
+      "sha256": "8089a373f171383deec36cdb02f2346be6668e922944d4979229b50fe2eb5731"
     },
     {
       "path": "docs/courses/computer-networks/exam/03.md",
@@ -636,8 +636,8 @@
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
       "basis": "2026-11-16 核验本轮增补：对照已核验成书快照把考点页必背清单分组标题由“第 N 节”改为“考纲条目 N”，与 config/syllabus.json 的 objectives 编号对齐；条目内容、数字与锚点未变，未新增事实，未收录教材原文或插图。",
-      "reviewed_on": "2026-11-16",
-      "sha256": "eab684e35ad5c0e1803c03cf5e5c09749d7ad2c5c9ea4597d63d89c5204d6758"
+      "reviewed_on": "2026-11-17",
+      "sha256": "363860108f61d0404f9fac7c92741223f679bc580080d2f5cf7d596a2bbe3e6c"
     },
     {
       "path": "docs/courses/computer-networks/exam/04.md",
@@ -645,8 +645,8 @@
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
       "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
-      "reviewed_on": "2026-11-16",
-      "sha256": "3c5fd1b4751e9f1bb72c5c41a1f0effc7ea7d470fe498d93101e9d38eeefc569"
+      "reviewed_on": "2026-11-17",
+      "sha256": "faf1519808787e7239b21d8a6659034abe647a7c0c3574001190757d5d9dfd68"
     },
     {
       "path": "docs/courses/computer-networks/exam/05.md",
@@ -654,8 +654,8 @@
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
       "basis": "2026-11-16 核验考点页修订：必背清单分组标题由“第 N 节”改为“考纲条目 N”，与大纲编号对齐；IPv4 首部选项长度补注成书写 1~40 B、按下限 20 B 应为 0～40 B。条目编号、考纲锚点与其余内容未变。",
-      "reviewed_on": "2026-11-16",
-      "sha256": "18a84dd78da70ecfe287e129636e9db902b279b3add4a04d6885010e6fa650c3"
+      "reviewed_on": "2026-11-17",
+      "sha256": "3df80e48d35e9bafaee5a291f94c4d247710c38bd5c31ead84d2456c85984054"
     },
     {
       "path": "docs/courses/computer-networks/exam/06.md",
@@ -663,8 +663,8 @@
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
       "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
-      "reviewed_on": "2026-11-10",
-      "sha256": "e3df98faa7bdafa3a2da719c0155fc062267a0303829f28402ba457ee333c3db"
+      "reviewed_on": "2026-11-17",
+      "sha256": "5c3221abc5f32c6073aa232fec304e03290815893473bf82c6615c883f8d0dc6"
     },
     {
       "path": "docs/courses/computer-networks/exam/07.md",
@@ -672,8 +672,8 @@
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
       "basis": "2026-11-16 核验本轮增补：对照已核验成书快照把考点页必背清单分组标题由“第 N 节”改为“考纲条目 N”，与 config/syllabus.json 的 objectives 编号对齐；条目内容、数字与锚点未变，未新增事实，未收录教材原文或插图。",
-      "reviewed_on": "2026-11-16",
-      "sha256": "e0a58aa28b6eda49b74bf5129b2768aada8795b366e6f0264e1e9d0723dd53da"
+      "reviewed_on": "2026-11-17",
+      "sha256": "81fcacff29e62133fa6bf1ad0ada8f0a65d845c704b7a68754abe33b8136e07b"
     },
     {
       "path": "docs/courses/computer-networks/exam/08.md",
@@ -681,8 +681,8 @@
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
       "basis": "2026-11-16 核验本轮增补：对照已核验成书快照把考点页必背清单分组标题由“第 N 节”改为“考纲条目 N”，与 config/syllabus.json 的 objectives 编号对齐；条目内容、数字与锚点未变，未新增事实，未收录教材原文或插图。",
-      "reviewed_on": "2026-11-16",
-      "sha256": "6964243c7fbf6febdc693f2987aef11e3356478ac900f40c62b3201fffe8818f"
+      "reviewed_on": "2026-11-17",
+      "sha256": "77e5683f3e1f4bb2daa8545908d13037ce396ac1cacebcdcdb4866bf14b5bc80"
     },
     {
       "path": "docs/courses/computer-networks/exam/09.md",
@@ -690,8 +690,8 @@
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
       "basis": "2026-11-16 核验本轮增补：对照已核验成书快照把考点页必背清单分组标题由“第 N 节”改为“考纲条目 N”，与 config/syllabus.json 的 objectives 编号对齐；条目内容、数字与锚点未变，未新增事实，未收录教材原文或插图。",
-      "reviewed_on": "2026-11-16",
-      "sha256": "1d1805261e4bbc1009868aa222646b89afee6073ab2d096cd59c550ed3ccaebe"
+      "reviewed_on": "2026-11-17",
+      "sha256": "c35077199d6dafd8e1b5193e98d50541baf4e250e04a8d6d6adde69acc19b80d"
     },
     {
       "path": "docs/courses/computer-networks/exam/index.md",
@@ -807,8 +807,8 @@
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
       "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
-      "reviewed_on": "2026-11-10",
-      "sha256": "3103341d89104c9defaaa36bfb890a510ee8d6ab4d122ae896ecbaecd4041708"
+      "reviewed_on": "2026-11-17",
+      "sha256": "d8dd6efbeb06e528e64f286892ce92b0e8e2546cf413155b4bc8198bcdbc775d"
     },
     {
       "path": "docs/courses/computer-organization/exam/02.md",
@@ -816,8 +816,8 @@
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
       "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
-      "reviewed_on": "2026-11-10",
-      "sha256": "3283933621593751afd94c43f9323fc9187fa29249d4025076d1f4a756214260"
+      "reviewed_on": "2026-11-17",
+      "sha256": "7579c93579b9127bf5cd158f5a0f9126ca781e801e7da800c2768c452f731c36"
     },
     {
       "path": "docs/courses/computer-organization/exam/03.md",
@@ -825,8 +825,8 @@
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
       "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
-      "reviewed_on": "2026-11-10",
-      "sha256": "e839e81feeaf0207fe1f2cfd130dcd63b7516802b4861589540a8a89cc503728"
+      "reviewed_on": "2026-11-17",
+      "sha256": "a58d195b46e59875870b5c4f416fccbe55d60daefea17ceee66997b37af35060"
     },
     {
       "path": "docs/courses/computer-organization/exam/04.md",
@@ -834,8 +834,8 @@
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
       "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
-      "reviewed_on": "2026-11-10",
-      "sha256": "617905d7c53dc0f4e2af1bab8c3c99c9c3aee923edf19716c15f2d7af343fe4e"
+      "reviewed_on": "2026-11-17",
+      "sha256": "af9b7d22bb949a2475f7a6d1dfe9acb01404b3fb0d5320a4693ac7e366c23776"
     },
     {
       "path": "docs/courses/computer-organization/exam/05.md",
@@ -843,8 +843,8 @@
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
       "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
-      "reviewed_on": "2026-11-10",
-      "sha256": "63908fdd571d4df952ed26314a8c9b9edcaced58bc01791a60bda0f065e54d05"
+      "reviewed_on": "2026-11-17",
+      "sha256": "b5a440d28818470258c6f50e4aa3f43318ec976c854e88a0667e8a15a90adadc"
     },
     {
       "path": "docs/courses/computer-organization/exam/06.md",
@@ -852,8 +852,8 @@
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
       "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
-      "reviewed_on": "2026-11-10",
-      "sha256": "ea314cbb6f071f5db0babe4c93c10010fe1d363442038d300ac3a8cc08b4ed40"
+      "reviewed_on": "2026-11-17",
+      "sha256": "c712bd24ec495350b302d891370c38a50c64fb2d53431bb2ec7a981658100887"
     },
     {
       "path": "docs/courses/computer-organization/exam/index.md",
@@ -1014,8 +1014,8 @@
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
       "basis": "2026-11-16 核验补齐出处：必背第 3 条括注成书写作 GB 2313 属排印疑误，必背名词「超文本」行标出后半句依据第 3 章，属跨章引用；条目数与默写题数未变，未收录教材原句。",
-      "reviewed_on": "2026-11-16",
-      "sha256": "1ec2c6ba8a466b01c0e3ca62e8f7adcd1e8cc70bf308cddcbe65822970313d06"
+      "reviewed_on": "2026-11-17",
+      "sha256": "08dc851bab97682855cc086a9c165cb6b42ce142b63334c519d5b4ec9da105db"
     },
     {
       "path": "docs/courses/multimedia-technology/exam/02.md",
@@ -1023,8 +1023,8 @@
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
       "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。；2026-11-16 内容评估批次按成书逐条补写并复核。",
-      "reviewed_on": "2026-11-16",
-      "sha256": "9f11d49e1628e65af6500defc7b1829b8f50fea61376fc6ffa246b4ead2b3922"
+      "reviewed_on": "2026-11-17",
+      "sha256": "d2244c1503c76cb98aed1972a7d2a3ba1de3b28dc857aae2fe7579e9e5160616"
     },
     {
       "path": "docs/courses/multimedia-technology/exam/03.md",
@@ -1032,8 +1032,8 @@
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
       "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。；2026-11-16 内容评估批次按成书逐条补写并复核。",
-      "reviewed_on": "2026-11-16",
-      "sha256": "c54fdbdba6239f776c7fb4f909cdf408577f13ce9e6bc1d64f938d945afdeae6"
+      "reviewed_on": "2026-11-17",
+      "sha256": "baa5f86aefd7d9dcd77e9bd0795cde5b0116ce8a7d13b89961aeae5228bc1197"
     },
     {
       "path": "docs/courses/multimedia-technology/exam/04.md",
@@ -1041,8 +1041,8 @@
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
       "basis": "2026-11-16 核验补出处：扫描参数上限一行注明依据在成书第 2 章扫描仪段，属跨章引用，数值与行未变；其余条目与默写题数未变。",
-      "reviewed_on": "2026-11-16",
-      "sha256": "89ae37542b681105d4b4384b9608aac40b3c697d419adec94b0a34a0a66aa0e4"
+      "reviewed_on": "2026-11-17",
+      "sha256": "bcdae26c7f10de315ea9adc03688f4db8e30462b6b46a4981abedfa918786b1d"
     },
     {
       "path": "docs/courses/multimedia-technology/exam/05.md",
@@ -1050,8 +1050,8 @@
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
       "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。；2026-11-16 内容评估批次按成书逐条补写并复核。",
-      "reviewed_on": "2026-11-16",
-      "sha256": "84a98c6e6e4a672eec629b7396344f348929c65c253a35ac35368d5d3ad2c218"
+      "reviewed_on": "2026-11-17",
+      "sha256": "888c2a7ef85754ff884ef4c8947c03b99d4758d5161ffced63087062b6fbcdae"
     },
     {
       "path": "docs/courses/multimedia-technology/exam/06.md",
@@ -1059,8 +1059,8 @@
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
       "basis": "2026-11-16 核验术语与缺陷修补：第 5 章把「纯音与复音」「奈奎斯特采样定理」「单声道与双声道」按组合词原样写进正文；第 6 章隔行扫描段补出防闪烁的用途，考点页 H.261 码率一行改为 p=30 时 1920 kb/s 并标出成书上限 192 kb/s 的算术疑点；第 7 章遮罩段分清「被遮罩层数」与「其余图层是否显示」、补登记第 230 页习题的「静态帧」与「类型」识别疑点、第 10 节补条件三条、两种首末帧计数约定与操作三步。",
-      "reviewed_on": "2026-11-16",
-      "sha256": "1e3be2a9787ea56ba04006e4d9be4164737527a6d185670a3d7861c7726b2381"
+      "reviewed_on": "2026-11-17",
+      "sha256": "3b115ccfadd5a54d90a69f1fdf99e1e16fee8242a794f7c92827b1d448bbc1f9"
     },
     {
       "path": "docs/courses/multimedia-technology/exam/07.md",
@@ -1068,8 +1068,8 @@
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
       "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
-      "reviewed_on": "2026-11-10",
-      "sha256": "3b8c0cda29d1c19a4b5c7adedcbad660baa40b48edd99df1995f0e47d3839709"
+      "reviewed_on": "2026-11-17",
+      "sha256": "b258b68884a852faef47d3b9849010f5506ebe232df4755794a7b652a6bf8a84"
     },
     {
       "path": "docs/courses/multimedia-technology/exam/08.md",
@@ -1077,8 +1077,8 @@
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
       "basis": "2026-11-16 核验分组与补注：必背清单按新第 4 至 7 节重排分组，第 8 至 11 条注明四类工具依据在教材 8.14 习题选项；条目数与默写题数未变，未收录教材原句。；2026-11-16 内容评估批次按成书逐条补写并复核。",
-      "reviewed_on": "2026-11-16",
-      "sha256": "f321848341e756db60b1720e104861b5082d2bcd0613df4ca102fe580fa08672"
+      "reviewed_on": "2026-11-17",
+      "sha256": "ae7bb1773fcb31c278e873f13b4d738f50f3a4dc6688989ec724db7ef83e0c86"
     },
     {
       "path": "docs/courses/multimedia-technology/exam/09.md",
@@ -1086,8 +1086,8 @@
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
       "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。；2026-11-16 内容评估批次按成书逐条补写并复核。",
-      "reviewed_on": "2026-11-16",
-      "sha256": "d4c31c9730c88b4b6920dc723f271007f466a0f80b673b9c0ff0d73729abed1f"
+      "reviewed_on": "2026-11-17",
+      "sha256": "3d73cbc46bf5bc125146a2ef6e4584f03d4feb7b0ccc79e6d3a48d943204622f"
     },
     {
       "path": "docs/courses/multimedia-technology/exam/index.md",
@@ -1248,8 +1248,8 @@
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
       "basis": "2026-11-16 核验措辞改写：把“近年没出过简答”的推测句改为直接说明 2.5 与 3.2 属领会层次，删去无题号支撑的表述；数字、锚点、练习与表格未变。",
-      "reviewed_on": "2026-11-16",
-      "sha256": "c8eae01f66eb9be0f6c618c8e2c02e533636468110a92fe8d9c37c98a78b5840"
+      "reviewed_on": "2026-11-17",
+      "sha256": "3bf12ebc0763342cc01a37f42fd42f203f0cbba0c81fa682d24cbc0942a37dc6"
     },
     {
       "path": "docs/courses/operating-systems/exam/02.md",
@@ -1257,8 +1257,8 @@
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
       "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
-      "reviewed_on": "2026-11-10",
-      "sha256": "ad12b767ec63a46aeeb06241a268f589d8850f89ea99c26642bb47e3cd25330d"
+      "reviewed_on": "2026-11-17",
+      "sha256": "b7da71589c52864543226335f8275ddd52726d96bfc8dd79ec59319de4d5377b"
     },
     {
       "path": "docs/courses/operating-systems/exam/03.md",
@@ -1266,8 +1266,8 @@
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
       "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
-      "reviewed_on": "2026-11-10",
-      "sha256": "a8c8cd1a0cf677244bad8e7a88ae7d630a2dc9ade14dccbf7f43c6767b900ef6"
+      "reviewed_on": "2026-11-17",
+      "sha256": "a182011312c8620993c7876fc64c193128f43ff839ed76f504270b4e93d59ad2"
     },
     {
       "path": "docs/courses/operating-systems/exam/04.md",
@@ -1275,8 +1275,8 @@
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
       "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
-      "reviewed_on": "2026-11-10",
-      "sha256": "1bfcebc94c94086a69b88c16346713c4026121d5d2c144892fa65a0db2d0c431"
+      "reviewed_on": "2026-11-17",
+      "sha256": "0b3f3377d6ec020d69912f7c7f63a268dd42382a5cfd72ae3342fab33bcbd5b1"
     },
     {
       "path": "docs/courses/operating-systems/exam/05.md",
@@ -1284,8 +1284,8 @@
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
       "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
-      "reviewed_on": "2026-11-10",
-      "sha256": "12cd40385c9599096a3188dbdc3b413e3f3c9b33cb69918562e20e97bd228cfe"
+      "reviewed_on": "2026-11-17",
+      "sha256": "ff141289a1536c473f8f6df2a6ef75b47b393bb3ce74e9ba0ebc8d8f757fb0bc"
     },
     {
       "path": "docs/courses/operating-systems/exam/06.md",
@@ -1293,8 +1293,8 @@
       "license": "CC-BY-4.0",
       "source_kind": "original-learning-content",
       "basis": "2026-11-10 核验文字润色：讲解句与本章小结改成更自然的句子节奏，删掉套话、自指与破折号，句式按内容重排；表格、必背清单、数字与公式、练习、锚点未变，未新增事实。",
-      "reviewed_on": "2026-11-10",
-      "sha256": "324aa65483353487468b52950156f5d76654728119d4deb73c6f6e7622c5da14"
+      "reviewed_on": "2026-11-17",
+      "sha256": "0a28499a5391eda992fd3bc72fad9b06e112a6708d714b110c0f53fffefcf8f8"
     },
     {
       "path": "docs/courses/operating-systems/exam/index.md",
@@ -1553,18 +1553,18 @@
       "status": "cleared",
       "license": "Apache-2.0",
       "source_kind": "original-software-and-documentation",
-      "basis": "2026-11-16 核验部署文档：区分历史观测与当前索引体积测量，说明 search_index 缓存结论不足以覆盖所有 JSON，并更新为近期构建的约 1.0 MB 体积；部署流程与安全说明未变。",
-      "reviewed_on": "2026-11-16",
-      "sha256": "e0c90d594667fed88b5aefc2274ef731dc7c3cd22558807582b9bb4e82a378f3"
+      "basis": "2026-11-17 复核：部署说明中的搜索索引段落按 E6 整改结果更新为去标签并保留完整正文，写明 685 条、1,191,083 B、Brotli 312,265 B、相对旧裁剪产物增加 16.08% 与 28 词 507 对无丢失，并链接整改记录；ESA 规则未改。",
+      "reviewed_on": "2026-11-17",
+      "sha256": "2b663c9ec2484b98e780734c7e757e3ebc455cfc2f5de1bc11f780b860a5bc4b"
     },
     {
       "path": "handbook/development.md",
       "status": "cleared",
       "license": "Apache-2.0",
       "source_kind": "original-software-and-documentation",
-      "basis": "2026-11-16 部署与依赖改动同步复核：核对 uv 锁定运行、可选代理与索引环境变量说明、检查入口表（区分 test:search 索引真值与 check:search 原文真值，含真题映射）；仍为第一方文档。",
-      "reviewed_on": "2026-11-16",
-      "sha256": "e575fd76835cd3d4d785045338db98f3f67077f2f670870eb1ccf3a269150cde"
+      "basis": "2026-11-17 复核：开发说明中的 search_trim.py 条目按 E6 整改结果更新为去标签并保留完整正文、不再 1600 截断，写明实测体积与覆盖预算为 0 的口径，并链接整改记录。",
+      "reviewed_on": "2026-11-17",
+      "sha256": "cbf32c41d3a90554769035f82f3878cac06e59eca476c5afcece4bcd7fb47547"
     },
     {
       "path": "handbook/history-cleanup.md",
@@ -1673,6 +1673,33 @@
       "basis": "2026-11-16 核验搜索完整性修复计划：记录索引体积、传输、边缘缓存、冷开与召回数据与排期，实测数据来自本仓 artifacts/search/；同日随并行改动更新正文，仍为第一方文档。",
       "reviewed_on": "2026-11-16",
       "sha256": "c87f4ada3caa3dbfa9e199c89a40b7e16445e1d566024461a7d9dd4f56dbe16f"
+    },
+    {
+      "path": "handbook/plans/2026-11-17-site-evaluation-results.md",
+      "status": "cleared",
+      "license": "Apache-2.0",
+      "source_kind": "original-software-and-documentation",
+      "basis": "2026-11-17 复核：本项目独立撰写的全站评估结果报告，汇总机器基线、公网只读体检、内容抽审、任务走查与本地整改，明确区分已核结果、未核项与不夸大范围；只引用教材与真题作为核对依据，不含成书原文，不分发第三方材料。",
+      "reviewed_on": "2026-11-17",
+      "sha256": "a0c84d2c583a1aaeeb9398f9a18b639673cfb4f731f6d079a593625bcfd71935"
+    },
+    {
+      "path": "handbook/plans/2026-11-17-site-evaluation.md",
+      "status": "cleared",
+      "license": "Apache-2.0",
+      "source_kind": "original-software-and-documentation",
+      "basis": "2026-11-17 复核：本项目独立撰写的全站评估方案，依据仓库现有检查器、浏览器测试与 11-16 内容评估、部署调查的结论；引用教材与真题只作核对依据，正文不含成书原文，不分发第三方材料。同日修订为 v2 执行校正版（补评分锚点、未知 U／不适用 N/A、加权覆盖与不出总分条件），v3 问题评估后调整版（拆分 E 阶段、新增真人验证 F 与源站阻塞 G），v4 执行边界校正版（评分规则标为候选未启用、CI 缺陷降为 P1 隐患、765 条统一称缺证据的声称行、内容改文与检查器规则拆分为独立任务、每批不超过三项）。",
+      "reviewed_on": "2026-11-17",
+      "sha256": "6f3f94f8990eb585bd694ec1c7bdc5f1b87e6e1dd80d8775d2d1372a95c987fc"
+    },
+    {
+      "path": "handbook/plans/2026-11-17-site-remediation-results.md",
+      "status": "cleared",
+      "license": "Apache-2.0",
+      "source_kind": "original-software-and-documentation",
+      "reviewed_on": "2026-11-17",
+      "sha256": "bb9bb3165bb6b7208f108c228bbe4a30ba065f4c5c96569892bc26a7362ea0e8",
+      "basis": "2026-11-17 复核：本项目独立撰写的整改执行记录，依据仓库内检查器、回归测试与 artifacts 下本轮原始证据；引用教材与真题只作核对依据，正文不含成书原文，不分发第三方材料。"
     },
     {
       "path": "handbook/seo.md",

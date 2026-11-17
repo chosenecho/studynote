@@ -60,11 +60,11 @@ systemctl status certbot.timer
 
 页面 TTL 从 300 秒提到 3600 秒，是因为 5 Mbps 源站下每五分钟回源一次会把出口带宽吃满；发布脚本在激活后清空两个域名的 ESA 缓存，新内容仍然立即生效，`must-revalidate` 保证过期后不会返回旧页面。边缘规则同时开启 `ServeStale`，源站变慢或短暂不可用时返回旧缓存而不是错误页。
 
-`application/json` 是唯一不被 `follow_origin_bypass` 缓存的类型，实测 `/search/search_index.json` 连续请求均为 `MISS`，每次搜索都回源。`study-search-index` 规则对它单独设 `override_origin` 与 `EdgeCacheTtl` 3600 秒并开启 `ServeStale`，浏览器仍跟随源站。注意 ESA 的 `EdgeCacheMode` 没有 `cache_ttl` 这个值，写错会返回 `InvalidParameter.ArgValue`。
+历史观测中，`/search/search_index.json` 连续请求为 `MISS`。为此，`study-search-index` 规则单独设 `override_origin` 与 `EdgeCacheTtl` 3600 秒并开启 `ServeStale`，浏览器仍跟随源站；该现象不足以推出所有 `application/json` 都不缓存。注意 ESA 的 `EdgeCacheMode` 没有 `cache_ttl` 这个值，写错会返回 `InvalidParameter.ArgValue`。
 
-此前线上复验时，索引已裁剪到约 790 KB，`/search/search_index.json` 仍持续 `MISS`；同次测试中 277 字节的 `sitemap.xml` 能正常缓存。这是历史观测，不代表当前线上状态，也不足以单独证明所有 JSON 都不缓存。规则保留，但不应在文档或交付说明里写成已启用 JSON 缓存。
+2026-11-17 13:11–13:14（+08）公网复验：搜索索引首请求 `MISS`，后两次 `HIT`，`Age` 为 4／6 秒，三次正文 SHA-256 一致。该次观测说明单边缘节点已缓存索引，不证明所有节点或未来发布后均如此；后续复验仍应同时记录 `Age`、缓存状态、正文散列与观测时间。原始证据见 `artifacts/eval/2026-11-17/online/`，摘要见 [全站评估结果](plans/2026-11-17-site-evaluation-results.md)。
 
-当前 [search_trim.py](../tools/mkdocs/search_trim.py) 在构建后去掉 HTML 标签，并把每条正文截到 1600 字符；2026-11-16 本地一次构建产物约 1.0 MB（1,023,609 B），Brotli 后约 275 KB，体积随内容变化。该测量不代表已经发布或复验线上缓存。规则改动需 `npm run esa:configure -- --apply` 才生效。
+当前 [search_trim.py](../tools/mkdocs/search_trim.py) 在构建后去掉 HTML 标签并归一空白，保留完整正文，不再按 1600 字符截断。2026-11-17 整改后的本地产物为 1,191,083 B、Brotli 312,265 B（685 条），相对同批旧裁剪产物增加 16.08%，固定 28 词／507 个正文词—页面对无丢失，详见[整改记录](plans/2026-11-17-site-remediation-results.md)。体积随内容变化，本地产物不代表已经发布或复验线上缓存。ESA 规则未改；规则改动需 `npm run esa:configure -- --apply` 才生效。
 
 HTTPS、CSP、防嵌入、防 MIME 嗅探、HSTS、权限与来源策略由命名规则维护；压缩和原有 TLS 安全设置继续保留。已关闭 ESA 质量数据采集，避免向 HTML 注入外部 RUM 脚本。预览与同步：
 

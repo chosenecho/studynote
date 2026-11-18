@@ -1744,7 +1744,7 @@
       "source_kind": "original-software-and-documentation",
       "basis": "原创项目维护文档，基于项目决策、仓库工具和本站测量，不含第三方引文。",
       "reviewed_on": "2026-11-18",
-      "sha256": "dc376a7c0c900b827c29b744c5b123c1c6562770f6e3a34c0e54abe644c4e6a2"
+      "sha256": "dc4d8202fb6db75ebaddca436623d8ca2280a26d4f2c96442e85e513c6ed711b"
     },
     {
       "path": "handbook/project-sop.md",

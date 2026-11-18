@@ -64,7 +64,7 @@
 
 候选构建已按 [SOP](../project-sop.md) 与[部署手册](../deployment.md)发布。源站当前指向 `/var/www/studynote/releases/20261118T064653Z-93fbf8cfd1a9`，公网 `/__release.json` 返回同一版本，`fileCount` 198，`workingTreeModified` 为真，因此本轮发布包含未提交的工作树改动。发布门禁 `npm run check`、`npm run test:browser` 与权利检查均通过，包体 SHA-256 校验一致，ESA 缓存已刷新，91 个页面全部预热成功。回退版本为 `20261117T100932Z-93fbf8cfd1a9`。证据见 `artifacts/releases/20261118T064653Z-93fbf8cfd1a9/`。
 
-线上搜索按实际 gzip 编码复测，索引传输 418,262 B，桌面冷开中位 1,164.1 ms，移动冷开中位 3,579.1 ms，两份判定仍超预算；移动首查 1,321.5 ms 与最慢查询 296.7 ms 在预算内。索引仅请求一次，无初始化失败，期望小节均在前三。抽取的数据见同一目录下的 `search-live.json`。[线上搜索复测数据](../../artifacts/releases/20261118T064653Z-93fbf8cfd1a9/search-live.json)
+线上搜索按实际 gzip 编码复测，索引传输 418,262 B，桌面冷开中位 1,164.1 ms，移动冷开中位 3,579.1 ms，两份判定仍超预算；移动首查 1,321.5 ms 与最慢查询 296.7 ms 在预算内。索引仅请求一次，无初始化失败，期望小节均在前三。原始复测数据保存在发布工作树的 `artifacts/releases/20261118T064653Z-93fbf8cfd1a9/search-live.json`。
 
 ## 首轮实施复核
 

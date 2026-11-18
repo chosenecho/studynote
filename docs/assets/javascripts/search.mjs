@@ -258,7 +258,15 @@ if (root) {
       const data = await response.json();
       if (!Array.isArray(data.docs) || !data.config) throw Error('invalid search index');
       if (token !== generation || !loading) return;
-      const plain = html => new DOMParser().parseFromString(String(html), 'text/html').body.textContent;
+      const parser = new DOMParser();
+      const plain = value => {
+        const text = String(value);
+        // The build strips markup from section text. Parse entries that still
+        // need HTML decoding or normalization, such as titles with entities.
+        return /[<&\r\0]|^\s/.test(text)
+          ? parser.parseFromString(text, 'text/html').body.textContent
+          : text;
+      };
       documents = data.docs.map(doc => ({...doc, title: plain(doc.title), text: plain(doc.text)}));
       byLocation = new Map(documents.map(doc => [doc.location, doc]));
       worker = new Worker(new URL(config.search, location.href));

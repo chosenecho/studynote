@@ -2,26 +2,41 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import http from 'node:http';
+import zlib from 'node:zlib';
 import {chromium} from 'playwright';
 
 const root = path.resolve(process.argv[2] || 'dist');
 const output = path.resolve(process.argv[3] || 'artifacts/seo/performance.json');
-const pages = ['/', '/courses/operating-systems/chapter-02/',
-  '/courses/computer-organization/chapter-05/', '/labs/paging/'];
+const pages = process.argv.length > 4 ? process.argv.slice(4) : [
+  '/', '/courses/operating-systems/chapter-02/',
+  '/courses/computer-organization/chapter-05/', '/labs/paging/',
+];
 const devices = [
   {name: 'desktop', viewport: {width: 1280, height: 900}, latency: 40, download: 10_000_000 / 8, cpu: 1},
   {name: 'mobile', viewport: {width: 390, height: 844}, latency: 150, download: 1_600_000 / 8, cpu: 4},
 ];
 const types = {'.html': 'text/html; charset=utf-8', '.css': 'text/css', '.js': 'text/javascript',
   '.mjs': 'text/javascript', '.svg': 'image/svg+xml', '.woff2': 'font/woff2', '.json': 'application/json'};
+// The origin serves the same text types with gzip (tools/deploy/nginx-site.conf), so an
+// uncompressed lab server overstates transfer time and LCP on the throttled mobile profile.
+// Compress these types here to keep the lab profile comparable with production.
+const compressible = new Set(['.html', '.css', '.js', '.mjs', '.json', '.svg', '.txt', '.xml']);
 const server = http.createServer((req, res) => {
   try {
     let name = decodeURIComponent(new URL(req.url, 'http://localhost').pathname);
     if (name.endsWith('/')) name += 'index.html';
     const file = path.resolve(root, '.' + name);
     if (!file.startsWith(root + path.sep)) { res.writeHead(403).end(); return; }
-    res.writeHead(200, {'Content-Type': types[path.extname(file)] || 'application/octet-stream'});
-    res.end(fs.readFileSync(file));
+    const ext = path.extname(file);
+    const body = fs.readFileSync(file);
+    const headers = {'Content-Type': types[ext] || 'application/octet-stream', Vary: 'Accept-Encoding'};
+    if (compressible.has(ext) && (req.headers['accept-encoding'] || '').includes('gzip')) {
+      res.writeHead(200, {...headers, 'Content-Encoding': 'gzip'});
+      res.end(zlib.gzipSync(body, {level: 5}));
+      return;
+    }
+    res.writeHead(200, headers);
+    res.end(body);
   } catch { res.writeHead(404).end(); }
 });
 await new Promise(resolve => server.listen(0, '127.0.0.1', resolve));

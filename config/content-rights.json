@@ -1726,7 +1726,7 @@
       "source_kind": "original-software-and-documentation",
       "basis": "2026-11-18 复核：原创产品定义与迭代计划，基于仓库评估与确认的产品决定，不含第三方引文。",
       "reviewed_on": "2026-11-18",
-      "sha256": "aa3104982274d03f35f5fcaa5e0b1c12c75ed3b83073840ae28e58b02b76dec6"
+      "sha256": "fb6d2478c47169422e0ef4b1ad06efb1e652daadf1d066d2009ca0c3c999c186"
     },
     {
       "path": "handbook/plans/2026-11-18-pdp.md",
@@ -1735,7 +1735,7 @@
       "source_kind": "original-software-and-documentation",
       "basis": "原创项目维护文档，基于项目决策、仓库工具和本站测量，不含第三方引文。",
       "reviewed_on": "2026-11-18",
-      "sha256": "cada1f566ea3086844da261ad9a950287f14ebbde1d897cd67aec21aae141acb"
+      "sha256": "9bafcf794c648ceca38123b5a8f6452b08f1105fe8412ce031c1374756c5911d"
     },
     {
       "path": "handbook/plans/2026-11-18-pdp-results.md",
@@ -1744,7 +1744,7 @@
       "source_kind": "original-software-and-documentation",
       "basis": "原创项目维护文档，基于项目决策、仓库工具和本站测量，不含第三方引文。",
       "reviewed_on": "2026-11-18",
-      "sha256": "dc4d8202fb6db75ebaddca436623d8ca2280a26d4f2c96442e85e513c6ed711b"
+      "sha256": "78acc22ea8cc0fde3c9a2edbaf201252518df82921101ae8fdfe94b8e6db078c"
     },
     {
       "path": "handbook/project-sop.md",

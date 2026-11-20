@@ -33,7 +33,11 @@ export async function runThemeChecks(page, {base, out, report}) {
 
   await open('/');
   assert.match(await page.title(), /studynote/);
-  assert.equal(await page.locator('article a[href="mailto:chosenecho@163.com"]').count(), 0);
+  assert.equal(await page.locator('article a[href="mailto:chosenecho@163.com"]').textContent(), 'chosenecho@163.com');
+  assert.equal(await page.locator('article #contribute').count(), 1);
+  assert.equal(await page.locator('article a[href="https://github.com/chosenecho/studynote/issues"]').count(), 1);
+  assert.equal(await page.locator('article a[href="https://github.com/chosenecho/studynote/pulls"]').count(), 1);
+  assert.equal(await page.locator('footer a[href="/#contribute"]').textContent(), '交流与共建');
   assert.match(await page.locator('article').innerText(), /许可与版权/);
   assert.equal(await page.locator('.md-tabs__item').count(), courses.length+3);
   assert.equal(await page.locator('.md-tabs__link').filter({hasText: '复习'}).count(), 1);

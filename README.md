@@ -70,3 +70,7 @@ CI 执行同一套检查，其中包括 `npm run check:rights`，核验记录位
 - [许可与版权](LICENSING.md)：代码采用 Apache-2.0，已核验的原创学习文字采用 CC BY 4.0；第三方资源与引文按来源分别处理。
 - [第三方资源说明](THIRD_PARTY_NOTICES.md)
 - [内容贡献规则](handbook/content-policy.md) · [整理记录](archive/README.md)
+
+## 交流与共建
+
+欢迎交流、纠错与共建。发现问题请提交 [Issue](https://github.com/chosenecho/studynote/issues)，补充内容欢迎提交 [PR](https://github.com/chosenecho/studynote/pulls)。联系方式：[chosenecho@163.com](mailto:chosenecho@163.com)。

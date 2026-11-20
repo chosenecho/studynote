@@ -87,3 +87,7 @@ title: 自考计算机课程复习笔记
 - [交互练习](labs/index.md)：进程调度、页面置换、银行家算法、地址转换、Cache 映射、补码运算与随堂自测。
 
 [进入交互练习 →](labs/index.md){ .md-button }
+
+## 交流与共建 { #contribute }
+
+欢迎交流、纠错与共建。发现问题请提交 [Issue](https://github.com/chosenecho/studynote/issues)，补充内容欢迎提交 [PR](https://github.com/chosenecho/studynote/pulls)。联系方式：[chosenecho@163.com](mailto:chosenecho@163.com)。

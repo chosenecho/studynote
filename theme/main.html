@@ -17,6 +17,10 @@
 #}
 {% block extrahead %}
   {{ super() }}
+  <script defer fetchpriority="low" src="https://cloud.umami.is/script.js"
+    data-website-id="7f9c831b-564f-4de7-836b-90ec5e8c8da2"
+    data-domains="studynote.chosenecho.top"
+    data-exclude-search="true" data-exclude-hash="true"></script>
   <script id="study-courses" type="application/json">{{ config.extra.study_courses | tojson }}</script>
   <script>
     // Reserve exercise space before first paint without changing Material's boot state.
